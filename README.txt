@@ -1,4 +1,4 @@
-The Belarusian UD treebank is based on a sample of the news texts included in the Belarusian-Russian parallel subcorpus of the Russian National Corpus.
+Belarusian UD treebank
 
 === Machine-readable metadata =================================================
 Documentation status: stub
