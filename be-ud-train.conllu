@@ -4573,3 +4573,1453 @@
 24	умовах	умова	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
+# newdoc = Звязда. Эканоміка, Сельская гаспадарка
+# title = Беларусь планирует перейти к точному земледелию
+# author = Яраслаў Лыскавец
+# created = 08.09.2016 00:29
+# link = http://zviazda.by/be/news/20160908/1473288543-buduchynya-za-dakladnym-zemlyarobstvam
+# source-lang = be
+# newpar
+# sent_id = zviazda-20160908-1-01-be
+# text = Беларусь плануе перайсці да дакладнага земляробства
+1	Беларусь	Беларусь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	плануе	планаваць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	перайсці	перайсці	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	да	да	ADP	_	_	6	case	_	_
+5	дакладнага	дакладны	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	земляробства	земляробства	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+
+# newpar
+# sent_id = zviazda-20160908-1-02-be
+# text = Галоўнай задачай айчынных навукоўцаў-аграрыяў цяпер становіцца атрыманне максімальна магчымага ўраджаю пры мінімуме выдаткаў.
+1	Галоўнай	галоўны	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	задачай	задача	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+3	айчынных	айчынны	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	навукоўцаў	навукоўца	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	аграрыяў	аграрыі	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	appos	_	_
+7	цяпер	цяпер	ADV	_	Degree=Pos	8	advmod	_	_
+8	становіцца	станавіцца	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	атрыманне	атрыманне	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+10	максімальна	максімальна	ADV	_	Degree=Pos	11	advmod	_	_
+11	магчымага	магчымы	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	ўраджаю	ўраджай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+13	пры	пры	ADP	_	_	14	case	_	_
+14	мінімуме	мінімум	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+15	выдаткаў	выдатак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = zviazda-20160908-1-03-be
+# text = Менавіта дакладнае земляробства можа дазволіць скараціць спажыванне паліва на 40 працэнтаў, гэтак жа зменшацца расходы ўгнаенняў, пестыцыдаў і іншых сродкаў, паведаміў намеснік генеральнага дырэктара па навуковай рабоце і вытворчасці Навукова-вытворчага цэнтра НАН Беларусі па земляробстве Дзмітрый ЛУЖЫНСКІ.
+1	Менавіта	менавіта	PART	_	_	3	advmod	_	_
+2	дакладнае	дакладны	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	земляробства	земляробства	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	можа	магчы	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	дазволіць	дазволіць	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	скараціць	скараціць	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	спажыванне	спажыванне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	паліва	паліва	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	40	40	NUM	_	_	11	nummod:gov	_	_
+11	працэнтаў	працэнт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	гэтак	гэтак	ADV	_	Degree=Pos	15	advmod	_	_
+14	жа	жа	PART	_	_	13	fixed	_	_
+15	зменшацца	зменшыцца	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	4	conj	_	_
+16	расходы	расход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+17	ўгнаенняў	ўгнаенне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	пестыцыдаў	пестыцыд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	conj	_	_
+20	і	і	CCONJ	_	_	22	cc	_	_
+21	іншых	іншы	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	сродкаў	сродак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	4	punct	_	_
+24	паведаміў	паведаміць	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+25	намеснік	намеснік	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+26	генеральнага	генеральны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	дырэктара	дырэктар	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	па	па	ADP	_	_	30	case	_	_
+29	навуковай	навуковы	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	рабоце	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	nmod	_	_
+31	і	і	CCONJ	_	_	32	cc	_	_
+32	вытворчасці	вытворчасць	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	30	conj	_	_
+33	Навукова-вытворчага	навукова-вытворчы	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	цэнтра	цэнтр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+35	НАН	НАН	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	appos	_	_
+36	Беларусі	Беларусь	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	_
+37	па	па	ADP	_	_	38	case	_	_
+38	земляробстве	земляробства	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	34	nmod	_	_
+39	Дзмітрый	Дзмітрый	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	_
+40	ЛУЖЫНСКІ	Лужынскі	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	39	flat:name	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# newpar
+# sent_id = zviazda-20160908-1-04-be
+# text = Пры гэтым спосабе прапануецца, напрыклад, мінімізаваць апрацоўку глебы на асобных землях.
+1	Пры	пры	ADP	_	_	3	case	_	_
+2	гэтым	гэты	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	det	_	_
+3	спосабе	спосаб	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	прапануецца	прапанаваць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	напрыклад	напрыклад	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	мінімізаваць	мінімізаваць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+9	апрацоўку	апрацоўка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	глебы	глеба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	асобных	асобны	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	землях	зямля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = zviazda-20160908-1-05-be
+# text = Узворванне можа быць заменена паверхневай апрацоўкай.
+1	Узворванне	узворванне	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	можа	магчы	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	быць	быць	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	aux:pass	_	_
+4	заменена	заменена	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+5	паверхневай	паверхневы	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	апрацоўкай	апрацоўка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = zviazda-20160908-1-06-be
+# text = Магчыма нават цалкам замяніць ворыва на тэхналогіі прамога пасеву, калі расліна высяваецца ў непадрыхтаваную глебу, але дзякуючы іншым тэхналогіям ураджай застаецца на стандартным узроўні.
+1	Магчыма	магчыма	ADV	_	Degree=Pos	0	root	_	_
+2	нават	нават	PART	_	_	3	advmod	_	_
+3	цалкам	цалкам	ADV	_	Degree=Pos	4	advmod	_	_
+4	замяніць	замяніць	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	csubj	_	_
+5	ворыва	ворыва	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	тэхналогіі	тэхналогія	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+8	прамога	прамы	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	пасеву	пасев	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	калі	калі	SCONJ	_	_	13	mark	_	_
+12	расліна	расліна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	высяваецца	высявацца	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	advcl	_	_
+14	ў	ў	ADP	_	_	16	case	_	_
+15	непадрыхтаваную	непадрыхтаваны	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	глебу	глеба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	23	punct	_	_
+18	але	але	CCONJ	_	_	23	cc	_	_
+19	дзякуючы	дзякуючы	ADP	_	_	21	case	_	_
+20	іншым	іншы	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	21	amod	_	_
+21	тэхналогіям	тэхналогія	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	23	obl	_	_
+22	ураджай	ураджай	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+23	застаецца	заставацца	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	conj	_	_
+24	на	на	ADP	_	_	26	case	_	_
+25	стандартным	стандартны	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	узроўні	ўзровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# newpar
+# sent_id = zviazda-20160908-1-07-be
+# text = «Гэта перспектыўны кірунак не толькі для Беларусі, ён актуальны па ўсім зямным шары, — падкрэсліў Дзмітрый Лужынскі.
+1	«	«	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Гэта	гэты	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	перспектыўны	перспектыўны	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	кірунак	кірунак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	не	не	PART	_	Polarity=Neg	8	cc	_	_
+6	толькі	толькі	PART	_	_	5	fixed	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	Беларусі	Беларусь	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	ён	ён	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+11	актуальны	актуальны	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	parataxis	_	_
+12	па	па	ADP	_	_	15	case	_	_
+13	ўсім	увесь	DET	_	Case=Loc|Gender=Masc|Number=Sing	15	det	_	_
+14	зямным	зямны	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	шары	шар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	4	punct	_	_
+17	—	—	PUNCT	_	_	4	punct	_	_
+18	падкрэсліў	падкрэсліць	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+19	Дзмітрый	Дзмітрый	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+20	Лужынскі	Лужынскі	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = zviazda-20160908-1-08-be
+# text = — Улічваючы адсутнасць у нашай краіне ўласных крыніц энергіі, гэта надзвычай важна».
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	Улічваючы	улічваць	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	_	_
+3	адсутнасць	адсутнасць	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	у	у	ADP	_	_	6	case	_	_
+5	нашай	наш	DET	_	Case=Loc|Gender=Fem|Number=Sing	6	det	_	_
+6	краіне	краiна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+7	ўласных	уласны	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	крыніц	крыніца	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+9	энергіі	энергiя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	гэта	гэта	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+12	надзвычай	надзвычай	ADV	_	Degree=Pos	13	advmod	_	_
+13	важна	важны	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+14	»	»	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	_
+
+# newpar
+# sent_id = zviazda-20160908-1-09-be
+# text = Асобна можна размаўляць пра вытворчасць бульбы.
+1	Асобна	асобна	ADV	_	Degree=Pos	2	advmod	_	_
+2	можна	можна	ADV	_	Degree=Pos	0	root	_	_
+3	размаўляць	размаўляць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	csubj	_	_
+4	пра	пра	ADP	_	_	5	case	_	_
+5	вытворчасць	вытворчасць	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	бульбы	бульба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = zviazda-20160908-1-10-be
+# text = Па інфармацыі намесніка генеральнага дырэктара па навуковай рабоце Навукова-вытворчага цэнтра НАН Беларусі па бульбаводстве і плодаагародніцтве Вадзіма МАХАНЬКО, нягледзячы на зніжэнне пасяўных плошчаў «другога хлеба», бульбы сёлета ў краіне «не шмат, а вельмі шмат».
+1	Па	па	ADP	_	_	2	case	_	_
+2	інфармацыі	інфармацыя	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	38	parataxis	_	_
+3	намесніка	намеснік	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	генеральнага	генеральны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	дырэктара	дырэктар	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	па	па	ADP	_	_	8	case	_	_
+7	навуковай	навуковы	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	рабоце	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+9	Навукова-вытворчага	навукова-вытворчы	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	цэнтра	цэнтр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+11	НАН	НАН	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+12	Беларусі	Беларусь	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	па	па	ADP	_	_	14	case	_	_
+14	бульбаводстве	бульбаводства	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_
+15	і	і	CCONJ	_	_	16	cc	_	_
+16	плодаагародніцтве	плодаагародніцтва	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	conj	_	_
+17	Вадзіма	Вадзім	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	appos	_	_
+18	МАХАНЬКО	Маханько	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	2	punct	_	_
+20	нягледзячы	нягледзячы	ADP	_	_	22	case	_	_
+21	на	на	ADP	_	_	20	fixed	_	_
+22	зніжэнне	зніжэнне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	38	nmod	_	_
+23	пасяўных	пасяўны	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	плошчаў	плошча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+25	«	«	PUNCT	_	_	27	punct	_	SpaceAfter=No
+26	другога	другi	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	хлеба	хлеб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
+28	»	»	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	22	punct	_	_
+30	бульбы	бульба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nsubj	_	_
+31	сёлета	сёлета	ADP	_	_	33	case	_	_
+32	ў	ў	ADP	_	_	33	case	_	_
+33	краіне	краiна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	36	obl	_	_
+34	«	«	PUNCT	_	_	36	punct	_	SpaceAfter=No
+35	не	не	PART	_	Polarity=Neg	36	advmod	_	_
+36	шмат	шмат	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	40	punct	_	_
+38	а	а	CCONJ	_	_	40	cc	_	_
+39	вельмі	вельмі	ADV	_	Degree=Pos	40	advmod	_	_
+40	шмат	шмат	ADV	_	Degree=Pos	36	conj	_	SpaceAfter=No
+41	»	»	PUNCT	_	_	36	punct	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = zviazda-20160908-1-11-be
+# text = З улікам таго, што на асноўным рынку збыту — у Расіі — яе высадзілі больш, чым звычайна, кошты на беларускі прадукт пачалі падаць.
+1	З	з	ADP	_	_	2	case	_	_
+2	улікам	улік	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	_
+3	таго	тое	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	15	punct	_	_
+5	што	што	SCONJ	_	_	15	mark	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	асноўным	асноўны	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	рынку	рынак	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+9	збыту	збыт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+10	—	—	PUNCT	_	_	9	punct	_	_
+11	у	у	ADP	_	_	12	case	_	_
+12	Расіі	Расія	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	appos	_	_
+13	—	—	PUNCT	_	_	12	punct	_	_
+14	яе	яна	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	15	obj	_	_
+15	высадзілі	высадзіць	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+16	больш	больш	ADV	_	Degree=Cmp	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	чым	чым	SCONJ	_	_	19	case	_	_
+19	звычайна	звычайна	ADV	_	Degree=Pos	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	кошты	кошт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	25	nsubj	_	_
+22	на	на	ADP	_	_	24	case	_	_
+23	беларускі	беларускі	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	прадукт	прадукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	nmod	_	_
+25	пачалі	пачаць	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+26	падаць	падаць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = zviazda-20160908-1-12-be
+# text = Гэта прыводзіць да зніжэння рэнтабельнасці вытворчасці.
+1	Гэта	гэта	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	прыводзіць	прыводзіць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	да	да	ADP	_	_	4	case	_	_
+4	зніжэння	зніжэнне	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+5	рэнтабельнасці	рэнтабельнасць	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	вытворчасці	вытворчасць	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# newpar
+# sent_id = zviazda-20160908-1-13-be
+# text = «Цяпер убрана каля 11 працэнтаў пасадак, ураджайнасць у сярэднім на 3-5 кілаграмаў перавышае леташнюю, — расказаў Вадзім Маханько.
+1	«	«	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Цяпер	цяпер	ADV	_	Degree=Pos	3	advmod	_	_
+3	убрана	убраць	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	каля	каля	ADP	_	_	6	case	_	_
+5	11	11	NUM	_	_	6	nummod:gov	_	_
+6	працэнтаў	працэнт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+7	пасадак	пасадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	17	punct	_	_
+9	ураджайнасць	ураджайнасць	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+10	у	у	ADP	_	_	11	case	_	_
+11	сярэднім	сярэдняе	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	_
+12	на	на	ADP	_	_	16	case	_	_
+13	3	3	NUM	_	_	16	nummod	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	5	5	NUM	_	_	13	list	_	_
+16	кілаграмаў	кілаграм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	_
+17	перавышае	перавышаць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+18	леташнюю	леташнi	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	3	punct	_	_
+20	—	—	PUNCT	_	_	3	punct	_	_
+21	расказаў	расказаць	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+22	Вадзім	Вадзім	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+23	Маханько	Маханько	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = zviazda-20160908-1-14-be
+# text = — Рэкардсмен — Талачынскі раён, дзе збіраюць 41-42 тоны бульбы з гектара, гэта высокі нават па сусветных мерках паказчык».
+1	—	—	PUNCT	_	_	5	punct	_	_
+2	Рэкардсмен	рэкардсмен	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	—	—	PUNCT	_	_	5	punct	_	_
+4	Талачынскі	Талачынскі	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	раён	раён	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	дзе	дзе	ADV	_	Degree=Pos	8	advmod	_	_
+8	збіраюць	збіраць	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	41	41	NUM	_	_	12	nummod:gov	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	42	42	NUM	_	_	9	list	_	_
+12	тоны	тона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obj	_	_
+13	бульбы	бульба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	з	з	ADP	_	_	15	case	_	_
+15	гектара	гектар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	23	punct	_	_
+17	гэта	гэта	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+18	высокі	высокі	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+19	нават	нават	PART	_	_	22	advmod	_	_
+20	па	па	ADP	_	_	22	case	_	_
+21	сусветных	сусветны	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	22	amod	_	_
+22	мерках	мерка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	18	obl	_	_
+23	паказчык	паказчык	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	acl	_	SpaceAfter=No
+24	»	»	PUNCT	_	_	5	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	_
+
+# newpar
+# sent_id = zviazda-20160908-1-15-be
+# text = Акрамя гэтага, спецыяліст паведаміў, што ў Беларусі распрацаваны рэгламент вакуумавання бульбы.
+1	Акрамя	акрамя	ADP	_	_	2	case	_	_
+2	гэтага	гэта	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	спецыяліст	спецыяліст	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	паведаміў	паведаміць	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	што	што	SCONJ	_	_	10	mark	_	_
+8	ў	ў	ADP	_	_	9	case	_	_
+9	Беларусі	Беларусь	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+10	распрацаваны	распрацаваць	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+11	рэгламент	рэгламент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+12	вакуумавання	вакуумаванне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	бульбы	бульба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = zviazda-20160908-1-16-be
+# text = Было даследавана 50 сартоў культуры, толькі два з іх прыдатныя да захавання без кансервантаў у вакуумнай упакоўцы.
+1	Было	быць	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	aux:pass	_	_
+2	даследавана	даследаваць	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	50	50	NUM	_	_	4	nummod:gov	_	_
+4	сартоў	сорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nsubj:pass	_	_
+5	культуры	культура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	11	punct	_	_
+7	толькі	толькі	PART	_	_	8	advmod	_	_
+8	два	два	NUM	_	Case=Nom|Gender=Masc	11	nsubj	_	_
+9	з	з	ADP	_	_	10	case	_	_
+10	іх	яны	PRON	_	Case=Gen|Number=Plur|Person=3	8	nmod	_	_
+11	прыдатныя	прыдатны	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	conj	_	_
+12	да	да	ADP	_	_	13	case	_	_
+13	захавання	захаванне	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	_
+14	без	без	ADP	_	_	15	case	_	_
+15	кансервантаў	кансервант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	у	у	ADP	_	_	18	case	_	_
+17	вакуумнай	вакуумны	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	упакоўцы	ўпакоўка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = zviazda-20160908-1-17-be
+# text = «Сёння ў многіх краінах Еўрасаюза гэта абавязковае патрабаванне для сферы грамадскага харчавання, — адзначыў спецыяліст.
+1	«	«	PUNCT	_	_	9	punct	_	SpaceAfter=No
+2	Сёння	сёння	ADV	_	Degree=Pos	9	advmod	_	_
+3	ў	ў	ADP	_	_	5	case	_	_
+4	многіх	многа	NUM	_	Case=Loc	5	nummod	_	_
+5	краінах	краiна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	nmod	_	_
+6	Еўрасаюза	Еўрасаюз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	гэта	гэта	PRON	_	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+8	абавязковае	абавязковы	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	патрабаванне	патрабаванне	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	сферы	сфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	грамадскага	грамадскi	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	харчавання	харчаванне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	9	punct	_	_
+15	—	—	PUNCT	_	_	9	punct	_	_
+16	адзначыў	адзначыць	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+17	спецыяліст	спецыяліст	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = zviazda-20160908-1-18-be
+# text = — Тое ж датычыцца многіх дзіцячых устаноў Расіі, таму, лічу, мы таксама павінны прыйсці да такога стандарту».
+1	—	—	PUNCT	_	_	4	punct	_	_
+2	Тое	тое	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	ж	ж	PART	_	_	2	advmod	_	_
+4	датычыцца	датычыць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	многіх	многа	NUM	_	Case=Gen	7	nummod	_	_
+6	дзіцячых	дзіцячы	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	устаноў	установа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obj	_	_
+8	Расіі	Расія	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	16	punct	_	_
+10	таму	таму	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	лічу	лічыць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	16	nsubj	_	_
+15	таксама	таксама	ADV	_	Degree=Pos	16	advmod	_	_
+16	павінны	павінны	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	advcl	_	_
+17	прыйсці	прыйсці	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	да	да	ADP	_	_	20	case	_	_
+19	такога	такі	DET	_	Case=Dat|Gender=Masc|Number=Sing	20	det	_	_
+20	стандарту	стандарт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	»	»	PUNCT	_	_	4	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# newpar
+# sent_id = zviazda-20160908-1-19-be
+# text = Цяпер у парламенце на разглядзе знаходзіцца Закон аб экалагічным земляробстве.
+1	Цяпер	цяпер	ADV	_	Degree=Pos	6	advmod	_	_
+2	у	у	ADP	_	_	3	case	_	_
+3	парламенце	парламент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	разглядзе	разгляд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+6	знаходзіцца	знаходзіцца	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	Закон	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	аб	аб	ADP	_	_	10	case	_	_
+9	экалагічным	экалагічны	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	земляробстве	земляробства	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = zviazda-20160908-1-20-be
+# text = Падобныя дакументы існуюць у многіх краінах, яны рэгламентуюць атрыманне экалагічна чыстай прадукцыі, у першую чаргу дзіцячага і здаровага харчавання, напрыклад бульбы, без ужывання мінеральных угнаенняў і хімічных сродкаў абароны.
+1	Падобныя	падобны	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	дакументы	дакумент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	існуюць	існаваць	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	у	у	ADP	_	_	6	case	_	_
+5	многіх	многа	NUM	_	Case=Loc	6	nummod	_	_
+6	краінах	краiна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	яны	яны	PRON	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
+9	рэгламентуюць	рэгламентаваць	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+10	атрыманне	атрыманне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	экалагічна	экалагічна	ADV	_	Degree=Pos	12	advmod	_	_
+12	чыстай	чысты	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	прадукцыі	прадукцыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	21	punct	_	_
+15	у	у	ADP	_	_	21	advmod	_	_
+16	першую	першы	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	15	fixed	_	_
+17	чаргу	чарга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	fixed	_	_
+18	дзіцячага	дзіцячы	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+19	і	і	CCONJ	_	_	20	cc	_	_
+20	здаровага	здаровы	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	conj	_	_
+21	харчавання	харчаванне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	напрыклад	напрыклад	ADV	_	Degree=Pos	24	advmod	_	_
+24	бульбы	бульба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	без	без	ADP	_	_	27	case	_	_
+27	ужывання	ужыванне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+28	мінеральных	мінеральны	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	угнаенняў	ўгнаенне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	27	nmod	_	_
+30	і	і	CCONJ	_	_	32	cc	_	_
+31	хімічных	хімічны	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	сродкаў	сродак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	conj	_	_
+33	абароны	абарона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = zviazda-20160908-1-21-be
+# text = Па досведзе такіх краін, як ЗША, можна сказаць, што поўны пераход да экалагічнага земляробства прыводзіць да падаражання прадуктовага кошыка прыкладна ў пяць разоў.
+1	Па	па	ADP	_	_	2	case	_	_
+2	досведзе	досвед	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	parataxis	_	_
+3	такіх	такі	DET	_	Case=Gen|Number=Plur	4	det	_	_
+4	краін	краiна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	як	як	SCONJ	_	_	7	case	_	_
+7	ЗША	ЗША	PROPN	_	Animacy=Inan|Case=Nom|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	можна	можна	ADV	_	Degree=Pos	0	root	_	_
+10	сказаць	сказаць	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	csubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	18	punct	_	_
+12	што	што	SCONJ	_	_	18	mark	_	_
+13	поўны	поўны	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	пераход	пераход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+15	да	да	ADP	_	_	17	case	_	_
+16	экалагічнага	экалагічны	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	земляробства	земляробства	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	_
+18	прыводзіць	прыводзіць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	_
+19	да	да	ADP	_	_	20	case	_	_
+20	падаражання	падаражанне	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	obl	_	_
+21	прадуктовага	прадуктовы	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	кошыка	кошык	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	прыкладна	прыкладна	ADV	_	Degree=Pos	26	advmod	_	_
+24	ў	ў	ADP	_	_	26	case	_	_
+25	пяць	пяць	NUM	_	Case=Acc	26	nummod:gov	_	_
+26	разоў	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = zviazda-20160908-1-22-be
+# text = Таму экалагічна чыстая бульба будзе каштаваць вялікіх грошай.
+1	Таму	таму	ADV	_	Degree=Pos	6	advmod	_	_
+2	экалагічна	экалагічна	ADV	_	Degree=Pos	3	advmod	_	_
+3	чыстая	чысты	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	бульба	бульба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	будзе	быць	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	каштаваць	каштаваць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+7	вялікіх	вялікі	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	грошай	грошы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# newdoc
+# title = Самая прыгожая студэнтка вучыцца ў Віцебску
+# author = Яраслаў Лыскавец
+# created = 25.05.2017 00:35
+# link = http://zviazda.by/be/news/20170524/1495626198-samaya-prygozhaya-studentka-vuchycca-u-vicebsku
+# newpar
+# sent_id = zviazda-20170525-1-01-be
+# text = Самая прыгожая студэнтка вучыцца ў Віцебску
+1	Самая	самы	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	прыгожая	прыгожы	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	студэнтка	студэнтка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	вучыцца	вучыцца	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	ў	ў	ADP	_	_	6	case	_	_
+6	Віцебску	Віцебск	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+
+# newpar
+# sent_id = zviazda-20170525-1-02-be
+# text = Днямі за кулісамі аднаго са сталічных клубаў панавала нервовая абстаноўка.
+1	Днямі	дзень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	_
+2	за	за	ADP	_	_	3	case	_	_
+3	кулісамі	куліса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	8	obl	_	_
+4	аднаго	адзін	NUM	_	Case=Gen|Gender=Masc	3	nummod	_	_
+5	са	са	ADP	_	_	7	case	_	_
+6	сталічных	сталічны	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	клубаў	клуб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	панавала	панаваць	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	нервовая	нервовы	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	абстаноўка	абстаноўка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = zviazda-20170525-1-03-be
+# text = Спявак Тэа і шоумен Дзмітрый Новік высвятлялі апошнія дэталі сцэнарыя, танцавальныя калектывы праводзілі апошнія “прагоны” сваіх выступленняў.
+1	Спявак	спявак	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	Тэа	Тэа	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	і	і	CCONJ	_	_	4	cc	_	_
+4	шоумен	шоумен	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+5	Дзмітрый	Дзмітрый	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+6	Новік	Новік	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_
+7	высвятлялі	высвятляць	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	апошнія	апошні	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	дэталі	дэталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+10	сцэнарыя	сцэнарый	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	танцавальныя	танцавальны	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	калектывы	калектыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	праводзілі	праводзіць	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+15	апошнія	апошні	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+16	“	“	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	прагоны	прагон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+18	”	”	PUNCT	_	_	17	punct	_	_
+19	сваіх	свой	DET	_	Case=Gen|Number=Plur	20	det	_	_
+20	выступленняў	выступленне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = zviazda-20170525-1-04-be
+# text = Але галоўнымі гераінямі былі пятнаццаць дзяўчат — удзельніц нацыянальнага фіналу Міжнароднага міжуніверсітэцкага конкурсу грацыі і артыстычнага майстэрства “Каралева Вясна — 2017”.
+1	Але	але	CCONJ	_	_	3	cc	_	_
+2	галоўнымі	галоўны	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	3	amod	_	_
+3	гераінямі	гераіня	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	0	root	_	_
+4	былі	быць	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+5	пятнаццаць	пятнаццаць	NUM	_	Case=Nom	6	nummod:gov	_	_
+6	дзяўчат	дзяўчына	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	3	nsubj	_	_
+7	—	—	PUNCT	_	_	6	punct	_	_
+8	удзельніц	удзельніца	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	6	parataxis	_	_
+9	нацыянальнага	нацыянальны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	фіналу	фінал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	Міжнароднага	міжнародны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	міжуніверсітэцкага	міжуніверсітэцкi	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	конкурсу	конкурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+14	грацыі	грацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	і	і	CCONJ	_	_	17	cc	_	_
+16	артыстычнага	артыстычны	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	майстэрства	майстэрства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	conj	_	_
+18	“	“	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Каралева	каралева	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	17	nmod	_	_
+20	Вясна	вясна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	flat:name	_	_
+21	—	—	PUNCT	_	_	22	punct	_	_
+22	2017	2017	NUM	_	_	19	appos	_	SpaceAfter=No
+23	”	”	PUNCT	_	_	19	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = zviazda-20170525-1-05-be
+# text = Для дзяўчат вечар абяцаў быць складаным — сумарна іх чакала сем выхадаў на сцэну: пяць дэфіле, творчае і інтэлектуальнае спаборніцтвы.
+1	Для	для	ADP	_	_	2	case	_	_
+2	дзяўчат	дзяўчына	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+3	вечар	вечар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	абяцаў	абяцаць	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	быць	быць	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	cop	_	_
+6	складаным	складаны	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	_
+7	—	—	PUNCT	_	_	6	punct	_	_
+8	сумарна	сумарна	ADV	_	Degree=Pos	10	advmod	_	_
+9	іх	яны	PRON	_	Case=Acc|Number=Plur|Person=3	10	obj	_	_
+10	чакала	чакаць	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+11	сем	сем	NUM	_	Case=Nom	12	nummod:gov	_	_
+12	выхадаў	выхад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nsubj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	сцэну	сцэна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	14	punct	_	_
+16	пяць	пяць	NUM	_	Case=Nom	17	nummod:gov	_	_
+17	дэфіле	дэфіле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	творчае	творчы	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+20	і	і	CCONJ	_	_	21	cc	_	_
+21	інтэлектуальнае	інтэлектуальны	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	conj	_	_
+22	спаборніцтвы	спаборніцтва	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = zviazda-20170525-1-06-be
+# text = Па тое, што іх цікавіць у конкурсах прыгажосці і з чым плануюць звязаць сваю будучыню, яны расказалі нашаму карэспандэнту.
+1	Па	па	ADP	_	_	2	case	_	_
+2	тое	тое	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	што	што	PRON	_	Case=Nom	6	nsubj	_	_
+5	іх	яны	PRON	_	Case=Gen|Number=Plur|Person=3	6	obj	_	_
+6	цікавіць	цікавіць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl	_	_
+7	у	у	ADP	_	_	8	case	_	_
+8	конкурсах	конкурс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_
+9	прыгажосці	прыгажосць	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	і	і	CCONJ	_	_	13	cc	_	_
+11	з	з	ADP	_	_	12	case	_	_
+12	чым	што	PRON	_	Case=Ins	13	obl	_	_
+13	плануюць	планаваць	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+14	звязаць	звязаць	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	сваю	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	16	det	_	_
+16	будучыню	будучыня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	6	punct	_	_
+18	яны	яны	PRON	_	Case=Nom|Number=Plur|Person=3	19	nsubj	_	_
+19	расказалі	расказаць	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+20	нашаму	наш	DET	_	Case=Dat|Gender=Masc|Number=Sing	21	det	_	_
+21	карэспандэнту	карэспандэнт	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# newpar
+# sent_id = zviazda-20170525-1-07-be
+# text = — У мяне ўсё пачалося з універсітэта — прыйшла на кастынг конкурсу “Міс БДЭУ”, перамагла, потым удзельнічала ў гарадской “Каралеве Вясне”, дзе таксама атрымала перамогу, і вось я тут, — падзялілася студэнтка трэцяга курса факультэта менеджменту Беларускага дзяржаўнага эканамічнага ўніверсітэта Марта КОЛБ.
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	У	у	ADP	_	_	3	case	_	_
+3	мяне	я	PRON	_	Case=Gen|Number=Sing|Person=1	5	obl	_	_
+4	ўсё	ўсё	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	пачалося	пачацца	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	з	з	ADP	_	_	7	case	_	_
+7	універсітэта	універсітэт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+8	—	—	PUNCT	_	_	7	punct	_	_
+9	прыйшла	прыйсці	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	кастынг	кастынг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+12	конкурсу	конкурсу	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	“	“	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Міс	мiс	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	12	appos	_	_
+15	БДЭУ	БДЭУ	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	”	”	PUNCT	_	_	14	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	перамагла	перамагчы	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	потым	потым	ADV	_	Degree=Pos	21	advmod	_	_
+21	удзельнічала	ўдзельнічаць	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+22	ў	ў	ADP	_	_	25	case	_	_
+23	гарадской	гарадскi	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+24	“	“	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	Каралеве	каралева	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+26	Вясне	вясна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	appos	_	SpaceAfter=No
+27	”	”	PUNCT	_	_	25	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	31	punct	_	_
+29	дзе	дзе	ADV	_	Degree=Pos	31	advmod	_	_
+30	таксама	таксама	ADV	_	Degree=Pos	31	advmod	_	_
+31	атрымала	атрымаць	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	acl:relcl	_	_
+32	перамогу	перамога	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	37	punct	_	_
+34	і	і	CCONJ	_	_	37	cc	_	_
+35	вось	вось	PART	_	_	37	advmod	_	_
+36	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	37	nsubj	_	_
+37	тут	тут	ADV	_	Degree=Pos	9	conj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	5	punct	_	_
+39	—	—	PUNCT	_	_	5	punct	_	_
+40	падзялілася	падзяліцца	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	parataxis	_	_
+41	студэнтка	студэнтка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	40	nsubj	_	_
+42	трэцяга	трэці	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+43	курса	курс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_
+44	факультэта	факультэт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	_
+45	менеджменту	менеджмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	_
+46	Беларускага	беларускi	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_
+47	дзяржаўнага	дзяржаўны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_
+48	эканамічнага	эканамічны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_
+49	ўніверсітэта	універсітэт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	_
+50	Марта	Марта	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	41	nmod	_	_
+51	КОЛБ	Колб	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	50	flat:name	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = zviazda-20170525-1-08-be
+# text = — Сёння пра перамогу не думаю, я ўжо дасягнула ўсяго, чаго хацела.
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	Сёння	сёння	ADV	_	Degree=Pos	6	advmod	_	_
+3	пра	пра	ADP	_	_	4	case	_	_
+4	перамогу	перамога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+5	не	не	PART	_	Polarity=Neg	6	advmod	_	_
+6	думаю	думаць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	10	nsubj	_	_
+9	ўжо	ўжо	ADV	_	Degree=Pos	10	advmod	_	_
+10	дасягнула	дасягнуць	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+11	ўсяго	ўсё	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	чаго	што	PRON	_	Case=Gen	14	obl	_	_
+14	хацела	хацець	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = zviazda-20170525-1-09-be
+# text = Але ўдзельнічаю з задавальненнем, бо гэта каласальны досвед.
+1	Але	але	CCONJ	_	_	2	cc	_	_
+2	ўдзельнічаю	ўдзельнічаць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	з	з	ADP	_	_	4	case	_	_
+4	задавальненнем	задавальненне	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	бо	бо	SCONJ	_	_	2	mark	_	_
+7	гэта	гэта	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+8	каласальны	каласальны	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	досвед	досвед	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = zviazda-20170525-1-10-be
+# text = Трымацца на сцэне, спантанна адказваць на каверзныя пытанні суддзяў, дарыць публіцы шчаслівы эмоцыі — усё гэта трэба ўмець.
+1	Трымацца	трымацца	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	18	appos	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	сцэне	сцэна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	спантанна	спантанна	ADV	_	Degree=Pos	6	advmod	_	_
+6	адказваць	адказваць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	conj	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	каверзныя	каверзны	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	пытанні	пытанне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obl	_	_
+10	суддзяў	суддзя	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	дарыць	дарыць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	conj	_	_
+13	публіцы	публіка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+14	шчаслівы	шчаслівы	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	эмоцыі	эмоцыя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+16	—	—	PUNCT	_	_	18	punct	_	_
+17	усё	увесь	DET	_	Case=Nom|Gender=Neut|Number=Sing	18	det	_	_
+18	гэта	гэта	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+19	трэба	трэба	ADV	_	Degree=Pos	0	root	_	_
+20	ўмець	ўмець	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	csubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = zviazda-20170525-1-11-be
+# text = Увогуле, я не планую звязваць жыццё са сцэнай, найперш хачу стаць спецыялістам у сваёй вобласці.
+1	Увогуле	увогуле	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
+4	не	не	PART	_	Polarity=Neg	5	advmod	_	_
+5	планую	планаваць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	звязваць	звязваць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	жыццё	жыццё	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	са	са	ADP	_	_	9	case	_	_
+9	сцэнай	сцэна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	найперш	найперш	ADP	_	_	12	advmod	_	_
+12	хачу	хацець	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+13	стаць	стаць	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	12	xcomp	_	_
+14	спецыялістам	спецыяліст	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+15	у	у	ADP	_	_	17	case	_	_
+16	сваёй	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing	17	det	_	_
+17	вобласці	вобласць	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = zviazda-20170525-1-12-be
+# text = Мару адкрыць сваю справу, бо я з тых людзей, якія любяць усё кантраляваць.
+1	Мару	марыць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	адкрыць	адкрыць	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	сваю	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	det	_	_
+4	справу	справа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	бо	бо	SCONJ	_	_	10	mark	_	_
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	10	nsubj	_	_
+8	з	з	ADP	_	_	10	case	_	_
+9	тых	той	DET	_	Case=Gen|Number=Plur	10	det	_	_
+10	людзей	чалавек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	якія	які	PRON	_	Case=Nom	13	nsubj	_	_
+13	любяць	любіць	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	усё	усё	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+15	кантраляваць	кантраляваць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# newpar
+# sent_id = zviazda-20170525-1-13-be
+# text = Усе дзяўчаты з’яўляліся ўдзельніцамі ўніверсітэцкіх і абласных этапаў конкурсу.
+1	Усе	увесь	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	дзяўчаты	дзяўчына	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	з’яўляліся	з'яўляцца	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	ўдзельніцамі	ўдзельнік	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+5	ўніверсітэцкіх	універсітэцкі	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+6	і	і	CCONJ	_	_	7	cc	_	_
+7	абласных	абласны	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	conj	_	_
+8	этапаў	этап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+9	конкурсу	конкурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = zviazda-20170525-1-14-be
+# text = Падчас конкурсу яны дэманстравалі гледачам і журы сваю сцэнічную культуру, уменне стасавацца з аўдыторыяй, камунікабельнасць, веданне этыкету, пачуццё гумару, грацыю, інтэлектуальныя і творчыя здольнасці, артыстычнае майстэрства і, вядома, знешнія дадзеныя.
+1	Падчас	падчас	ADP	_	_	2	case	_	_
+2	конкурсу	конкурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	яны	яны	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	дэманстравалі	дэманстраваць	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	гледачам	гледач	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+6	і	і	CCONJ	_	_	7	cc	_	_
+7	журы	журы	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	conj	_	_
+8	сваю	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	10	det	_	_
+9	сцэнічную	сцэнічны	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	культуру	культура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	уменне	уменне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	conj	_	_
+13	стасавацца	стасавацца	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	12	acl	_	_
+14	з	з	ADP	_	_	15	case	_	_
+15	аўдыторыяй	аўдыторыя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	камунікабельнасць	камунікабельнасць	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	веданне	веданне	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	conj	_	_
+20	этыкету	этыкет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	пачуццё	пачуццё	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	conj	_	_
+23	гумару	гумар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	грацыю	грацыя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	30	punct	_	_
+27	інтэлектуальныя	інтэлектуальны	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	30	amod	_	_
+28	і	і	CCONJ	_	_	29	cc	_	_
+29	творчыя	творчы	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	27	conj	_	_
+30	здольнасці	здольнасці	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	артыстычнае	артыстычны	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
+33	майстэрства	майстэрства	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	conj	_	_
+34	і	і	CCONJ	_	_	39	cc	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	вядома	вядома	ADV	_	Degree=Pos	39	parataxis	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	знешнія	знешні	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	39	amod	_	_
+39	дадзеныя	дадзеныя	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	10	conj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = zviazda-20170525-1-15-be
+# text = Сам фінал уяўляў тэатралізаванае прадстаўленне, асноўнай тэмай якога быў Год навукі.
+1	Сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	фінал	фінал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	уяўляў	уяўляць	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	тэатралізаванае	тэатралізаваны	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	прадстаўленне	прадстаўленне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	асноўнай	асноўны	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	тэмай	тэма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	acl:relcl	_	_
+9	якога	які	PRON	_	Case=Gen	8	nmod	_	_
+10	быў	быць	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+11	Год	год	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+12	навукі	навука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = zviazda-20170525-1-16-be
+# text = Па задуме арганізатараў, маладыя вучоныя і адначасова вядучыя шоу знаходзіліся ў пошуку формулы прыгажосці, а канкурсанткі дапамагалі ім у эксперыментах.
+1	Па	па	ADP	_	_	2	case	_	_
+2	задуме	задума	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	parataxis	_	_
+3	арганізатараў	арганізатар	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	маладыя	малады	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	вучоныя	вучоны	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+7	і	і	PART	_	_	8	advmod	_	_
+8	адначасова	адначасова	ADV	_	Degree=Pos	11	advmod	_	_
+9	вядучыя	вядучы	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	шоу	шоу	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	_
+11	знаходзіліся	знаходзіцца	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	ў	ў	ADP	_	_	13	case	_	_
+13	пошуку	пошук	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+14	формулы	формула	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nmod	_	_
+15	прыгажосці	прыгажосць	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	19	cc	_	_
+18	канкурсанткі	канкурсантка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	_
+19	дапамагалі	дапамагаць	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+20	ім	ён	PRON	_	Case=Dat|Number=Plur|Person=3	19	obl	_	_
+21	у	у	ADP	_	_	22	case	_	_
+22	эксперыментах	эксперымент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# newpar
+# sent_id = zviazda-20170525-1-17-be
+# text = — Насамрэч, мне раней не хапала ўпэўненасці ў сабе, і я ніколі не магла падумаць, што буду ўдзельнічаць у такіх конкурсах, — прызналася першакурсніца факультэта банкаўскай справы Палескага дзяржаўнага ўніверсітэта Вікторыя ШАЦІЛА.
+1	—	—	PUNCT	_	_	7	punct	_	_
+2	Насамрэч	насамрэч	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	7	obl	_	_
+5	раней	раней	ADV	_	Degree=Cmp	7	advmod	_	_
+6	не	не	PART	_	Polarity=Neg	7	advmod	_	_
+7	хапала	хапаць	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	ўпэўненасці	ўпэўненасць	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nsubj	_	_
+9	ў	ў	ADP	_	_	10	case	_	_
+10	сабе	сябе	PRON	_	Case=Loc	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	і	і	CCONJ	_	_	16	cc	_	_
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	16	nsubj	_	_
+14	ніколі	ніколі	ADV	_	Degree=Pos	16	advmod	_	_
+15	не	не	PART	_	Polarity=Neg	16	advmod	_	_
+16	магла	магчы	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+17	падумаць	падумаць	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	што	што	SCONJ	_	_	17	mark	_	_
+20	буду	быць	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	_
+21	ўдзельнічаць	ўдзельнічаць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+22	у	у	ADP	_	_	24	case	_	_
+23	такіх	такі	DET	_	Case=Loc|Number=Plur	24	det	_	_
+24	конкурсах	конкурс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	7	punct	_	_
+26	—	—	PUNCT	_	_	7	punct	_	_
+27	прызналася	прызнацца	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	parataxis	_	_
+28	першакурсніца	першакурсніца	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+29	факультэта	факультэт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	банкаўскай	банкаўскi	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_
+31	справы	справа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+32	Палескага	палескi	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+33	дзяржаўнага	дзяржаўны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	ўніверсітэта	універсітэт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+35	Вікторыя	Вікторыя	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	28	appos	_	_
+36	ШАЦІЛА	Шацiла	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	appos	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = zviazda-20170525-1-18-be
+# text = — Але ў мяне паверылі блізкія людзі, якія пераканалі, што найлепшы шлях перамагчы свой страх — сустрэцца з ім.
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	Але	але	CCONJ	_	_	5	cc	_	_
+3	ў	ў	ADP	_	_	4	case	_	_
+4	мяне	я	PRON	_	Case=Gen|Number=Sing|Person=1	5	obl	_	_
+5	паверылі	паверыць	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	блізкія	блізкі	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	людзі	чалавек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	якія	які	PRON	_	Case=Nom	10	nsubj	_	_
+10	пераканалі	пераканаць	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	што	што	SCONJ	_	_	10	mark	_	_
+13	найлепшы	найлепшы	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	шлях	шлях	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	advcl	_	_
+15	перамагчы	перамагчы	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	acl	_	_
+16	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	17	det	_	_
+17	страх	страх	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+18	—	—	PUNCT	_	_	17	punct	_	_
+19	сустрэцца	сустрэцца	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	15	xcomp	_	_
+20	з	з	ADP	_	_	21	case	_	_
+21	ім	ён	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = zviazda-20170525-1-19-be
+# text = Публіку збіраюся здзіўляць сваёй харызмай і творчым нумарам — займаюся эстраднай харэаграфіяй, таму сёння прадэманструю гледачам лацінаамерыканскі танец.
+1	Публіку	публiка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+2	збіраюся	збірацца	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	здзіўляць	здзіўляць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	сваёй	свой	DET	_	Case=Ins|Gender=Fem|Number=Sing	5	det	_	_
+5	харызмай	харызма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+6	і	і	CCONJ	_	_	8	cc	_	_
+7	творчым	творчы	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	нумарам	нумар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	conj	_	_
+9	—	—	PUNCT	_	_	8	punct	_	_
+10	займаюся	займацца	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+11	эстраднай	эстрадны	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	харэаграфіяй	харэаграфія	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	таму	таму	ADV	_	Degree=Pos	16	advmod	_	_
+15	сёння	сёння	ADV	_	Degree=Pos	16	advmod	_	_
+16	прадэманструю	прадэманстраваць	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	_
+17	гледачам	гледач	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	16	obl	_	_
+18	лацінаамерыканскі	лацінаамерыканскі	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	танец	танец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = zviazda-20170525-1-20-be
+# text = З будучыняй пакуль не вызначылася, мне паступіла некалькі прапаноў ад мадэльных агенцтваў, таму, магчыма, буду займацца кар’ерай мадэлі.
+1	З	з	ADP	_	_	2	case	_	_
+2	будучыняй	будучыня	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+3	пакуль	пакуль	ADV	_	Degree=Pos	5	advmod	_	_
+4	не	не	PART	_	Polarity=Neg	5	advmod	_	_
+5	вызначылася	вызначыцца	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	8	obl	_	_
+8	паступіла	паступіць	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+9	некалькі	некалькі	NUM	_	Case=Nom	10	nummod:gov	_	_
+10	прапаноў	прапанова	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nsubj	_	_
+11	ад	ад	ADP	_	_	13	case	_	_
+12	мадэльных	мадэльны	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	агенцтваў	агенцтва	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	таму	таму	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	магчыма	магчыма	ADV	_	Degree=Pos	20	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	буду	быць	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
+20	займацца	займацца	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	5	conj	_	_
+21	кар’ерай	кар’ера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	_
+22	мадэлі	мадэль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# newpar
+# sent_id = zviazda-20170525-1-21-be
+# text = У інтэлектуальным конкурсе, які праходзіў ў фармаце бліц-інтэрв’ю, кожная з дзяўчат павінна была расказаць, якімі яна бачыць навуковыя дасягненні Беларусі ў 3017 годзе.
+1	У	у	ADP	_	_	3	case	_	_
+2	інтэлектуальным	інтэлектуальны	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	конкурсе	конкурс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	які	які	PRON	_	Case=Nom	6	nsubj	_	_
+6	праходзіў	праходзіць	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+7	ў	ў	ADP	_	_	8	case	_	_
+8	фармаце	фармат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	бліц-інтэрв’ю	бліц-інтэрв’ю	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	кожная	кожны	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	nsubj	_	_
+12	з	з	ADP	_	_	13	case	_	_
+13	дзяўчат	дзяўчына	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	_
+14	павінна	павінны	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+15	была	быць	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	_	_
+16	расказаць	расказаць	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	якімі	які	PRON	_	Case=Ins|Number=Plur	20	iobj	_	_
+19	яна	яна	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	20	nsubj	_	_
+20	бачыць	бачыць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	ccomp	_	_
+21	навуковыя	навуковы	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	дасягненні	дасягненне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	20	obj	_	_
+23	Беларусі	Беларусь	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	ў	ў	ADP	_	_	26	case	_	_
+25	3017	3017	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	годзе	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = zviazda-20170525-1-22-be
+# text = Гэта быў шанец паказаць не толькі эрудыцыю, але і пачуццё гумару.
+1	Гэта	гэта	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	быў	быць	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	шанец	шанец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	паказаць	паказаць	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	acl	_	_
+5	не	не	PART	_	Polarity=Neg	6	advmod	_	_
+6	толькі	толькі	PART	_	_	7	advmod	_	_
+7	эрудыцыю	эрудыцыя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	але	але	CCONJ	_	_	11	cc	_	_
+10	і	і	PART	_	_	9	advmod	_	_
+11	пачуццё	пачуццё	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	conj	_	_
+12	гумару	гумар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = zviazda-20170525-1-23-be
+# text = Так, напрыклад, згаданая Вікторыя Шаціла спрагназавала, што праблема працаўладкавання моладзі праз тысячу гадоў будзе вырашана пры дапамозе першай беларускай касмічнай станцыі, абслугоўваць якую будуць маладыя спецыялісты.
+1	Так	так	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	напрыклад	напрыклад	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	згаданая	згаданы	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	Вікторыя	Вікторыя	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	Шаціла	Шаціла	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	спрагназавала	спрагназаваць	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	18	punct	_	_
+10	што	што	SCONJ	_	_	18	mark	_	_
+11	праблема	праблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+12	працаўладкавання	працаўладкаванне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	моладзі	моладзь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	праз	праз	ADP	_	_	16	case	_	_
+15	тысячу	тысяча	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	nummod:gov	_	_
+16	гадоў	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+17	будзе	быць	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux:pass	_	_
+18	вырашана	вырашыць	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	ccomp	_	_
+19	пры	пры	ADP	_	_	24	case	_	_
+20	дапамозе	дапамога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	fixed	_	_
+21	першай	першы	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+22	беларускай	беларускi	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+23	касмічнай	касмічны	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	станцыі	станцыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	абслугоўваць	абслугоўваць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	acl:relcl	_	_
+27	якую	які	PRON	_	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+28	будуць	быць	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	_	_
+29	маладыя	малады	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	30	amod	_	_
+30	спецыялісты	спецыяліст	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = zviazda-20170525-1-24-be
+# text = А Сняжана Міхейцава з Віцебскага дзяржаўнага тэхналагічнага ўніверсітэта марыць аб тым, каб беларускія вучоныя вынайшлі дамскую сумачку, у якой усё будзе лёгка знайсці пры дапамозе галасавых каманд, і мужчынскія шкарпэткі, якія самі знаходзяць сваю пару.
+1	А	а	CCONJ	_	_	9	cc	_	_
+2	Сняжана	Сняжана	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+3	Міхейцава	Міхейцава	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	_
+4	з	з	ADP	_	_	8	case	_	_
+5	Віцебскага	віцебскi	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+6	дзяржаўнага	дзяржаўны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	тэхналагічнага	тэхналагічны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	ўніверсітэта	універсітэт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+9	марыць	марыць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	аб	аб	ADP	_	_	11	case	_	_
+11	тым	тое	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	каб	каб	SCONJ	_	_	16	mark	_	_
+14	беларускія	беларускі	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	вучоныя	вучоны	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	вынайшлі	вынайсці	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	acl	_	_
+17	дамскую	дамскi	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	сумачку	сумачка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	24	punct	_	_
+20	у	у	ADP	_	_	21	case	_	_
+21	якой	які	PRON	_	Case=Loc	25	obl	_	_
+22	усё	усё	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+23	будзе	быць	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	_	_
+24	лёгка	лёгкi	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	18	acl:relcl	_	_
+25	знайсці	знайсці	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	csubj	_	_
+26	пры	пры	ADP	_	_	29	case	_	_
+27	дапамозе	дапамога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	fixed	_	_
+28	галасавых	галасавы	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	каманд	каманда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	_
+31	і	і	CCONJ	_	_	33	cc	_	_
+32	мужчынскія	мужчынскі	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	33	amod	_	_
+33	шкарпэткі	шкарпэтка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	37	punct	_	_
+35	якія	які	PRON	_	Case=Nom|Number=Plur	37	nsubj	_	_
+36	самі	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	35	amod	_	_
+37	знаходзяць	знаходзіць	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	acl:relcl	_	_
+38	сваю	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	39	det	_	_
+39	пару	пара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	37	obj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# newpar
+# sent_id = zviazda-20170525-1-25-be
+# text = — У мяне ўсё атрымалася спантанна — ва ўніверсітэце дзейнічае студэнцкі клуб, у якім мне прапанавалі паўдзельнічаць у конкурсе прыгажосці, — расказала першакурсніца эканамічнага факультэта Беларуска-Расійскага ўніверсітэта, што ў Магілёве, Вікторыя ПАНЦЮХОВА.
+1	—	—	PUNCT	_	_	5	punct	_	_
+2	У	у	ADP	_	_	3	case	_	_
+3	мяне	я	PRON	_	Case=Gen|Number=Sing|Person=1	5	obl	_	_
+4	ўсё	ўсё	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	атрымалася	атрымацца	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	спантанна	спантанна	ADV	_	Degree=Pos	5	advmod	_	_
+7	—	—	PUNCT	_	_	10	punct	_	_
+8	ва	ва	ADP	_	_	9	case	_	_
+9	ўніверсітэце	універсітэт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+10	дзейнічае	дзейнічаць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+11	студэнцкі	студэнцкі	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	клуб	клуб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	у	у	ADP	_	_	15	case	_	_
+15	якім	які	PRON	_	Case=Loc	17	obl	_	_
+16	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	17	obl	_	_
+17	прапанавалі	прапанаваць	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+18	паўдзельнічаць	паўдзельнічаць	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	у	у	ADP	_	_	20	case	_	_
+20	конкурсе	конкурс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+21	прыгажосці	прыгажосць	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	5	punct	_	_
+23	—	—	PUNCT	_	_	5	punct	_	_
+24	расказала	расказаць	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+25	першакурсніца	першакурсніца	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+26	эканамічнага	эканамічны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	факультэта	факультэт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	Беларуска-Расійскага	беларуска-расійскi	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	ўніверсітэта	універсітэт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	што	што	VERB	_	_	29	acl	_	_
+32	ў	ў	ADP	_	_	33	case	_	_
+33	Магілёве	Магілёв	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	31	punct	_	_
+35	Вікторыя	Вікторыя	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	25	appos	_	_
+36	ПАНЦЮХОВА	Панцюхова	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	35	flat:name	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = zviazda-20170525-1-26-be
+# text = — Перамагла у сваёй ВНУ, адправілася “на вобласць”, там таксама ўзяла першае месца.
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	Перамагла	перамагчы	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	у	у	ADP	_	_	5	case	_	_
+4	сваёй	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	5	det	_	_
+5	ВНУ	ВНУ	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	адправілася	адправіцца	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+8	“	“	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	на	на	ADP	_	_	10	case	_	_
+10	вобласць	вобласць	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	”	”	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	там	там	ADV	_	Degree=Pos	15	advmod	_	_
+14	таксама	таксама	PART	_	_	15	advmod	_	_
+15	ўзяла	узяць	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+16	першае	першы	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	месца	месца	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = zviazda-20170525-1-27-be
+# text = Сёння мне будзе дастаткова прызнання з боку аўдыторыі, буду спяваць кампазіцыю з рэпертуару Beyonce.
+1	Сёння	сёння	ADV	_	Degree=Pos	4	advmod	_	_
+2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	4	iobj	_	_
+3	будзе	быць	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	дастаткова	дастаткова	ADV	_	Degree=Pos	0	root	_	_
+5	прызнання	прызнанне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	з	з	ADP	_	_	8	case	_	_
+7	боку	бок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	fixed	_	_
+8	аўдыторыі	аўдыторыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	буду	быць	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	спяваць	спяваць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	_
+12	кампазіцыю	кампазіцыя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	з	з	ADP	_	_	14	case	_	_
+14	рэпертуару	рэпертуар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	Beyonce	Beyonce	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = zviazda-20170525-1-28-be
+# text = Вельмі люблю джаз, а ўвогуле слухаю самыя розныя кірункі.
+1	Вельмі	вельмі	ADV	_	Degree=Pos	2	advmod	_	_
+2	люблю	любіць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	джаз	джаз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	а	а	CCONJ	_	_	7	cc	_	_
+6	ўвогуле	ўвогуле	ADV	_	Degree=Pos	7	advmod	_	_
+7	слухаю	слухаць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	самыя	самы	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	розныя	розны	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	кірункі	кірунак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = zviazda-20170525-1-29-be
+# text = З мадэльным бізнесам звязваць жыццё не планую, мару працаваць у лагістычнай кампаніі.
+1	З	з	ADP	_	_	3	case	_	_
+2	мадэльным	мадэльны	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	бізнесам	бізнес	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+4	звязваць	звязваць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+5	жыццё	жыццё	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	не	не	PART	_	Polarity=Neg	7	advmod	_	_
+7	планую	планаваць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	мару	марыць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+10	працаваць	працаваць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	у	у	ADP	_	_	13	case	_	_
+12	лагістычнай	лагістычны	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	кампаніі	кампанія	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = zviazda-20170525-1-30-be
+# text = Але абавязкова хачу ў вольны час займацца творчасцю, не мае розніцы, на якім узроўні.
+1	Але	але	CCONJ	_	_	3	cc	_	_
+2	абавязкова	абавязкова	ADV	_	Degree=Pos	3	advmod	_	_
+3	хачу	хацець	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ў	ў	ADP	_	_	6	case	_	_
+5	вольны	вольны	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+7	займацца	займацца	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+8	творчасцю	творчасць	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	не	не	PART	_	Polarity=Neg	11	advmod	_	_
+11	мае	мець	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+12	розніцы	розніца	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	на	на	ADP	_	_	16	case	_	_
+15	якім	які	DET	_	Case=Loc|Gender=Masc|Number=Sing	16	det	_	_
+16	узроўні	ўзровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# newpar
+# sent_id = zviazda-20170525-1-31-be
+# text = Да тэмы навукі былі прывязаны і дэфіле — у адным з іх кожная ўдзельніца прымерала на сябе адзенне са спецыяльнай “касмічнай” калекцыі.
+1	Да	да	ADP	_	_	2	case	_	_
+2	тэмы	тэма	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+3	навукі	навука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	былі	быць	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	прывязаны	прывязаць	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	і	і	PART	_	_	7	advmod	_	_
+7	дэфіле	дэфіле	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+8	—	—	PUNCT	_	_	15	punct	_	_
+9	у	у	ADP	_	_	10	case	_	_
+10	адным	адзін	NUM	_	Case=Loc|Gender=Masc	15	obl	_	_
+11	з	з	ADP	_	_	12	case	_	_
+12	іх	яны	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
+13	кожная	кожны	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	ўдзельніца	ўдзельніца	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	прымерала	прымяраць	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	сябе	сябе	PRON	_	Case=Acc	15	obl	_	_
+18	адзенне	адзенне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+19	са	са	ADP	_	_	24	case	_	_
+20	спецыяльнай	спецыяльны	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+21	“	“	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	касмічнай	касмічны	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+23	”	”	PUNCT	_	_	22	punct	_	_
+24	калекцыі	калекцыя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = zviazda-20170525-1-32-be
+# text = Агулам юныя прыгажуні дэфіліравалі па сцэне ажно пяць разоў: у белых сукенках, адзенні са спецыяльнай “касмічнай” калекцыі, цёмных плашчах з магічнымі прадметамі, стылізаваных нацыянальных касцюмах і вячэрнім убранні.
+1	Агулам	агулам	PART	_	_	4	advmod	_	_
+2	юныя	юны	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	прыгажуні	прыгажуня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	дэфіліравалі	дэфіляваць	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	па	па	ADP	_	_	6	case	_	_
+6	сцэне	сцэна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	ажно	ажно	ADV	_	Degree=Pos	9	advmod	_	_
+8	пяць	пяць	NUM	_	Case=Acc	9	nummod:gov	_	_
+9	разоў	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	у	у	ADP	_	_	13	case	_	_
+12	белых	белы	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	сукенках	сукенка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	адзенні	адзенне	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	conj	_	_
+16	са	са	ADP	_	_	21	case	_	_
+17	спецыяльнай	спецыяльны	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+18	“	“	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	касмічнай	касмічны	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+20	”	”	PUNCT	_	_	19	punct	_	_
+21	калекцыі	калекцыя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	цёмных	цёмны	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	_
+24	плашчах	плашч	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	conj	_	_
+25	з	з	ADP	_	_	27	case	_	_
+26	магічнымі	магічны	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	27	amod	_	_
+27	прадметамі	прадмет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	31	punct	_	_
+29	стылізаваных	стылізаваны	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	31	amod	_	_
+30	нацыянальных	нацыянальны	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	31	amod	_	_
+31	касцюмах	касцюм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	conj	_	_
+32	і	і	CCONJ	_	_	34	cc	_	_
+33	вячэрнім	вячэрні	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	убранні	убранне	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = zviazda-20170525-1-33-be
+# text = А ў творчым конкурсе большая частка канкурсантак прадэманстравала свае харэаграфічныя і вакальныя таленты.
+1	А	а	CCONJ	_	_	8	cc	_	_
+2	ў	ў	ADP	_	_	4	case	_	_
+3	творчым	творчы	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	конкурсе	конкурс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+5	большая	большы	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	частка	частка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	канкурсантак	канкурсантка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	прадэманстравала	прадэманстраваць	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	свае	свой	DET	_	Case=Acc|Number=Plur	13	det	_	_
+10	харэаграфічныя	харэаграфічны	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+11	і	і	CCONJ	_	_	12	cc	_	_
+12	вакальныя	вакальны	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	conj	_	_
+13	таленты	талент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# newpar
+# sent_id = zviazda-20170525-1-34-be
+# text = У выніку галоўныя прызы конкурсу адправіліся ў рэгіёны.
+1	У	у	ADP	_	_	2	case	_	_
+2	выніку	вынік	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	галоўныя	галоўны	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	прызы	прыз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	конкурсу	конкурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	адправіліся	адправіцца	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	ў	ў	ADP	_	_	8	case	_	_
+8	рэгіёны	рэгіён	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = zviazda-20170525-1-35-be
+# text = Абсалютным пераможцам і ўладальніцай тытулу “Каралева Вясна Беларусі — 2017” стала студэнтка чацвёртага курса Віцебскага дзяржаўнага тэхналагічнага ўніверсітэта Сняжана Міхейцава.
+1	Абсалютным	абсалютны	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	пераможцам	пераможца	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obj	_	_
+3	і	і	CCONJ	_	_	4	cc	_	_
+4	ўладальніцай	уладальніца	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	conj	_	_
+5	тытулу	тытул	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	“	“	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Каралева	каралева	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	5	appos	_	_
+8	Вясна	вясна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	appos	_	_
+9	Беларусі	Беларусь	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	—	—	PUNCT	_	_	7	punct	_	_
+11	2017	2017	NUM	_	_	7	appos	_	SpaceAfter=No
+12	”	”	PUNCT	_	_	7	punct	_	_
+13	стала	стаць	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	студэнтка	студэнтка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+15	чацвёртага	чацвёрты	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	курса	курс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	Віцебскага	віцебскi	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+18	дзяржаўнага	дзяржаўны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	тэхналагічнага	тэхналагічны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	ўніверсітэта	універсітэт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+21	Сняжана	Сняжана	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	14	appos	_	_
+22	Міхейцава	Міхейцава	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = zviazda-20170525-1-36-be
+# text = Званне “Першай віцэ-Каралевы Вясны” заваявала першакурсніца Гродзенскага дзяржаўнага ўніверсітэта імя Янкі Купалы Алёна Янко.
+1	Званне	званне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+2	“	“	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	Першай	першы	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	віцэ-Каралевы	віцэ-каралева	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	Вясны	вясна	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	appos	_	SpaceAfter=No
+6	”	”	PUNCT	_	_	4	punct	_	_
+7	заваявала	заваяваць	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	першакурсніца	першакурсніца	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+9	Гродзенскага	гродзенскi	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	дзяржаўнага	дзяржаўны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	ўніверсітэта	універсітэт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+12	імя	імя	ADP	_	_	13	case	_	_
+13	Янкі	Янка	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	Купалы	Купала	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	flat:name	_	_
+15	Алёна	Алёна	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	8	appos	_	_
+16	Янко	Янко	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = zviazda-20170525-1-37-be
+# text = Менавіта гэтыя дзве дзяўчыны прадставяць нашу краіну ў фінале міжнароднага конкурсу, які сёлета пройдзе ў Расіі.
+1	Менавіта	менавіта	PART	_	_	2	advmod	_	_
+2	гэтыя	гэты	DET	_	Case=Nom|Number=Plur	4	det	_	_
+3	дзве	два	NUM	_	Case=Nom|Gender=Fem	4	nummod:gov	_	_
+4	дзяўчыны	дзяўчына	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	прадставяць	прадставіць	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	нашу	наш	DET	_	Case=Acc|Gender=Fem|Number=Sing	7	det	_	_
+7	краіну	краiна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	ў	ў	ADP	_	_	9	case	_	_
+9	фінале	фінал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+10	міжнароднага	міжнародны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	конкурсу	конкурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	які	які	PRON	_	Case=Nom	15	nsubj	_	_
+14	сёлета	сёлета	ADP	_	_	15	case	_	_
+15	пройдзе	прайсці	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+16	ў	ў	ADP	_	_	17	case	_	_
+17	Расіі	Расія	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = zviazda-20170525-1-38-be
+# text = Трэцяе месяца і тытул “Другая віцэ-Каралева Вясна” дасталася прадстаўніцы Полацкага дзяржаўнага ўніверсітэта Хрысціне Нікіфаравай.
+1	Трэцяе	трэцi	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	месяца	месяц	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+3	і	і	CCONJ	_	_	4	cc	_	_
+4	тытул	тытул	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+5	“	“	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	Другая	другi	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	віцэ-Каралева	віцэ-каралева	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	appos	_	_
+8	Вясна	вясна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
+9	”	”	PUNCT	_	_	7	punct	_	_
+10	дасталася	дастацца	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	прадстаўніцы	прадстаўніца	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Sing	10	iobj	_	_
+12	Полацкага	полацкi	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+13	дзяржаўнага	дзяржаўны	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	ўніверсітэта	універсітэт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+15	Хрысціне	Хрысціна	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+16	Нікіфаравай	Нікіфарава	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	_
+
