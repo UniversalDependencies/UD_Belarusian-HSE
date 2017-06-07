@@ -48,11 +48,14 @@ Belarusian dependency relation tags were checked manually.
 
 TEXTS
 
-The source texts are short news articles originally written in Belarusian (and/)or Russian, published by telegraf.by online agency.
-
-Document list: 
-http://search2.ruscorpora.ru/search.xml?env=alpha&text=meta&sort=gr_tagging&lang=ru&doc_g_number_lang=&doc_te_author=&mode=para&doc_te_header=*&author=&doc_g_birthday=&doc_l_birthday=&doc_g_created=&doc_l_created=&doc_te_translator=&doc_lang=bel&doc_lang_trans=rus&doc_g_date_date_trans=&doc_l_date_date_trans=&doc_sphere=%EF%F3%E1%EB%E8%F6%E8%F1%F2%E8%EA%E0
+The source texts are the following:
+1) short news articles originally written in Belarusian (and/)or Russian and published by telegraf.by online agency.
+Document list: http://search2.ruscorpora.ru/search.xml?env=alpha&text=meta&sort=gr_tagging&lang=ru&doc_g_number_lang=&doc_te_author=&mode=para&doc_te_header=*&author=&doc_g_birthday=&doc_l_birthday=&doc_g_created=&doc_l_created=&doc_te_translator=&doc_lang=bel&doc_lang_trans=rus&doc_g_date_date_trans=&doc_l_date_date_trans=&doc_sphere=%EF%F3%E1%EB%E8%F6%E8%F1%F2%E8%EA%E0
+2) short news articles published by http://zviazda.by/.
+Document list:
+http://zviazda.by/be/news/20170524/1495626198-samaya-prygozhaya-studentka-vuchycca-u-vicebsku
+http://zviazda.by/be/news/20160908/1473288543-buduchynya-za-dakladnym-zemlyarobstvam
 
 Acknowledgments:
 
-We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail.com) for providing the source texts. 
+We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail.com) for providing a part of source texts. 
