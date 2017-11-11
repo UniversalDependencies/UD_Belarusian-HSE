@@ -5,103 +5,119 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>333</sentences><tokens>6864</tokens><words>6864</words><fused>0</fused></total>
+    <total><sentences>393</sentences><tokens>8106</tokens><words>8106</words><fused>0</fused></total>
   </size>
-  <lemmas unique="1823" /><!-- ,, ., і, ў, ", у, беларусь, на, з, што, не, беларускі, –, быць, па -->
-  <forms unique="2566" /><!-- ,, ., і, ў, ", у, на, з, Беларусі, не, што, –, па, да, сакавіка -->
+  <lemmas unique="2186" /><!-- ,, ., і, ў, у, ", на, з, беларусь, што, не, быць, беларускі, па, – -->
+  <forms unique="3055" /><!-- ,, ., і, ў, у, ", на, з, не, Беларусі, што, па, –, да, гэта -->
   <fusions unique="0" /><!--  -->
-  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">722</tag><!-- беларускі, замежны, нацыянальны, знешні, новы, першы, смяротны, еўрапейскі, міжнародны, 23 -->
-    <tag name="ADP">755</tag><!-- ў, у, на, з, па, да, за, аб, для, пра -->
-    <tag name="ADV">202</tag><!-- вельмі, таксама, раней, ўжо, больш, разам, ужо, добра, па-беларуску, таму -->
-    <tag name="AUX">34</tag><!-- быць -->
-    <tag name="CCONJ">187</tag><!-- і, а, але, або, аднак, ды, ж, жа, так, таксама -->
-    <tag name="DET">118</tag><!-- гэты, свой, той, увесь, адзін, такi, яе, іх, наш, некаторы -->
-    <tag name="NOUN">1767</tag><!-- сакавік, год, мова, краіна, чалавек, красавік, санкцыя, камітэт, бок, выкананне -->
-    <tag name="NUM">120</tag><!-- два, 10, 2011, 500, адзін, 1,5, 2,9, 29, некалькі, тры -->
-    <tag name="PART">105</tag><!-- не, і, толькі, таксама, ж, менавіта, нават, ўжо, б, гэта -->
-    <tag name="PRON">255</tag><!-- які, гэта, я, тое, мы, яны, ён, вы, што, яна -->
-    <tag name="PROPN">540</tag><!-- беларусь, ес, тэлеграф, еўрасаюз, нацбанк, мінск, літва, сірыя, уладзіслав, Кавалёв -->
-    <tag name="PUNCT">1151</tag><!-- ,, ., ", –, -, (, ), :, ..., “ -->
-    <tag name="SCONJ">119</tag><!-- што, як, калі, каб, то, чым, нават, прычым, таму, хоць -->
+    <tag name="ADJ">877</tag><!-- беларускі, нацыянальны, першы, замежны, знешні, міжнародны, новы, смяротны, еўрапейскі, 23 -->
+    <tag name="ADP">876</tag><!-- ў, у, на, з, па, да, за, аб, для, пра -->
+    <tag name="ADV">258</tag><!-- вельмі, таксама, раней, таму, ўжо, больш, сёння, разам, ужо, добра -->
+    <tag name="AUX">68</tag><!-- быць -->
+    <tag name="CCONJ">219</tag><!-- і, а, але, або, аднак, ды, ж, жа, так, таксама -->
+    <tag name="DET">141</tag><!-- гэты, свой, увесь, той, наш, адзін, такi, яе, іх, некаторы -->
+    <tag name="NOUN">2088</tag><!-- сакавік, год, мова, краіна, чалавек, красавік, санкцыя, бок, камітэт, конкурс -->
+    <tag name="NUM">142</tag><!-- два, адзін, 10, 2011, 500, некалькі, пяць, 1,5, 2,9, 29 -->
+    <tag name="PART">129</tag><!-- не, і, толькі, таксама, менавіта, ж, нават, жа, ўжо, агулам -->
+    <tag name="PRON">313</tag><!-- які, я, гэта, тое, яны, мы, ён, вы, што, яна -->
+    <tag name="PROPN">588</tag><!-- беларусь, ес, тэлеграф, еўрасаюз, нацбанк, мінск, літва, сірыя, уладзіслав, Кавалёв -->
+    <tag name="PUNCT">1374</tag><!-- ,, ., ", –, -, —, (, ), :, “ -->
+    <tag name="SCONJ">131</tag><!-- што, як, калі, каб, чым, то, бо, нават, прычым, таму -->
     <tag name="SYM">18</tag><!-- %, &amp;, +, -, № -->
-    <tag name="VERB">726</tag><!-- быць, магчы, перадаваць, мець, паведаміць, гаварыць, з'яўляцца, паведамляць, заявіць, размаўляць -->
+    <tag name="VERB">839</tag><!-- магчы, мець, перадаваць, паведаміць, з'яўляцца, гаварыць, паведамляць, размаўляць, заявіць, планаваць -->
     <tag name="X">45</tag><!-- °с, aju, daeryook, firm, internatonal, law, telegraf.by, litesound, afp, are -->
   </tags>
-  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="35">
-    <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,X">369</feat><!-- Кавалёва, Уладзіслава, °С, Уладзімір, Эштан, чалавека, Кэтрын, Някляеў, асоб, кіраўнікоў -->
-    <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">2121</feat><!-- Беларусі, сакавіка, гэта, ЕС, года, Беларусь, Тэлеграф, рублёў, красавіка, млн -->
-    <feat name="Aspect" value="Imp" upos="AUX,VERB">368</feat><!-- было, можа, перадаваў, былі, з'яўляецца, мае, маюць, была, паведамляў, Гавары -->
-    <feat name="Aspect" value="Perf" upos="AUX,VERB">384</feat><!-- будзе, будуць, паведамілі, заявіў, адзначыў, вярнуцца, заклікаў, прыведзены, сказала, склала -->
-    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">605</feat><!-- гэта, выкананне, Беларусь, намер, санкцыі, спіс, беларускую, мову, пакаранне, рашэнне -->
-    <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">69</feat><!-- мне, вобласці, Гродзенскай, Тэлеграфу, ажыццяўленні, беларускаму, вырашэнні, параўнанні, статыстыкі, Беларусі -->
-    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">1315</feat><!-- Беларусі, сакавіка, года, рублёў, млн, красавіка, ЕС, таго, гэтага, даляраў -->
-    <feat name="Case" value="Ins" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">229</feat><!-- Беларуссю, гэтым, тым, беларускімі, доўгам, знешнім, мовай, самым, студзенем, улікам -->
-    <feat name="Case" value="Loc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">441</feat><!-- Беларусі, дачыненні, лютым, правах, гэтым, словах, тым, годзе, студзені, Мінску -->
-    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">848</feat><!-- я, мы, Тэлеграф, якія, яны, гэта, мова, Беларусь, які, вы -->
-    <feat name="Degree" value="Cmp" upos="ADV,VERB">24</feat><!-- раней, больш, хутчэй, Пазней, менш, цяплей -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV,DET,VERB">904</feat><!-- вельмі, таксама, 23, беларускай, беларускіх, 2012, замежных, 2011, беларуская, ўжо -->
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="47">
+    <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,X">439</feat><!-- Кавалёва, Уладзіслава, °С, Уладзімір, Эштан, чалавека, Кэтрын, Някляеў, асоб, кіраўнікоў -->
+    <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">2449</feat><!-- Беларусі, гэта, сакавіка, ЕС, года, Беларусь, Тэлеграф, рублёў, красавіка, млн -->
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">458</feat><!-- было, можа, перадаваў, былі, мае, была, з'яўляецца, маюць, паведамляў, размаўляць -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">443</feat><!-- будзе, будуць, паведамілі, адзначыў, заявіў, вярнуцца, заклікаў, пройдзе, прыведзены, сказала -->
+    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">690</feat><!-- гэта, выкананне, сваю, Беларусь, намер, санкцыі, спіс, тое, час, беларускую -->
+    <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">94</feat><!-- мне, вобласці, Гродзенскай, Тэлеграфу, ажыццяўленні, беларускаму, вырашэнні, гледачам, земляробства, параўнанні -->
+    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">1510</feat><!-- Беларусі, сакавіка, года, рублёў, млн, красавіка, таго, ЕС, гэтага, даляраў -->
+    <feat name="Case" value="Ins" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">266</feat><!-- Беларуссю, гэтым, тым, улікам, беларускімі, доўгам, знешнім, мовай, самым, студзенем -->
+    <feat name="Case" value="Loc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">538</feat><!-- Беларусі, дачыненні, лютым, гэтым, правах, тым, годзе, словах, выніку, конкурсе -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1018</feat><!-- я, гэта, мы, якія, яны, Тэлеграф, мова, які, Беларусь, вы -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">26</feat><!-- раней, больш, хутчэй, Пазней, менш, цяплей -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">1103</feat><!-- вельмі, таксама, беларускай, 23, беларускіх, 2012, замежных, таму, ўжо, 2011 -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">5</feat><!-- вышэйшай, Найбуйнейшая, лепшых, найбольш -->
-    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1152</feat><!-- Беларусі, Беларусь, мова, санкцыі, беларускай, краіны, АЭС, беларуская, краін, Белавія -->
-    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">1516</feat><!-- сакавіка, ЕС, года, Тэлеграф, рублёў, красавіка, млн, які, Уладзіслава, даляраў -->
-    <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">590</feat><!-- гэта, было, дачыненні, таго, 23, выкананне, гэтым, тое, 22, пакарання -->
+    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1374</feat><!-- Беларусі, Беларусь, мова, беларускай, санкцыі, краіны, АЭС, краін, беларуская, Белавія -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">1754</feat><!-- сакавіка, ЕС, года, Тэлеграф, рублёў, красавіка, млн, які, Уладзіслава, даляраў -->
+    <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">692</feat><!-- гэта, было, дачыненні, таго, 23, выкананне, тое, гэтым, 22, пакарання -->
+    <feat name="Mood" value="Cnd" upos="PART,SCONJ">11</feat><!-- каб, б -->
     <feat name="Mood" value="Imp" upos="VERB">7</feat><!-- Гавары, Вучыся, Прымі, пачні -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">545</feat><!-- было, будзе, будуць, можа, перадаваў, паведамілі, былі, з'яўляецца, мае, маюць -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1080</feat><!-- мы, якія, рублёў, яны, санкцыі, беларускіх, будуць, даляраў, вы, замежных -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">2931</feat><!-- Беларусі, сакавіка, гэта, я, ЕС, года, Беларусь, Тэлеграф, красавіка, млн -->
-    <feat name="Person" value="1" upos="AUX,PRON,VERB">94</feat><!-- я, мы, мне, мяне, ведаю, веру, нас, Думаю, будзем, магу -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">649</feat><!-- будзе, было, можа, будуць, перадаваў, былі, паведамілі, мае, была, з'яўляецца -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1252</feat><!-- мы, якія, яны, рублёў, будуць, санкцыі, беларускіх, даляраў, былі, вы -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">3462</feat><!-- Беларусі, гэта, сакавіка, я, ЕС, года, Беларусь, Тэлеграф, будзе, было -->
+    <feat name="NumType" value="Card" upos="NUM">119</feat><!-- 10, 2011, 500, два, двух, 1,5, 2,9, 29, адзін, некалькі -->
+    <feat name="NumType" value="Sets" upos="NUM">1</feat><!-- Чацвёра -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">124</feat><!-- я, мы, мне, мяне, буду, ведаю, веру, нас, думаю, будзем -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">28</feat><!-- вы, Гавары, вас, Вучыся, Прымі, ацэньваеце, бачыце, будзеш, вамі, ведаеш -->
-    <feat name="Person" value="3" upos="AUX,PRON,VERB">275</feat><!-- яны, будзе, будуць, можа, яго, ён, з'яўляецца, мае, маюць, яна -->
-    <feat name="Polarity" value="Neg" upos="ADV">2</feat><!-- нягледзячы -->
-    <feat name="Tense" value="Fut" upos="AUX,VERB">70</feat><!-- будзе, будуць, выступіць, пройдзе, складзе, стане, будзем, выступяць, падрыхтуюць, абмяркуе -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">341</feat><!-- было, перадаваў, паведамілі, былі, была, заявіў, паведамляў, адзначыў, заклікаў, маглі -->
-    <feat name="Tense" value="Pres" upos="VERB">215</feat><!-- можа, з'яўляецца, мае, маюць, ведаю, веру, з'яўляюцца, паведамляе, перадае, гаворыцца -->
-    <feat name="Variant" value="Short" upos="ADJ,VERB">41</feat><!-- павінны, перакананы, вымушаны, намаляваны, немагчыма, прыведзены, Здзейснена, Пашкоджаны, адкрыта, выканана -->
-    <feat name="VerbForm" value="Conv" upos="VERB">15</feat><!-- зыходзячы, Адкрываючы, Прыцягваючы, Ужыўшы, гледзячы, кажучы, падаючы, прымаючы, прысвойваючы, разумеючы -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">552</feat><!-- было, будзе, будуць, можа, перадаваў, паведамілі, былі, з'яўляецца, мае, маюць -->
-    <feat name="VerbForm" value="Inf" upos="AUX,VERB">119</feat><!-- вярнуцца, размаўляць, працаваць, разумець, быць, вызваліць, выйсці, выратаваць, зрабіць, праводзіць -->
-    <feat name="VerbForm" value="Part" upos="VERB">66</feat><!-- прыведзены, налічаная, намаляваны, Арыштаваныя, Здзейснена, Пашкоджаны, абноўлены, абсталяваных, абумоўленую, адведзеных -->
-    <feat name="Voice" value="Act" upos="AUX,VERB">574</feat><!-- было, будзе, будуць, можа, перадаваў, паведамілі, былі, мае, маюць, была -->
-    <feat name="Voice" value="Mid" upos="VERB">114</feat><!-- з'яўляецца, вярнуцца, з'яўляюцца, гаворыцца, здаецца, знаходзіцца, мяркуецца, тычыцца, Вучылася, Вучыся -->
-    <feat name="Voice" value="Pass" upos="VERB">64</feat><!-- прыведзены, налічаная, намаляваны, Арыштаваныя, Здзейснена, Пашкоджаны, абноўлены, абсталяваных, абумоўленую, адведзеных -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">319</feat><!-- яны, будзе, можа, будуць, ён, іх, мае, яго, яна, з'яўляецца -->
+    <feat name="Polarity" value="Neg" upos="ADV,PART,VERB">78</feat><!-- не, нягледзячы, няма, ні -->
+    <feat name="Poss" value="Yes" upos="DET">41</feat><!-- яе, сваю, сваіх, іх, свае, нашы, яго, вашай, вашую, маіх -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">114</feat><!-- гэта, таго, гэтым, тым, гэтага, тое, гэты, гэтую, гэтых, гэтай -->
+    <feat name="PronType" value="Ind" upos="DET">11</feat><!-- адной, адным, Пэўнае, аднаго, адны, нейкія, некаторы, некаторых, некаторыя -->
+    <feat name="PronType" value="Int" upos="DET,PRON">17</feat><!-- што, чым, каго, Якой, кім, хто, чаго, чые, чыя -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">5</feat><!-- ніякіх, ніхто, нічога, ніякага -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">164</feat><!-- я, мы, яны, вы, яго, яе, іх, ён, мне, мяне -->
+    <feat name="PronType" value="Rel" upos="PRON">43</feat><!-- якія, які, якіх, якая, якой, якім, якога, якое, якімі -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">19</feat><!-- ўсё, любы, усе, усё, ўсе, кожная, кожны, увесь, усіх, ўсім -->
+    <feat name="Reflex" value="Yes" upos="PRON">4</feat><!-- сабе, сябе -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">74</feat><!-- будзе, будуць, пройдзе, выступіць, складзе, стане, будзем, выступяць, падрыхтуюць, абмяркуе -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">403</feat><!-- было, перадаваў, былі, паведамілі, была, адзначыў, заявіў, паведамляў, заклікаў, магла -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">261</feat><!-- можа, мае, з'яўляецца, маюць, будзе, ведаю, веру, з'яўляюцца, паведамляе, перадае -->
+    <feat name="Variant" value="Short" upos="ADJ,VERB">56</feat><!-- павінны, перакананы, важна, вымушаны, намаляваны, немагчыма, павінна, прыведзены, Здзейснена, Пашкоджаны -->
+    <feat name="VerbForm" value="Conv" upos="VERB">16</feat><!-- зыходзячы, Адкрываючы, Прыцягваючы, Ужыўшы, Улічваючы, гледзячы, кажучы, падаючы, прымаючы, прысвойваючы -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">656</feat><!-- будзе, было, можа, будуць, перадаваў, былі, паведамілі, мае, была, з'яўляецца -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">156</feat><!-- размаўляць, быць, вярнуцца, працаваць, разумець, вызваліць, выйсці, выратаваць, дазволіць, займацца -->
+    <feat name="VerbForm" value="Part" upos="VERB">73</feat><!-- прыведзены, налічаная, намаляваны, Арыштаваныя, Здзейснена, Пашкоджаны, абноўлены, абсталяваных, абумоўленую, адведзеных -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">689</feat><!-- будзе, было, можа, будуць, перадаваў, былі, паведамілі, мае, была, маюць -->
+    <feat name="Voice" value="Mid" upos="VERB">140</feat><!-- з'яўляецца, вярнуцца, з'яўляюцца, гаворыцца, знаходзіцца, атрымалася, займацца, застаецца, здаецца, знаходзіліся -->
+    <feat name="Voice" value="Pass" upos="VERB">72</feat><!-- прыведзены, налічаная, намаляваны, Арыштаваныя, Здзейснена, Пашкоджаны, абноўлены, абсталяваных, абумоўленую, адведзеных -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="34">
-    <dep name="acl">43</dep>
-    <dep name="acl:relcl">44</dep>
-    <dep name="advcl">55</dep>
-    <dep name="advmod">286</dep>
-    <dep name="amod">628</dep>
-    <dep name="appos">16</dep>
-    <dep name="aux">24</dep>
-    <dep name="aux:pass">11</dep>
-    <dep name="case">720</dep>
-    <dep name="cc">188</dep>
-    <dep name="ccomp">88</dep>
+  <deps unique="38">
+    <dep name="acl">50</dep>
+    <dep name="acl:relcl">56</dep>
+    <dep name="advcl">61</dep>
+    <dep name="advmod">320</dep>
+    <dep name="advmod:discourse">29</dep>
+    <dep name="amod">766</dep>
+    <dep name="appos">43</dep>
+    <dep name="aux">32</dep>
+    <dep name="aux:pass">15</dep>
+    <dep name="case">840</dep>
+    <dep name="cc">221</dep>
+    <dep name="ccomp">93</dep>
     <dep name="compound">20</dep>
-    <dep name="conj">305</dep>
-    <dep name="cop">18</dep>
-    <dep name="csubj">2</dep>
-    <dep name="det">104</dep>
+    <dep name="conj">360</dep>
+    <dep name="cop">23</dep>
+    <dep name="csubj">7</dep>
+    <dep name="det">127</dep>
     <dep name="discourse">3</dep>
-    <dep name="fixed">92</dep>
+    <dep name="fixed">100</dep>
     <dep name="flat">185</dep>
+    <dep name="flat:name">14</dep>
     <dep name="goeswith">1</dep>
-    <dep name="iobj">27</dep>
-    <dep name="mark">118</dep>
-    <dep name="nmod">838</dep>
-    <dep name="nsubj">494</dep>
-    <dep name="nummod">40</dep>
-    <dep name="nummod:gov">57</dep>
-    <dep name="obj">305</dep>
-    <dep name="obl">474</dep>
+    <dep name="iobj">30</dep>
+    <dep name="list">2</dep>
+    <dep name="mark">128</dep>
+    <dep name="nmod">961</dep>
+    <dep name="nsubj">575</dep>
+    <dep name="nsubj:pass">4</dep>
+    <dep name="nummod">45</dep>
+    <dep name="nummod:gov">69</dep>
+    <dep name="obj">352</dep>
+    <dep name="obl">563</dep>
     <dep name="obl:agent">5</dep>
     <dep name="orphan">14</dep>
-    <dep name="parataxis">87</dep>
-    <dep name="punct">1151</dep>
-    <dep name="root">333</dep>
-    <dep name="xcomp">88</dep>
+    <dep name="parataxis">116</dep>
+    <dep name="punct">1374</dep>
+    <dep name="root">393</dep>
+    <dep name="xcomp">109</dep>
   </deps>
 </treebank>
