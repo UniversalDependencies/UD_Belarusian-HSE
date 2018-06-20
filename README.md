@@ -1,19 +1,11 @@
-Belarusian UD treebank
+# Summary
 
-=== Machine-readable metadata =================================================
-Documentation status: stub
-Data source: manual
-Data available since: UD v2.0
-License: CC BY-SA 4.0
-Genre: news
-Contributors: Lyashevskaya, Olga
-Contact: olesar@yandex.ru
-===============================================================================
-
-The treebank is based on a sample of the news texts included in the Belarusian-Russian parallel subcorpus of the Russian National Corpus,
+The Belarusian UD treebank is based on a sample of the news texts included in the Belarusian-Russian parallel subcorpus of the Russian National Corpus,
 online search available at: http://ruscorpora.ru/search-para-be.html.
 
-TOKENIZATION
+
+
+# Tokenization
 
 The low-level tokenization of the Belarusian UD treebank generally adopts the RNC standard.
 
@@ -36,17 +28,23 @@ Some special cases worth mentioning:
 
 The Belarusian UD treebank does not contain multiword tokens.
 
-MORPHOLOGY
+
+
+# Morphology
 
 The morphological annotation is adopted from the Russian-Syntagrus UD guidelines and mostly compliant with the RNC morphological standard (exept for "second" cases, comp2, imper2, which were converted to the "primary" tags, and transitivity tags, which were removed).
 Lemmas and features were annotated manually.
 
-SYNTAX
+
+
+# Syntax
 
 The data were labeled semi-automatically using the annotation projection from Russian. For that purpose, Russian data were annotated using UDpipe, converted into UD 2.0, and then checked manually.
 Belarusian dependency relation tags were checked manually.
 
-TEXTS
+
+
+# Texts
 
 The source texts are the following:
 1) short news articles originally written in Belarusian (and/)or Russian and published by telegraf.by online agency.
@@ -56,15 +54,39 @@ Document list:
 http://zviazda.by/be/news/20170524/1495626198-samaya-prygozhaya-studentka-vuchycca-u-vicebsku
 http://zviazda.by/be/news/20160908/1473288543-buduchynya-za-dakladnym-zemlyarobstvam
 
-Acknowledgments:
+
+
+# Acknowledgments
 
 We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail.com) for providing a part of source texts.
 
 
+
 # Changelog
 
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Belarusian to UD_Belarusian-HSE.
 * 2017-11-15 v2.1
   * Flat / appos fixed.
   * New texts added.
 * 2017-03-01 v2.0
   * Initial UD release.
+
+
+
+<pre>
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: UD v2.0
+License: CC BY-SA 4.0
+Includes text: yes
+Genre: news
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
+Contributors: Lyashevskaya, Olga
+Contributing: elsewhere
+Contact: olesar@yandex.ru
+===============================================================================
+</pre>
