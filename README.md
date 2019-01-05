@@ -58,12 +58,17 @@ http://zviazda.by/be/news/20160908/1473288543-buduchynya-za-dakladnym-zemlyarobs
 
 # Acknowledgments
 
-We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail.com) for providing a part of source texts.
+We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail.com) for providing a part of source texts, Anna Sherbakova (aniezka.sherbakova@gmail.com) for checking the pos and feature labels in two texts.
 
 
 
 # Changelog
 
+* 2019-01-05 v2.4
+  * Constructions with parataxis, appos, ccomp, xcomp, ccomp, advcl, acl fixed.
+  * UPOS, FEAT fixed.
+  * Lemmas of PROPN uppercased.
+  * New texts (genre: legal) added.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Belarusian to UD_Belarusian-HSE.
 * 2017-11-15 v2.1
@@ -79,7 +84,7 @@ We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail
 Data available since: UD v2.0
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: news
+Genre: legal news
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
