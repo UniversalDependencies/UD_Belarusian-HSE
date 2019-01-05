@@ -65,8 +65,8 @@ We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail
 # Changelog
 
 * 2019-01-05 v2.4
-  * Constructions with parataxis, appos, ccomp, xcomp, ccomp, advcl, acl fixed.
-  * UPOS, FEAT fixed.
+  * Constructions with parataxis, appos, ccomp, xcomp, ccomp, advcl, acl, nmod, passive and depictive constructions manually fixed.
+  * UPOS, FEAT manually fixed.
   * Lemmas of PROPN uppercased.
   * New texts (genre: legal) added.
 * 2018-04-15 v2.2
