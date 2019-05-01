@@ -1678,7 +1678,7 @@
 30	аб	аб	ADP	IN	_	31	case	_	_
 31	захаванні	захаванне	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	29	nmod	_	_
 32	Канвенцыі	канвенцыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
-33	Эспа	эспа	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	appos	_	SpaceAfter=No
+33	Эспа	Эспа	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	appos	_	SpaceAfter=No
 34	,	,	PUNCT	PUNCT	_	36	punct	_	_
 35	двухбаковага	двухбаковы	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	36	amod	_	_
 36	пагаднення	пагадненне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	conj	_	_

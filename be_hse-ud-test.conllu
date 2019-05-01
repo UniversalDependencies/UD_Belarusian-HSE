@@ -1361,7 +1361,7 @@
 # sent_id = telegraf-2011032309-19-324-be
 # text = Ваэль Аль-Халкі таксама падзякаваў беларусаў і ўрад краіны "за падтрымку Сірыі ў цяжкі момант".
 # genre = news
-1	Ваэль	ваэль	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+1	Ваэль	Ваэль	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	Аль-Халкі	Аль-Халкі	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_
 3	таксама	таксама	ADV	RB	Degree=Pos	4	advmod	_	_
 4	падзякаваў	падзякаваць	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_

@@ -68,7 +68,7 @@ We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail
   * Constructions with parataxis, appos, ccomp, xcomp, ccomp, advcl, acl, nmod, passive and depictive constructions manually fixed.
   * UPOS, FEAT manually fixed.
   * Lemmas of PROPN uppercased.
-  * New texts (genre: legal) added.
+  * New texts (genre: legal nonfiction fiction) added.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Belarusian to UD_Belarusian-HSE.
 * 2017-11-15 v2.1
@@ -84,13 +84,13 @@ We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail
 Data available since: UD v2.0
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: legal news
+Genre: fiction legal news nonfiction
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Lyashevskaya, Olga
+Contributors: Lyashevskaya, Olga; Peljak-Łapińska, Angelika; Petrova, Daria
 Contributing: elsewhere
 Contact: olesar@yandex.ru
 ===============================================================================
