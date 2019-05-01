@@ -1802,7 +1802,7 @@
 2	падсобная	падсобны	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	гаспадарка	гаспадарка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 4	грамадзян	грамадзянiн	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
-5	—	—	PUNCT	PUNCT	_	3	punct	_	_
+5	—	—	PUNCT	PUNCT	_	6	punct	_	_
 6	форма	форма	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 7	гаспадарча-працоўнай	гаспадарча-працоўны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	дзейнасцi	дзейнасць	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
@@ -1829,7 +1829,7 @@
 29	спадчынным	спадчынны	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
 30	валоданнi	валоданне	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	conj	_	SpaceAfter=No
 31	,	,	PUNCT	PUNCT	_	32	punct	_	_
-32	перададзеных	перадаць	VERB	VBNL	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	acl	_	_
+32	перададзеных	перадаць	VERB	VBNL	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	_
 33	iм	яны	PRON	RB	Case=Dat|Number=Plur|Person=3	32	iobj	_	_
 34	у	у	ADP	IN	_	35	case	_	_
 35	арэнду	арэнда	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obl	_	_
@@ -1846,7 +1846,7 @@
 1	У	у	ADP	IN	_	4	case	_	_
 2	асабiстай	асабiсты	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 3	падсобнай	падсобны	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
-4	гаспадарцы	гаспадарка	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+4	гаспадарцы	гаспадарка	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
 5	грамадзян	грамадзянiн	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
 6	на	на	ADP	IN	_	7	case	_	_
 7	праве	права	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
@@ -1903,7 +1903,7 @@
 10	кнiгу	кнiга	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 11	сельскага	сельскi	ADJ	NNP	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 12	(	(	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
-13	пасялковага	пасялковы	ADJ	DT	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	parataxis	_	SpaceAfter=No
+13	пасялковага	пасялковы	ADJ	DT	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
 14	)	)	PUNCT	PUNCT	_	13	punct	_	_
 15	выканаўчага	выканаўчы	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 16	і	і	CCONJ	CC	_	17	cc	_	_
@@ -1941,7 +1941,7 @@
 18	дзяржаўнага	дзяржаўны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
 19	кiравання	кiраванне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
 20	па	па	ADP	IN	_	21	case	_	_
-21	пытаннях	пытанне	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	19	nmod	_	_
+21	пытаннях	пытанне	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	17	nmod	_	_
 22	статыстыкi	статыстыка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
 23	і	і	CCONJ	CC	_	24	cc	_	_
 24	аналiзу	аналiз	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	conj	_	_
@@ -1955,7 +1955,7 @@
 32	орган	орган	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obl	_	_
 33	сельскiмi	сельскi	ADJ	NN	Case=Ins|Degree=Pos|Number=Plur	40	amod	_	_
 34	(	(	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
-35	пасялковымi	пасялковы	ADJ	NN	Case=Ins|Degree=Pos|Number=Plur	33	parataxis	_	SpaceAfter=No
+35	пасялковымi	пасялковы	ADJ	NN	Case=Ins|Degree=Pos|Number=Plur	33	appos	_	SpaceAfter=No
 36	)	)	PUNCT	PUNCT	_	35	punct	_	_
 37	выканаўчымi	выканаўчы	ADJ	NN	Case=Ins|Degree=Pos|Number=Plur	40	amod	_	_
 38	і	і	CCONJ	CC	_	39	cc	_	_
@@ -2020,7 +2020,7 @@
 14	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = rnc-para-zakony-50-be-17
-# text = Дзейнасць грамадзян, якiя ажыццяўляюць вядзенне асабiстых падсобных гаспадарак, па вытворчасцi, перапрацоўцы і рэалiзацыi вырабленай яны сельскагаспадарчай прадукцыi не адносiцца да прадпрымальнiцкай дзейнасцi.
+# text = Дзейнасць грамадзян, якiя ажыццяўляюць вядзенне асабiстых падсобных гаспадарак, па вытворчасцi, перапрацоўцы і рэалiзацыi вырабленай імі сельскагаспадарчай прадукцыi не адносiцца да прадпрымальнiцкай дзейнасцi.
 # genre = legal
 1	Дзейнасць	дзейнасць	NOUN	VBC	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
 2	грамадзян	грамадзянiн	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
@@ -2039,7 +2039,7 @@
 15	і	і	CCONJ	CC	_	16	cc	_	_
 16	рэалiзацыi	рэалiзацыя	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	conj	_	_
 17	вырабленай	вырабiць	VERB	JJL	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	_
-18	яны	яны	PRON	NN	Case=Ins|Number=Plur|Person=3	17	obl:agent	_	_
+18	імі	яны	PRON	NN	Case=Ins|Number=Plur|Person=3	17	obl:agent	_	_
 19	сельскагаспадарчай	сельскагаспадарчы	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
 20	прадукцыi	прадукцыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 21	не	не	PART	UH	_	22	advmod	_	_
@@ -2154,7 +2154,7 @@
 22	Рэспублiкi	рэспублiка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
 23	Беларусь	Беларусь	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	appos	_	_
 24	у	у	ADP	IN	_	25	case	_	_
-25	парадку	парадак	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+25	парадку	парадак	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
 26	і	і	CCONJ	CC	_	28	cc	_	_
 27	на	на	ADP	IN	_	28	case	_	_
 28	ўмовах	умова	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	25	conj	_	SpaceAfter=No
@@ -2271,7 +2271,7 @@
 4	,	,	PUNCT	PUNCT	_	7	punct	_	_
 5	якiя	якi	PRON	NNP	Case=Nom|Number=Plur	7	nsubj	_	_
 6	не	не	PART	UH	_	7	advmod	_	_
-7	супярэчаць	супярэчыць	VERB	IN	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+7	супярэчаць	супярэчыць	VERB	IN	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 8	заканадаўству	заканадаўства	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obj	_	_
 9	Рэспублiкi	рэспублiка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
 10	Беларусь	Беларусь	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No
@@ -2540,9 +2540,9 @@
 19	Беларусь	Беларусь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	appos	_	SpaceAfter=No
 20	;	;	PUNCT	_	_	25	punct	_	_
 21	абласное	абласны	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
-22	і	і	CCONJ	_	_	23	cc	_	_
-23	Мiнскае	мiнскi	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	conj	_	_
-24	гарадское	гарадскi	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+22	і	і	CCONJ	_	_	24	cc	_	_
+23	Мiнскае	мiнскi	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	гарадское	гарадскi	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	conj	_	_
 25	ўпраўленнi	упраўленне	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	conj	_	_
 26	па	па	ADP	_	_	28	case	_	_
 27	надзвычайных	надзвычайны	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	28	amod	_	_
@@ -2839,7 +2839,7 @@
 44	падраздзяленнямi	падраздзяленне	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	43	xcomp	_	_
 45	па	па	ADP	_	_	47	case	_	_
 46	надзвычайных	надзвычайны	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	47	amod	_	_
-47	сiтуацыях	сiтуацыя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	44	obl	_	_
+47	сiтуацыях	сiтуацыя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	44	nmod	_	_
 48	і	і	CCONJ	_	_	51	cc	_	_
 49	дзейнасць	дзейнасць	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	51	nsubj:pass	_	_
 50	якiх	якi	PRON	_	Case=Gen|Number=Plur	49	nmod	_	_
@@ -2859,7 +2859,7 @@
 64	iншыя	iншы	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	65	amod	_	_
 65	падраздзяленнi	падраздзяленне	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	13	conj	_	SpaceAfter=No
 66	,	,	PUNCT	_	_	67	punct	_	_
-67	створаныя	стварыць	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	65	advcl	_	_
+67	створаныя	стварыць	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	65	acl	_	_
 68	ва	ва	ADP	_	_	73	case	_	_
 69	ўстаноўленым	устанавіць	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	73	acl	_	_
 70	заканадаўствам	заканадаўства	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	69	obl:agent	_	_
@@ -2895,15 +2895,15 @@
 1	Заканадаўства	заканадаўства	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 2	Рэспублiкi	рэспублiка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 3	Беларусь	Беларусь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
-4	у	у	ADP	_	_	5	case	_	_
-5	галiне	галiна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
-6	дзейнасцi	дзейнасць	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+4	у	у	ADP	_	_	6	case	_	_
+5	галiне	галiна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	fixed	_	_
+6	дзейнасцi	дзейнасць	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 7	органаў	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
 8	і	і	CCONJ	_	_	9	cc	_	_
 9	падраздзяленняў	падраздзяленне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	conj	_	_
 10	па	па	ADP	_	_	12	case	_	_
 11	надзвычайных	надзвычайны	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
-12	сiтуацыях	сiтуацыя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	nmod	_	_
+12	сiтуацыях	сiтуацыя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	nmod	_	_
 
 # newpar
 # sent_id = rnc-para-zakony-76-be-51
@@ -2914,7 +2914,7 @@
 3	Беларусь	Беларусь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
 4	у	у	ADP	_	_	6	case	_	_
 5	галiне	галiна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	fixed	_	_
-6	дзейнасцi	дзейнасць	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+6	дзейнасцi	дзейнасць	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 7	органаў	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
 8	і	і	CCONJ	_	_	9	cc	_	_
 9	падраздзяленняў	падраздзяленне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	conj	_	_
@@ -3212,7 +3212,7 @@
 22	пры	пры	ADP	_	_	24	case	_	_
 23	iх	iх	DET	_	_	24	det	_	_
 24	адсутнасцi	адсутнасць	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	orphan	_	_
-25	—	—	PUNCT	_	_	24	punct	_	_
+25	—	—	PUNCT	_	_	28	punct	_	_
 26	на	на	ADP	_	_	28	case	_	_
 27	падставе	падстава	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	fixed	_	_
 28	прынцыпу	прынцып	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	conj	_	_
@@ -3303,7 +3303,7 @@
 26	радыяцыйнай	радыяцыйны	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	conj	_	_
 27	бяспекi	бяспека	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
 28	;	;	PUNCT	_	_	29	punct	_	_
-29	падрыхтоўка	падрыхтоўка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+29	падрыхтоўка	падрыхтоўка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	conj	_	_
 30	да	да	ADP	_	_	31	case	_	_
 31	абароны	абарона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
 32	і	і	CCONJ	_	_	33	cc	_	_
@@ -3517,7 +3517,7 @@
 4	населеных	населены	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
 5	пунктаў	пункт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
 6	для	для	ADP	_	_	7	case	_	_
-7	перадачы	перадача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+7	перадачы	перадача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
 8	паведамленняў	паведамленне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
 9	аб	аб	ADP	_	_	11	case	_	_
 10	надзвычайных	надзвычайны	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
@@ -3871,7 +3871,7 @@
 3	па	па	ADP	_	_	5	case	_	_
 4	надзвычайных	надзвычайны	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
 5	сiтуацыях	сiтуацыя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_
-6	Рэспублiкi	рэспублiка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+6	Рэспублiкi	рэспублiка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 7	Беларусь	Беларусь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_
 
 # newpar
@@ -3908,7 +3908,7 @@
 28	арганiзацый	арганiзацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	conj	_	_
 29	у	у	ADP	_	_	31	case	_	_
 30	галiне	галiна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	fixed	_	_
-31	папярэджання	папярэджанне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
+31	папярэджання	папярэджанне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
 32	і	і	CCONJ	_	_	33	cc	_	_
 33	лiквiдацыi	лiквiдацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	conj	_	_
 34	надзвычайных	надзвычайны	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	35	amod	_	_
@@ -4240,7 +4240,7 @@
 # sent_id = rnc-para-zakony-76-be-107
 # text = праводзiць расследаванне аварый, катастроф, бедстваў, якiя прывялi да ўзнiкнення надзвычайных сiтуацый;
 # genre = legal
-1	праводзiць	праводзiць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+1	праводзiць	праводзiць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	расследаванне	расследаванне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
 3	аварый	аварыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
@@ -4259,7 +4259,7 @@
 # sent_id = rnc-para-zakony-76-be-108
 # text = уносiць у рэспублiканскiя органы дзяржаўнага кiравання, мясцовыя выканаўчыя і распарадчыя органы і iншыя арганiзацыi прапановы па папярэджанню і (або) лiквiдацыi надзвычайных сiтуацый і ажыццяўляе кантроль за выкананнем прынятых па iх рашэннях;
 # genre = legal
-1	уносiць	уносiць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+1	уносiць	уносiць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	у	у	ADP	_	_	4	case	_	_
 3	рэспублiканскiя	рэспублiканскi	ADJ	_	Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
 4	органы	орган	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obl	_	_
@@ -4277,7 +4277,7 @@
 16	прапановы	прапанова	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
 17	па	па	ADP	_	_	18	case	_	_
 18	папярэджанню	папярэджанне	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	_
-19	і	і	CCONJ	_	_	23	amod	_	_
+19	і	і	CCONJ	_	_	23	cc	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	або	або	CCONJ	_	_	19	conj	_	SpaceAfter=No
 22	)	)	PUNCT	_	_	21	punct	_	_
@@ -4344,7 +4344,7 @@
 # sent_id = rnc-para-zakony-76-be-111
 # text = праводзiць у выпадках, прадугледжаных заканадаўствам Рэспублiкi Беларусь, праверку ведаў грамадзянамi асноўных спосабаў абароны насельнiцтва і тэрыторый ад надзвычайных сiтуацый, пытанняў забеспячэння пажарнай, прамысловай і радыяцыйнай бяспекi, а таксама правiлаў карыстання калектыўнымi і iндывiдуальнымi сродкамi абароны;
 # genre = legal
-1	праводзiць	праводзiць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+1	праводзiць	праводзiць	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	у	у	ADP	_	_	3	case	_	_
 3	выпадках	выпадак	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
@@ -4379,7 +4379,7 @@
 33	таксама	таксама	ADV	_	Degree=Pos	32	fixed	_	_
 34	правiлаў	правiла	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	conj	_	_
 35	карыстання	карыстанне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	_
-36	калектыўнымi	калектыўны	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	39	obl	_	_
+36	калектыўнымi	калектыўны	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	39	amod	_	_
 37	і	і	CCONJ	_	_	38	cc	_	_
 38	iндывiдуальнымi	iндывiдуальны	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	36	conj	_	_
 39	сродкамi	сродак	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	35	nmod	_	_
@@ -4555,7 +4555,7 @@
 17	крымiнальных	крымiнальны	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
 18	справах	справа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	15	nmod	_	_
 19	аб	аб	ADP	_	_	20	case	_	_
-20	пажарах	пажар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	15	nmod	_	_
+20	пажарах	пажар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	nmod	_	_
 21	і	і	CCONJ	_	_	25	cc	_	_
 22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
 23	або	або	CCONJ	_	_	21	conj	_	SpaceAfter=No
@@ -4688,7 +4688,7 @@
 27	прамысловай	прамысловы	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	conj	_	_
 28	і	і	CCONJ	_	_	29	cc	_	_
 29	радыяцыйнай	радыяцыйны	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	conj	_	_
-30	бяспекi	бяспека	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+30	бяспекi	бяспека	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	34	punct	_	_
 32	а	а	CCONJ	_	_	34	cc	_	_
 33	таксама	таксама	ADV	_	Degree=Pos	32	fixed	_	_
@@ -4815,7 +4815,7 @@
 67	і	і	CCONJ	_	_	68	cc	_	_
 68	падрыхтоўкай	падрыхтоўка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	64	conj	_	_
 69	спецыялiстаў	спецыялiст	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	68	nmod	_	_
-70	для	для	ADP	_	_	71	case	_	_
+70	для	для	ADP	_	_	72	case	_	_
 71	iх	iх	DET	_	_	72	det	_	_
 72	лiквiдацыi	лiквiдацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	68	nmod	_	SpaceAfter=No
 73	,	,	PUNCT	_	_	62	punct	_	_
@@ -4941,7 +4941,7 @@
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	вучэбных	вучэбны	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	навуковых	навуковы	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+19	навуковых	навуковы	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	conj	_	_
 20	і	і	CCONJ	_	_	21	cc	_	_
 21	iншых	iншы	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	conj	_	_
 22	арганiзацый	арганiзацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
@@ -4971,7 +4971,7 @@
 46	iншых	iншы	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	47	amod	_	_
 47	падраздзяленняў	падраздзяленне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	conj	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	49	punct	_	_
-49	створаных	стварыць	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	47	conj	_	_
+49	створаных	стварыць	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	47	acl	_	_
 50	ва	ва	ADP	_	_	55	case	_	_
 51	ўстаноўленым	устанавіць	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	55	acl	_	_
 52	заканадаўствам	заканадаўства	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	51	obl:agent	_	_
@@ -4979,7 +4979,7 @@
 54	Беларусь	Беларусь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	53	appos	_	_
 55	парадку	парадак	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	49	obl	_	_
 56	для	для	ADP	_	_	57	case	_	_
-57	выканання	выкананне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	49	nmod	_	_
+57	выканання	выкананне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	49	obl	_	_
 58	задач	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	57	nmod	_	SpaceAfter=No
 59	,	,	PUNCT	_	_	60	punct	_	_
 60	ускладзеных	ускласцi	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	58	acl	_	_
@@ -4990,7 +4990,7 @@
 65	па	па	ADP	_	_	67	case	_	_
 66	надзвычайных	надзвычайны	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	67	amod	_	_
 67	сiтуацыях	сiтуацыя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	62	nmod	_	SpaceAfter=No
-68	,	,	PUNCT	_	_	49	punct	_	_
+68	,	,	PUNCT	_	_	60	punct	_	_
 69	вызначаецца	вызначацца	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 70	заканадаўствам	заканадаўства	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	69	obl:agent	_	_
 71	Рэспублiкi	рэспублiка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	70	nmod	_	_
@@ -5261,7 +5261,7 @@
 18	дзеяннямi	дзеянне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	iobj	_	_
 19	ў	у	ADP	_	_	21	case	_	_
 20	ходзе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	fixed	_	_
-21	лiквiдацыi	лiквiдацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	лiквiдацыi	лiквiдацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
 22	надзвычайнай	надзвычайны	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
 23	сiтуацыi	сiтуацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
 24	і	і	CCONJ	_	_	28	cc	_	_
@@ -5293,18 +5293,18 @@
 16	нанесеную	нанесці	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	acl	_	_
 17	ў	у	ADP	_	_	20	case	_	_
 18	вынiку	вынiк	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	fixed	_	_
-19	абгрунтаваных	абгрунтаваць	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	_
+19	абгрунтаваных	абгрунтаваць	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
 20	дзеянняў	дзеянне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	obl	_	_
 21	у	у	ADP	_	_	23	case	_	_
 22	ходзе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	fixed	_	_
-23	лiквiдацыi	лiквiдацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+23	лiквiдацыi	лiквiдацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
 24	надзвычайнай	надзвычайны	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
 25	сiтуацыi	сiтуацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
 26	i	i	CCONJ	_	_	30	cc	_	_
 27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
 28	або	або	CCONJ	_	_	26	conj	_	SpaceAfter=No
 29	)	)	PUNCT	_	_	28	punct	_	_
-30	пажару	пажар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+30	пажару	пажар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	_
 32	за	за	ADP	_	_	33	case	_	_
 33	незахаванне	незахаванне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	conj	_	_
@@ -5374,7 +5374,7 @@
 # text = Служба ў органах і падраздзяленнях па надзвычайных сітуацыях
 # genre = legal
 1	Служба	служба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-2	ў	у	ADP	_	_	5	case	_	_
+2	ў	у	ADP	_	_	3	case	_	_
 3	органах	орган	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	nmod	_	_
 4	і	і	CCONJ	_	_	5	cc	_	_
 5	падраздзяленнях	падраздзяленне	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	3	conj	_	_
@@ -5496,7 +5496,7 @@
 11	арганiзацый	арганiзацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
 12	ад	ад	ADP	_	_	14	case	_	_
 13	надзвычайных	надзвычайны	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
-14	сiтуацый	сiтуацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	_
+14	сiтуацый	сiтуацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
 15	можа	магчы	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 16	ствараць	ствараць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
 17	за	за	ADP	_	_	19	case	_	_
@@ -5504,12 +5504,12 @@
 19	сродкаў	сродак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	што	што	PRON	_	Case=Nom	22	nsubj	_	_
-22	паступаюць	паступаць	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	_
+22	паступаюць	паступаць	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
 23	па	па	ADP	_	_	24	case	_	_
 24	дагаворах	дагавор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	якiя	якi	PRON	_	Case=Nom|Number=Plur	27	nsubj	_	_
-27	заключаюцца	заключацца	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	24	obl:agent	_	_
+27	заключаюцца	заключацца	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	24	acl:relcl	_	_
 28	органамi	орган	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	27	obl:agent	_	_
 29	і	і	CCONJ	_	_	30	cc	_	_
 30	падраздзяленнямi	падраздзяленне	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	28	conj	_	_
@@ -5972,7 +5972,7 @@
 14	сiтуацыi	сiтуацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 15	і	і	CCONJ	_	_	17	cc	_	_
 16	яе	яе	DET	_	_	17	det	_	_
-17	вынiкаў	вынiк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+17	вынiкаў	вынiк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
 18	;	;	PUNCT	_	_	1	punct	_	_
 
 # sent_id = rnc-para-zakony-76-be-169
@@ -6051,7 +6051,7 @@
 15	абавязкаў	абавязак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
 16	у	у	ADP	_	_	18	case	_	_
 17	межах	межа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	16	fixed	_	_
-18	паўнамоцтваў	паўнамоцтва	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+18	паўнамоцтваў	паўнамоцтва	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	25	obl	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	устаноўленых	устанавіць	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	acl	_	_
 21	заканадаўствам	заканадаўства	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	obl:agent	_	_
@@ -6117,7 +6117,7 @@
 1	Доступ	доступ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
 2	на	на	ADP	_	_	3	case	_	_
 3	тэрыторыi	тэрыторыя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	nmod	_	_
-4	і	і	PART	_	_	6	advmod	_	_
+4	і	і	CCONJ	_	_	6	cc	_	_
 5	ў	у	ADP	_	_	6	case	_	_
 6	памяшканнi	памяшканне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	conj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
@@ -6216,7 +6216,7 @@
 2	iншыя	iншы	ADJ	_	Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
 3	правы	права	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	1	obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	прадугледжаныя	прадугледзець	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	_
+5	прадугледжаныя	прадугледзець	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
 6	заканадаўствам	заканадаўства	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl:agent	_	_
 7	Рэспублiкi	рэспублiка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
 8	Беларусь	Беларусь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
@@ -6311,7 +6311,7 @@
 62	сiтуацыi	сiтуацыя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	60	nmod	_	SpaceAfter=No
 63	;	;	PUNCT	_	_	64	punct	_	_
 64	захоўваць	захоўваць	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	conj	_	_
-65	дзяржаўную	дзяржаўны	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	74	obj	_	SpaceAfter=No
+65	дзяржаўную	дзяржаўны	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	74	amod	_	SpaceAfter=No
 66	,	,	PUNCT	_	_	67	punct	_	_
 67	службовую	службовы	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	65	conj	_	SpaceAfter=No
 68	,	,	PUNCT	_	_	72	punct	_	_
@@ -6356,7 +6356,7 @@
 107	па	па	ADP	_	_	109	case	_	_
 108	надзвычайных	надзвычайны	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	109	amod	_	_
 109	сiтуацыях	сiтуацыя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	106	nmod	_	_
-110	Рэспублiкi	рэспублiка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	105	nmod	_	_
+110	Рэспублiкi	рэспублiка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	106	nmod	_	_
 111	Беларусь	Беларусь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	110	appos	_	SpaceAfter=No
 112	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -6399,7 +6399,7 @@
 10	дзяржаўнаму	дзяржаўны	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
 11	страхаванню	страхаванне	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	obj	_	_
 12	на	на	ADP	_	_	13	case	_	_
-13	выпадак	выпадак	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	_
+13	выпадак	выпадак	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	nmod	_	_
 14	гiбелi	гiбель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	смерцi	смерць	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No
