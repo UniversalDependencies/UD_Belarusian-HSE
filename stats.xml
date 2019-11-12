@@ -24,10 +24,10 @@
     <tag name="NOUN">3977</tag><!-- сiтуацыя, орган, рэспублiка, падраздзяленне, заканадаўства, год, лiквiдацыя, абарона, сакавік, грамадзянiн -->
     <tag name="NUM">200</tag><!-- два, адзін, 1, 10, 2, 2011, 29, 3, 5, 500 -->
     <tag name="PART">160</tag><!-- не, толькі, і, ж, таксама, менавіта, нават, гэта, вось, жа -->
-    <tag name="PRON">404</tag><!-- які, гэта, я, яны, тое, якi, ён, мы, што, вы -->
+    <tag name="PRON">405</tag><!-- які, гэта, я, яны, тое, якi, ён, мы, што, вы -->
     <tag name="PROPN">718</tag><!-- Беларусь, ЕС, Тэлеграф, Еўрасаюз, Нацбанк, Мінск, Літва, Сірыя, Уладзіслав, АЭС -->
     <tag name="PUNCT">2075</tag><!-- ,, ., ", ;, –, (, ), —, -, : -->
-    <tag name="SCONJ">144</tag><!-- што, як, калі, каб, чым, то, бо, хоць, нават, прычым -->
+    <tag name="SCONJ">143</tag><!-- што, як, калі, каб, чым, то, бо, хоць, нават, прычым -->
     <tag name="SYM">28</tag><!-- %, °с, &amp;, +, -, вiдэа-, № -->
     <tag name="VERB">1218</tag><!-- ажыццяўляць, магчы, мець, устанавіць, перадаваць, паведаміць, з'яўляцца, знаходзіцца, з’яўляцца, гаварыць -->
     <tag name="X">36</tag><!-- aju, daeryook, firm, internatonal, law, telegraf.by, litesound, afp, are, daily -->
@@ -41,9 +41,9 @@
     <feat name="Aspect" value="Perf" upos="AUX,NOUN,VERB">578</feat><!-- будзе, будуць, паведамілі, устаноўленым, ўстаноўленым, адзначыў, заявіў, прадугледжаных, склала, вярнуцца -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1020</feat><!-- гэта, сваю, выкананне, дзейнасць, органы, час, тое, Беларусь, iншыя, гэты -->
     <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">155</feat><!-- мне, iм, папярэджанню, яму, вобласці, лiквiдацыi, Гродзенскай, Тэлеграфу, абнаўленню, ажыццяўленні -->
-    <feat name="Case" value="Gen" upos="ADJ,CCONJ,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">2773</feat><!-- Рэспублiкi, органаў, Беларусі, надзвычайных, сiтуацый, падраздзяленняў, сакавіка, абароны, года, дзяржаўнага -->
+    <feat name="Case" value="Gen" upos="ADJ,CCONJ,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">2775</feat><!-- Рэспублiкi, органаў, Беларусі, надзвычайных, сiтуацый, падраздзяленняў, сакавіка, абароны, года, дзяржаўнага -->
     <feat name="Case" value="Ins" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">561</feat><!-- заканадаўствам, органамi, грамадзянамi, iншымi, арганiзацыямi, Беларуссю, выканаўчымi, гэтым, падраздзяленнямi, распарадчымi -->
-    <feat name="Case" value="Loc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1061</feat><!-- надзвычайных, сiтуацыях, галiне, адпаведнасцi, Беларусі, парадку, лiквiдацыi, дачыненні, iх, тым -->
+    <feat name="Case" value="Loc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1059</feat><!-- надзвычайных, сiтуацыях, галiне, адпаведнасцi, Беларусі, парадку, лiквiдацыi, дачыненні, iх, тым -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1644</feat><!-- Беларусь, я, Артыкул, гэта, якiя, яны, мы, якія, Тэлеграф, органы -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">38</feat><!-- раней, больш, далей, хутчэй, Пазней, лепш, менш, меншы, меншых, нiжэй -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">1986</feat><!-- надзвычайных, таксама, дзяржаўнага, грамадзянскай, радыяцыйнай, пажарнай, прамысловай, iншыя, вельмі, iншых -->
@@ -86,47 +86,46 @@
     <feat name="Voice" value="Pass" upos="VERB">163</feat><!-- устаноўленым, ўстаноўленым, прадугледжаных, звязана, прыведзены, ускладзеных, абавязаны, налічаная, прадугледжаную, створаных -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="41">
-    <dep name="acl">118</dep>
+  <deps unique="40">
+    <dep name="acl">119</dep>
     <dep name="acl:relcl">101</dep>
-    <dep name="advcl">73</dep>
-    <dep name="advmod">408</dep>
+    <dep name="advcl">76</dep>
+    <dep name="advmod">407</dep>
     <dep name="advmod:discourse">31</dep>
-    <dep name="amod">1411</dep>
-    <dep name="appos">207</dep>
-    <dep name="aux">30</dep>
-    <dep name="aux:pass">18</dep>
+    <dep name="amod">1409</dep>
+    <dep name="appos">210</dep>
+    <dep name="aux">29</dep>
+    <dep name="aux:pass">19</dep>
     <dep name="case">1373</dep>
     <dep name="cc">595</dep>
-    <dep name="ccomp">62</dep>
+    <dep name="ccomp">64</dep>
     <dep name="compound">15</dep>
-    <dep name="conj">916</dep>
+    <dep name="conj">913</dep>
     <dep name="cop">28</dep>
-    <dep name="csubj">9</dep>
-    <dep name="det">192</dep>
+    <dep name="csubj">10</dep>
+    <dep name="det">193</dep>
     <dep name="discourse">4</dep>
     <dep name="expl">2</dep>
-    <dep name="fixed">223</dep>
+    <dep name="fixed">224</dep>
     <dep name="flat">7</dep>
     <dep name="flat:foreign">24</dep>
     <dep name="flat:name">86</dep>
-    <dep name="goeswith">1</dep>
     <dep name="iobj">44</dep>
     <dep name="mark">139</dep>
-    <dep name="nmod">1855</dep>
-    <dep name="nsubj">732</dep>
+    <dep name="nmod">1857</dep>
+    <dep name="nsubj">733</dep>
     <dep name="nsubj:pass">29</dep>
-    <dep name="nummod">40</dep>
+    <dep name="nummod">39</dep>
     <dep name="nummod:entity">43</dep>
-    <dep name="nummod:gov">98</dep>
-    <dep name="obj">477</dep>
-    <dep name="obl">813</dep>
+    <dep name="nummod:gov">99</dep>
+    <dep name="obj">478</dep>
+    <dep name="obl">815</dep>
     <dep name="obl:agent">63</dep>
     <dep name="orphan">21</dep>
-    <dep name="parataxis">170</dep>
+    <dep name="parataxis">162</dep>
     <dep name="punct">2075</dep>
     <dep name="root">637</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">154</dep>
+    <dep name="xcomp">151</dep>
   </deps>
 </treebank>
