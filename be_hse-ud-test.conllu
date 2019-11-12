@@ -3,7 +3,7 @@
 # genre = news
 1	Як	як	SCONJ	IN	_	3	mark	_	_
 2	раней	раней	ADV	RBR	Degree=Cmp	3	advmod	_	_
-3	перадаваў	перадаваць	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	parataxis	_	_
+3	перадаваў	перадаваць	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	_	_
 4	Тэлеграф	Тэлеграф	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	3	punct	_	_
 6	будаваць	будаваць	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
@@ -197,7 +197,7 @@
 17	Савет	савет	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
 18	міністраў	міністр	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
 19	замежных	замежны	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
-20	спраў	справа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	obl	_	_
+20	спраў	справа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
 21	краін	краіна	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
 22	ЕС	ЕС	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
 23	23	23	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	nmod	_	_
@@ -546,7 +546,7 @@
 # sent_id = telegraf-2011032306-31-289-be
 # text = І гэта разумеюць ўсё.
 # genre = news
-1	І	і	CCONJ	CC	_	2	cc	_	_
+1	І	і	CCONJ	CC	_	3	cc	_	_
 2	гэта	гэта	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	_
 3	разумеюць	разумець	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	ўсё	усё	PRON	DT	Case=Nom|Number=Plur|PronType=Tot	3	nsubj	_	SpaceAfter=No
@@ -576,7 +576,7 @@
 # sent_id = telegraf-2011032306-31-291-be
 # text = І любы разважны палітык зойме бок Еўрапейскага саюза", -- заяўляе лідар "Гавары праўду!"
 # genre = news
-1	І	і	CCONJ	CC	_	2	cc	_	_
+1	І	і	CCONJ	CC	_	5	cc	_	_
 2	любы	любы	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	4	det	_	_
 3	разважны	разважны	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	палітык	палітык	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -612,7 +612,7 @@
 12	спраў	справа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
 13	краін	краіна	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
 14	Еўрасаюза	Еўрасаюз	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
-15	было	быць	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	_	_
+15	было	быць	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	aux:pass	_	_
 16	прынята	прыняты	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
 17	рашэнне	рашэнне	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
 18	аб	аб	ADP	IN	_	19	case	_	_
@@ -1170,7 +1170,7 @@
 8	здароўя	здароўя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
 9	Сірыі	Сірыя	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
 10	Ваэль	Ваэль	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
-11	Аль-Халкі	Аль-Халкі	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
+11	Аль-Халкі	Аль-Халкі	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_
 13	які	які	PRON	WPA	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	14	nsubj	_	_
 14	знаходзіцца	знаходзіцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	_
@@ -1746,7 +1746,7 @@
 9	(	(	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 10	далей	далей	ADV	RBR	Degree=Cmp	12	advmod	_	_
 11	—	—	PUNCT	PUNCT	_	10	punct	_	_
-12	грамадзяне	грамадзянiн	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	parataxis	_	SpaceAfter=No
+12	грамадзяне	грамадзянiн	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	appos	_	SpaceAfter=No
 13	)	)	PUNCT	PUNCT	_	12	punct	_	_
 14	асабiстых	асабiсты	ADJ	VBNL	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
 15	падсобных	падсобны	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
@@ -2894,7 +2894,7 @@
 # genre = legal
 1	Заканадаўства	заканадаўства	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 2	Рэспублiкi	рэспублiка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
-3	Беларусь	Беларусь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+3	Беларусь	Беларусь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
 4	у	у	ADP	_	_	6	case	_	_
 5	галiне	галiна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	fixed	_	_
 6	дзейнасцi	дзейнасць	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
@@ -3040,7 +3040,7 @@
 20	iншымi	iншы	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	_
 21	арганiзацыямi	арганiзацыя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	10	conj	_	_
 22	і	і	CCONJ	_	_	23	cc	_	_
-23	грамадзянамi	грамадзянiн	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	21	conj	_	_
+23	грамадзянамi	грамадзянiн	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	10	conj	_	_
 
 # newpar
 # sent_id = rnc-para-zakony-76-be-57
@@ -5846,7 +5846,7 @@
 27	iншыя	iншы	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	_
 28	дзеяннi	дзеянне	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	1	conj	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	_
-30	што	што	SCONJ	_	_	31	mark	_	_
+30	што	што	PRON	_	_	31	nsubj	_	_
 31	перашкаджаюць	перашкаджаць	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	acl:relcl	_	_
 32	выкананню	выкананне	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	obj	_	_
 33	ўскладзеных	ускласцi	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	36	acl	_	_
