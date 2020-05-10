@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Belarusian-HSE:
-commit 7f2446e5a6e354069b372e1299e1ef70ed2e9f38
-Merge: 877250d ab449ad
+commit b720681766574a95892171f4bc55b00dc19dd2aa
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 12 16:43:09 2019 +0100
 Size: counted 13325 of 13325 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.17928394010382.
 Size: maximum value 13.815511 is for 1000000 words or more.
