@@ -47,30 +47,37 @@ Belarusian dependency relation tags were checked manually.
 # Texts
 
 The source texts are the following:
-1) short news articles originally written in Belarusian (and/)or Russian and published by telegraf.by online agency.
-Document list: http://search2.ruscorpora.ru/search.xml?env=alpha&text=meta&sort=gr_tagging&lang=ru&doc_g_number_lang=&doc_te_author=&mode=para&doc_te_header=*&author=&doc_g_birthday=&doc_l_birthday=&doc_g_created=&doc_l_created=&doc_te_translator=&doc_lang=bel&doc_lang_trans=rus&doc_g_date_date_trans=&doc_l_date_date_trans=&doc_sphere=%EF%F3%E1%EB%E8%F6%E8%F1%F2%E8%EA%E0
-2) short news articles published by http://zviazda.by/.
-Document list:
-http://zviazda.by/be/news/20170524/1495626198-samaya-prygozhaya-studentka-vuchycca-u-vicebsku
-http://zviazda.by/be/news/20160908/1473288543-buduchynya-za-dakladnym-zemlyarobstvam
-
+1) short news articles originally written in Belarusian (and/)or Russian and published by telegraf.by online agency.  
+Document list:  http://search2.ruscorpora.ru/search.xml?env=alpha&text=meta&sort=gr_tagging&lang=ru&doc_g_number_lang=&doc_te_author=&mode=para&doc_te_header=*&author=&doc_g_birthday=&doc_l_birthday=&doc_g_created=&doc_l_created=&doc_te_translator=&doc_lang=bel&doc_lang_trans=rus&doc_g_date_date_trans=&doc_l_date_date_trans=&doc_sphere=%EF%F3%E1%EB%E8%F6%E8%F1%F2%E8%EA%E0
+2) short news articles published by http://zviazda.by/.  
+Document list:  
+* http://zviazda.by/be/news/20170524/1495626198-samaya-prygozhaya-studentka-vuchycca-u-vicebsku  
+* http://zviazda.by/be/news/20160908/1473288543-buduchynya-za-dakladnym-zemlyarobstvam  
+3) a short excerpt from The Lord of the Rings by J. R. R. Tolkien, translated in Belarusian   
+4) texts from the Telegram channels:  
+* https://t.me/artsiadziba  
+* https://t.me/radiosvaboda  
+* https://t.me/abarona  
+* https://t.me/belarusian_history  
 
 
 # Acknowledgments
 
-We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail.com) for providing a part of source texts, Anna Sherbakova (aniezka.sherbakova@gmail.com) for checking the pos and feature labels in two texts.
+We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail.com) for providing a part of source texts, Anna Sherbakova (aniezka.sherbakova@gmail.com) for checking the pos and feature labels in two texts, Boris Orekhov for helpfull scripts.
 
 
 
 # Changelog
 
+* 2020-11-01 v2.6
+  * New texts added (genre: news, social media).
 * 2019-01-05 v2.4
   * Constructions with parataxis, appos, ccomp, xcomp, ccomp, advcl, acl, nmod, passive and depictive constructions manually fixed.
   * UPOS, FEAT manually fixed.
   * Lemmas of PROPN uppercased.
   * New texts (genre: legal nonfiction fiction) added.
 * 2018-04-15 v2.2
-  * Repository renamed from UD_Belarusian to UD_Belarusian-HSE.
+  * Repository renamed from `UD_Belarusian` to `UD_Belarusian-HSE`.
 * 2017-11-15 v2.1
   * Flat / appos fixed.
   * New texts added.
@@ -84,7 +91,7 @@ We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail
 Data available since: UD v2.0
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: fiction legal news nonfiction
+Genre: fiction legal news nonfiction social
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
