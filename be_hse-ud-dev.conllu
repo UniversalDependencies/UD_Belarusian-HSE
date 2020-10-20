@@ -20,7 +20,7 @@
 16	санкцыі	санкцыя	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
 17	"	"	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	20	punct	_	_
-19	якія	які	PRON	WPA	Case=Nom|Number=Plur|PronType=Rel	20	obj	_	_
+19	якія	які	PRON	WPA	Case=Nom|Number=Plur|PronType=Rel	20	nsubj	_	_
 20	ўвёў	увесці	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
 21	шэраг	шэраг	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
 22	еўрапейскіх	еўрапейскі	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
@@ -57,7 +57,7 @@
 14	і	і	CCONJ	CC	_	15	cc	_	_
 15	палітыцы	палітыка	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	conj	_	_
 16	бяспекі	бяспека	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
-17	Кэтрын	Кэтрын	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	appos	_	_
+17	Кэтрын	Кэтрын	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
 18	Эштан	Эштан	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	17	flat:name	_	_
 19	расказала	расказаць	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 20	пра	пра	ADP	IN	_	21	case	_	_
@@ -78,7 +78,7 @@
 4	,	,	PUNCT	PUNCT	_	3	punct	_	_
 5	у	у	ADP	IN	_	7	case	_	_
 6	гэтым	гэты	DET	DT	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
-7	плане	план	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+7	плане	план	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
 8	на	на	ADP	IN	_	10	case	_	_
 9	нядаўнім	нядаўні	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	саміце	саміт	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
@@ -143,7 +143,7 @@
 16	гэта	гэта	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	17	obj	_	_
 17	рабіць	рабіць	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
 18	і	і	PART	UH	_	19	advmod	_	_
-19	надалей	надалей	ADV	RB	Degree=Pos	15	advmod	_	SpaceAfter=No
+19	надалей	надалей	ADV	RB	Degree=Pos	17	advmod	_	SpaceAfter=No
 20	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	23	punct	_	_
 22	--	--	PUNCT	PUNCT	_	23	punct	_	_
@@ -251,10 +251,10 @@
 34	заявіла	заявіць	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
 35	вярхоўны	вярхоўны	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
 36	прадстаўнік	прадстаўнік	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
-37	ЕС	ЕС	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	obl	_	_
+37	ЕС	ЕС	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
 38	па	па	ADP	IN	_	40	case	_	_
 39	замежных	замежны	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	40	amod	_	_
-40	справах	справа	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	36	obl	_	SpaceAfter=No
+40	справах	справа	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	36	nmod	_	SpaceAfter=No
 41	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = telegraf-2011032104-19-211-be
@@ -5977,11 +5977,6 @@
 7	Курапатах	Курапаты	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = 4841
-# text = УЖЫВУЮ
-# genre = news
-1	УЖЫВУЮ	ужывую	ADV	RB	Degree=Pos	0	root	_	_
-
 # doc_id = 973
 # timestamp = 17.10.2018 14:41:16
 # author = Радыё Свабода — Беларусь
@@ -7147,11 +7142,6 @@
 6	КДБ	КДБ	PROPN	INIT	Abbr=Yes	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-# sent_id = 4920
-# text = УЖЫВУЮ
-# genre = news
-1	УЖЫВУЮ	ужывую	ADV	RB	Degree=Pos	0	root	_	_
-
 # doc_id = 1019
 # timestamp = 29.10.2018 20:29:11
 # author = Радыё Свабода — Беларусь
@@ -7175,11 +7165,6 @@
 2	30-х	30-ы	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
 3	гадоў	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
-
-# sent_id = 4923
-# text = УЖЫВУЮ
-# genre = news
-1	УЖЫВУЮ	ужывую	ADV	RB	Degree=Pos	0	root	_	_
 
 # doc_id = 1020
 # timestamp = 30.10.2018 10:21:01
@@ -14755,11 +14740,6 @@
 10	гімны	гімн	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = 8646
-# text = ФОТА
-# genre = news
-1	ФОТА	фота	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-
 # doc_id = 3125
 # timestamp = 25.03.2020 11:04:21
 # author = Радыё Свабода — Беларусь
@@ -14869,11 +14849,6 @@
 3	са	са	ADP	IN	_	4	case	_	_
 4	Свабодай	Свабода	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	1	punct	_	_
-
-# sent_id = 8655
-# text = УЖЫВУЮ
-# genre = news
-1	УЖЫВУЮ	ужывую	ADV	RB	Degree=Pos	0	root	_	_
 
 # doc_id = 3131
 # timestamp = 25.03.2020 18:59:12
@@ -15106,11 +15081,6 @@
 6	ў	у	ADP	IN	_	7	case	_	_
 7	Беларусі	Беларусь	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	1	punct	_	_
-
-# sent_id = 8669
-# text = УЖЫВУЮ
-# genre = news
-1	УЖЫВУЮ	ужывую	ADV	RB	Degree=Pos	0	root	_	_
 
 # doc_id = 3136
 # timestamp = 27.03.2020 13:18:04
@@ -16347,11 +16317,6 @@
 9	каранавірусам	каранавірус	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = 8741
-# text = УЖЫВУЮ
-# genre = news
-1	УЖЫВУЮ	ужывую	ADV	RB	Degree=Pos	0	root	_	_
-
 # doc_id = 3170
 # timestamp = 31.03.2020 16:17:07
 # author = Радыё Свабода — Беларусь
@@ -16642,11 +16607,6 @@
 3	Новых	новы	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	4	amod	_	_
 4	Доктаравічах	Доктаравіч	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
-
-# sent_id = 8763
-# text = УЖЫВУЮ
-# genre = news
-1	УЖЫВУЮ	ужывую	ADV	RB	Degree=Pos	0	root	_	_
 
 # doc_id = 3182
 # timestamp = 01.04.2020 19:06:48
