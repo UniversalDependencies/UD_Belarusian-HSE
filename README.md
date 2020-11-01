@@ -39,8 +39,8 @@ Lemmas and features were annotated manually.
 
 # Syntax
 
-The data were labeled semi-automatically using the annotation projection from Russian. For that purpose, Russian data were annotated using UDpipe, converted into UD 2.0, and then checked manually.
-Belarusian dependency relation tags were checked manually.
+The data were labeled semi-automatically using the annotation projection from Russian. For that purpose, Russian data were annotated using UDpipe, converted into UD 2.0, and then checked manually. In 2020, a UDpipe model for Belarusian trained on 1 mln corpus were also used. 
+Belarusian dependency relations and labels were checked manually.
 
 
 
@@ -53,8 +53,15 @@ Document list:  http://search2.ruscorpora.ru/search.xml?env=alpha&text=meta&sort
 Document list:  
 * http://zviazda.by/be/news/20170524/1495626198-samaya-prygozhaya-studentka-vuchycca-u-vicebsku  
 * http://zviazda.by/be/news/20160908/1473288543-buduchynya-za-dakladnym-zemlyarobstvam  
-3) a short excerpt from The Lord of the Rings by J. R. R. Tolkien, translated in Belarusian   
-4) texts from the Telegram channels:  
+3) fiction: short stories and poetry from Belaruskaja palichka (knihi.com)  
+Authors:  
+* Francishak Bahushevich  
+* Janka Kupala  
+* Maksim Harecki  
+* Vasil' Bykov  
+* Ivan Mielez  
+4) a short excerpt from The Lord of the Rings by J. R. R. Tolkien, translated in Belarusian   
+5) social media: messages from the Telegram channels:  
 * https://t.me/artsiadziba  
 * https://t.me/radiosvaboda  
 * https://t.me/abarona  
@@ -70,7 +77,7 @@ We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail
 # Changelog
 
 * 2020-11-01 v2.6
-  * New texts added (genre: news, social media).
+  * New texts added (genre: news, social media, fiction, poetry).
 * 2019-01-05 v2.4
   * Constructions with parataxis, appos, ccomp, xcomp, ccomp, advcl, acl, nmod, passive and depictive constructions manually fixed.
   * UPOS, FEAT manually fixed.
