@@ -98,7 +98,7 @@ We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail
 Data available since: UD v2.0
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: fiction legal news nonfiction social
+Genre: fiction legal news nonfiction social poetry
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native

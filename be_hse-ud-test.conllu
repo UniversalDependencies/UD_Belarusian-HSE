@@ -1692,7 +1692,7 @@
 # sent_id = rnc-para-zakony-50-be-4
 # text = Гэты Закон вызначае прававыя асновы вядзення грамадзянамi Рэспублiкi Беларусь асабiстай падсобнай гаспадаркi, а таксама меры па яе дзяржаўнай падтрымцы.
 # genre = legal
-1	Гэты	гэты	DET	DT	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+1	Гэты	гэты	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	Закон	закон	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	вызначае	вызначаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	прававыя	прававы	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
@@ -1709,7 +1709,7 @@
 15	таксама	таксама	ADV	RB	Degree=Pos	14	fixed	_	_
 16	меры	мера	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	conj	_	_
 17	па	па	ADP	IN	_	20	case	_	_
-18	яе	яе	DET	PRP$	_	20	det	_	_
+18	яе	яе	DET	PRP$	Poss=Yes|PronType=Prs	20	det	_	_
 19	дзяржаўнай	дзяржаўны	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
 20	падтрымцы	падтрымка	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -1755,7 +1755,7 @@
 17	і	і	CCONJ	CC	_	19	cc	_	_
 18	дзяржаўнай	дзяржаўны	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
 19	падтрымкай	падтрымка	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	conj	_	_
-20	гэтых	гэты	DET	JJL	Case=Gen|Number=Plur	21	det	_	_
+20	гэтых	гэты	DET	JJL	Case=Gen|Number=Plur|PronType=Dem	21	det	_	_
 21	гаспадарак	гаспадарка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	_	3	punct	_	_
 23	рэгулююцца	рэгулявацца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
@@ -1770,7 +1770,7 @@
 32	аб	аб	ADP	IN	_	33	case	_	_
 33	зямлi	зямля	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	PUNCT	_	36	punct	_	_
-35	гэтым	гэта	DET	DT	Case=Ins|Gender=Masc|Number=Sing	36	det	_	_
+35	гэтым	гэта	DET	DT	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	36	det	_	_
 36	Законам	закон	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	conj	_	_
 37	і	і	CCONJ	CC	_	41	cc	_	_
 38	iншымi	iншы	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	41	amod	_	_
@@ -1819,7 +1819,7 @@
 18	зямельных	зямельны	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
 19	участкаў	участак	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	22	punct	_	_
-21	якiя	якi	PRON	NNP	Case=Nom|Number=Plur	22	nsubj	_	_
+21	якiя	якi	PRON	NNP	Case=Nom|Number=Plur|PronType=Rel	22	nsubj	_	_
 22	знаходзяцца	знаходзіцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	acl:relcl	_	_
 23	ў	у	ADP	IN	_	25	case	_	_
 24	прыватнай	прыватны	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
@@ -1831,7 +1831,7 @@
 30	валоданнi	валоданне	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	conj	_	SpaceAfter=No
 31	,	,	PUNCT	PUNCT	_	32	punct	_	_
 32	перададзеных	перадаць	VERB	VBNL	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	_
-33	iм	яны	PRON	RB	Case=Dat|Number=Plur|Person=3	32	iobj	_	_
+33	iм	яны	PRON	RB	Case=Dat|Number=Plur|Person=3|PronType=Prs	32	iobj	_	_
 34	у	у	ADP	IN	_	35	case	_	_
 35	арэнду	арэнда	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obl	_	_
 36	для	для	ADP	IN	_	37	case	_	_
@@ -1882,7 +1882,7 @@
 36	iншая	iншы	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
 37	маёмасць	маёмасць	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
 38	,	,	PUNCT	PUNCT	_	40	punct	_	_
-39	не	не	PART	UH	_	40	advmod	_	_
+39	не	не	PART	UH	Polarity=Neg	40	advmod	_	_
 40	забароненая	забараніць	VERB	VBNL	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	37	acl	_	_
 41	заканадаўствам	заканадаўства	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	40	obl:agent	_	_
 42	Рэспублiкi	рэспублiка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	_
@@ -1936,7 +1936,7 @@
 12	складаюцца	складацца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 13	ўпаўнаважаным	упаўнаважаны	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
 14	на	на	ADP	IN	_	15	case	_	_
-15	тое	тое	PRON	DT	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	_
+15	тое	тое	PRON	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	obl	_	_
 16	рэспублiканскiм	рэспублiканскi	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
 17	органам	орган	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl:agent	_	_
 18	дзяржаўнага	дзяржаўны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
@@ -1952,7 +1952,7 @@
 28	,	,	PUNCT	PUNCT	_	29	punct	_	_
 29	прадстаўляемых	прадстаўляць	VERB	VBNL	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	27	acl	_	_
 30	у	у	ADP	IN	_	32	case	_	_
-31	гэты	гэты	DET	DT	Case=Acc|Gender=Masc|Number=Sing	32	det	_	_
+31	гэты	гэты	DET	DT	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
 32	орган	орган	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obl	_	_
 33	сельскiмi	сельскi	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	40	amod	_	_
 34	(	(	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
@@ -2012,11 +2012,11 @@
 5	падсобнай	падсобны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	гаспадаркi	гаспадарка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 7	па	па	ADP	IN	_	9	case	_	_
-8	свайму	свой	DET	NN	Case=Dat|Gender=Neut|Number=Sing	9	det	_	_
+8	свайму	свой	DET	NN	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
 9	меркаванню	меркаванне	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
 10	і	і	CCONJ	CC	_	13	cc	_	_
 11	пад	пад	ADP	IN	_	13	case	_	_
-12	сваю	свой	DET	PRP$	Case=Acc|Gender=Fem|Number=Sing	13	det	_	_
+12	сваю	свой	DET	PRP$	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	_
 13	адказнасць	адказнасць	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -2026,7 +2026,7 @@
 1	Дзейнасць	дзейнасць	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
 2	грамадзян	грамадзянiн	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	5	punct	_	_
-4	якiя	якi	PRON	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+4	якiя	якi	PRON	NN	Case=Nom|Number=Plur|PronType=Rel	5	nsubj	_	_
 5	ажыццяўляюць	ажыццяўляць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 6	вядзенне	вядзенне	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
 7	асабiстых	асабiсты	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
@@ -2040,10 +2040,10 @@
 15	і	і	CCONJ	CC	_	16	cc	_	_
 16	рэалiзацыi	рэалiзацыя	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	conj	_	_
 17	вырабленай	вырабiць	VERB	VBNL	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	_
-18	імі	яны	PRON	NN	Case=Ins|Number=Plur|Person=3	17	obl:agent	_	_
+18	імі	яны	PRON	NN	Case=Ins|Number=Plur|Person=3|PronType=Prs	17	obl:agent	_	_
 19	сельскагаспадарчай	сельскагаспадарчы	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
 20	прадукцыi	прадукцыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
-21	не	не	PART	UH	_	22	advmod	_	_
+21	не	не	PART	UH	Polarity=Neg	22	advmod	_	_
 22	адносiцца	адносiцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 23	да	да	ADP	IN	_	25	case	_	_
 24	прадпрымальнiцкай	прадпрымальнiцкi	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
@@ -2064,7 +2064,7 @@
 9	асабiстай	асабiсты	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 10	падсобнай	падсобны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	гаспадаркi	гаспадарка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
-12	не	не	PART	UH	_	13	advmod	_	_
+12	не	не	PART	UH	Polarity=Neg	13	advmod	_	_
 13	дапускаецца	дапускацца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	17	punct	_	_
 15	за	за	ADP	IN	_	17	case	_	_
@@ -2084,7 +2084,7 @@
 1	Грамадзяне	грамадзянiн	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	10	punct	_	_
 3	правы	права	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj:pass	_	_
-4	якiх	якi	PRON	JJL	Case=Gen|Number=Plur	3	nmod	_	_
+4	якiх	якi	PRON	JJL	Case=Gen|Number=Plur|PronType=Rel	3	nmod	_	_
 5	на	на	ADP	IN	_	6	case	_	_
 6	вядзенне	вядзенне	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	_
 7	асабiстай	асабiсты	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
@@ -2099,11 +2099,11 @@
 16	па	па	ADP	IN	_	17	case	_	_
 17	кампенсацыi	кампенсацыя	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	_
 18	нанесеных	нанесцi	VERB	VBNL	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	_
-19	iм	яны	PRON	JJL	Case=Dat|Number=Plur|Person=3	18	iobj	_	_
+19	iм	яны	PRON	JJL	Case=Dat|Number=Plur|Person=3|PronType=Prs	18	iobj	_	_
 20	страт	страта	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	26	punct	_	_
 22	у	у	ADP	IN	_	26	case	_	_
-23	тым	тое	DET	DT	Case=Loc|Gender=Masc|Number=Sing	22	fixed	_	_
+23	тым	тое	DET	DT	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	22	fixed	_	_
 24	лiку	лiк	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	fixed	_	_
 25	ўпушчанай	упусцiць	VERB	VBNL	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	acl	_	_
 26	выгады	выгада	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
@@ -2138,7 +2138,7 @@
 5	без	без	ADP	IN	_	6	case	_	_
 6	грамадзянства	грамадзянства	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	10	punct	_	_
-8	якiя	якi	PRON	NNP	Case=Nom|Number=Sing	10	nsubj	_	_
+8	якiя	якi	PRON	NNP	Case=Nom|Number=Sing|PronType=Rel	10	nsubj	_	_
 9	пастаянна	пастаянна	ADV	RB	Degree=Pos	10	advmod	_	_
 10	пражываюць	пражываць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 11	у	у	ADP	IN	_	12	case	_	_
@@ -2161,7 +2161,7 @@
 28	ўмовах	умова	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	25	conj	_	SpaceAfter=No
 29	,	,	PUNCT	PUNCT	_	30	punct	_	_
 30	устаноўленых	устанавіць	VERB	VBNL	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	25	acl	_	_
-31	гэтым	гэта	DET	DT	Case=Ins|Gender=Masc|Number=Sing	32	det	_	_
+31	гэтым	гэта	DET	DT	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
 32	Законам	закон	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	obl:agent	_	_
 33	і	і	CCONJ	CC	_	37	cc	_	_
 34	iншымi	iншы	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	37	amod	_	_
@@ -2185,7 +2185,7 @@
 1	Правы	права	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
 2	грамадзян	грамадзянiн	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	5	punct	_	_
-4	якiя	якi	PRON	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+4	якiя	якi	PRON	NN	Case=Nom|Number=Plur|PronType=Rel	5	nsubj	_	_
 5	ажыццяўляюць	ажыццяўляць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 6	вядзенне	вядзенне	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
 7	асабiстай	асабiсты	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
@@ -2197,7 +2197,7 @@
 # genre = legal
 1	Грамадзяне	грамадзянiн	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	4	punct	_	_
-3	якiя	якi	PRON	NNP	Case=Nom|Number=Plur	4	nsubj	_	_
+3	якiя	якi	PRON	NNP	Case=Nom|Number=Plur|PronType=Rel	4	nsubj	_	_
 4	ажыццяўляюць	ажыццяўляць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
 5	вядзенне	вядзенне	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
 6	асабiстай	асабiсты	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
@@ -2230,9 +2230,9 @@
 33	зямельных	зямельны	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	34	amod	_	_
 34	участках	участак	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
 35	,	,	PUNCT	PUNCT	_	37	punct	_	_
-36	якiя	якi	PRON	NNP	Case=Nom|Number=Plur	37	nsubj	_	_
+36	якiя	якi	PRON	NNP	Case=Nom|Number=Plur|PronType=Rel	37	nsubj	_	_
 37	прадастаўлены	прадаставіць	VERB	VBNH	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	34	acl:relcl	_	_
-38	iм	яны	PRON	RB	Case=Dat|Number=Plur|Person=3	37	iobj	_	_
+38	iм	яны	PRON	RB	Case=Dat|Number=Plur|Person=3|PronType=Prs	37	iobj	_	_
 39	у	у	ADP	IN	_	42	case	_	_
 40	пажыццёвае	пажыццёвы	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	42	amod	_	_
 41	спадчыннае	спадчынны	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	42	amod	_	_
@@ -2255,7 +2255,7 @@
 6	участках	участак	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	8	punct	_	_
 8	прадастаўленых	прадаставіць	VERB	VBNL	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
-9	iм	яны	PRON	JJL	Case=Dat|Number=Plur|Person=3	8	iobj	_	_
+9	iм	яны	PRON	JJL	Case=Dat|Number=Plur|Person=3|PronType=Prs	8	iobj	_	_
 10	для	для	ADP	IN	_	11	case	_	_
 11	вядзення	вядзенне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
 12	асабiстай	асабiсты	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
@@ -2270,8 +2270,8 @@
 2	любыя	любы	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
 3	здзелкi	здзелка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	7	punct	_	_
-5	якiя	якi	PRON	NNP	Case=Nom|Number=Plur	7	nsubj	_	_
-6	не	не	PART	UH	_	7	advmod	_	_
+5	якiя	якi	PRON	NNP	Case=Nom|Number=Plur|PronType=Rel	7	nsubj	_	_
+6	не	не	PART	UH	Polarity=Neg	7	advmod	_	_
 7	супярэчаць	супярэчыць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 8	заканадаўству	заканадаўства	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obj	_	_
 9	Рэспублiкi	рэспублiка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
@@ -2306,7 +2306,7 @@
 9	маёмасць	маёмасць	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	15	punct	_	_
 11	у	у	ADP	IN	_	15	case	_	_
-12	тым	тое	DET	DT	Case=Loc|Gender=Masc|Number=Sing	11	fixed	_	_
+12	тым	тое	DET	DT	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	11	fixed	_	_
 13	лiку	лiк	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	fixed	_	_
 14	грашовыя	грашовы	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
 15	сродкi	сродак	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	_
@@ -2492,7 +2492,7 @@
 17	Беларусь	Беларусь	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	appos	_	_
 18	у	у	ADP	IN	_	21	case	_	_
 19	межах	межа	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	18	fixed	_	_
-20	яго	яго	DET	_	_	21	det	_	_
+20	яго	яго	DET	_	Poss=Yes|PronType=Prs	21	det	_	_
 21	паўнамоцтваў	паўнамоцтва	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
@@ -2530,7 +2530,7 @@
 8	сiстэму	сiстэма	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	12	punct	_	_
 10	у	у	ADP	IN	_	11	case	_	_
-11	якую	які	PRON	_	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+11	якую	які	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	12	obl	_	_
 12	ўваходзяць	уваходзiць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	SpaceAfter=No
 13	:	:	PUNCT	PUNCT	_	14	punct	_	_
 14	Мiнiстэрства	мiнiстэрства	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
@@ -2580,7 +2580,7 @@
 58	арганiзацыi	арганiзацыя	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
 59	,	,	PUNCT	PUNCT	_	62	punct	_	_
 60	дзейнасць	дзейнасць	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	62	nsubj:pass	_	_
-61	якiх	якi	PRON	_	Case=Gen|Number=Plur	60	nmod	_	_
+61	якiх	якi	PRON	_	Case=Gen|Number=Plur|PronType=Rel	60	nmod	_	_
 62	звязана	звязаць	VERB	VBNH	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	58	acl:relcl	_	_
 63	з	з	ADP	IN	_	64	case	_	_
 64	лiквiдацыяй	лiквiдацыя	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	62	obl	_	_
@@ -2590,7 +2590,7 @@
 68	падрыхтоўкай	падрыхтоўка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	64	conj	_	_
 69	спецыялiстаў	спецыялiст	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	68	nmod	_	_
 70	для	для	ADP	IN	_	72	case	_	_
-71	iх	iх	DET	_	_	72	det	_	_
+71	iх	iх	DET	_	Poss=Yes|PronType=Prs	72	det	_	_
 72	лiквiдацыi	лiквiдацыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	68	nmod	_	SpaceAfter=No
 73	;	;	PUNCT	PUNCT	_	75	punct	_	_
 74	iншыя	iншы	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	75	amod	_	_
@@ -2652,7 +2652,7 @@
 10	дзяржаўнага	дзяржаўны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
 11	кiравання	кiраванне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_
-13	якое	які	PRON	_	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+13	якое	які	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	14	nsubj	_	_
 14	ажыццяўляе	ажыццяўляць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
 15	кiраванне	кiраванне	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
 16	дзейнасцю	дзейнасць	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	_
@@ -2688,7 +2688,7 @@
 5	Рэспублiкi	рэспублiка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 6	Беларусь	Беларусь	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	appos	_	_
 7	ажыццяўляе	ажыццяўляць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-8	сваю	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	9	det	_	_
+8	сваю	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
 9	дзейнасць	дзейнасць	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
 10	у	у	ADP	IN	_	13	case	_	_
 11	адпаведнасцi	адпаведнасць	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	fixed	_	_
@@ -2702,7 +2702,7 @@
 19	Рэспублiкi	рэспублiка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
 20	Беларусь	Беларусь	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	appos	_	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	23	punct	_	_
-22	якое	які	PRON	_	Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+22	якое	які	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	23	nsubj	_	_
 23	зацвярджаецца	зацвярджацца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	_
 24	Прэзiдэнтам	прэзiдэнт	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	obl:agent	_	_
 25	Рэспублiкi	рэспублiка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
@@ -2773,14 +2773,14 @@
 7	надзвычайных	надзвычайны	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
 8	сiтуацыях	сiтуацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	_
 9	ажыццяўляюць	ажыццяўляць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-10	сваю	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	11	det	_	_
+10	сваю	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	_
 11	дзейнасць	дзейнасць	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
 12	у	у	ADP	IN	_	15	case	_	_
 13	адпаведнасцi	адпаведнасць	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	fixed	_	_
 14	з	з	ADP	IN	_	12	fixed	_	_
 15	палажэннямi	палажэнне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No
 16	,	,	PUNCT	PUNCT	_	18	punct	_	_
-17	якiя	якi	PRON	_	Case=Nom|Number=Plur	18	nsubj:pass	_	_
+17	якiя	якi	PRON	_	Case=Nom|Number=Plur|PronType=Rel	18	nsubj:pass	_	_
 18	зацвярджаюцца	зацвярджацца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	15	acl:relcl	_	_
 19	Мiнiстэрствам	мiнiстэрства	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	obl:agent	_	_
 20	па	па	ADP	IN	_	22	case	_	_
@@ -2835,7 +2835,7 @@
 39	iншыя	iншы	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	35	conj	_	_
 40	арганiзацыi	арганiзацыя	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
 41	,	,	PUNCT	PUNCT	_	43	punct	_	_
-42	якiя	якi	PRON	_	Case=Nom|Number=Plur	43	nsubj	_	_
+42	якiя	якi	PRON	_	Case=Nom|Number=Plur|PronType=Rel	43	nsubj	_	_
 43	з’яўляюцца	з’яўляцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	40	acl:relcl	_	_
 44	падраздзяленнямi	падраздзяленне	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	43	xcomp	_	_
 45	па	па	ADP	IN	_	47	case	_	_
@@ -2843,7 +2843,7 @@
 47	сiтуацыях	сiтуацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	44	nmod	_	_
 48	і	і	CCONJ	CC	_	51	cc	_	_
 49	дзейнасць	дзейнасць	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	51	nsubj:pass	_	_
-50	якiх	якi	PRON	_	Case=Gen|Number=Plur	49	nmod	_	_
+50	якiх	якi	PRON	_	Case=Gen|Number=Plur|PronType=Rel	49	nmod	_	_
 51	звязана	звязаць	VERB	VBNH	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	43	conj	_	_
 52	з	з	ADP	IN	_	53	case	_	_
 53	лiквiдацыяй	лiквiдацыя	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	51	obl	_	_
@@ -2853,7 +2853,7 @@
 57	падрыхтоўкай	падрыхтоўка	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	53	conj	_	_
 58	спецыялiстаў	спецыялiст	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	57	nmod	_	_
 59	для	для	ADP	IN	_	61	case	_	_
-60	iх	iх	DET	_	_	61	det	_	_
+60	iх	iх	DET	_	Poss=Yes|PronType=Prs	61	det	_	_
 61	лiквiдацыi	лiквiдацыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	57	nmod	_	SpaceAfter=No
 62	,	,	PUNCT	PUNCT	_	65	punct	_	_
 63	і	і	CCONJ	CC	_	65	cc	_	_
@@ -2930,7 +2930,7 @@
 18	і	і	CCONJ	CC	_	19	cc	_	_
 19	складаецца	складацца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	conj	_	_
 20	з	з	ADP	IN	_	22	case	_	_
-21	гэтага	гэты	DET	_	Case=Gen|Gender=Masc|Number=Sing	22	det	_	_
+21	гэтага	гэты	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
 22	Закона	закон	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	_
 23	і	і	CCONJ	CC	_	25	cc	_	_
 24	iншых	iншы	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
@@ -2992,7 +2992,7 @@
 24	і	і	CCONJ	CC	_	25	cc	_	_
 25	цэнтралiзацыя	цэнтралiзацыя	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	conj	_	_
 26	кiравання	кiраванне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
-27	iмi	яны	PRON	_	Case=Ins|Number=Plur|Person=3	26	nmod	_	SpaceAfter=No
+27	iмi	яны	PRON	_	Case=Ins|Number=Plur|Person=3|PronType=Prs	26	nmod	_	SpaceAfter=No
 28	;	;	PUNCT	PUNCT	_	29	punct	_	_
 29	адзiнаначалле	адзiнаначалле	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	conj	_	_
 30	ў	у	ADP	IN	_	31	case	_	_
@@ -3054,7 +3054,7 @@
 5	надзвычайных	надзвычайны	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
 6	сiтуацыях	сiтуацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_
 7	ажыццяўляюць	ажыццяўляць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-8	сваю	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	9	det	_	_
+8	сваю	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
 9	дзейнасць	дзейнасць	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
 10	ва	ва	ADP	IN	_	11	case	_	_
 11	ўзаемадзеяннi	узаемадзеянне	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
@@ -3103,12 +3103,12 @@
 12	iншыя	iншы	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
 13	арганiзацыi	арганiзацыя	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	conj	_	_
 14	і	і	CCONJ	CC	_	17	cc	_	_
-15	iх	iх	DET	_	_	17	det	_	_
+15	iх	iх	DET	_	Poss=Yes|PronType=Prs	17	det	_	_
 16	службовыя	службовы	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
 17	асобы	асоба	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	2	conj	_	_
 18	ў	у	ADP	IN	_	21	case	_	_
 19	межах	межа	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	18	fixed	_	_
-20	сваёй	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing	21	det	_	_
+20	сваёй	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	21	det	_	_
 21	кампетэнцыi	кампетэнцыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	obl	_	_
 22	абавязаны	абавязаць	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
 23	аказваць	аказваць	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	22	xcomp	_	_
@@ -3211,7 +3211,7 @@
 20	,	,	PUNCT	PUNCT	_	28	punct	_	_
 21	а	а	CCONJ	CC	_	28	cc	_	_
 22	пры	пры	ADP	IN	_	24	case	_	_
-23	iх	iх	DET	_	_	24	det	_	_
+23	iх	iх	DET	_	Poss=Yes|PronType=Prs	24	det	_	_
 24	адсутнасцi	адсутнасць	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	orphan	_	_
 25	—	—	PUNCT	PUNCT	_	28	punct	_	_
 26	на	на	ADP	IN	_	28	case	_	_
@@ -3320,7 +3320,7 @@
 42	дзеянняў	дзеянне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	40	nmod	_	_
 43	небяспек	небяспека	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	33	nmod	_	_
 44	і	і	CCONJ	CC	_	46	cc	_	_
-45	iх	iх	DET	_	_	46	det	_	_
+45	iх	iх	DET	_	Poss=Yes|PronType=Prs	46	det	_	_
 46	вынiкаў	вынiк	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	43	conj	_	SpaceAfter=No
 47	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
@@ -3368,7 +3368,7 @@
 17	і	і	CCONJ	CC	_	18	cc	_	_
 18	ўдзел	удзел	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
 19	у	у	ADP	IN	_	20	case	_	_
-20	iх	яны	PRON	_	Case=Loc|Number=Plur|Person=3	18	nmod	_	SpaceAfter=No
+20	iх	яны	PRON	_	Case=Loc|Number=Plur|Person=3|PronType=Prs	18	nmod	_	SpaceAfter=No
 21	;	;	PUNCT	PUNCT	_	22	punct	_	_
 22	ажыццяўленне	ажыццяўленне	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	conj	_	_
 23	дзяржаўнага	дзяржаўны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
@@ -3446,10 +3446,10 @@
 9	выканання	выкананне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
 10	задач	задача	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	13	punct	_	_
-12	не	не	PART	UH	_	13	advmod	_	_
+12	не	не	PART	UH	Polarity=Neg	13	advmod	_	_
 13	ўскладзеных	ускласцi	VERB	VBNL	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	_
 14	на	на	ADP	IN	_	15	case	_	_
-15	iх	яны	PRON	_	Case=Loc|Number=Plur|Person=3	13	obl	_	_
+15	iх	яны	PRON	_	Case=Loc|Number=Plur|Person=3|PronType=Prs	13	obl	_	_
 16	заканадаўствам	заканадаўства	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl:agent	_	_
 17	Рэспублiкi	рэспублiка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
 18	Беларусь	Беларусь	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	appos	_	SpaceAfter=No
@@ -3478,7 +3478,7 @@
 7	і	і	CCONJ	CC	_	8	cc	_	_
 8	ўдзел	удзел	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 9	у	у	ADP	IN	_	10	case	_	_
-10	iх	яны	PRON	_	Case=Loc|Number=Plur|Person=3	8	nmod	_	_
+10	iх	яны	PRON	_	Case=Loc|Number=Plur|Person=3|PronType=Prs	8	nmod	_	_
 
 # newpar
 # sent_id = rnc-para-zakony-76-be-72
@@ -3505,7 +3505,7 @@
 19	і	і	CCONJ	CC	_	20	cc	_	_
 20	ўдзельнiчаюць	удзельнiчаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
 21	у	у	ADP	IN	_	22	case	_	_
-22	iх	яны	PRON	_	Case=Loc|Number=Plur|Person=3	20	obl	_	SpaceAfter=No
+22	iх	яны	PRON	_	Case=Loc|Number=Plur|Person=3|PronType=Prs	20	obl	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
 # newpar
@@ -3695,7 +3695,7 @@
 17	iншымi	iншы	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	_
 18	арганiзацыямi	арганiзацыя	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	_	22	punct	_	_
-20	iх	i	DET	_	Case=Loc|Number=Plur	22	det	_	_
+20	iх	iх	DET	_	Poss=Yes|PronType=Prs	22	det	_	_
 21	службовымi	службовы	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	_
 22	асобамi	асоба	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	7	conj	_	_
 23	і	і	CCONJ	CC	_	24	cc	_	_
@@ -3733,7 +3733,7 @@
 55	надзвычайных	надзвычайны	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	56	amod	_	_
 56	сiтуацыях	сiтуацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	51	nmod	_	SpaceAfter=No
 57	,	,	PUNCT	PUNCT	_	59	punct	_	_
-58	якiя	якi	PRON	_	Case=Nom|Number=Plur	59	nsubj	_	_
+58	якiя	якi	PRON	_	Case=Nom|Number=Plur|PronType=Rel	59	nsubj	_	_
 59	з’яўляюцца	з’яўляцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	51	acl:relcl	_	_
 60	органамi	орган	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	59	xcomp	_	_
 61	дзяржаўнага	дзяржаўны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	63	amod	_	_
@@ -3773,7 +3773,7 @@
 10	Беларусь	Беларусь	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	appos	_	_
 11	і	і	CCONJ	CC	_	15	cc	_	_
 12	падначаленымi	падначаліць	VERB	VBNL	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	_
-13	яму	ён	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=4	12	iobj	_	_
+13	яму	ён	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
 14	тэрытарыяльнымi	тэрытарыяльны	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
 15	органамi	орган	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	conj	_	_
 16	і	і	CCONJ	CC	_	17	cc	_	_
@@ -4157,7 +4157,7 @@
 6	матэрыяльна-тэхнiчных	матэрыяльна-тэхнiчны	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
 7	рэсурсаў	рэсурс	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
-9	iх	iх	DET	_	_	10	det	_	_
+9	iх	iх	DET	_	Poss=Yes|PronType=Prs	10	det	_	_
 10	размяшчэнню	размяшчэнне	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	12	punct	_	_
 12	захаванню	захаванне	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No
@@ -4173,7 +4173,7 @@
 22	а	а	CCONJ	CC	_	24	cc	_	_
 23	таксама	таксама	ADV	RB	Degree=Pos	22	fixed	_	_
 24	кантралюе	кантраляваць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
-25	яе	яе	DET	_	_	26	det	_	_
+25	яе	яе	DET	_	Poss=Yes|PronType=Prs	26	det	_	_
 26	правядзенне	правядзенне	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	SpaceAfter=No
 27	;	;	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -4249,7 +4249,7 @@
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
 7	бедстваў	бедства	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	conj	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
-9	якiя	якi	PRON	_	Case=Nom|Number=Plur	10	nsubj	_	_
+9	якiя	якi	PRON	_	Case=Nom|Number=Plur|PronType=Rel	10	nsubj	_	_
 10	прывялi	прывесцi	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 11	да	да	ADP	IN	_	12	case	_	_
 12	ўзнiкнення	узнiкненне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
@@ -4514,7 +4514,7 @@
 6	матэрыяльна-тэхнiчных	матэрыяльна-тэхнiчны	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
 7	рэсурсаў	рэсурс	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
-9	iх	iх	DET	_	_	10	det	_	_
+9	iх	iх	DET	_	Poss=Yes|PronType=Prs	10	det	_	_
 10	размяшчэнню	размяшчэнне	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	12	punct	_	_
 12	захаванню	захаванне	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
@@ -4530,7 +4530,7 @@
 22	а	а	CCONJ	CC	_	24	cc	_	_
 23	таксама	таксама	ADV	RB	Degree=Pos	22	fixed	_	_
 24	кантралююць	кантраляваць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
-25	яе	яе	DET	_	_	26	det	_	_
+25	яе	яе	DET	_	Poss=Yes|PronType=Prs	26	det	_	_
 26	правядзенне	правядзенне	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	SpaceAfter=No
 27	;	;	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -4586,7 +4586,7 @@
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
 7	бедстваў	бедства	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	conj	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
-9	якiя	якi	PRON	_	Case=Nom|Number=Plur	10	nsubj	_	_
+9	якiя	якi	PRON	_	Case=Nom|Number=Plur|PronType=Rel	10	nsubj	_	_
 10	прывялi	прывесцi	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 11	да	да	ADP	IN	_	12	case	_	_
 12	ўзнiкнення	узнiкненне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
@@ -4762,7 +4762,7 @@
 13	прадугледжаных	прадугледзець	VERB	VBNL	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	_
 14	часткай	частка	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl:agent	_	_
 15	першай	першы	ADJ	ORD	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
-16	гэтага	гэты	DET	_	Case=Gen|Gender=Masc|Number=Sing	17	det	_	_
+16	гэтага	гэты	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
 17	артыкула	артыкул	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	13	punct	_	_
 19	у	у	ADP	IN	_	22	case	_	_
@@ -4775,7 +4775,7 @@
 26	каардынуюць	каардынаваць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 27	работу	работа	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
 28	падначаленых	падначаліць	VERB	VBNL	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	33	acl	_	_
-29	iм	яны	PRON	_	Case=Dat|Number=Plur	28	iobj	_	_
+29	iм	яны	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	28	iobj	_	_
 30	гарадскiх	гарадскi	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
 31	i	i	CCONJ	CC	_	32	cc	_	_
 32	раённых	раённы	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	30	conj	_	_
@@ -4807,7 +4807,7 @@
 58	арганiзацый	арганiзацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	46	conj	_	SpaceAfter=No
 59	,	,	PUNCT	PUNCT	_	62	punct	_	_
 60	дзейнасць	дзейнасць	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	62	nsubj:pass	_	_
-61	якiх	якi	PRON	_	Case=Gen|Number=Plur	60	nmod	_	_
+61	якiх	якi	PRON	_	Case=Gen|Number=Plur|PronType=Rel	60	nmod	_	_
 62	звязана	звязаць	VERB	VBNH	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	58	acl:relcl	_	_
 63	з	з	ADP	IN	_	64	case	_	_
 64	лiквiдацыяй	лiквiдацыя	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	62	obl	_	_
@@ -4817,7 +4817,7 @@
 68	падрыхтоўкай	падрыхтоўка	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	64	conj	_	_
 69	спецыялiстаў	спецыялiст	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	68	nmod	_	_
 70	для	для	ADP	IN	_	72	case	_	_
-71	iх	iх	DET	_	_	72	det	_	_
+71	iх	iх	DET	_	Poss=Yes|PronType=Prs	72	det	_	_
 72	лiквiдацыi	лiквiдацыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	68	nmod	_	SpaceAfter=No
 73	,	,	PUNCT	PUNCT	_	62	punct	_	_
 74	і	і	CCONJ	CC	_	76	cc	_	_
@@ -4947,7 +4947,7 @@
 21	iншых	iншы	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	17	conj	_	_
 22	арганiзацый	арганiзацыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
 23	,	,	PUNCT	PUNCT	_	25	punct	_	_
-24	якiя	якi	PRON	_	Case=Nom|Number=Plur	25	nsubj	_	_
+24	якiя	якi	PRON	_	Case=Nom|Number=Plur|PronType=Rel	25	nsubj	_	_
 25	з’яўляюцца	з’яўляцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	22	acl:relcl	_	_
 26	падраздзяленнямi	падраздзяленне	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	25	xcomp	_	_
 27	па	па	ADP	IN	_	29	case	_	_
@@ -4955,7 +4955,7 @@
 29	сiтуацыях	сiтуацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
 30	,	,	PUNCT	PUNCT	_	33	punct	_	_
 31	дзейнасць	дзейнасць	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	33	nsubj:pass	_	_
-32	якiх	якi	PRON	_	Case=Gen|Number=Plur	31	nmod	_	_
+32	якiх	якi	PRON	_	Case=Gen|Number=Plur|PronType=Rel	31	nmod	_	_
 33	звязана	звязаць	VERB	VBNH	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	26	acl:relcl	_	_
 34	з	з	ADP	IN	_	35	case	_	_
 35	лiквiдацыяй	лiквiдацыя	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	33	obl	_	_
@@ -4965,7 +4965,7 @@
 39	падрыхтоўкай	падрыхтоўка	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	35	conj	_	_
 40	спецыялiстаў	спецыялiст	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	_
 41	для	для	ADP	IN	_	43	case	_	_
-42	iх	iх	DET	_	_	43	det	_	_
+42	iх	iх	DET	_	Poss=Yes|PronType=Prs	43	det	_	_
 43	лiквiдацыi	лiквiдацыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
 44	,	,	PUNCT	PUNCT	_	47	punct	_	_
 45	і	і	CCONJ	CC	_	47	cc	_	_
@@ -5101,7 +5101,7 @@
 10	бяспекi	бяспека	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	15	punct	_	_
 12	у	у	ADP	IN	_	15	case	_	_
-13	тым	той	DET	_	Case=Loc|Gender=Masc|Number=Sing	12	fixed	_	_
+13	тым	той	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	12	fixed	_	_
 14	лiку	лiк	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	fixed	_	_
 15	ажыццяўляць	ажыццяўляць	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	1	conj	_	_
 16	дзейнасць	дзейнасць	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
@@ -5283,9 +5283,9 @@
 5	надзвычайных	надзвычайны	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
 6	сiтуацыях	сiтуацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_
 7	i	i	CCONJ	CC	_	9	cc	_	_
-8	iх	i	DET	_	Case=Gen|Degree=Pos|Number=Plur	9	det	_	_
+8	iх	iх	DET	_	Poss=Yes|PronType=Prs	9	det	_	_
 9	работнiкi	работнiк	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
-10	не	не	PART	UH	_	11	advmod	_	_
+10	не	не	PART	UH	Polarity=Neg	11	advmod	_	_
 11	нясуць	несці	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 12	адказнасцi	адказнасць	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obj	_	_
 13	за	за	ADP	IN	_	14	case	_	_
@@ -5323,7 +5323,7 @@
 45	iншымi	iншы	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	46	amod	_	_
 46	арганiзацыямi	арганiзацыя	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	35	conj	_	SpaceAfter=No
 47	,	,	PUNCT	PUNCT	_	50	punct	_	_
-48	iх	iх	DET	_	_	50	det	_	_
+48	iх	iх	DET	_	Poss=Yes|PronType=Prs	50	det	_	_
 49	службовымi	службовы	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	50	amod	_	_
 50	асобамi	асоба	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	35	conj	_	_
 51	і	і	CCONJ	CC	_	52	cc	_	_
@@ -5351,7 +5351,7 @@
 73	грамадзянскай	грамадзянскi	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	74	amod	_	_
 74	абароны	абарона	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	57	conj	_	SpaceAfter=No
 75	,	,	PUNCT	PUNCT	_	77	punct	_	_
-76	якое	якi	PRON	_	Case=Nom|Gender=Neut|Number=Sing	77	nsubj	_	_
+76	якое	якi	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	77	nsubj	_	_
 77	прывяло	прывесцi	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	33	acl:relcl	_	_
 78	да	да	ADP	IN	_	79	case	_	_
 79	ўзнiкнення	узнiкненне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	77	obl	_	_
@@ -5435,7 +5435,7 @@
 7	надзвычайных	надзвычайны	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
 8	сiтуацыях	сiтуацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	11	punct	_	_
-10	якiя	якi	PRON	_	Case=Nom|Number=Plur	11	nsubj	_	_
+10	якiя	якi	PRON	_	Case=Nom|Number=Plur|PronType=Rel	11	nsubj	_	_
 11	знаходзяцца	знаходзіцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	acl:relcl	_	_
 12	на	на	ADP	IN	_	13	case	_	_
 13	ўтрыманнi	утрыманне	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
@@ -5504,12 +5504,12 @@
 18	кошт	кошт	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	fixed	_	_
 19	сродкаў	сродак	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	22	punct	_	_
-21	што	што	PRON	_	Case=Nom	22	nsubj	_	_
+21	што	што	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	22	nsubj	_	_
 22	паступаюць	паступаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
 23	па	па	ADP	IN	_	24	case	_	_
 24	дагаворах	дагавор	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
 25	,	,	PUNCT	PUNCT	_	27	punct	_	_
-26	якiя	якi	PRON	_	Case=Nom|Number=Plur	27	nsubj	_	_
+26	якiя	якi	PRON	_	Case=Nom|Number=Plur|PronType=Rel	27	nsubj	_	_
 27	заключаюцца	заключацца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	24	acl:relcl	_	_
 28	органамi	орган	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	27	obl:agent	_	_
 29	і	і	CCONJ	CC	_	30	cc	_	_
@@ -5625,7 +5625,7 @@
 38	Рэспублiкi	рэспублiка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
 39	Беларусь	Беларусь	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	38	appos	_	SpaceAfter=No
 40	,	,	PUNCT	PUNCT	_	42	punct	_	_
-41	якое	якi	PRON	_	Case=Nom|Gender=Neut|Number=Sing	42	nsubj:pass	_	_
+41	якое	якi	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	42	nsubj:pass	_	_
 42	зацвярджаецца	зацвярджацца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	27	acl:relcl	_	_
 43	Прэзiдэнтам	прэзiдэнт	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	42	obl:agent	_	_
 44	Рэспублiкi	рэспублiка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	43	nmod	_	_
@@ -5645,7 +5645,7 @@
 7	(	(	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 8	асоб	асоба	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	6	appos	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	11	punct	_	_
-10	якiя	якi	PRON	_	Case=Nom|Number=Plur	11	nsubj	_	_
+10	якiя	якi	PRON	_	Case=Nom|Number=Plur|PronType=Rel	11	nsubj	_	_
 11	займаюць	займаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
 12	штатныя	штатны	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
 13	пасады	пасада	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
@@ -5657,7 +5657,7 @@
 19	надзвычайных	надзвычайны	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	20	amod	_	_
 20	сiтуацыях	сiтуацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	15	nmod	_	_
 21	і	і	CCONJ	CC	_	23	cc	_	_
-22	не	не	PART	UH	_	23	advmod	_	_
+22	не	не	PART	UH	Polarity=Neg	23	advmod	_	_
 23	маюць	мець	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
 24	спецыяльных	спецыяльны	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
 25	званняў	званне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	23	obj	_	_
@@ -5703,7 +5703,7 @@
 4	начальнiцкага	начальнiцкi	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	_
 5	складу	склад	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	8	punct	_	_
-7	якiя	якi	PRON	_	Case=Nom|Number=Plur	8	nsubj	_	_
+7	якiя	якi	PRON	_	Case=Nom|Number=Plur|PronType=Rel	8	nsubj	_	_
 8	займаюць	займаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
 9	штатныя	штатны	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
 10	пасады	пасада	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
@@ -5780,8 +5780,8 @@
 # sent_id = rnc-para-zakony-76-be-162
 # text = Нiхто не мае права ўмешвацца ў службовую дзейнасць работнiкаў органаў і падраздзяленняў па надзвычайных сiтуацыях, акрамя рэспублiканскiх органаў дзяржаўнага кiравання і службовых асоб, прама ўпаўнаважаных на тое заканадаўствам Рэспублiкi Беларусь.
 # genre = legal
-1	Нiхто	нiхто	PRON	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	не	не	PART	UH	_	3	advmod	_	_
+1	Нiхто	нiхто	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	3	nsubj	_	_
+2	не	не	PART	UH	Polarity=Neg	3	advmod	_	_
 3	мае	мець	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	права	права	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obj	_	_
 5	ўмешвацца	умешвацца	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	4	nmod	_	_
@@ -5808,7 +5808,7 @@
 26	прама	прама	ADV	RB	Degree=Pos	27	advmod	_	_
 27	ўпаўнаважаных	упаўнаважыць	VERB	VBNL	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	_
 28	на	на	ADP	IN	_	29	case	_	_
-29	тое	тое	PRON	_	Case=Acc|Gender=Neut|Number=Sing	27	obl	_	_
+29	тое	тое	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	27	obl	_	_
 30	заканадаўствам	заканадаўства	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	27	obl:agent	_	_
 31	Рэспублiкi	рэспублiка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
 32	Беларусь	Беларусь	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	appos	_	SpaceAfter=No
@@ -5833,7 +5833,7 @@
 13	сiтуацыях	сiтуацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	15	punct	_	_
 15	знявага	знявага	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
-16	iх	iх	DET	_	_	17	det	_	_
+16	iх	iх	DET	_	Poss=Yes|PronType=Prs	17	det	_	_
 17	гонару	гонар	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
 18	і	і	CCONJ	CC	_	19	cc	_	_
 19	годнасцi	годнасць	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
@@ -5847,12 +5847,12 @@
 27	iншыя	iншы	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	_
 28	дзеяннi	дзеянне	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	1	conj	_	SpaceAfter=No
 29	,	,	PUNCT	PUNCT	_	31	punct	_	_
-30	што	што	PRON	_	_	31	nsubj	_	_
+30	што	што	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	31	nsubj	_	_
 31	перашкаджаюць	перашкаджаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	acl:relcl	_	_
 32	выкананню	выкананне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	obj	_	_
 33	ўскладзеных	ускласцi	VERB	VBNL	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	36	acl	_	_
 34	на	на	ADP	IN	_	35	case	_	_
-35	iх	яны	PRON	_	Case=Acc|Degree=Pos|Number=Plur	33	obl	_	_
+35	iх	яны	PRON	_	Case=Acc|Degree=Pos|Number=Plur|Person=3|PronType=Prs	33	obl	_	_
 36	абавязкаў	абавязак	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
 37	,	,	PUNCT	PUNCT	_	31	punct	_	_
 38	цягнуць	цягнуць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -5908,7 +5908,7 @@
 13	Рэспублiкi	рэспублiка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 14	Беларусь	Беларусь	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	appos	_	_
 15	кампетэнцыi	кампетэнцыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
-16	гэтых	гэты	DET	_	Case=Gen|Degree=Pos|Number=Plur	17	det	_	_
+16	гэтых	гэты	DET	_	Case=Gen|Degree=Pos|Number=Plur|PronType=Dem	17	det	_	_
 17	органаў	орган	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
 18	і	і	CCONJ	CC	_	19	cc	_	_
 19	падраздзяленняў	падраздзяленне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	conj	_	SpaceAfter=No
@@ -5972,7 +5972,7 @@
 13	надзвычайнай	надзвычайны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
 14	сiтуацыi	сiтуацыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 15	і	і	CCONJ	CC	_	17	cc	_	_
-16	яе	яе	DET	_	_	17	det	_	_
+16	яе	яе	DET	_	Poss=Yes|PronType=Prs	17	det	_	_
 17	вынiкаў	вынiк	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
 18	;	;	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -5983,12 +5983,12 @@
 2	грамадзян	грамадзянiн	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
 3	(	(	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
 4	з	з	ADP	IN	_	6	case	_	_
-5	iх	iх	DET	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	det	_	_
+5	iх	iх	DET	_	Poss=Yes|PronType=Prs	6	det	_	_
 6	згоды	згода	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No
 7	)	)	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	11	punct	_	_
-9	якiя	якi	PRON	_	Case=Nom|Number=Plur	11	nsubj	_	_
-10	не	не	PART	UH	_	11	advmod	_	_
+9	якiя	якi	PRON	_	Case=Nom|Number=Plur|PronType=Rel	11	nsubj	_	_
+10	не	не	PART	UH	Polarity=Neg	11	advmod	_	_
 11	з’яўляюцца	з’яўляцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	acl:relcl	_	_
 12	работнiкамi	работнiк	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	11	xcomp	_	_
 13	органаў	орган	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
@@ -6027,7 +6027,7 @@
 14	ходам	ход	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	conj	_	_
 15	работы	работа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
 16	пры	пры	ADP	IN	_	18	case	_	_
-17	яе	яе	DET	_	_	18	det	_	_
+17	яе	яе	DET	_	Poss=Yes|PronType=Prs	18	det	_	_
 18	лiквiдацыi	лiквiдацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -6073,7 +6073,7 @@
 36	выканання	выкананне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	obl	_	_
 37	ўскладзеных	ускласцi	VERB	VBNL	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	40	acl	_	_
 38	на	на	ADP	IN	_	39	case	_	_
-39	iх	яны	PRON	_	Case=Loc|Number=Plur|Person=3	37	obl	_	_
+39	iх	яны	PRON	_	Case=Loc|Number=Plur|Person=3|PronType=Prs	37	obl	_	_
 40	абавязкаў	абавязак	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
 41	;	;	PUNCT	PUNCT	_	43	punct	_	_
 42	бесперашкодна	бесперашкодна	ADV	RB	Degree=Pos	43	advmod	_	_
@@ -6104,7 +6104,7 @@
 67	прад’яўленнi	прад’яўленне	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	62	orphan	_	_
 68	прадпiсання	прадпiсанне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	67	nmod	_	_
 69	на	на	ADP	IN	_	71	case	_	_
-70	iх	iх	DET	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	71	det	_	_
+70	iх	iх	DET	_	Poss=Yes|PronType=Prs	71	det	_	_
 71	выкананне	выкананне	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	68	nmod	_	_
 72	і	і	CCONJ	CC	_	74	cc	_	_
 73	службовага	службовы	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	74	amod	_	_
@@ -6123,7 +6123,7 @@
 6	памяшканнi	памяшканне	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	conj	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	10	punct	_	_
 8	наведванне	наведванне	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
-9	якiх	якi	PRON	_	Case=Gen|Number=Plur	8	nmod	_	_
+9	якiх	якi	PRON	_	Case=Gen|Number=Plur|PronType=Rel	8	nmod	_	_
 10	абмежаванае	абмежаваць	VERB	VBNL	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
 11	ў	у	ADP	IN	_	15	case	_	_
 12	адпаведнасцi	адпаведнасць	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	fixed	_	_
@@ -6139,7 +6139,7 @@
 22	да	да	ADP	IN	_	23	case	_	_
 23	звестак	звестка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	PUNCT	_	26	punct	_	_
-25	што	што	PRON	_	Case=Nom	26	nsubj	_	_
+25	што	што	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	26	nsubj	_	_
 26	складаюць	складаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	_
 27	дзяржаўныя	дзяржаўны	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	28	amod	_	_
 28	сакрэты	сакрэт	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
@@ -6158,10 +6158,10 @@
 # genre = legal
 1	патрабаваць	патрабаваць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
 2	ад	ад	ADP	IN	_	4	case	_	_
-3	усiх	усе	DET	_	Case=Gen|Number=Plur	4	det	_	_
+3	усiх	усе	DET	_	Case=Gen|Number=Plur|PronType=Tot	4	det	_	_
 4	асоб	асоба	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	7	punct	_	_
-6	якiя	якi	PRON	_	Case=Nom|Number=Plur	7	nsubj	_	_
+6	якiя	якi	PRON	_	Case=Nom|Number=Plur|PronType=Rel	7	nsubj	_	_
 7	знаходзяцца	знаходзіцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	acl:relcl	_	_
 8	ў	у	ADP	IN	_	9	case	_	_
 9	зоне	зона	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
@@ -6323,7 +6323,7 @@
 73	законам	закон	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	72	obl:agent	_	_
 74	тайну	тайна	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	64	obj	_	SpaceAfter=No
 75	,	,	PUNCT	PUNCT	_	77	punct	_	_
-76	якая	якi	PRON	_	Case=Nom|Gender=Fem|Number=Sing	77	nsubj	_	_
+76	якая	якi	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	77	nsubj	_	_
 77	стала	стаць	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	74	acl:relcl	_	_
 78	вядома	вядома	ADV	RB	Degree=Pos	77	xcomp	_	_
 79	ў	у	ADP	IN	_	82	case	_	_
@@ -6347,7 +6347,7 @@
 97	iншыя	iншы	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	98	amod	_	_
 98	абавязкi	абавязак	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	86	obj	_	SpaceAfter=No
 99	,	,	PUNCT	PUNCT	_	101	punct	_	_
-100	якiя	якi	PRON	_	Case=Nom|Number=Plur	101	nsubj	_	_
+100	якiя	якi	PRON	_	Case=Nom|Number=Plur|PronType=Rel	101	nsubj	_	_
 101	вызначаюцца	вызначацца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	98	acl:relcl	_	_
 102	ў	у	ADP	IN	_	103	case	_	_
 103	парадку	парадак	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	101	obl	_	SpaceAfter=No
@@ -6531,7 +6531,7 @@
 16	сiтуацыях	сiтуацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	nmod	_	_
 17	i	i	CCONJ	CC	_	18	cc	_	_
 18	членаў	член	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	_
-19	iх	iх	DET	_	_	20	det	_	_
+19	iх	iх	DET	_	Poss=Yes|PronType=Prs	20	det	_	_
 20	сем’яў	сям’я	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	24	punct	_	_
 22	а	а	CCONJ	CC	_	24	cc	_	_
@@ -6549,7 +6549,7 @@
 34	,	,	PUNCT	PUNCT	_	26	punct	_	_
 35	і	і	CCONJ	CC	_	36	cc	_	_
 36	членаў	член	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	24	conj	_	_
-37	iх	iх	DET	_	_	38	det	_	_
+37	iх	iх	DET	_	Poss=Yes|PronType=Prs	38	det	_	_
 38	сем’яў	сям’я	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	36	nmod	_	_
 39	ажыццяўляюцца	ажыццяўляцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 40	на	на	ADP	IN	_	41	case	_	_
@@ -7075,7 +7075,7 @@
 8	сувязі	сувязь	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
 9	”	”	PUNCT	PUNCT	_	8	punct	_	_
 10	–	–	PUNCT	PUNCT	_	8	punct	_	_
-11	гэта	гэта	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+11	гэта	гэта	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	nsubj	_	_
 12	складанка	складанка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	parataxis	_	_
 13	з	з	ADP	IN	_	15	case	_	_
 14	чатырох	чатыры	NUM	CD	Case=Gen|NumType=Card	15	nummod	_	_
@@ -7316,7 +7316,7 @@
 38	з	з	ADP	IN	_	39	case	_	_
 39	малым	малы	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
 40	,	,	PUNCT	PUNCT	_	42	punct	_	_
-41	што	што	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	42	nsubj	_	_
+41	што	што	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	42	nsubj	_	_
 42	застаўся	застацца	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	39	acl:relcl	_	_
 43	на	на	ADP	IN	_	44	case	_	_
 44	волі	воля	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	42	obl	_	SpaceAfter=No
@@ -8796,7 +8796,7 @@
 11	сувязі	сувязь	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	fixed	_	_
 12	з	з	ADP	IN	_	10	fixed	_	_
 13	пандэміяй	пандэмія	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
-14	ня	ня	PART	UH	_	15	advmod	_	_
+14	ня	ня	PART	UH	Polarity=Neg	15	advmod	_	_
 15	мог	магчы	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
 16	гэтага	гэта	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	17	obj	_	_
 17	зрабіць	зрабіць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	SpaceAfter=No
@@ -9922,7 +9922,7 @@
 13	,	,	PUNCT	PUNCT	_	17	punct	_	_
 14	які	які	PRON	WPA	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	18	obj	_	_
 15	ніяк	ніяк	ADV	RB	Degree=Pos	17	advmod	_	_
-16	ня	ня	PART	UH	_	17	advmod	_	_
+16	ня	ня	PART	UH	Polarity=Neg	17	advmod	_	_
 17	могуць	магчы	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
 18	спыніць	спыніць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
 19	міліцыянты	міліцыянт	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
@@ -13620,7 +13620,7 @@
 # text = хто ня ведае-ў мяне ёсць свой блог пра падарожжы на Арт Сядзібе.
 # genre = social-media
 1	хто	хто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int	3	nsubj	_	_
-2	ня	ня	PART	UH	_	3	advmod	_	_
+2	ня	ня	PART	UH	Polarity=Neg	3	advmod	_	_
 3	ведае	ведаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	SpaceAfter=No
 4	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 5	ў	у	ADP	IN	_	6	case	_	_
@@ -14188,7 +14188,7 @@
 2	такія	такі	DET	DT	Animacy=Inan|Case=Acc|Number=Plur|PronType=Dem	3	det	_	_
 3	дажджы	дождж	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obl	_	_
 4	самае	самы	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
-5	то	то	PRON	DT	Case=Nom	0	root	_	SpaceAfter=No
+5	то	то	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 7	💦	💦	SYM	SYM	_	5	discourse	_	_
 
