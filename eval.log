@@ -3,25 +3,25 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Belarusian-HSE:
-commit b720681766574a95892171f4bc55b00dc19dd2aa
+commit 724da0f732b904fc82123eaf11a9a2f8ba132f52
+Merge: 0f0f412 ff49d8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 16:43:09 2019 +0100
-Size: counted 13325 of 13325 words (nodes).
-Size: min(0, log((N/1000)**2)) = 5.17928394010382.
+Size: counted 275153 of 275153 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.2346546131801.
 Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
-Split: Did not find at least 10000 development words.
-Split: Did not find at least 10000 test words.
+Split: Found more than 10000 training words.
+Split: Found at least 10000 development words.
+Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
-Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 8937 out of 13325 total words have one or more features.
+Features: 171132 out of 275153 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 31 out of 37 found in the corpus.
+Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 341 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 13325 words.
-Genres: found 4 out of 17 known.
+Udapi: found 1958 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 275153 words.
+Genres: found 6 out of 17 known.
 validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-dev.conllu
 *** PASSED ***
 validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-test.conllu
@@ -30,13 +30,13 @@ validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.235294117647059) = 0.0180995475113122
+(weight=0.0769230769230769) * (score{genres}=0.352941176470588) = 0.0271493212669683
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.374889072566203) = 0.0961254032221034
-(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.744090056285178) = 0.228950786549286
-(weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.576243284467895) * (availability=1) * (validity=1) = 0.576243284467895
-STARS = 3
-UD_Belarusian-HSE	0.576243284467895	3
+(weight=0.256410256410256) * (score{size}=0.813191417432174) = 0.208510619854404
+(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
+(weight=0.307692307692308) * (score{udapi}=0.928839591063881) = 0.285796797250425
+(weight=0.0769230769230769) * (score{udeprels}=0.756756756756757) = 0.0582120582120582
+(TOTAL score=0.815566232481291) * (availability=1) * (validity=1) = 0.815566232481291
+STARS = 4
+UD_Belarusian-HSE	0.815566232481291	4
