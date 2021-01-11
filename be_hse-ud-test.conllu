@@ -285,7 +285,7 @@
 # sent_id = telegraf-2011032306-15-277-be
 # text = Далейшае развіццё канфлікту паміж Мінскам і ЕС упіраецца менавіта ў гэта -- у вызваленне палітвязняў", -- тлумачыць палітык.
 # genre = news
-1	Далейшае	далейшы	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+1	Далейшае	далейшы	ADJ	JJL	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	2	amod	_	_
 2	развіццё	развіццё	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
 3	канфлікту	канфлікт	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	паміж	паміж	ADP	IN	_	5	case	_	_
@@ -10873,7 +10873,7 @@
 14	Кансэрватыўна-Хрысьціянскай	кансэрватыўна-хрысьціянскі	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
 15	Партыі	партыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
 16	на	на	ADP	IN	_	18	case	_	_
-17	ранейшы	ранейшы	ADJ	ORD	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	ранейшы	ранейшы	ADJ	ORD	Animacy=Inan|Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	18	amod	_	_
 18	прысуд	прысуд	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
 19	раённага	раённы	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
 20	суду	суд	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
@@ -11780,7 +11780,7 @@
 3	што	што	SCONJ	IN	_	4	mark	_	_
 4	жывуць	жыць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_
 5	у	у	ADP	IN	_	6	case	_	_
-6	найбліжэйшым	найбліжэйшы	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	acl	_	_
+6	найбліжэйшым	найбліжэйшы	ADJ	JJL	Case=Loc|Degree=Sup|Gender=Masc|Number=Sing	9	acl	_	_
 7	ад	ад	ADP	IN	_	8	case	_	_
 8	Курапат	Курапаты	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
 9	доме	дом	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
@@ -17312,7 +17312,7 @@
 1	Вышыня	вышыня	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	ў	у	ADP	IN	_	3	case	_	_
 3	крыжы	крыж	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
-4	большая	большы	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+4	большая	большы	ADJ	JJL	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	0	root	_	_
 5	за	за	ADP	IN	_	6	case	_	_
 6	вышыню	вышыня	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 7	ў	у	ADP	IN	_	8	case	_	_
@@ -17724,7 +17724,7 @@
 18	стан	стан	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
 19	і	і	CCONJ	CC	_	22	cc	_	_
 20	ў	у	ADP	IN	_	21	case	_	_
-21	далейшым	далейшы	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	22	obl	_	_
+21	далейшым	далейшы	ADJ	JJL	Case=Loc|Degree=Sup|Gender=Neut|Number=Sing	22	obl	_	_
 22	выдаляецца	выдаляцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	15	conj	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	15	punct	_	SpacesAfter=\n\n
 
@@ -20478,7 +20478,7 @@
 # genre = wiki
 1	Адзін	адзін	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
 2	з	з	ADP	IN	_	4	case	_	_
-3	найстаражытнейшых	найстаражытнейшы	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+3	найстаражытнейшых	найстаражытнейшы	ADJ	JJL	Case=Gen|Degree=Sup|Number=Plur	4	amod	_	_
 4	гарадоў	горад	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
 5	Еўропы	Еўропа	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -21071,11 +21071,11 @@
 16	адзін	адзін	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
 17	з	з	ADP	IN	_	18	case	_	_
 18	кіраўнікоў	кіраўнік	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
-19	партызанскага	партызанскi	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	партызанскага	партызанскі	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
 20	руху	рух	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
 21	на	на	ADP	IN	_	22	case	_	_
 22	тэрыторыі	тэрыторыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	_
-23	Віцебскай	віцебскi	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+23	Віцебскай	віцебскі	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
 24	вобласці	вобласць	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
 25	ў	у	ADP	IN	_	26	case	_	_
 26	гады	год	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	_
@@ -21145,7 +21145,7 @@
 30	ліпені	ліпень	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	36	nmod	_	_
 31	1942	1942	ADJ	ORD	_	30	nmod	_	_
 32	—	—	PUNCT	PUNCT	_	33	punct	_	_
-33	снежні	снежень	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	nmod	_	_
+33	снежні	снежань	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	nmod	_	_
 34	1943	1943	ADJ	ORD	_	33	nmod	_	_
 35	1-ы	1-ы	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
 36	сакратар	сакратар	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_

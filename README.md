@@ -77,10 +77,10 @@ We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail
 
 # Changelog
 
-* 2021-01-05 v2.7
-  * New texts added (genre: wiki)
-  * lemma, upos, feat, head, deprel manually corrected
-* 2020-11-01 v2.6
+* 2021-01-05 v2.7  
+  * New texts added (genre: wiki)  
+  * lemma, upos, feat, head, deprel manually corrected  
+* 2020-11-01 v2.6  
   * New texts added (genre: news, social media, fiction, poetry).
 * 2019-01-05 v2.4
   * Constructions with parataxis, appos, ccomp, xcomp, ccomp, advcl, acl, nmod, passive and depictive constructions manually fixed.
