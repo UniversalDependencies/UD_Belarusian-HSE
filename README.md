@@ -66,6 +66,7 @@ Authors:
 * https://t.me/radiosvaboda  
 * https://t.me/abarona  
 * https://t.me/belarusian_history  
+6) Belarusian wikipedia  
 
 
 # Acknowledgments
@@ -76,6 +77,9 @@ We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail
 
 # Changelog
 
+* 2021-01-05 v2.7
+  * New texts added (genre: wiki)
+  * lemma, upos, feat, head, deprel manually corrected
 * 2020-11-01 v2.6
   * New texts added (genre: news, social media, fiction, poetry).
 * 2019-01-05 v2.4
@@ -98,12 +102,12 @@ We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail
 Data available since: UD v2.0
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: fiction legal news nonfiction social poetry
-Lemmas: converted from manual
-UPOS: converted from manual
+Genre: fiction legal news nonfiction social poetry wiki
+Lemmas: manual native
+UPOS: manual native
 XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
+Features: manual native
+Relations: manual native
 Contributors: Lyashevskaya, Olga; Peljak-Łapińska, Angelika; Petrova, Daria
 Contributing: elsewhere
 Contact: olesar@yandex.ru
