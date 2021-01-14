@@ -19456,7 +19456,7 @@
 7	Charles	charles	X	X	Foreign=Yes	1	parataxis	_	_
 8	Francis	francis	X	X	Foreign=Yes	7	flat:foreign	_	_
 9	Richter	richter	X	X	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
-10	;	;	PUNCT	PUNCT	_	5	punct	_	_
+10	;	;	PUNCT	PUNCT	_	7	punct	_	_
 11	26	26	ADJ	ORD	_	7	list	_	_
 12	красавіка	красавік	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	flat	_	_
 13	1900	1900	ADJ	ORD	_	11	nmod	_	SpaceAfter=No
