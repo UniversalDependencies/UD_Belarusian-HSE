@@ -71,7 +71,7 @@ Authors:
 
 # Acknowledgments
 
-We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail.com) for providing a part of source texts, Anna Sherbakova (aniezka.sherbakova@gmail.com) for checking the pos and feature labels in two texts, Boris Orekhov for helpfull scripts.
+We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail.com) for providing a part of source texts, Anna Sherbakova (aniezka.sherbakova@gmail.com) for checking the pos and feature labels in two texts, Alyaxey Yaskevich and Katya Niamkovich for comments ans suggestions, Boris Orekhov for helpfull scripts.
 
 
 
