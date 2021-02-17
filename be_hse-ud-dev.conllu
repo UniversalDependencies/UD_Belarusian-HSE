@@ -209,7 +209,7 @@
 19	вярнуцца	вярнуцца	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Mid	17	xcomp	_	_
 20	да	да	ADP	IN	_	22	case	_	_
 21	сваіх	свой	DET	PRP$	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs	22	det	_	_
-22	сем'яў	сям'я	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+22	сем'яў	сям’я	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = telegraf-2011032104-15-210-be
@@ -233,7 +233,7 @@
 16	гэта	гэта	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	15	obj	_	SpaceAfter=No
 17	,	,	PUNCT	PUNCT	_	15	punct	_	_
 18	ёсць	быць	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	_
-19	шмат	шмат	NUM	DT	Case=Nom|NumType=Card	20	nummod:gov	_	_
+19	шмат	шмат	ADV	RB	Degree=Pos	20	advmod	_	_
 20	рэчаў	рэч	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nsubj	_	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	25	punct	_	_
 22	над	над	ADP	IN	_	23	case	_	_
@@ -436,7 +436,7 @@
 17	)	)	PUNCT	PUNCT	_	15	punct	_	_
 18	была	быць	AUX	VBC	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	_	_
 19	2,96	2,96	NUM	CD	NumType=Card	20	nummod:gov	_	_
-20	млн	млн	NOUN	NN	Abbr=Yes	21	nummod	_	_
+20	млн	мільён	NOUN	NN	Abbr=Yes	21	nummod	_	_
 21	рублёў	рубель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	_	24	punct	_	_
 23	што	што	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Int	24	nsubj	_	_
@@ -455,7 +455,7 @@
 36	служачых	служачы	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	34	conj	_	_
 37	--	--	PUNCT	PUNCT	_	40	punct	_	_
 38	2,99	2,99	NUM	CD	NumType=Card	39	compound	_	_
-39	млн	млн	NOUN	NN	Abbr=Yes	40	nummod:gov	_	_
+39	млн	мільён	NOUN	NN	Abbr=Yes	40	nummod:gov	_	_
 40	рублёў	рубель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
 41	.	.	PUNCT	PUNCT	_	21	punct	_	_
 
@@ -477,7 +477,7 @@
 13	зарплата	зарплата	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 14	склала	скласці	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 15	2,92	2,92	NUM	CD	_	16	nummod:gov	_	_
-16	млн	млн	NOUN	NN	Abbr=Yes	17	nummod:gov	_	_
+16	млн	мільён	NOUN	NN	Abbr=Yes	17	nummod:gov	_	_
 17	рублёў	рубель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	14	punct	_	_
 
@@ -574,26 +574,26 @@
 9	зарплата	зарплата	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 10	склала	скласці	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 11	3,49	3,49	NUM	CD	_	12	nummod:gov	_	_
-12	млн	млн	NOUN	NN	Abbr=Yes	13	nummod	_	_
+12	млн	мільён	NOUN	NN	Abbr=Yes	13	nummod	_	_
 13	рублёў	рубель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	19	punct	_	_
 15	у	у	ADP	IN	_	16	case	_	_
 16	прамысловасці	прамысловасць	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	orphan	_	_
 17	--	--	PUNCT	PUNCT	_	16	punct	_	_
 18	3,35	3,35	NUM	CD	_	19	nummod:gov	_	_
-19	млн	млн	NOUN	NN	Abbr=Yes	13	conj	_	SpaceAfter=No
+19	млн	мільён	NOUN	NN	Abbr=Yes	13	conj	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	25	punct	_	_
 21	у	у	ADP	IN	_	22	case	_	_
 22	будаўніцтве	будаўніцтва	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	orphan	_	_
 23	--	--	PUNCT	PUNCT	_	25	punct	_	_
 24	2,95	2,95	NUM	CD	_	25	nummod:gov	_	_
-25	млн	млн	NOUN	NN	Abbr=Yes	13	conj	_	SpaceAfter=No
+25	млн	мільён	NOUN	NN	Abbr=Yes	13	conj	_	SpaceAfter=No
 26	,	,	PUNCT	PUNCT	_	31	punct	_	_
 27	у	у	ADP	IN	_	28	case	_	_
 28	адукацыі	адукацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	31	orphan	_	_
 29	--	--	PUNCT	PUNCT	_	31	punct	_	_
 30	2,57	2,57	NUM	CD	_	31	nummod:gov	_	_
-31	млн	млн	NOUN	NN	Abbr=Yes	13	conj	_	SpaceAfter=No
+31	млн	мільён	NOUN	NN	Abbr=Yes	13	conj	_	SpaceAfter=No
 32	,	,	PUNCT	PUNCT	_	45	punct	_	_
 33	у	у	ADP	IN	_	35	case	_	_
 34	сельскай	сельскі	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
@@ -606,7 +606,7 @@
 41	--	--	PUNCT	PUNCT	_	35	punct	_	_
 42	амаль	амаль	ADV	RB	Degree=Pos	45	advmod	_	_
 43	2	2	NUM	CD	NumType=Card	44	nummod	_	_
-44	млн	млн	NOUN	NN	Abbr=Yes	45	nummod:gov	_	_
+44	млн	мільён	NOUN	NN	Abbr=Yes	45	nummod:gov	_	_
 45	рублёў	рубель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
 46	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
@@ -629,7 +629,7 @@
 14	на	на	ADP	IN	_	15	case	_	_
 15	ўзроўні	узровень	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
 16	2,63	2,63	NUM	CD	_	17	nummod	_	_
-17	млн	млн	NOUN	NN	Abbr=Yes	18	nummod	_	_
+17	млн	мільён	NOUN	NN	Abbr=Yes	18	nummod	_	_
 18	рублёў	рубель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
@@ -654,7 +654,7 @@
 16	работнікаў	работнік	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
 17	была	быць	AUX	VBC	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	_
 18	2,88	2,88	NUM	CD	_	19	nummod:gov	_	_
-19	млн	млн	NOUN	NN	Abbr=Yes	20	nummod	_	_
+19	млн	мільён	NOUN	NN	Abbr=Yes	20	nummod	_	_
 20	рублёў	рубель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	25	punct	_	_
 22	ці	ці	CCONJ	CC	_	25	cc	_	_
@@ -668,7 +668,7 @@
 30	года	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
 31	--	--	PUNCT	PUNCT	_	34	punct	_	_
 32	2,87	2,87	NUM	CD	_	33	nummod:gov	_	_
-33	млн	млн	NOUN	NN	Abbr=Yes	34	nummod	_	_
+33	млн	мільён	NOUN	NN	Abbr=Yes	34	nummod	_	_
 34	рублёў	рубель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	parataxis	_	SpaceAfter=No
 35	)	)	PUNCT	PUNCT	_	34	punct	_	SpaceAfter=No
 36	.	.	PUNCT	PUNCT	_	20	punct	_	_
@@ -682,7 +682,7 @@
 4	служачых	служачы	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	conj	_	_
 5	склаў	скласці	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpellErr=Yes
 6	2,9	2,9	NUM	CD	_	7	nummod:gov	_	_
-7	млн	млн	NOUN	NN	Abbr=Yes	8	nummod	_	_
+7	млн	мільён	NOUN	NN	Abbr=Yes	8	nummod	_	_
 8	рублёў	рубель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obj	_	_
 9	(	(	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
 10	у	у	ADP	IN	_	11	case	_	_
@@ -691,7 +691,7 @@
 13	года	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
 14	--	--	PUNCT	PUNCT	_	17	punct	_	_
 15	2,9	2,9	NUM	CD	_	16	nummod:gov	_	_
-16	млн	млн	NOUN	NN	Abbr=Yes	17	nummod	_	_
+16	млн	мільён	NOUN	NN	Abbr=Yes	17	nummod	_	_
 17	рублёў	рубель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	parataxis	_	SpaceAfter=No
 18	)	)	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -719,7 +719,7 @@
 18	больш	больш	ADV	RBR	Degree=Cmp	21	advmod	_	_
 19	за	за	ADP	IN	_	18	fixed	_	_
 20	4,7	4,7	NUM	CD	_	21	nummod	_	_
-21	млн	млн	NOUN	NN	Abbr=Yes	22	nummod	_	_
+21	млн	мільён	NOUN	NN	Abbr=Yes	22	nummod	_	_
 22	рублёў	рубель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
 23	(	(	PUNCT	PUNCT	_	26	punct	_	SpaceAfter=No
 24	амаль	амаль	ADV	RB	Degree=Pos	26	advmod	_	_
@@ -884,7 +884,7 @@
 12	ЕС	ЕС	PROPN	NNP	Abbr=Yes	11	nmod	_	_
 13	Беларусь	Беларусь	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
 14	"	"	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
-15	не	не	PART	UH	Polarity=Neg	16	advmod	_	_
+15	не	не	PART	NEG	Polarity=Neg	16	advmod	_	_
 16	бачыць	бачыць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
 17	неабходнасці	неабходнасць	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obj	_	_
 18	ў	у	ADP	IN	_	19	case	_	_
@@ -967,7 +967,7 @@
 11	дыпламаты	дыпламат	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	6	punct	_	_
 13	санкцыі	санкцыя	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
-14	не	не	PART	UH	Polarity=Neg	15	advmod	_	_
+14	не	не	PART	NEG	Polarity=Neg	15	advmod	_	_
 15	закрануць	закрануць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 16	кампаній	кампанія	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obj	_	_
 17	Юрыя	Юрый	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
@@ -1409,8 +1409,8 @@
 4	сродкамі	сродак	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	nmod	_	_
 5	ў	у	ADP	IN	_	6	case	_	_
 6	стане	стан	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
-7	ап'янення	ап'яненне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
-8	затрыманыя	затрымаць	VERB	VBNL	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	ап'янення	ап’яненне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	затрыманыя	затрымаць	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 9	109	109	NUM	CD	NumType=Card	10	nummod:gov	_	_
 10	кіроўцаў	кіроўца	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nsubj:pass	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	8	punct	_	_
@@ -1656,7 +1656,7 @@
 7	Алены	Алена	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
 8	Пенязь	Пенязь	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	6	punct	_	_
-10	не	не	PART	UH	Polarity=Neg	11	advmod	_	_
+10	не	не	PART	NEG	Polarity=Neg	11	advmod	_	_
 11	змагла	змагчы	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 12	прадставіць	прадставіць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
 13	выразных	выразны	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
@@ -1665,7 +1665,7 @@
 16	чаму	чаму	ADV	RB	Degree=Pos	20	advmod	_	_
 17	літоўскі	літоўскі	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 18	бок	бок	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
-19	не	не	PART	UH	Polarity=Neg	20	advmod	_	_
+19	не	не	PART	NEG	Polarity=Neg	20	advmod	_	_
 20	рэагуе	рэаговаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl	_	_
 21	на	на	ADP	IN	_	22	case	_	_
 22	прапановы	прапанова	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obl	_	_
@@ -1717,7 +1717,7 @@
 68	АЭС	АЭС	NOUN	NN	Abbr=Yes	64	nmod	_	SpaceAfter=No
 69	,	,	PUNCT	PUNCT	_	72	punct	_	_
 70	наўмысна	наўмысна	ADV	RB	Degree=Pos	72	advmod	_	_
-71	не	не	PART	UH	Polarity=Neg	72	advmod	_	_
+71	не	не	PART	NEG	Polarity=Neg	72	advmod	_	_
 72	дапусціла	дапусціць	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
 73	беларускіх	беларускі	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	74	amod	_	_
 74	прадстаўнікоў	прадстаўнік	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	72	obj	_	_
@@ -1823,9 +1823,9 @@
 18	13	13	ADJ	ORD	_	16	nmod	_	_
 19	красавіка	красавік	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	flat	_	_
 20	на	на	ADP	IN	_	22	case	_	_
-21	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	SYM	SYM	_	22	dep	_	SpaceAfter=No
+21	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	X	X	_	22	dep	_	SpaceAfter=No
 22	belarusdocs.com	belarusdocs.com	X	X	_	11	obl	_	SpaceAfter=No
-23	</a>	</a>	SYM	SYM	_	22	dep	_	SpaceAfter=No
+23	</a>	</a>	X	X	_	22	dep	_	SpaceAfter=No
 24	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # newpar
@@ -1946,9 +1946,9 @@
 51	пляцоўцы	пляцоўка	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	47	obl	_	_
 52	Талака	Талака	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	51	appos	_	_
 53	–	–	PUNCT	PUNCT	_	55	punct	_	_
-54	<a_href="https://www.talaka.org/projects/3411">	<a_href="https://www.talaka.org/projects/3411">	SYM	SYM	_	55	dep	_	SpaceAfter=No
+54	<a_href="https://www.talaka.org/projects/3411">	<a_href="https://www.talaka.org/projects/3411">	X	X	_	55	dep	_	SpaceAfter=No
 55	https://www.talaka.org/projects/3411	https://www.talaka.org/projects/3411	X	X	_	52	appos	_	SpaceAfter=No
-56	</a>	</a>	SYM	SYM	_	55	dep	_	SpaceAfter=No
+56	</a>	</a>	X	X	_	55	dep	_	SpaceAfter=No
 57	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # newpar
@@ -1970,17 +1970,17 @@
 # sent_id = BelarusDocs-9
 # text = <a_href="https://vk.com/belarusdocs">https://vk.com/belarusdocs</a>
 # genre = social-media
-1	<a_href="https://vk.com/belarusdocs">	<a_href="https://vk.com/belarusdocs">	SYM	SYM	_	2	dep	_	SpaceAfter=No
+1	<a_href="https://vk.com/belarusdocs">	<a_href="https://vk.com/belarusdocs">	X	X	_	2	dep	_	SpaceAfter=No
 2	https://vk.com/belarusdocs	https://vk.com/belarusdocs	X	X	_	0	root	_	SpaceAfter=No
-3	</a>	</a>	SYM	SYM	_	2	dep	_	SpaceAfter=No
+3	</a>	</a>	X	X	_	2	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = BelarusDocs-10
 # text = <a_href="https://t.me/belarusdocs">https://t.me/belarusdocs</a>
 # genre = social-media
-1	<a_href="https://t.me/belarusdocs">	<a_href="https://t.me/belarusdocs">	SYM	SYM	_	2	dep	_	SpaceAfter=No
+1	<a_href="https://t.me/belarusdocs">	<a_href="https://t.me/belarusdocs">	X	X	_	2	dep	_	SpaceAfter=No
 2	https://t.me/belarusdocs	https://t.me/belarusdocs	X	X	_	0	root	_	SpaceAfter=No
-3	</a>	</a>	SYM	SYM	_	2	dep	_	SpaceAfter=No
+3	</a>	</a>	X	X	_	2	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = BelarusDocs-11
@@ -2018,7 +2018,7 @@
 # genre = social-media
 1	Таму	таму	ADV	RB	Degree=Pos	2	advmod	_	_
 2	раім	раіць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	не	не	PART	UH	Polarity=Neg	4	advmod	_	_
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	_
 4	прапусціць	прапусціць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
 5	:	:	PUNCT	PUNCT	_	7	punct	_	_
 6	“	“	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
@@ -2180,7 +2180,7 @@
 # sent_id = BelarusDocs-26
 # text = <strong>Мы жывем на краі (2002; рэжысёр – Віктар Аслюк)</strong>
 # genre = social-media
-1	<strong>	<strong>	SYM	SYM	_	3	dep	_	SpaceAfter=No
+1	<strong>	<strong>	X	X	_	3	dep	_	SpaceAfter=No
 2	Мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	жывем	жыць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	на	на	ADP	IN	_	5	case	_	_
@@ -2193,7 +2193,7 @@
 11	Віктар	Віктар	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	list	_	_
 12	Аслюк	Аслюк	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	SpaceAfter=No
 13	)	)	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
-14	</strong>	</strong>	SYM	SYM	_	3	dep	_	_
+14	</strong>	</strong>	X	X	_	3	dep	_	_
 
 # newpar
 # sent_id = BelarusDocs-27
@@ -2213,7 +2213,7 @@
 12	:	:	PUNCT	PUNCT	_	11	punct	_	_
 13	яго	ён	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
 14	ніколі	ніколі	ADV	RB	Degree=Pos	16	advmod	_	_
-15	не	не	PART	UH	Polarity=Neg	16	advmod	_	_
+15	не	не	PART	NEG	Polarity=Neg	16	advmod	_	_
 16	паказвалі	паказваць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 17	на	на	ADP	IN	_	19	case	_	_
 18	беларускім	беларускі	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
@@ -2224,7 +2224,7 @@
 # text = Тым не менш, гэты метафарычны водгук Віктара Аслюка на беларускую рэчаіснасць сярод экспертаў мае самыя высокія адзнакі.
 # genre = social-media
 1	Тым	тое	PRON	DT	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	не	не	PART	UH	Polarity=Neg	3	advmod	_	_
+2	не	не	PART	NEG	Polarity=Neg	3	advmod	_	_
 3	менш	менш	ADV	RBR	Degree=Cmp	15	parataxis	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	3	punct	_	_
 5	гэты	гэты	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
@@ -2291,8 +2291,8 @@
 # sent_id = BelarusDocs-30
 # text = <strong>Не плачце па мне (1988; сцэнарыст – Віктар Дашук, рэжысёр – Анатоль Алай)</strong>
 # genre = social-media
-1	<strong>	<strong>	SYM	SYM	_	3	dep	_	SpaceAfter=No
-2	Не	не	PART	UH	Polarity=Neg	3	advmod	_	_
+1	<strong>	<strong>	X	X	_	3	dep	_	SpaceAfter=No
+2	Не	не	PART	NEG	Polarity=Neg	3	advmod	_	_
 3	плачце	плакаць	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 4	па	па	ADP	IN	_	5	case	_	_
 5	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
@@ -2309,7 +2309,7 @@
 16	Анатоль	Анатоль	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
 17	Алай	Алай	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	SpaceAfter=No
 18	)	)	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
-19	</strong>	</strong>	SYM	SYM	_	3	dep	_	_
+19	</strong>	</strong>	X	X	_	3	dep	_	_
 
 # newpar
 # sent_id = BelarusDocs-31
@@ -2394,7 +2394,7 @@
 # sent_id = BelarusDocs-34
 # text = <strong>Шчырая размова (1966; рэжысёр – Мікіта Хубаў)</strong>
 # genre = social-media
-1	<strong>	<strong>	SYM	SYM	_	3	dep	_	SpaceAfter=No
+1	<strong>	<strong>	X	X	_	3	dep	_	SpaceAfter=No
 2	Шчырая	шчыры	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	размова	размова	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 4	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
@@ -2405,7 +2405,7 @@
 9	Мікіта	Мікіта	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	list	_	_
 10	Хубаў	Хубаў	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
 11	)	)	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
-12	</strong>	</strong>	SYM	SYM	_	3	dep	_	_
+12	</strong>	</strong>	X	X	_	3	dep	_	_
 
 # newpar
 # sent_id = BelarusDocs-35
@@ -2452,7 +2452,7 @@
 # sent_id = BelarusDocs-37
 # text = <strong>Драўляны народ (2011; рэжысёр – Віктар Аслюк)</strong>
 # genre = social-media
-1	<strong>	<strong>	SYM	SYM	_	3	dep	_	SpaceAfter=No
+1	<strong>	<strong>	X	X	_	3	dep	_	SpaceAfter=No
 2	Драўляны	драўляны	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 3	народ	народ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
@@ -2463,7 +2463,7 @@
 9	Віктар	Віктар	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	list	_	_
 10	Аслюк	Аслюк	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
 11	)	)	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
-12	</strong>	</strong>	SYM	SYM	_	3	dep	_	_
+12	</strong>	</strong>	X	X	_	3	dep	_	_
 
 # newpar
 # sent_id = BelarusDocs-38
@@ -2501,7 +2501,7 @@
 # sent_id = BelarusDocs-39
 # text = <strong>Новы Мінск (1954; рэжысёр – Іосіф Шульман)</strong>
 # genre = social-media
-1	<strong>	<strong>	SYM	SYM	_	3	dep	_	SpaceAfter=No
+1	<strong>	<strong>	X	X	_	3	dep	_	SpaceAfter=No
 2	Новы	новы	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 3	Мінск	Мінск	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
@@ -2512,7 +2512,7 @@
 9	Іосіф	Іосіф	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	list	_	_
 10	Шульман	Шульман	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
 11	)	)	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
-12	</strong>	</strong>	SYM	SYM	_	3	dep	_	_
+12	</strong>	</strong>	X	X	_	3	dep	_	_
 
 # newpar
 # sent_id = BelarusDocs-40
@@ -2702,9 +2702,9 @@
 13	красавіка	красавік	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	flat	_	_
 14	на	на	ADP	IN	_	15	case	_	_
 15	сайце	сайт	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
-16	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	SYM	SYM	_	17	dep	_	SpaceAfter=No
+16	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	X	X	_	17	dep	_	SpaceAfter=No
 17	belarusdocs.com	belarusdocs.com	X	X	_	15	appos	_	SpaceAfter=No
-18	</a>	</a>	SYM	SYM	_	17	dep	_	SpaceAfter=No
+18	</a>	</a>	X	X	_	17	dep	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # newpar
@@ -2741,7 +2741,7 @@
 # sent_id = BelarusDocs-51
 # text = Не страціць сябе дапамагаюць толькі рэпетыцыі турэмнага тэатра...
 # genre = social-media
-1	Не	не	PART	UH	Polarity=Neg	2	advmod	_	_
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	_
 2	страціць	страціць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
 3	сябе	сябе	PRON	PRP	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	дапамагаюць	дапамагаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -2788,9 +2788,9 @@
 # sent_id = BelarusDocs-54
 # text = <a_href="https://vk.com/belarusdocs">https://vk.com/belarusdocs</a>
 # genre = social-media
-1	<a_href="https://vk.com/belarusdocs">	<a_href="https://vk.com/belarusdocs">	SYM	SYM	_	2	dep	_	SpaceAfter=No
+1	<a_href="https://vk.com/belarusdocs">	<a_href="https://vk.com/belarusdocs">	X	X	_	2	dep	_	SpaceAfter=No
 2	https://vk.com/belarusdocs	https://vk.com/belarusdocs	X	X	_	0	root	_	SpaceAfter=No
-3	</a>	</a>	SYM	SYM	_	2	dep	_	SpaceAfter=No
+3	</a>	</a>	X	X	_	2	dep	_	SpaceAfter=No
 
 # doc_id = 24
 # timestamp = 05.04.2020 15:01:07
@@ -2830,9 +2830,9 @@
 28	прасторы	прастора	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	conj	_	_
 29	–	–	PUNCT	PUNCT	_	32	punct	_	_
 30	на	на	ADP	IN	_	32	case	_	_
-31	<a_href="IMDb.com">	<a_href="IMDb.com">	SYM	SYM	_	32	dep	_	SpaceAfter=No
+31	<a_href="IMDb.com">	<a_href="IMDb.com">	X	X	_	32	dep	_	SpaceAfter=No
 32	IMDb.com	IMDb.com	X	X	_	20	appos	_	SpaceAfter=No
-33	</a>	</a>	SYM	SYM	_	32	dep	_	_
+33	</a>	</a>	X	X	_	32	dep	_	_
 34	і	і	CCONJ	CC	_	35	cc	_	_
 35	Кинопоиск	Кинопоиск	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	conj	_	_
 36	адпаведна	адпаведна	ADV	RB	Degree=Pos	32	advmod	_	SpaceAfter=No
@@ -2862,9 +2862,9 @@
 18	праз	праз	ADP	IN	_	19	case	_	_
 19	апытальнік	апытальнік	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 20	на	на	ADP	IN	_	22	case	_	_
-21	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	SYM	SYM	_	22	dep	_	SpaceAfter=No
+21	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	X	X	_	22	dep	_	SpaceAfter=No
 22	belarusdocs.com	belarusdocs.com	X	X	_	19	nmod	_	SpaceAfter=No
-23	</a>	</a>	SYM	SYM	_	22	dep	_	SpaceAfter=No
+23	</a>	</a>	X	X	_	22	dep	_	SpaceAfter=No
 24	,	,	PUNCT	PUNCT	_	8	punct	_	_
 25	змогуць	змагчы	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 26	тое	тое	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	35	obj	_	_
@@ -2879,13 +2879,13 @@
 35	зрабіць	зрабіць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	25	xcomp	_	_
 36	і	і	PART	UH	_	39	advmod	_	_
 37	на	на	ADP	IN	_	39	case	_	_
-38	<a_href="imdb.com">	<a_href="imdb.com">	SYM	SYM	_	39	dep	_	SpaceAfter=No
+38	<a_href="imdb.com">	<a_href="imdb.com">	X	X	_	39	dep	_	SpaceAfter=No
 39	imdb.com	IMDb.com	X	X	_	35	obl	_	SpaceAfter=No
-40	</a>	</a>	SYM	SYM	_	39	dep	_	_
+40	</a>	</a>	X	X	_	39	dep	_	_
 41	і	і	CCONJ	CC	_	43	cc	_	_
-42	<a_href="kinopoisk.ru">	<a_href="kinopoisk.ru">	SYM	SYM	_	43	dep	_	SpaceAfter=No
+42	<a_href="kinopoisk.ru">	<a_href="kinopoisk.ru">	X	X	_	43	dep	_	SpaceAfter=No
 43	kinopoisk.ru	kinopoisk.ru	X	X	_	39	conj	_	SpaceAfter=No
-44	</a>	</a>	SYM	SYM	_	43	dep	_	SpaceAfter=No
+44	</a>	</a>	X	X	_	43	dep	_	SpaceAfter=No
 45	.	.	PUNCT	PUNCT	_	25	punct	_	_
 
 # newpar
@@ -3028,11 +3028,11 @@
 # text = - Не ведаю - нічога не глядзела (-ў)
 # genre = social-media-poll-answer
 1	-	-	PUNCT	PUNCT	_	3	punct	_	_
-2	Не	не	PART	UH	Polarity=Neg	3	advmod	_	_
+2	Не	не	PART	NEG	Polarity=Neg	3	advmod	_	_
 3	ведаю	ведаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	-	-	PUNCT	PUNCT	_	7	punct	_	_
 5	нічога	нішто	PRON	PRP	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	7	obj	_	_
-6	не	не	PART	UH	Polarity=Neg	7	advmod	_	_
+6	не	не	PART	NEG	Polarity=Neg	7	advmod	_	_
 7	глядзела	глядзець	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
 8	(	(	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 9	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
@@ -3116,9 +3116,9 @@
 6	можна	можна	VERB	PRED	_	0	root	_	_
 7	глядзець	глядзець	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	6	csubj	_	_
 8	на	на	ADP	IN	_	10	case	_	_
-9	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	SYM	SYM	_	10	dep	_	SpaceAfter=No
+9	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	X	X	_	10	dep	_	SpaceAfter=No
 10	belarusdocs.com	belarusdocs.com	X	X	_	7	obl	_	SpaceAfter=No
-11	</a>	</a>	SYM	SYM	_	10	dep	_	SpaceAfter=No
+11	</a>	</a>	X	X	_	10	dep	_	SpaceAfter=No
 12	!	!	PUNCT	PUNCT	_	6	punct	_	_
 
 # newpar
@@ -3217,9 +3217,9 @@
 15	адмысловай	адмысловы	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
 16	форме	форма	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
 17	–	–	PUNCT	PUNCT	_	19	punct	_	_
-18	<a_href="https://docs.google.com/forms/d/e/1FAIpQLSfDHz6dhoEBRiLLJiD13c6KbUd0x2FakR5V7pC0RI9viV-cHQ/viewform">	<a_href="https://docs.google.com/forms/d/e/1FAIpQLSfDHz6dhoEBRiLLJiD13c6KbUd0x2FakR5V7pC0RI9viV-cHQ/viewform">	SYM	SYM	_	19	dep	_	SpaceAfter=No
+18	<a_href="https://docs.google.com/forms/d/e/1FAIpQLSfDHz6dhoEBRiLLJiD13c6KbUd0x2FakR5V7pC0RI9viV-cHQ/viewform">	<a_href="https://docs.google.com/forms/d/e/1FAIpQLSfDHz6dhoEBRiLLJiD13c6KbUd0x2FakR5V7pC0RI9viV-cHQ/viewform">	X	X	_	19	dep	_	SpaceAfter=No
 19	https://docs.google.com/forms/d/e/1FAIpQLSfDHz6dhoEBRiLLJiD13c6KbUd0x2FakR5V7pC0RI9viV-cHQ/viewform	https://docs.google.com/forms/d/e/1FAIpQLSfDHz6dhoEBRiLLJiD13c6KbUd0x2FakR5V7pC0RI9viV-cHQ/viewform	X	X	_	16	appos	_	SpaceAfter=No
-20	</a>	</a>	SYM	SYM	_	19	dep	_	SpaceAfter=No
+20	</a>	</a>	X	X	_	19	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = BelarusDocs-164
@@ -3231,18 +3231,18 @@
 4	ў	у	ADP	IN	_	5	case	_	_
 5	Facebook	Facebook	X	X	Foreign=Yes	3	obl	_	_
 6	-	-	PUNCT	PUNCT	_	8	punct	_	_
-7	<a_href="https://www.facebook.com/belarusdocs/posts/2794862693894623">	<a_href="https://www.facebook.com/belarusdocs/posts/2794862693894623">	SYM	SYM	_	8	dep	_	SpaceAfter=No
+7	<a_href="https://www.facebook.com/belarusdocs/posts/2794862693894623">	<a_href="https://www.facebook.com/belarusdocs/posts/2794862693894623">	X	X	_	8	dep	_	SpaceAfter=No
 8	https://www.facebook.com/belarusdocs/posts/2794862693894623	https://www.facebook.com/belarusdocs/posts/2794862693894623	X	X	_	5	appos	_	SpaceAfter=No
-9	</a>	</a>	SYM	SYM	_	8	dep	_	SpaceAfter=No
+9	</a>	</a>	X	X	_	8	dep	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	14	punct	_	_
 11	а	а	CCONJ	CC	_	14	cc	_	_
 12	таксама	таксама	ADV	RB	Degree=Pos	11	fixed	_	_
 13	ў	у	ADP	IN	_	14	case	_	_
 14	Telegram	Telegram	X	X	Foreign=Yes	5	conj	_	_
 15	-	-	PUNCT	PUNCT	_	17	punct	_	_
-16	<a_href="https://t.me/belarusdocs_jury">	<a_href="https://t.me/belarusdocs_jury">	SYM	SYM	_	17	dep	_	SpaceAfter=No
+16	<a_href="https://t.me/belarusdocs_jury">	<a_href="https://t.me/belarusdocs_jury">	X	X	_	17	dep	_	SpaceAfter=No
 17	https://t.me/belarusdocs_jury	https://t.me/belarusdocs_jury	X	X	_	14	appos	_	SpaceAfter=No
-18	</a>	</a>	SYM	SYM	_	17	dep	_	SpaceAfter=No
+18	</a>	</a>	X	X	_	17	dep	_	SpaceAfter=No
 
 # doc_id = 27
 # timestamp = 07.04.2020 20:25:57
@@ -3329,9 +3329,9 @@
 25	працягу	працяг	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
 26	сутак	суткі	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	_
 27	на	на	ADP	IN	_	29	case	_	_
-28	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	SYM	SYM	_	29	dep	_	SpaceAfter=No
+28	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	X	X	_	29	dep	_	SpaceAfter=No
 29	belarusdocs.com	belarusdocs.com	X	X	_	0	root	_	SpaceAfter=No
-30	</a>	</a>	SYM	SYM	_	29	dep	_	SpaceAfter=No
+30	</a>	</a>	X	X	_	29	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = BelarusDocs-168
@@ -3430,7 +3430,7 @@
 # sent_id = BelarusDocs-172
 # text = Не страціць сябе дапамагаюць толькі рэпетыцыі турэмнага тэатра...
 # genre = social-media
-1	Не	не	PART	UH	Polarity=Neg	2	advmod	_	_
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	_
 2	страціць	страціць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
 3	сябе	сябе	PRON	PRP	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	дапамагаюць	дапамагаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -3498,9 +3498,9 @@
 6	красавіка	красавік	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	flat	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	5	punct	_	_
 8	на	на	ADP	IN	_	10	case	_	_
-9	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	SYM	SYM	_	10	dep	_	SpaceAfter=No
+9	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	X	X	_	10	dep	_	SpaceAfter=No
 10	belarusdocs.com	belarusdocs.com	X	X	_	1	obl	_	SpaceAfter=No
-11	</a>	</a>	SYM	SYM	_	10	dep	_	SpaceAfter=No
+11	</a>	</a>	X	X	_	10	dep	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	10	punct	_	_
 13	фільм	фільм	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
 14	Галіны	Галіна	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
@@ -3573,9 +3573,9 @@
 16	адмысловай	адмысловы	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
 17	форме	форма	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
 18	–	–	PUNCT	PUNCT	_	20	punct	_	_
-19	<a_href="https://docs.google.com/forms/d/e/1FAIpQLSfPHDc3rDAl6NBaQg9AqjWBHgaDvHdtEeI2QsLr5ckMLzbYOQ/viewform?usp=sf_link">	<a_href="https://docs.google.com/forms/d/e/1FAIpQLSfPHDc3rDAl6NBaQg9AqjWBHgaDvHdtEeI2QsLr5ckMLzbYOQ/viewform?usp=sf_link">	SYM	SYM	_	20	dep	_	SpaceAfter=No
+19	<a_href="https://docs.google.com/forms/d/e/1FAIpQLSfPHDc3rDAl6NBaQg9AqjWBHgaDvHdtEeI2QsLr5ckMLzbYOQ/viewform?usp=sf_link">	<a_href="https://docs.google.com/forms/d/e/1FAIpQLSfPHDc3rDAl6NBaQg9AqjWBHgaDvHdtEeI2QsLr5ckMLzbYOQ/viewform?usp=sf_link">	X	X	_	20	dep	_	SpaceAfter=No
 20	https://docs.google.com/forms/d/e/1FAIpQLSfPHDc3rDAl6NBaQg9AqjWBHgaDvHdtEeI2QsLr5ckMLzbYOQ/viewform?usp=sf_link	https://docs.google.com/forms/d/e/1FAIpQLSfPHDc3rDAl6NBaQg9AqjWBHgaDvHdtEeI2QsLr5ckMLzbYOQ/viewform?usp=sf_link	X	X	_	17	appos	_	SpaceAfter=No
-21	</a>	</a>	SYM	SYM	_	20	dep	_	SpaceAfter=No
+21	</a>	</a>	X	X	_	20	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = BelarusDocs-179
@@ -3983,9 +3983,9 @@
 4	красавіка	красавік	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	3	punct	_	_
 6	на	на	ADP	IN	_	8	case	_	_
-7	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	SYM	SYM	_	8	dep	_	SpaceAfter=No
+7	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	X	X	_	8	dep	_	SpaceAfter=No
 8	belarusdocs.com	belarusdocs.com	X	X	_	1	obl	_	SpaceAfter=No
-9	</a>	</a>	SYM	SYM	_	8	dep	_	_
+9	</a>	</a>	X	X	_	8	dep	_	_
 10	–	–	PUNCT	PUNCT	_	1	punct	_	_
 11	фільм	фільм	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 12	Евы	Ева	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
@@ -4277,7 +4277,7 @@
 2	года	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
 3	яна	яна	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
 4	была	быць	AUX	VBC	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
-5	прэзентаваная	прэзентаваць	VERB	VBNL	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	прэзентаваная	прэзентаваць	VERB	VBNH	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6	на	на	ADP	IN	_	8	case	_	_
 7	адмысловым	адмысловы	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 8	прэс-паказе	прэс-паказ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
@@ -4317,7 +4317,7 @@
 5	выказванне	выказванне	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
 7	схільнае	схільны	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	acl	_	_
-8	не	не	PART	UH	Polarity=Neg	10	advmod	_	_
+8	не	не	PART	NEG	Polarity=Neg	10	advmod	_	_
 9	да	да	ADP	IN	_	10	case	_	_
 10	катэгарызацыі	катэгарызацыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
 11	і	і	CCONJ	CC	_	12	cc	_	_
@@ -4503,7 +4503,7 @@
 1	Лёгкі	лёгкі	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	6	punct	_	_
 3	але	але	CCONJ	CC	_	6	cc	_	_
-4	не	не	PART	UH	Polarity=Neg	6	advmod	_	_
+4	не	не	PART	NEG	Polarity=Neg	6	advmod	_	_
 5	без	без	ADP	IN	_	6	case	_	_
 6	пастаноўкі	пастаноўка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	conj	_	_
 7	пытанняў	пытанне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
@@ -4621,12 +4621,12 @@
 6	асяродку	асяродак	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
 7	аказваецца	аказвацца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 8	персанажам	персанаж	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	xcomp	_	_
-9	не	не	PART	UH	Polarity=Neg	10	advmod	_	_
+9	не	не	PART	NEG	Polarity=Neg	10	advmod	_	_
 10	такім	такі	DET	JJL	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 11	адназначным	адназначны	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 12	—	—	PUNCT	PUNCT	_	15	punct	_	_
 13	ён	ён	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-14	не	не	PART	UH	Polarity=Neg	15	advmod	_	_
+14	не	не	PART	NEG	Polarity=Neg	15	advmod	_	_
 15	саступае	саступаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
 16	ні	ні	CCONJ	CC	Polarity=Neg	18	cc	_	_
 17	навакольнай	навакольны	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
@@ -4810,7 +4810,7 @@
 22	,	,	PUNCT	PUNCT	_	26	punct	_	_
 23	калі	калі	SCONJ	IN	_	26	mark	_	_
 24	нічога	нішто	PRON	PA	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	26	nsubj	_	_
-25	не	не	PART	UH	Polarity=Neg	26	advmod	_	_
+25	не	не	PART	NEG	Polarity=Neg	26	advmod	_	_
 26	адбываецца	адбывацца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	21	advcl	_	SpaceAfter=No
 27	,	,	PUNCT	PUNCT	_	30	punct	_	_
 28	а	а	CCONJ	CC	_	30	cc	_	_
@@ -4927,7 +4927,7 @@
 14	і	і	CCONJ	CC	_	18	cc	_	_
 15	на	на	ADP	IN	_	16	case	_	_
 16	нас	мы	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	18	obl	_	_
-17	ня	ня	PART	UH	Polarity=Neg	18	advmod	_	_
+17	ня	ня	PART	NEG	Polarity=Neg	18	advmod	_	_
 18	падаюць	падаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
 19	бомбы	бомба	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	SpaceAfter=No
 20	"	"	PUNCT	PUNCT	_	4	punct	_	_
@@ -5027,7 +5027,7 @@
 12	,	,	PUNCT	PUNCT	_	16	punct	_	_
 13	што	што	SCONJ	IN	_	16	mark	_	_
 14	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
-15	не	не	PART	UH	Polarity=Neg	16	advmod	_	_
+15	не	не	PART	NEG	Polarity=Neg	16	advmod	_	_
 16	магла	магчы	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	_
 17	прачытаць	прачытаць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
 18	“	“	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
@@ -5060,11 +5060,11 @@
 15	,	,	PUNCT	PUNCT	_	19	punct	_	_
 16	што	што	SCONJ	IN	_	19	mark	_	_
 17	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
-18	не	не	PART	UH	Polarity=Neg	19	advmod	_	_
+18	не	не	PART	NEG	Polarity=Neg	19	advmod	_	_
 19	памыла	памыць	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	acl	_	_
 20	посуд	посуд	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	23	punct	_	_
-22	не	не	PART	UH	Polarity=Neg	23	advmod	_	_
+22	не	не	PART	NEG	Polarity=Neg	23	advmod	_	_
 23	заслала	заслаць	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	_
 24	ложак	ложак	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
 25	"	"	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
@@ -5115,7 +5115,7 @@
 6	Захадзе	захад	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
 7	хутка	хутка	ADV	RB	Degree=Pos	10	advmod	_	_
 8	сем’яў	сем’я	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nsubj	_	_
-9	ня	ня	PART	UH	Polarity=Neg	10	advmod	_	_
+9	ня	ня	PART	NEG	Polarity=Neg	10	advmod	_	_
 10	будзе	быць	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
 11	:	:	PUNCT	PUNCT	_	10	punct	_	_
 12	мужык	мужык	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
@@ -5189,7 +5189,7 @@
 1	Лукашэнка	Лукашэнка	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	PUNCT	_	4	punct	_	_
 3	«	«	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
-4	Ні	ні	PART	UH	Polarity=Neg	1	parataxis	_	_
+4	Ні	ні	PART	NEG	Polarity=Neg	1	parataxis	_	_
 5	дай	даць	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	4	fixed	_	_
 6	бог	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	fixed	_	_
 7	вайна	вайна	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
@@ -5272,9 +5272,9 @@
 # genre = news
 1	СТРЫМ	стрым	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	PUNCT	_	4	punct	_	_
-3	<a_href="https://vk.com/radiosvaboda?z=video-36069860_456243574%2Fd65eeede6488b5444d%2Fpl_wall_-36069860">	<a_href="https://vk.com/radiosvaboda?z=video-36069860_456243574%2Fd65eeede6488b5444d%2Fpl_wall_-36069860">	SYM	SYM	_	4	dep	_	SpaceAfter=No
+3	<a_href="https://vk.com/radiosvaboda?z=video-36069860_456243574%2Fd65eeede6488b5444d%2Fpl_wall_-36069860">	<a_href="https://vk.com/radiosvaboda?z=video-36069860_456243574%2Fd65eeede6488b5444d%2Fpl_wall_-36069860">	X	X	_	4	dep	_	SpaceAfter=No
 4	https://vk.com/radiosvaboda?z=video-36069860_456243574%2Fd65eeede6488b5444d%2Fpl_wall_-36069860	https://vk.com/radiosvaboda?z=video-36069860_456243574%2Fd65eeede6488b5444d%2Fpl_wall_-36069860	X	X	_	1	parataxis	_	SpaceAfter=No
-5	</a>	</a>	SYM	SYM	_	4	dep	_	SpaceAfter=No
+5	</a>	</a>	X	X	_	4	dep	_	SpaceAfter=No
 
 # doc_id = 948
 # timestamp = 08.10.2018 14:42:14
@@ -5348,7 +5348,7 @@
 4	,	,	PUNCT	PUNCT	_	17	punct	_	_
 5	што	што	SCONJ	IN	_	17	mark	_	_
 6	калі	калі	SCONJ	IN	_	9	mark	_	_
-7	ня	ня	PART	UH	Polarity=Neg	9	advmod	_	_
+7	ня	ня	PART	NEG	Polarity=Neg	9	advmod	_	_
 8	будуць	быць	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
 9	прынятыя	прыняць	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	advcl	_	_
 10	належным	належны	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
@@ -5395,9 +5395,9 @@
 2	:	:	PUNCT	PUNCT	_	1	punct	_	_
 3	«	«	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 4	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-5	ні	ні	PART	UH	Polarity=Neg	8	advmod	_	_
+5	ні	ні	PART	NEG	Polarity=Neg	8	advmod	_	_
 6	разу	раз	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	fixed	_	_
-7	ня	ня	PART	UH	Polarity=Neg	8	advmod	_	_
+7	ня	ня	PART	NEG	Polarity=Neg	8	advmod	_	_
 8	чуў	чуць	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	_
 9	ад	ад	ADP	IN	_	10	case	_	_
 10	Пуціна	Пуцін	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
@@ -5445,7 +5445,7 @@
 # sent_id = RadyjoSvaboda-4804
 # text = Ня верыце?
 # genre = news
-1	Ня	ня	PART	UH	Polarity=Neg	2	advmod	_	_
+1	Ня	ня	PART	NEG	Polarity=Neg	2	advmod	_	_
 2	верыце	верыць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 3	?	?	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -5592,9 +5592,9 @@
 3	некалькіх	некалькі	NUM	CD	Animacy=Anim|Case=Acc|Number=Plur|NumType=Card	4	nummod	_	_
 4	пратэстоўцаў	пратэстоўца	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	1	conj	_	_
 5	затрымалі	затрымаць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-6	<a_href="https://www.svaboda.org/a/29542581.html">	<a_href="https://www.svaboda.org/a/29542581.html">	SYM	SYM	_	7	dep	_	SpaceAfter=No
+6	<a_href="https://www.svaboda.org/a/29542581.html">	<a_href="https://www.svaboda.org/a/29542581.html">	X	X	_	7	dep	_	SpaceAfter=No
 7	https://www.svaboda.org/a/29542581.html	https://www.svaboda.org/a/29542581.html	X	X	_	5	parataxis	_	SpaceAfter=No
-8	</a>	</a>	SYM	SYM	_	7	dep	_	SpaceAfter=No
+8	</a>	</a>	X	X	_	7	dep	_	SpaceAfter=No
 
 # doc_id = 957
 # timestamp = 14.10.2018 20:25:00
@@ -5659,7 +5659,7 @@
 1	На	на	ADP	IN	_	2	case	_	_
 2	лідэра	лідэр	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
 3	гурту	гурт	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-4	Dzieciuki	Dzieciuki	X	X	_	3	appos	_	_
+4	Dzieciuki	Dzieciuki	X	X	Foreign=Yes	3	appos	_	_
 5	завялі	завесці	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	справу	справа	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 7	за	за	ADP	IN	_	8	case	_	_
@@ -5845,7 +5845,7 @@
 # sent_id = RadyjoSvaboda-4832
 # text = Затрыманыя трое ўдзельнікаў
 # genre = news
-1	Затрыманыя	затрымаць	VERB	VBNL	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+1	Затрыманыя	затрымаць	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 2	трое	трое	NUM	CD	Case=Nom|NumType=Sets	1	nummod:gov	_	_
 3	ўдзельнікаў	удзельнік	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nsubj:pass	_	_
 
@@ -5907,7 +5907,7 @@
 # genre = news
 1	Тут	тут	ADV	RB	Degree=Pos	4	advmod	_	_
 2	усё	увесь	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	4	nsubj	_	_
-3	ня	ня	PART	UH	Polarity=Neg	4	advmod	_	_
+3	ня	ня	PART	NEG	Polarity=Neg	4	advmod	_	_
 4	так	так	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	9	punct	_	_
 6	як	як	SCONJ	IN	_	9	case	_	_
@@ -6023,7 +6023,7 @@
 # text = Загінулі ня менш за 10 чалавек!
 # genre = news
 1	Загінулі	загінуць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-2	ня	ня	PART	UH	Polarity=Neg	3	advmod	_	_
+2	ня	ня	PART	NEG	Polarity=Neg	3	advmod	_	_
 3	менш	менш	ADV	RBR	Degree=Cmp	5	advmod	_	_
 4	за	за	ADP	IN	_	3	fixed	_	_
 5	10	10	NUM	CD	NumType=Card	6	nummod	_	_
@@ -6122,7 +6122,7 @@
 12	у	у	ADP	IN	_	13	case	_	_
 13	якіх	які	PRON	WPA	Case=Loc|Number=Plur|PronType=Rel	16	obl	_	_
 14	ніхто	ніхто	PRON	DT	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	16	nsubj	_	_
-15	не	не	PART	UH	Polarity=Neg	16	advmod	_	_
+15	не	не	PART	NEG	Polarity=Neg	16	advmod	_	_
 16	жыве	жыць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	SpaceAfter=No
 17	,	,	PUNCT	PUNCT	_	20	punct	_	_
 18	пад’ёмныя	пад’ёмны	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
@@ -6134,7 +6134,7 @@
 24	,	,	PUNCT	PUNCT	_	28	punct	_	_
 25	каб	каб	SCONJ	IN	Mood=Cnd	28	mark	_	_
 26	нічога	нішто	PRON	PRP	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	28	obl	_	_
-27	не	не	PART	UH	Polarity=Neg	28	advmod	_	_
+27	не	не	PART	NEG	Polarity=Neg	28	advmod	_	_
 28	пабудаваць	пабудаваць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	20	advcl	_	SpaceAfter=No
 29	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -6156,9 +6156,9 @@
 # text = У <a_href="Tut.by">Tut.by</a> прыслалі пагрозы выбухам.
 # genre = news
 1	У	у	ADP	IN	_	3	case	_	_
-2	<a_href="Tut.by">	<a_href="Tut.by">	SYM	SYM	_	3	dep	_	SpaceAfter=No
+2	<a_href="Tut.by">	<a_href="Tut.by">	X	X	_	3	dep	_	SpaceAfter=No
 3	Tut.by	Tut.by	X	X	_	5	obl	_	SpaceAfter=No
-4	</a>	</a>	SYM	SYM	_	3	dep	_	_
+4	</a>	</a>	X	X	_	3	dep	_	_
 5	прыслалі	прыслаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	пагрозы	пагроза	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
 7	выбухам	выбух	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
@@ -6240,19 +6240,19 @@
 # sent_id = RadyjoSvaboda-4858
 # text = <strong>Лукашэнка кажа, што калі хлопец не служыў - то ён не мужык.
 # genre = news
-1	<strong>	<strong>	SYM	SYM	_	3	dep	_	SpaceAfter=No
+1	<strong>	<strong>	X	X	_	3	dep	_	SpaceAfter=No
 2	Лукашэнка	Лукашэнка	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	кажа	казаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	14	punct	_	_
 5	што	што	SCONJ	IN	_	14	mark	_	_
 6	калі	калі	SCONJ	IN	_	9	mark	_	_
 7	хлопец	хлопец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-8	не	не	PART	UH	Polarity=Neg	9	advmod	_	_
+8	не	не	PART	NEG	Polarity=Neg	9	advmod	_	_
 9	служыў	служыць	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
 10	-	-	PUNCT	PUNCT	_	9	punct	_	_
 11	то	то	SCONJ	IN	_	14	mark	_	_
 12	ён	ён	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
-13	не	не	PART	UH	Polarity=Neg	14	advmod	_	_
+13	не	не	PART	NEG	Polarity=Neg	14	advmod	_	_
 14	мужык	мужык	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -6262,7 +6262,7 @@
 1	А	а	CCONJ	CC	_	5	cc	_	_
 2	такія	такі	DET	DT	Case=Nom|Number=Plur|PronType=Dem	5	nsubj	_	_
 3	жанчынам	жанчына	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur	5	iobj	_	_
-4	не	не	PART	UH	Polarity=Neg	5	advmod	_	_
+4	не	не	PART	NEG	Polarity=Neg	5	advmod	_	_
 5	патрэбныя	патрэбны	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -6275,13 +6275,13 @@
 4	вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2|PronType=Prs	2	obj	_	_
 5	адслужыць	адслужыць	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
 6	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
-7	</strong>	</strong>	SYM	SYM	_	2	dep	_	_
+7	</strong>	</strong>	X	X	_	2	dep	_	_
 
 # newpar
 # sent_id = RadyjoSvaboda-4862
 # text = Не – 583
 # genre = news
-1	Не	не	PART	UH	Polarity=Neg	0	root	_	_
+1	Не	не	PART	NEG	Polarity=Neg	0	root	_	_
 2	–	–	PUNCT	PUNCT	_	1	punct	_	_
 3	583	583	NUM	CD	NumType=Card	1	nsubj	_	_
 
@@ -6305,7 +6305,7 @@
 # sent_id = RadyjoSvaboda-4865
 # text = ▫️ 5%
 # genre = news
-1	▫️	▫️	SYM	X	_	3	parataxis	_	_
+1	▫️	▫️	SYM	SYM	_	3	parataxis	_	_
 2	5	5	NUM	CD	NumType=Card	3	nummod:gov	_	SpaceAfter=No
 3	%	%	SYM	SYM	_	0	root	_	_
 
@@ -6380,7 +6380,7 @@
 2	сказаў	сказаць	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	6	punct	_	_
 4	што	што	SCONJ	IN	_	6	mark	_	_
-5	ня	ня	PART	UH	Polarity=Neg	6	advmod	_	_
+5	ня	ня	PART	NEG	Polarity=Neg	6	advmod	_	_
 6	мае	мець	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
 7	сяброў	сябар	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
 8	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
@@ -6453,8 +6453,8 @@
 # sent_id = RadyjoSvaboda-4875
 # text = <a_href="https://telegra.ph/file/55b8368ae1c981925b5f5.jpg"></a>Беларускія мытнікі канфіскавалі батлейку з 28 пэрсанажамі, зь якой музыкі вандравалі па сьвеце з 1999 году.
 # genre = news
-1	<a_href="https://telegra.ph/file/55b8368ae1c981925b5f5.jpg">	<a_href="https://telegra.ph/file/55b8368ae1c981925b5f5.jpg">	SYM	SYM	_	5	dep	_	SpaceAfter=No
-2	</a>	</a>	SYM	SYM	_	5	dep	_	SpaceAfter=No
+1	<a_href="https://telegra.ph/file/55b8368ae1c981925b5f5.jpg">	<a_href="https://telegra.ph/file/55b8368ae1c981925b5f5.jpg">	X	X	_	5	dep	_	SpaceAfter=No
+2	</a>	</a>	X	X	_	5	dep	_	SpaceAfter=No
 3	Беларускія	беларускі	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
 4	мытнікі	мытнік	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 5	канфіскавалі	канфіскаваць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6495,7 +6495,7 @@
 # sent_id = RadyjoSvaboda-4877
 # text = Ня можа быць!
 # genre = news
-1	Ня	ня	PART	UH	Polarity=Neg	2	advmod	_	_
+1	Ня	ня	PART	NEG	Polarity=Neg	2	advmod	_	_
 2	можа	магчы	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	быць	быць	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
 4	!	!	PUNCT	PUNCT	_	2	punct	_	_
@@ -6641,7 +6641,7 @@
 # genre = news
 1	«	«	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
 2	Хто	хто	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_
-3	ня	ня	PART	UH	Polarity=Neg	4	advmod	_	_
+3	ня	ня	PART	NEG	Polarity=Neg	4	advmod	_	_
 4	скача	скакаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	4	punct	_	_
 6	Блез	Блез	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -6664,9 +6664,9 @@
 2	сьпіс	сьпіс	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	тут	тут	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	PUNCT	_	6	punct	_	_
-5	<a_href="https://www.svaboda.org/a/29563170.html">	<a_href="https://www.svaboda.org/a/29563170.html">	SYM	SYM	_	6	dep	_	SpaceAfter=No
+5	<a_href="https://www.svaboda.org/a/29563170.html">	<a_href="https://www.svaboda.org/a/29563170.html">	X	X	_	6	dep	_	SpaceAfter=No
 6	https://www.svaboda.org/a/29563170.html	https://www.svaboda.org/a/29563170.html	X	X	_	3	appos	_	SpaceAfter=No
-7	</a>	</a>	SYM	SYM	_	6	dep	_	SpaceAfter=No
+7	</a>	</a>	X	X	_	6	dep	_	SpaceAfter=No
 
 # doc_id = 996
 # timestamp = 25.10.2018 13:00:38
@@ -7302,9 +7302,9 @@
 2	больш	больш	ADV	RBR	Degree=Cmp	1	advmod	_	_
 3	на	на	ADP	IN	_	6	case	_	SpaceAfter=No
 4	:	:	PUNCT	PUNCT	_	6	punct	_	_
-5	<a_href="https://www.racyja.com/hramadstva/da-memaryyalu-u-khajsakh-zaarali-darogu/">	<a_href="https://www.racyja.com/hramadstva/da-memaryyalu-u-khajsakh-zaarali-darogu/">	SYM	SYM	_	6	dep	_	SpaceAfter=No
+5	<a_href="https://www.racyja.com/hramadstva/da-memaryyalu-u-khajsakh-zaarali-darogu/">	<a_href="https://www.racyja.com/hramadstva/da-memaryyalu-u-khajsakh-zaarali-darogu/">	X	X	_	6	dep	_	SpaceAfter=No
 6	https://www.racyja.com/hramadstva/da-memaryyalu-u-khajsakh-zaarali-darogu/	https://www.racyja.com/hramadstva/da-memaryyalu-u-khajsakh-zaarali-darogu/	X	X	_	1	obl	_	SpaceAfter=No
-7	</a>	</a>	SYM	SYM	_	6	dep	_	SpaceAfter=No
+7	</a>	</a>	X	X	_	6	dep	_	SpaceAfter=No
 
 # doc_id = 1042
 # timestamp = 29.04.2020 17:26:32
@@ -7861,10 +7861,10 @@
 11	каго	хто	PRON	WPA	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	15	obl	_	_
 12	спагнанні	спагнанне	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	15	nsubj:pass	_	_
 13	яшчэ	яшчэ	ADV	RB	Degree=Pos	15	advmod	_	_
-14	не	не	PART	UH	Polarity=Neg	15	advmod	_	_
-15	аплочаныя	аплаціць	VERB	VBNL	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+14	не	не	PART	NEG	Polarity=Neg	15	advmod	_	_
+15	аплочаныя	аплаціць	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
 16	ці	ці	CCONJ	CC	_	17	cc	_	_
-17	аплочаныя	аплаціць	VERB	VBNL	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	conj	_	_
+17	аплочаныя	аплаціць	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	conj	_	_
 18	часткова	часткова	ADV	RB	Degree=Pos	17	advmod	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -8012,10 +8012,10 @@
 # sent_id = AbaronaKurapatau-15229
 # text = <a_href="https://telegra.ph/file/ff4e408b49529ff1b14dc.jpg">​​</a><strong>Гэта сенсацыя!
 # genre = news
-1	<a_href="https://telegra.ph/file/ff4e408b49529ff1b14dc.jpg">	<a_href="https://telegra.ph/file/ff4e408b49529ff1b14dc.jpg">	SYM	SYM	_	2	dep	_	SpaceAfter=No
+1	<a_href="https://telegra.ph/file/ff4e408b49529ff1b14dc.jpg">	<a_href="https://telegra.ph/file/ff4e408b49529ff1b14dc.jpg">	X	X	_	2	dep	_	SpaceAfter=No
 2	​​	​​	X	X	_	6	parataxis	_	SpaceAfter=No
-3	</a>	</a>	SYM	SYM	_	2	dep	_	SpaceAfter=No
-4	<strong>	<strong>	SYM	SYM	_	6	dep	_	SpaceAfter=No
+3	</a>	</a>	X	X	_	2	dep	_	SpaceAfter=No
+4	<strong>	<strong>	X	X	_	6	dep	_	SpaceAfter=No
 5	Гэта	гэта	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
 6	сенсацыя	сенсацыя	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 7	!	!	PUNCT	PUNCT	_	6	punct	_	_
@@ -8031,13 +8031,13 @@
 6	Курапатах	Курапаты	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
 7	Мардыхая	Мардыхай	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
 8	Шулькеса	Шулькес	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No
-9	</strong>	</strong>	SYM	SYM	_	1	dep	_	_
+9	</strong>	</strong>	X	X	_	1	dep	_	_
 
 # newpar
 # sent_id = AbaronaKurapatau-15231
 # text = <em>Дзіяна Серадзюк</em>
 # genre = news
-1	<em>	<em>	SYM	SYM	_	2	dep	_	SpaceAfter=No
+1	<em>	<em>	X	X	_	2	dep	_	SpaceAfter=No
 2	Дзіяна	Дзіяна	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 3	Серадзюк	Серадзюк	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	SpaceAfter=No
 4	</em>	em>	SYM	SYM	_	2	dep	_	SpaceAfter=No
@@ -8097,7 +8097,7 @@
 13	,	,	PUNCT	PUNCT	_	16	punct	_	_
 14	нібыта	нібыта	ADV	RB	Degree=Pos	16	advmod	_	_
 15	тут	тут	ADV	RB	Degree=Pos	16	advmod	_	_
-16	пахаваныя	пахаваць	VERB	VBNL	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+16	пахаваныя	пахаваць	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
 17	ахвяры	ахвяра	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	16	nsubj:pass	_	_
 18	Халакосту	Халакост	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -8105,10 +8105,10 @@
 # sent_id = AbaronaKurapatau-15235
 # text = <a_href="https://novychas.by/poviaz/dasledczyki-znajszli-zvestki-pra-rasstraljanaha-u">ЧЫТАЦЬ ДАЛЕЙ</a>
 # genre = news
-1	<a_href="https://novychas.by/poviaz/dasledczyki-znajszli-zvestki-pra-rasstraljanaha-u">	<a_href="https://novychas.by/poviaz/dasledczyki-znajszli-zvestki-pra-rasstraljanaha-u">	SYM	SYM	_	2	dep	_	SpaceAfter=No
+1	<a_href="https://novychas.by/poviaz/dasledczyki-znajszli-zvestki-pra-rasstraljanaha-u">	<a_href="https://novychas.by/poviaz/dasledczyki-znajszli-zvestki-pra-rasstraljanaha-u">	X	X	_	2	dep	_	SpaceAfter=No
 2	ЧЫТАЦЬ	чытаць	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
 3	ДАЛЕЙ	далей	ADV	RBR	Degree=Cmp	2	advmod	_	SpaceAfter=No
-4	</a>	</a>	SYM	SYM	_	2	dep	_	SpaceAfter=No
+4	</a>	</a>	X	X	_	2	dep	_	SpaceAfter=No
 
 # doc_id = 1059
 # timestamp = 19.05.2020 15:21:27
@@ -8117,7 +8117,7 @@
 # sent_id = AbaronaKurapatau-15236
 # text = <strong>❗️Сябры!
 # genre = news
-1	<strong>	<strong>	SYM	SYM	_	3	dep	_	SpaceAfter=No
+1	<strong>	<strong>	X	X	_	3	dep	_	SpaceAfter=No
 2	❗️	❗️	SYM	SYM	_	3	parataxis	_	SpaceAfter=No
 3	Сябры	сябар	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	PUNCT	_	3	punct	_	_
@@ -8154,7 +8154,7 @@
 9	ці	ці	SCONJ	IN	_	10	mark	_	_
 10	гатовыя	гатовы	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	7	acl	_	_
 11	і	і	CCONJ	CC	_	12	cc	_	_
-12	падрыхтаваныя	падрыхтаваць	VERB	VBNL	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	_
+12	падрыхтаваныя	падрыхтаваць	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	_
 13	Вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2|PronType=Prs	10	nsubj	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	17	punct	_	_
 15	нашыя	наш	DET	DT	Case=Nom|Number=Plur|Poss=Yes|PronType=Prs	17	det	_	_
@@ -8205,7 +8205,7 @@
 1	Пераможам	перамагчы	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 2	!	!	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
 3	✊🏻	✊🏻	SYM	SYM	_	1	parataxis	_	SpaceAfter=No
-4	</strong>	</strong>	SYM	SYM	_	1	dep	_	_
+4	</strong>	</strong>	X	X	_	1	dep	_	_
 
 # doc_id = 1060
 # timestamp = 19.05.2020 15:21:32
@@ -8283,7 +8283,7 @@
 # text = - Не гатовы (-ая) рабіць вышэйпералічанае
 # genre = news-poll-question
 1	-	-	PUNCT	PUNCT	_	3	punct	_	_
-2	Не	не	PART	UH	Polarity=Neg	3	advmod	_	_
+2	Не	не	PART	NEG	Polarity=Neg	3	advmod	_	_
 3	гатовы	гатовы	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
 4	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 5	-ая	-ы	X	X	_	3	parataxis	_	SpaceAfter=No
@@ -8460,22 +8460,22 @@
 # sent_id = AbaronaKurapatau-15265
 # text = <a_href="https://telegra.ph/file/40fc12ac78159c72dfeb6.jpg">​​</a><strong>Ён мог апынуцца ў Курапатах</strong>
 # genre = news
-1	<a_href="https://telegra.ph/file/40fc12ac78159c72dfeb6.jpg">	<a_href="https://telegra.ph/file/40fc12ac78159c72dfeb6.jpg">	SYM	SYM	_	2	dep	_	SpaceAfter=No
+1	<a_href="https://telegra.ph/file/40fc12ac78159c72dfeb6.jpg">	<a_href="https://telegra.ph/file/40fc12ac78159c72dfeb6.jpg">	X	X	_	2	dep	_	SpaceAfter=No
 2	​​	​​	X	X	_	6	parataxis	_	SpaceAfter=No
-3	</a>	</a>	SYM	SYM	_	2	dep	_	SpaceAfter=No
-4	<strong>	<strong>	SYM	SYM	_	6	dep	_	SpaceAfter=No
+3	</a>	</a>	X	X	_	2	dep	_	SpaceAfter=No
+4	<strong>	<strong>	X	X	_	6	dep	_	SpaceAfter=No
 5	Ён	ён	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	мог	магчы	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	апынуцца	апынуцца	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
 8	ў	у	ADP	IN	_	9	case	_	_
 9	Курапатах	Курапаты	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
-10	</strong>	</strong>	SYM	SYM	_	6	dep	_	_
+10	</strong>	</strong>	X	X	_	6	dep	_	_
 
 # newpar
 # sent_id = AbaronaKurapatau-15266
 # text = <em>Ігар Мельнікаў</em>
 # genre = news
-1	<em>	<em>	SYM	SYM	_	2	dep	_	SpaceAfter=No
+1	<em>	<em>	X	X	_	2	dep	_	SpaceAfter=No
 2	Ігар	Ігар	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	Мельнікаў	Мельнікаў	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	SpaceAfter=No
 4	</em>	em>	SYM	SYM	_	2	dep	_	SpaceAfter=No
@@ -8581,7 +8581,7 @@
 19	з	з	ADP	IN	_	20	case	_	_
 20	Германіяй	Германія	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	nmod	_	_
 21	Польшчы	Польшча	PROPN	NNP	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	23	iobj	_	_
-22	не	не	PART	UH	Polarity=Neg	23	advmod	_	_
+22	не	не	PART	NEG	Polarity=Neg	23	advmod	_	_
 23	пазбегнуць	пазбегнуць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	15	ccomp	_	SpaceAfter=No
 24	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -8686,7 +8686,7 @@
 7	сігнал	сігнал	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
 8	:	:	PUNCT	PUNCT	_	7	punct	_	_
 9	беларусы	беларус	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
-10	не	не	PART	UH	Polarity=Neg	11	advmod	_	_
+10	не	не	PART	NEG	Polarity=Neg	11	advmod	_	_
 11	здаюцца	здацца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	parataxis	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
@@ -8744,7 +8744,7 @@
 # genre = news
 1	Варта	варта	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	Памяці	памяць	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
-3	не	не	PART	UH	Polarity=Neg	4	advmod	_	_
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	_
 4	спыняецца	спыняцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
 5	!	!	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -8792,7 +8792,7 @@
 # sent_id = AbaronaKurapatau-15286
 # text = <strong>«Дзе ты быў, калі рабілася злачынства?».
 # genre = news
-1	<strong>	<strong>	SYM	SYM	_	5	dep	_	SpaceAfter=No
+1	<strong>	<strong>	X	X	_	5	dep	_	SpaceAfter=No
 2	«	«	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 3	Дзе	дзе	ADV	RB	Degree=Pos	5	advmod	_	_
 4	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
@@ -8814,7 +8814,7 @@
 4	—	-	PUNCT	PUNCT	_	1	punct	_	_
 5	два	два	NUM	CD	Case=Nom|Gender=Masc|NumType=Card	6	nummod:gov	_	_
 6	гады	год	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
-7	</strong>	</strong>	SYM	SYM	_	6	dep	_	_
+7	</strong>	</strong>	X	X	_	6	dep	_	_
 
 # doc_id = 1075
 # timestamp = 02.06.2020 12:19:17
@@ -9013,7 +9013,7 @@
 # sent_id = AbaronaKurapatau-15296
 # text = Не, Саня-3%, табе ўжо нішто не дапаможа - у Курапатах былі твае апошнія стрэлы.
 # genre = news
-1	Не	не	PART	UH	Polarity=Neg	12	parataxis	_	SpaceAfter=No
+1	Не	не	PART	NEG	Polarity=Neg	12	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	_
 3	Саня	Сане	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	vocative	_	SpaceAfter=No
 4	-	-	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
@@ -9023,7 +9023,7 @@
 8	табе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2|PronType=Prs	12	iobj	_	_
 9	ўжо	ужо	ADV	RB	Degree=Pos	12	advmod	_	_
 10	нішто	нішто	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	12	nsubj	_	_
-11	не	не	PART	UH	Polarity=Neg	12	advmod	_	_
+11	не	не	PART	NEG	Polarity=Neg	12	advmod	_	_
 12	дапаможа	дапамагчы	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 13	-	-	PUNCT	PUNCT	_	15	punct	_	_
 14	у	у	ADP	IN	_	15	case	_	_
@@ -9048,7 +9048,7 @@
 # sent_id = AbaronaKurapatau-15298
 # text = <strong>❗️Затрымалі Паўла Севярынца пасля акцыі на Камароўцы!
 # genre = news
-1	<strong>	<strong>	SYM	SYM	_	3	dep	_	SpaceAfter=No
+1	<strong>	<strong>	X	X	_	3	dep	_	SpaceAfter=No
 2	❗	❗	SYM	SYM	_	3	parataxis	_	SpaceAfter=No
 3	️Затрымалі	️затрымаць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	Паўла	Павел	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
@@ -9070,12 +9070,12 @@
 6	ціхары	ціхар	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 7	ў	у	ADP	IN	_	8	case	_	_
 8	масках	маска	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	nmod	_	_
-9	не	не	PART	UH	Polarity=Neg	10	advmod	_	_
+9	не	не	PART	NEG	Polarity=Neg	10	advmod	_	_
 10	даюць	даваць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 11	гэтага	гэта	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	12	obj	_	_
 12	зрабіць	зрабіць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
-14	</strong>	</strong>	SYM	SYM	_	2	dep	_	SpaceAfter=No
+14	</strong>	</strong>	X	X	_	2	dep	_	SpaceAfter=No
 
 # doc_id = 1084
 # timestamp = 15.06.2020 11:25:19
@@ -9198,7 +9198,7 @@
 # sent_id = AbaronaKurapatau-15308
 # text = <strong>⚡️Істапашаноўнае спадарства!
 # genre = news
-1	<strong>	<strong>	SYM	SYM	_	4	dep	_	SpaceAfter=No
+1	<strong>	<strong>	X	X	_	4	dep	_	SpaceAfter=No
 2	⚡️	⚡️	SYM	SYM	_	4	parataxis	_	SpaceAfter=No
 3	Істапашаноўнае	істапашаноўны	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
 4	спадарства	спадарства	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
@@ -9273,13 +9273,13 @@
 3	тэкст	тэкст	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 4	ніжэй	ніжэ	ADV	RBR	Degree=Cmp	2	advmod	_	SpaceAfter=No
 5	:	:	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
-6	</strong>	</strong>	SYM	SYM	_	2	dep	_	_
+6	</strong>	</strong>	X	X	_	2	dep	_	_
 
 # newpar
 # sent_id = AbaronaKurapatau-15313
 # text = <em>Добры дзень.
 # genre = news
-1	<em>	<em>	SYM	SYM	_	3	dep	_	SpaceAfter=No
+1	<em>	<em>	X	X	_	3	dep	_	SpaceAfter=No
 2	Добры	добры	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 3	дзень	дзень	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -9567,13 +9567,13 @@
 15	гэтай	гэты	DET	DT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
 16	праблемы	праблема	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 17	!	!	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
-18	</em>	</em>	SYM	SYM	_	3	dep	_	SpaceAfter=No
+18	</em>	</em>	X	X	_	3	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = AbaronaKurapatau-15326
 # text = <strong>Карта Альфа-Банк:
 # genre = news
-1	<strong>	<strong>	SYM	SYM	_	2	dep	_	SpaceAfter=No
+1	<strong>	<strong>	X	X	_	2	dep	_	SpaceAfter=No
 2	Карта	карта	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 3	Альфа-Банк	Альфа-Банк	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
 4	:	:	PUNCT	PUNCT	_	2	punct	_	_
@@ -9664,7 +9664,7 @@
 8	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 9	рэпост	рэпост	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
 10	)	)	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
-11	</strong>	</strong>	SYM	SYM	_	3	dep	_	SpaceAfter=No
+11	</strong>	</strong>	X	X	_	3	dep	_	SpaceAfter=No
 12	!	!	PUNCT	PUNCT	_	3	punct	_	_
 
 # doc_id = 1093
@@ -9943,7 +9943,7 @@
 # genre = news
 1	Наш	наш	DET	DT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	сцяг	сцяг	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-3	не	не	PART	UH	Polarity=Neg	4	advmod	_	_
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	_
 4	сыйдзе	сысці	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 5	з	з	ADP	IN	_	6	case	_	_
 6	Курапатаў	Курапаты	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
@@ -10006,7 +10006,7 @@
 2	ў	у	ADP	IN	_	3	case	_	_
 3	магіле	магіла	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
 4	д’ябал	д’ябал	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-5	не	не	PART	UH	Polarity=Neg	6	advmod	_	_
+5	не	не	PART	NEG	Polarity=Neg	6	advmod	_	_
 6	замкне	замкнуць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	6	punct	_	_
 8	-	-	PUNCT	PUNCT	_	6	punct	_	_
@@ -10089,7 +10089,7 @@
 # text = Я не самотны, я сьцяг трымаю,
 # genre = poetry
 1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	не	не	PART	UH	Polarity=Neg	3	advmod	_	_
+2	не	не	PART	NEG	Polarity=Neg	3	advmod	_	_
 3	самотны	самотны	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	7	punct	_	_
 5	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
@@ -10102,7 +10102,7 @@
 # text = Каб не забыць нам пра Курапаты.
 # genre = poetry
 1	Каб	каб	SCONJ	IN	Mood=Cnd	3	mark	_	_
-2	не	не	PART	UH	Polarity=Neg	3	advmod	_	_
+2	не	не	PART	NEG	Polarity=Neg	3	advmod	_	_
 3	забыць	забыць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
 4	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1|PronType=Prs	3	iobj	_	_
 5	пра	пра	ADP	IN	_	6	case	_	_
@@ -10174,7 +10174,7 @@
 # text = Віктар не ўтрымаўся і ўпаў, абадраў руку.
 # genre = news
 1	Віктар	Віктар	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	не	не	PART	UH	Polarity=Neg	3	advmod	_	_
+2	не	не	PART	NEG	Polarity=Neg	3	advmod	_	_
 3	ўтрымаўся	утрымацца	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 4	і	і	CCONJ	CC	_	5	cc	_	_
 5	ўпаў	упасці	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
@@ -10195,7 +10195,7 @@
 # sent_id = AbaronaKurapatau-15381
 # text = Не спадабалася, што яго машыну здымаюць.
 # genre = news
-1	Не	не	PART	UH	Polarity=Neg	2	advmod	_	_
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	_
 2	спадабалася	спадабацца	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	7	punct	_	_
 4	што	што	SCONJ	IN	_	7	mark	_	_
@@ -10468,10 +10468,10 @@
 2	у	у	ADP	IN	_	3	case	_	_
 3	сустрэчы	сустрэча	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
 4	ў	у	ADP	IN	_	5	case	_	_
-5	вк	вк	PROPN	NNP	Abbr=Yes	0	root	_	_
-6	<a_href="https://vk.com/bulkleta">	<a_href="https://vk.com/bulkleta">	SYM	SYM	_	7	dep	_	SpaceAfter=No
+5	вк	Вк	PROPN	NNP	Abbr=Yes	0	root	_	_
+6	<a_href="https://vk.com/bulkleta">	<a_href="https://vk.com/bulkleta">	X	X	_	7	dep	_	SpaceAfter=No
 7	https://vk.com/bulkleta	https://vk.com/bulkleta	X	X	_	5	appos	_	SpaceAfter=No
-8	</a>	</a>	SYM	SYM	_	7	dep	_	SpaceAfter=No
+8	</a>	</a>	X	X	_	7	dep	_	SpaceAfter=No
 
 # doc_id = 13
 # timestamp = 26.08.2017 22:33:11
@@ -10593,7 +10593,7 @@
 4	,	,	PUNCT	PUNCT	_	7	punct	_	_
 5	запіс	запіс	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 6	у	у	ADP	IN	_	7	case	_	_
-7	вк	вк	PROPN	NNP	Abbr=Yes	3	conj	_	_
+7	вк	Вк	PROPN	NNP	Abbr=Yes	3	conj	_	_
 
 # doc_id = 16
 # timestamp = 28.08.2017 15:03:47
@@ -10890,7 +10890,7 @@
 # genre = social-media
 1	15	15	ADJ	ORD	_	0	root	_	_
 2	верасня	верасень	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	flat	_	_
-3	19:00	19:00	NUM	NUM	_	1	list	_	_
+3	19:00	19:00	NUM	TM	_	1	list	_	_
 4	клуб	клуб	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	list	_	_
 5	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
 6	Бруге	Бруге	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
@@ -10901,9 +10901,9 @@
 # text = Падрабязнасці <a_href="https://vk.com/dakooka_minsk">https://vk.com/dakooka_minsk</a>
 # genre = social-media
 1	Падрабязнасці	падрабязнасць	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
-2	<a_href="https://vk.com/dakooka_minsk">	<a_href="https://vk.com/dakooka_minsk">	SYM	SYM	_	3	dep	_	SpaceAfter=No
+2	<a_href="https://vk.com/dakooka_minsk">	<a_href="https://vk.com/dakooka_minsk">	X	X	_	3	dep	_	SpaceAfter=No
 3	https://vk.com/dakooka_minsk	https://vk.com/dakooka_minsk	X	X	_	1	parataxis	_	SpaceAfter=No
-4	</a>	</a>	SYM	SYM	_	3	dep	_	SpaceAfter=No
+4	</a>	</a>	X	X	_	3	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = ArtSjadziba-15436
@@ -11019,9 +11019,9 @@
 1	Запіс	запіс	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	тут	тут	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	PUNCT	_	5	punct	_	_
-4	<a_href="https://vk.com/topic-150808964_35775978">	<a_href="https://vk.com/topic-150808964_35775978">	SYM	SYM	_	5	dep	_	SpaceAfter=No
+4	<a_href="https://vk.com/topic-150808964_35775978">	<a_href="https://vk.com/topic-150808964_35775978">	X	X	_	5	dep	_	SpaceAfter=No
 5	https://vk.com/topic-150808964_35775978	https://vk.com/topic-150808964_35775978	X	X	_	2	appos	_	SpaceAfter=No
-6	</a>	</a>	SYM	SYM	_	5	dep	_	SpaceAfter=No
+6	</a>	</a>	X	X	_	5	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = ArtSjadziba-15447
@@ -11044,9 +11044,9 @@
 1	Запіс	запіс	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	тут	тут	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	PUNCT	_	5	punct	_	_
-4	<a_href="https://vk.cc/73yYBL">	<a_href="https://vk.cc/73yYBL">	SYM	SYM	_	5	dep	_	SpaceAfter=No
+4	<a_href="https://vk.cc/73yYBL">	<a_href="https://vk.cc/73yYBL">	X	X	_	5	dep	_	SpaceAfter=No
 5	https://vk.cc/73yYBL	https://vk.cc/73yYBL	X	X	_	2	appos	_	SpaceAfter=No
-6	</a>	</a>	SYM	SYM	_	5	dep	_	SpaceAfter=No
+6	</a>	</a>	X	X	_	5	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = ArtSjadziba-15449
@@ -11078,9 +11078,9 @@
 # genre = social-media
 1	Запіс	запіс	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	PUNCT	_	4	punct	_	_
-3	<a_href="https://vk.com/topic-150808964_35775983">	<a_href="https://vk.com/topic-150808964_35775983">	SYM	SYM	_	4	dep	_	SpaceAfter=No
+3	<a_href="https://vk.com/topic-150808964_35775983">	<a_href="https://vk.com/topic-150808964_35775983">	X	X	_	4	dep	_	SpaceAfter=No
 4	https://vk.com/topic-150808964_35775983	https://vk.com/topic-150808964_35775983	X	X	_	1	parataxis	_	SpaceAfter=No
-5	</a>	</a>	SYM	SYM	_	4	dep	_	SpaceAfter=No
+5	</a>	</a>	X	X	_	4	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = ArtSjadziba-15452
@@ -11098,9 +11098,9 @@
 10	-	-	PUNCT	PUNCT	_	11	punct	_	_
 11	запіс	запіс	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	_
 12	-	-	PUNCT	PUNCT	_	14	punct	_	_
-13	<a_href="https://vk.com/topic-152690883_36265706">	<a_href="https://vk.com/topic-152690883_36265706">	SYM	SYM	_	14	dep	_	SpaceAfter=No
+13	<a_href="https://vk.com/topic-152690883_36265706">	<a_href="https://vk.com/topic-152690883_36265706">	X	X	_	14	dep	_	SpaceAfter=No
 14	https://vk.com/topic-152690883_36265706	https://vk.com/topic-152690883_36265706	X	X	_	11	parataxis	_	SpaceAfter=No
-15	</a>	</a>	SYM	SYM	_	14	dep	_	SpaceAfter=No
+15	</a>	</a>	X	X	_	14	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = ArtSjadziba-15455
@@ -11114,9 +11114,9 @@
 6	-	-	PUNCT	PUNCT	_	7	punct	_	_
 7	запіс	запіс	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	_
 8	-	-	PUNCT	PUNCT	_	10	punct	_	_
-9	<a_href="https://vk.com/topic-152690883_36265714">	<a_href="https://vk.com/topic-152690883_36265714">	SYM	SYM	_	10	dep	_	SpaceAfter=No
+9	<a_href="https://vk.com/topic-152690883_36265714">	<a_href="https://vk.com/topic-152690883_36265714">	X	X	_	10	dep	_	SpaceAfter=No
 10	https://vk.com/topic-152690883_36265714	https://vk.com/topic-152690883_36265714	X	X	_	7	parataxis	_	SpaceAfter=No
-11	</a>	</a>	SYM	SYM	_	10	dep	_	SpaceAfter=No
+11	</a>	</a>	X	X	_	10	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = ArtSjadziba-15456
@@ -11149,9 +11149,9 @@
 1	Запіс	запіс	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	тут	тут	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	PUNCT	_	5	punct	_	_
-4	<a_href="https://vk.com/topic-150808964_35788781">	<a_href="https://vk.com/topic-150808964_35788781">	SYM	SYM	_	5	dep	_	SpaceAfter=No
+4	<a_href="https://vk.com/topic-150808964_35788781">	<a_href="https://vk.com/topic-150808964_35788781">	X	X	_	5	dep	_	SpaceAfter=No
 5	https://vk.com/topic-150808964_35788781	https://vk.com/topic-150808964_35788781	X	X	_	2	appos	_	SpaceAfter=No
-6	</a>	</a>	SYM	SYM	_	5	dep	_	SpaceAfter=No
+6	</a>	</a>	X	X	_	5	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = ArtSjadziba-15459
@@ -11168,9 +11168,9 @@
 9	-	-	PUNCT	PUNCT	_	10	punct	_	_
 10	запіс	запіс	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	_
 11	-	-	PUNCT	PUNCT	_	13	punct	_	_
-12	<a_href="https://vk.com/topic-152690883_36265706">	<a_href="https://vk.com/topic-152690883_36265706">	SYM	SYM	_	13	dep	_	SpaceAfter=No
+12	<a_href="https://vk.com/topic-152690883_36265706">	<a_href="https://vk.com/topic-152690883_36265706">	X	X	_	13	dep	_	SpaceAfter=No
 13	https://vk.com/topic-152690883_36265706	https://vk.com/topic-152690883_36265706	X	X	_	10	parataxis	_	SpaceAfter=No
-14	</a>	</a>	SYM	SYM	_	13	dep	_	SpaceAfter=No
+14	</a>	</a>	X	X	_	13	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = ArtSjadziba-15460
@@ -11285,9 +11285,9 @@
 # genre = social-media
 1	Падрабязнасці	падрабязнасць	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	PUNCT	_	4	punct	_	_
-3	<a_href="https://news.tut.by/culture/558478.html">	<a_href="https://news.tut.by/culture/558478.html">	SYM	SYM	_	4	dep	_	SpaceAfter=No
+3	<a_href="https://news.tut.by/culture/558478.html">	<a_href="https://news.tut.by/culture/558478.html">	X	X	_	4	dep	_	SpaceAfter=No
 4	https://news.tut.by/culture/558478.html	https://news.tut.by/culture/558478.html	X	X	_	1	parataxis	_	SpaceAfter=No
-5	</a>	</a>	SYM	SYM	_	4	dep	_	SpaceAfter=No
+5	</a>	</a>	X	X	_	4	dep	_	SpaceAfter=No
 
 # doc_id = 45
 # timestamp = 01.09.2017 21:14:20
@@ -11460,9 +11460,9 @@
 1	Запоўні	запоўніць	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 2	анкету	анкета	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
 3	:	:	PUNCT	PUNCT	_	5	punct	_	_
-4	<a_href="https://vk.cc/74rVQ4">	<a_href="https://vk.cc/74rVQ4">	SYM	SYM	_	5	dep	_	SpaceAfter=No
+4	<a_href="https://vk.cc/74rVQ4">	<a_href="https://vk.cc/74rVQ4">	X	X	_	5	dep	_	SpaceAfter=No
 5	https://vk.cc/74rVQ4	https://vk.cc/74rVQ4	X	X	_	1	parataxis	_	SpaceAfter=No
-6	</a>	</a>	SYM	SYM	_	5	dep	_	SpaceAfter=No
+6	</a>	</a>	X	X	_	5	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = ArtSjadziba-15483
@@ -11563,9 +11563,9 @@
 1	-	-	PUNCT	PUNCT	_	2	punct	_	_
 2	Recha	Recha	X	X	Foreign=Yes	0	root	_	_
 3	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
-4	<a_href="https://vk.com/recha_fanclub">	<a_href="https://vk.com/recha_fanclub">	SYM	SYM	_	5	dep	_	SpaceAfter=No
+4	<a_href="https://vk.com/recha_fanclub">	<a_href="https://vk.com/recha_fanclub">	X	X	_	5	dep	_	SpaceAfter=No
 5	https://vk.com/recha_fanclub	https://vk.com/recha_fanclub	X	X	_	2	parataxis	_	SpaceAfter=No
-6	</a>	</a>	SYM	SYM	_	5	dep	_	SpaceAfter=No
+6	</a>	</a>	X	X	_	5	dep	_	SpaceAfter=No
 7	)	)	PUNCT	PUNCT	_	5	punct	_	_
 
 # newpar
@@ -11575,9 +11575,9 @@
 1	-	-	PUNCT	PUNCT	_	2	punct	_	_
 2	Incerto	Incerto	X	X	Foreign=Yes	0	root	_	_
 3	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
-4	<a_href="https://vk.com/club124812489">	<a_href="https://vk.com/club124812489">	SYM	SYM	_	5	dep	_	SpaceAfter=No
+4	<a_href="https://vk.com/club124812489">	<a_href="https://vk.com/club124812489">	X	X	_	5	dep	_	SpaceAfter=No
 5	https://vk.com/club124812489	https://vk.com/club124812489	X	X	_	2	parataxis	_	SpaceAfter=No
-6	</a>	</a>	SYM	SYM	_	5	dep	_	SpaceAfter=No
+6	</a>	</a>	X	X	_	5	dep	_	SpaceAfter=No
 7	)	)	PUNCT	PUNCT	_	5	punct	_	_
 
 # newpar
@@ -11634,9 +11634,9 @@
 5	па	па	ADP	IN	_	6	case	_	_
 6	запісе	запіс	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No
 7	:	:	PUNCT	PUNCT	_	9	punct	_	_
-8	<a_href="https://vk.com/topic-152975805_35910155">	<a_href="https://vk.com/topic-152975805_35910155">	SYM	SYM	_	9	dep	_	SpaceAfter=No
+8	<a_href="https://vk.com/topic-152975805_35910155">	<a_href="https://vk.com/topic-152975805_35910155">	X	X	_	9	dep	_	SpaceAfter=No
 9	https://vk.com/topic-152975805_35910155	https://vk.com/topic-152975805_35910155	X	X	_	6	parataxis	_	SpaceAfter=No
-10	</a>	</a>	SYM	SYM	_	9	dep	_	SpaceAfter=No
+10	</a>	</a>	X	X	_	9	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = ArtSjadziba-15499
@@ -11790,9 +11790,9 @@
 5	запіс	запіс	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 6	тут	тут	ADV	RB	Degree=Pos	3	conj	_	SpaceAfter=No
 7	:	:	PUNCT	PUNCT	_	9	punct	_	_
-8	<a_href="https://vk.com/topic-150808964_35775983">	<a_href="https://vk.com/topic-150808964_35775983">	SYM	SYM	_	9	dep	_	SpaceAfter=No
+8	<a_href="https://vk.com/topic-150808964_35775983">	<a_href="https://vk.com/topic-150808964_35775983">	X	X	_	9	dep	_	SpaceAfter=No
 9	https://vk.com/topic-150808964_35775983	https://vk.com/topic-150808964_35775983	X	X	_	6	parataxis	_	SpaceAfter=No
-10	</a>	</a>	SYM	SYM	_	9	dep	_	SpaceAfter=No
+10	</a>	</a>	X	X	_	9	dep	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # newpar
@@ -11801,9 +11801,9 @@
 # genre = social-media
 1	Інфалінія	інфалінія	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	PUNCT	_	4	punct	_	_
-3	<a_href="tel:+375_44_7994047">	<a_href="tel:+375_44_7994047">	SYM	SYM	_	4	dep	_	SpaceAfter=No
+3	<a_href="tel:+375_44_7994047">	<a_href="tel:+375_44_7994047">	X	X	_	4	dep	_	SpaceAfter=No
 4	+375_44_7994047	+375_44_7994047	X	X	_	1	parataxis	_	SpaceAfter=No
-5	</a>	</a>	SYM	SYM	_	4	dep	_	SpaceAfter=No
+5	</a>	</a>	X	X	_	4	dep	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # doc_id = 63
@@ -11834,7 +11834,7 @@
 # sent_id = ArtSjadziba-15511
 # text = Ну што, зробім гучна!
 # genre = social-media
-1	Ну	ну	PART	UH	_	4	parataxis	_	_
+1	Ну	ну	PART	NEG	_	4	parataxis	_	_
 2	што	што	SCONJ	IN	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	1	punct	_	_
 4	зробім	зрабіць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -11849,9 +11849,9 @@
 3	Сядзіба	сядзіба	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
 4	"	"	PUNCT	PUNCT	_	3	punct	_	_
 5	і	і	CCONJ	CC	_	7	cc	_	_
-6	<a_href="symbal.by">	<a_href="symbal.by">	SYM	SYM	_	7	dep	_	SpaceAfter=No
+6	<a_href="symbal.by">	<a_href="symbal.by">	X	X	_	7	dep	_	SpaceAfter=No
 7	symbal.by	symbal.by	X	X	_	3	conj	_	SpaceAfter=No
-8	</a>	</a>	SYM	SYM	_	7	dep	_	_
+8	</a>	</a>	X	X	_	7	dep	_	_
 9	запрашаюць	запрашаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 10	9	9	ADJ	ORD	_	9	obl	_	_
 11	верасня	верасень	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	flat	_	_
@@ -11971,9 +11971,9 @@
 8	сувеніры	сувенір	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_
 9	ад	ад	ADP	IN	_	10	case	_	_
 10	крамы	крама	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
-11	<a_href="symbal.by">	<a_href="symbal.by">	SYM	SYM	_	12	dep	_	SpaceAfter=No
+11	<a_href="symbal.by">	<a_href="symbal.by">	X	X	_	12	dep	_	SpaceAfter=No
 12	symbal.by	symbal.by	X	X	_	10	appos	_	SpaceAfter=No
-13	</a>	</a>	SYM	SYM	_	12	dep	_	SpaceAfter=No
+13	</a>	</a>	X	X	_	12	dep	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # newpar
@@ -12093,9 +12093,9 @@
 7	пераедзе	пераехаць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 8	ў	у	ADP	IN	_	9	case	_	_
 9	краму	крама	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
-10	<a_href="Symbal.by">	<a_href="Symbal.by">	SYM	SYM	_	11	dep	_	SpaceAfter=No
+10	<a_href="Symbal.by">	<a_href="Symbal.by">	X	X	_	11	dep	_	SpaceAfter=No
 11	Symbal.by	Symbal.by	X	X	_	9	appos	_	SpaceAfter=No
-12	</a>	</a>	SYM	SYM	_	11	dep	_	_
+12	</a>	</a>	X	X	_	11	dep	_	_
 13	на	на	ADP	IN	_	14	case	_	_
 14	Машэрава	Машэраў	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 15	18	18	ADJ	ORD	_	14	list	_	_
@@ -12281,7 +12281,7 @@
 12	здавалася	здавацца	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	16	parataxis	_	_
 13	б	б	AUX	RP	_	12	aux	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	12	punct	_	_
-15	не	не	PART	UH	Polarity=Neg	16	advmod	_	_
+15	не	не	PART	NEG	Polarity=Neg	16	advmod	_	_
 16	звазяныя	звязаць	VERB	VBNL	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
 17	паміж	паміж	ADP	IN	_	18	case	_	_
 18	сабою	сабе	PRON	NN	Case=Ins|PronType=Prs|Reflex=Yes	16	obl	_	SpaceAfter=No
@@ -12359,9 +12359,9 @@
 1	✍🏻	✍🏻	SYM	SYM	_	2	parataxis	_	_
 2	Запіс	запіс	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	PUNCT	_	5	punct	_	_
-4	<a_href="https://vk.com/topic-152690883_36265706">	<a_href="https://vk.com/topic-152690883_36265706">	SYM	SYM	_	5	dep	_	SpaceAfter=No
+4	<a_href="https://vk.com/topic-152690883_36265706">	<a_href="https://vk.com/topic-152690883_36265706">	X	X	_	5	dep	_	SpaceAfter=No
 5	https://vk.com/topic-152690883_36265706	https://vk.com/topic-152690883_36265706	X	X	_	2	parataxis	_	SpaceAfter=No
-6	</a>	</a>	SYM	SYM	_	5	dep	_	SpaceAfter=No
+6	</a>	</a>	X	X	_	5	dep	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = ArtSjadziba-15538
@@ -12672,9 +12672,9 @@
 2	Запіс	запіс	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	тут	тут	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	PUNCT	_	6	punct	_	_
-5	<a_href="https://vk.com/topic-88315105_35945057">	<a_href="https://vk.com/topic-88315105_35945057">	SYM	SYM	_	6	dep	_	SpaceAfter=No
+5	<a_href="https://vk.com/topic-88315105_35945057">	<a_href="https://vk.com/topic-88315105_35945057">	X	X	_	6	dep	_	SpaceAfter=No
 6	https://vk.com/topic-88315105_35945057	https://vk.com/topic-88315105_35945057	X	X	_	3	appos	_	SpaceAfter=No
-7	</a>	</a>	SYM	SYM	_	6	dep	_	SpaceAfter=No
+7	</a>	</a>	X	X	_	6	dep	_	SpaceAfter=No
 
 # newpar
 # sent_id = ArtSjadziba-15560
@@ -12731,11 +12731,11 @@
 6	рэгіёне	рэгіён	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	10	punct	_	_
 8	якая	які	PRON	WPA	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	10	nsubj	_	_
-9	не	не	PART	UH	Polarity=Neg	10	advmod	_	_
+9	не	не	PART	NEG	Polarity=Neg	10	advmod	_	_
 10	закрыла	закрыць	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
 11	межаў	межа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_
-13	не	не	PART	UH	Polarity=Neg	14	advmod	_	_
+13	не	не	PART	NEG	Polarity=Neg	14	advmod	_	_
 14	ажыцьцявіла	ажыцьцявіць	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
 15	іншыя	іншы	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
 16	больш	больш	ADV	RBR	Degree=Cmp	17	advmod	_	_
@@ -12770,7 +12770,7 @@
 # genre = news
 1	У	у	ADP	IN	_	2	case	_	_
 2	Беларусі	Беларусь	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
-3	ноль	ноль	NUM	RB	Case=Nom|NumType=Card	4	nummod:gov	_	_
+3	ноль	ноль	NUM	CD	Case=Nom|NumType=Card	4	nummod:gov	_	_
 4	захварэлых	захварэць	VERB	VBNL	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	за	за	ADP	IN	_	6	case	_	_
 6	суткі	суткі	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
@@ -12804,7 +12804,7 @@
 3	,	,	PUNCT	PUNCT	_	7	punct	_	_
 4	якія	які	PRON	WPA	Case=Nom|Number=Plur|PronType=Rel	7	nsubj	_	_
 5	цяпер	цяпер	ADV	RB	Degree=Pos	7	advmod	_	_
-6	ня	ня	PART	UH	Polarity=Neg	7	advmod	_	_
+6	ня	ня	PART	NEG	Polarity=Neg	7	advmod	_	_
 7	могуць	магчы	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 8	вярнуцца	вярнуцца	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Mid	7	xcomp	_	_
 9	з-за	з-за	ADP	IN	_	10	case	_	_
@@ -12816,9 +12816,9 @@
 # genre = news
 1	Пішыце	пісаць	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 2	на	на	ADP	IN	_	4	case	_	_
-3	<a_href="https://t.me/svabodabelarus">	<a_href="https://t.me/svabodabelarus">	SYM	SYM	_	4	dep	_	SpaceAfter=No
+3	<a_href="https://t.me/svabodabelarus">	<a_href="https://t.me/svabodabelarus">	X	X	_	4	dep	_	SpaceAfter=No
 4	@svabodabelarus	@svabodabelarus	X	X	_	1	obl	_	SpaceAfter=No
-5	</a>	</a>	SYM	SYM	_	4	dep	_	SpaceAfter=No
+5	</a>	</a>	X	X	_	4	dep	_	SpaceAfter=No
 
 # doc_id = 3054
 # timestamp = 17.03.2020 12:59:48
@@ -12846,7 +12846,7 @@
 3	што	што	SCONJ	IN	_	7	mark	_	_
 4	ў	у	ADP	IN	_	5	case	_	_
 5	Беларусі	Беларусь	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
-6	не	не	PART	UH	Polarity=Neg	7	advmod	_	_
+6	не	не	PART	NEG	Polarity=Neg	7	advmod	_	_
 7	ўвялі	увесці	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	acl	_	_
 8	карантын	карантын	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
@@ -12856,7 +12856,7 @@
 13	адно	адзін	NUM	CD	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|NumType=Card	10	obl	_	_
 14	—	—	PUNCT	PUNCT	_	17	punct	_	_
 15	чалавек	чалавек	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
-16	не	не	PART	UH	Polarity=Neg	17	advmod	_	_
+16	не	не	PART	NEG	Polarity=Neg	17	advmod	_	_
 17	галоўнае	галоўны	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	parataxis	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
@@ -12899,9 +12899,9 @@
 6	рабіць	рабіць	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
 7	падчас	падчас	ADP	IN	_	8	case	_	_
 8	эпідэміі	эпідэмія	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
-9	<a_href="https://www.svaboda.org/a/30492713.html">	<a_href="https://www.svaboda.org/a/30492713.html">	SYM	SYM	_	10	dep	_	SpaceAfter=No
+9	<a_href="https://www.svaboda.org/a/30492713.html">	<a_href="https://www.svaboda.org/a/30492713.html">	X	X	_	10	dep	_	SpaceAfter=No
 10	https://www.svaboda.org/a/30492713.html	https://www.svaboda.org/a/30492713.html	X	X	_	5	parataxis	_	SpaceAfter=No
-11	</a>	</a>	SYM	SYM	_	10	dep	_	SpaceAfter=No
+11	</a>	</a>	X	X	_	10	dep	_	SpaceAfter=No
 
 # doc_id = 3057
 # timestamp = 17.03.2020 16:18:46
@@ -13000,9 +13000,9 @@
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4	зірніце	зірнуць	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	PUNCT	_	7	punct	_	_
-6	<a_href="https://www.svaboda.org/a/30492731.html">	<a_href="https://www.svaboda.org/a/30492731.html">	SYM	SYM	_	7	dep	_	SpaceAfter=No
+6	<a_href="https://www.svaboda.org/a/30492731.html">	<a_href="https://www.svaboda.org/a/30492731.html">	X	X	_	7	dep	_	SpaceAfter=No
 7	https://www.svaboda.org/a/30492731.html	https://www.svaboda.org/a/30492731.html	X	X	_	4	parataxis	_	SpaceAfter=No
-8	</a>	</a>	SYM	SYM	_	7	dep	_	SpaceAfter=No
+8	</a>	</a>	X	X	_	7	dep	_	SpaceAfter=No
 
 # doc_id = 3060
 # timestamp = 17.03.2020 18:33:56
@@ -13050,7 +13050,7 @@
 1	Ці	ці	PART	UH	_	2	advmod	_	_
 2	можна	можна	VERB	PRED	_	0	root	_	_
 3	вылечыць	вылечыць	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	csubj	_	_
-4	COVID	COViD	PROPN	NNP	Foreign=Yes	3	obj	_	SpaceAfter=No
+4	COVID	COVID	PROPN	NNP	Foreign=Yes	3	obj	_	SpaceAfter=No
 5	-	-	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
 6	19	19	NUM	CD	NumType=Card	4	appos	_	_
 7	з	з	ADP	IN	_	8	case	_	_
@@ -13243,9 +13243,9 @@
 # text = ФОТА <a_href="https://www.svaboda.org/a/30494384.html">https://www.svaboda.org/a/30494384.html</a>
 # genre = news
 1	ФОТА	фота	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-2	<a_href="https://www.svaboda.org/a/30494384.html">	<a_href="https://www.svaboda.org/a/30494384.html">	SYM	SYM	_	3	dep	_	SpaceAfter=No
+2	<a_href="https://www.svaboda.org/a/30494384.html">	<a_href="https://www.svaboda.org/a/30494384.html">	X	X	_	3	dep	_	SpaceAfter=No
 3	https://www.svaboda.org/a/30494384.html	https://www.svaboda.org/a/30494384.html	X	X	_	1	appos	_	SpaceAfter=No
-4	</a>	</a>	SYM	SYM	_	3	dep	_	SpaceAfter=No
+4	</a>	</a>	X	X	_	3	dep	_	SpaceAfter=No
 
 # doc_id = 3070
 # timestamp = 18.03.2020 11:53:20
@@ -13309,7 +13309,7 @@
 # text = Беларусаў не пусьцілі ў самалёт да Масквы з Гоа
 # genre = news
 1	Беларусаў	беларус	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
-2	не	не	PART	UH	Polarity=Neg	3	advmod	_	_
+2	не	не	PART	NEG	Polarity=Neg	3	advmod	_	_
 3	пусьцілі	пусьціць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	ў	у	ADP	IN	_	5	case	_	_
 5	самалёт	самалёт	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
@@ -13359,7 +13359,7 @@
 2	выніку	вынік	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
 3	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 4	нічога	нішто	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	6	obj	_	_
-5	не	не	PART	UH	Polarity=Neg	6	advmod	_	_
+5	не	не	PART	NEG	Polarity=Neg	6	advmod	_	_
 6	дачакаліся	дачакацца	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
 7	»	»	PUNCT	PUNCT	_	6	punct	_	_
 
@@ -13482,7 +13482,7 @@
 14	ўехаць	уехаць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	19	csubj	_	_
 15	у	у	ADP	IN	_	16	case	_	_
 16	яе	яна	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
-17	ня	ня	PART	UH	Polarity=Neg	19	advmod	_	_
+17	ня	ня	PART	NEG	Polarity=Neg	19	advmod	_	_
 18	будзе	быць	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	19	aux	_	_
 19	як	як	VERB	PRED	_	1	conj	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -13525,7 +13525,7 @@
 7	Чарнобылю	Чарнобыль	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	5	punct	_	_
 9	раіць	раіць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-10	не	не	PART	UH	Polarity=Neg	11	advmod	_	_
+10	не	не	PART	NEG	Polarity=Neg	11	advmod	_	_
 11	панікаваць	панікаваць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
 
 # newpar
@@ -13597,9 +13597,9 @@
 3	адмаўляе	адмаўляць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	каранавірус	каранавірус	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
 5	:	:	PUNCT	PUNCT	_	7	punct	_	_
-6	<a_href="https://www.svaboda.org/a/30496779.html">	<a_href="https://www.svaboda.org/a/30496779.html">	SYM	SYM	_	7	dep	_	SpaceAfter=No
+6	<a_href="https://www.svaboda.org/a/30496779.html">	<a_href="https://www.svaboda.org/a/30496779.html">	X	X	_	7	dep	_	SpaceAfter=No
 7	https://www.svaboda.org/a/30496779.html	https://www.svaboda.org/a/30496779.html	X	X	_	3	parataxis	_	SpaceAfter=No
-8	</a>	</a>	SYM	SYM	_	7	dep	_	SpaceAfter=No
+8	</a>	</a>	X	X	_	7	dep	_	SpaceAfter=No
 
 # doc_id = 3082
 # timestamp = 19.03.2020 12:47:40
@@ -13629,9 +13629,9 @@
 6	каля	каля	ADP	IN	_	8	case	_	_
 7	лінгвістычнага	лінгвістычны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
 8	ўнівэрсытэту	унівэрсытэт	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
-9	<a_href="https://www.svaboda.org/a/30496861.html">	<a_href="https://www.svaboda.org/a/30496861.html">	SYM	SYM	_	10	dep	_	SpaceAfter=No
+9	<a_href="https://www.svaboda.org/a/30496861.html">	<a_href="https://www.svaboda.org/a/30496861.html">	X	X	_	10	dep	_	SpaceAfter=No
 10	https://www.svaboda.org/a/30496861.html	https://www.svaboda.org/a/30496861.html	X	X	_	2	parataxis	_	SpaceAfter=No
-11	</a>	</a>	SYM	SYM	_	10	dep	_	SpaceAfter=No
+11	</a>	</a>	X	X	_	10	dep	_	SpaceAfter=No
 
 # doc_id = 3085
 # timestamp = 19.03.2020 12:56:58
@@ -13643,7 +13643,7 @@
 1	«	«	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 2	Але	але	CCONJ	CC	_	5	cc	_	_
 3	гэта	гэта	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
-4	не	не	PART	UH	Polarity=Neg	5	advmod	_	_
+4	не	не	PART	NEG	Polarity=Neg	5	advmod	_	_
 5	спрацавала	спрацаваць	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	13	punct	_	_
 7	і	і	CCONJ	CC	_	13	cc	_	_
@@ -13748,7 +13748,7 @@
 4	Лукашэнку	Лукашэнка	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 5	-	-	PUNCT	PUNCT	_	8	punct	_	_
 6	лазьня	лазьня	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
-7	не	не	PART	UH	Polarity=Neg	8	advmod	_	_
+7	не	не	PART	NEG	Polarity=Neg	8	advmod	_	_
 8	ратуе	ратаваць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
 9	ад	ад	ADP	IN	_	10	case	_	_
 10	каранавірусу	каранавірус	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
@@ -13854,9 +13854,9 @@
 # genre = news
 1	Пішыце	пісаць	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 2	на	на	ADP	IN	_	4	case	_	_
-3	<a_href="https://t.me/svabodabelarus">	<a_href="https://t.me/svabodabelarus">	SYM	SYM	_	4	dep	_	SpaceAfter=No
+3	<a_href="https://t.me/svabodabelarus">	<a_href="https://t.me/svabodabelarus">	X	X	_	4	dep	_	SpaceAfter=No
 4	@svabodabelarus	@svabodabelarus	X	X	_	1	obl	_	SpaceAfter=No
-5	</a>	</a>	SYM	SYM	_	4	dep	_	SpaceAfter=No
+5	</a>	</a>	X	X	_	4	dep	_	SpaceAfter=No
 
 # doc_id = 3093
 # timestamp = 19.03.2020 21:36:21
@@ -13872,7 +13872,7 @@
 5	Міністэрства	міністэрства	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
 6	аховы	ахова	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 7	здароўя	здароўе	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
-8	не	не	PART	UH	Polarity=Neg	9	advmod	_	_
+8	не	не	PART	NEG	Polarity=Neg	9	advmod	_	_
 9	паведамляе	паведамляць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 10	пра	пра	ADP	IN	_	11	case	_	_
 11	колькасьць	колькасьць	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
@@ -13924,7 +13924,7 @@
 7	лечыць	лячыць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 8	хворых	хворы	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	7	obj	_	_
 9	на	на	ADP	IN	_	10	case	_	_
-10	COVID	COViD	PROPN	NNP	Foreign=Yes	8	obl	_	SpaceAfter=No
+10	COVID	COVID	PROPN	NNP	Foreign=Yes	8	obl	_	SpaceAfter=No
 11	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 12	19	19	NUM	CD	NumType=Card	10	appos	_	_
 
@@ -14132,9 +14132,9 @@
 # sent_id = RadyjoSvaboda-8611
 # text = <a_href="https://t.me/Navumcyk">@Navumcyk</a> камэнтуе сытуацыю з загадам Лукашэнкі да КДБ «разабрацца з тэлеграм-каналамі»
 # genre = news
-1	<a_href="https://t.me/Navumcyk">	<a_href="https://t.me/Navumcyk">	SYM	SYM	_	2	dep	_	SpaceAfter=No
+1	<a_href="https://t.me/Navumcyk">	<a_href="https://t.me/Navumcyk">	X	X	_	2	dep	_	SpaceAfter=No
 2	@Navumcyk	@Navumcyk	X	X	_	4	nsubj	_	SpaceAfter=No
-3	</a>	</a>	SYM	SYM	_	2	dep	_	_
+3	</a>	</a>	X	X	_	2	dep	_	_
 4	камэнтуе	камэнтаваць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	сытуацыю	сытуацыя	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 6	з	з	ADP	IN	_	7	case	_	_
@@ -14160,7 +14160,7 @@
 3	зафіксавалі	зафіксаваць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	76	76	NUM	CD	NumType=Card	5	nummod:gov	_	_
 5	выпадкаў	выпадак	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obj	_	_
-6	COVID	COViD	PROPN	NNP	Foreign=Yes	5	nmod	_	SpaceAfter=No
+6	COVID	COVID	PROPN	NNP	Foreign=Yes	5	nmod	_	SpaceAfter=No
 7	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 8	19	19	NUM	CD	NumType=Card	6	appos	_	_
 
@@ -14242,7 +14242,7 @@
 1	Алексіевіч	Алексіевіч	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	PUNCT	_	5	punct	_	_
 3	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-4	ня	ня	PART	UH	Polarity=Neg	5	advmod	_	_
+4	ня	ня	PART	NEG	Polarity=Neg	5	advmod	_	_
 5	думаю	думаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	9	punct	_	_
 7	што	што	SCONJ	IN	_	9	mark	_	_
@@ -14256,7 +14256,7 @@
 15	што	што	SCONJ	IN	_	19	mark	_	_
 16	Лукашэнка	Лукашэнка	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
 17	нечага	нішто	PRON	PA	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	19	obj	_	_
-18	ня	ня	PART	UH	Polarity=Neg	19	advmod	_	_
+18	ня	ня	PART	NEG	Polarity=Neg	19	advmod	_	_
 19	робіць	робіць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -14264,7 +14264,7 @@
 # text = Ніхто ня ведае, што трэба рабіць
 # genre = news
 1	Ніхто	ніхто	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	3	nsubj	_	_
-2	ня	ня	PART	UH	Polarity=Neg	3	advmod	_	_
+2	ня	ня	PART	NEG	Polarity=Neg	3	advmod	_	_
 3	ведае	ведаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_
 5	што	што	PRON	WPA	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	7	obj	_	_
@@ -14291,10 +14291,10 @@
 # sent_id = RadyjoSvaboda-8620
 # text = <strong>«Дзіця не запамінае гэтых дэбільных словаў».
 # genre = news
-1	<strong>	<strong>	SYM	SYM	_	5	dep	_	SpaceAfter=No
+1	<strong>	<strong>	X	X	_	5	dep	_	SpaceAfter=No
 2	«	«	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 3	Дзіця	дзіця	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
-4	не	не	PART	UH	Polarity=Neg	5	advmod	_	_
+4	не	не	PART	NEG	Polarity=Neg	5	advmod	_	_
 5	запамінае	запамінаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	гэтых	гэты	DET	DT	Case=Gen|Number=Plur|PronType=Dem	8	det	_	_
 7	дэбільных	дэбільны	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
@@ -14314,7 +14314,7 @@
 7	пра	пра	ADP	IN	_	9	case	_	_
 8	беларускую	беларускі	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	мову	мова	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
-10	</strong>	</strong>	SYM	SYM	_	4	dep	_	_
+10	</strong>	</strong>	X	X	_	4	dep	_	_
 
 # doc_id = 3111
 # timestamp = 23.03.2020 14:07:53
@@ -14389,7 +14389,7 @@
 1	«	«	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 2	Яна	яна	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 3	нават	нават	PART	UH	_	5	advmod	_	_
-4	не	не	PART	UH	Polarity=Neg	5	advmod	_	_
+4	не	не	PART	NEG	Polarity=Neg	5	advmod	_	_
 5	была	быць	VERB	VBC	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	за	за	ADP	IN	_	7	case	_	_
 7	межамі	межа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	obl	_	_
@@ -14427,7 +14427,7 @@
 2	і	і	CCONJ	CC	_	4	cc	_	_
 3	яе	яе	DET	DT	Poss=Yes|PronType=Prs	4	det	_	_
 4	дачка	дачка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
-5	не	не	PART	UH	Polarity=Neg	6	advmod	_	_
+5	не	не	PART	NEG	Polarity=Neg	6	advmod	_	_
 6	хварэлі	хварэць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 7	»	»	PUNCT	PUNCT	_	6	punct	_	_
 
@@ -14475,7 +14475,7 @@
 14	,	,	PUNCT	PUNCT	_	16	punct	_	_
 15	што	што	SCONJ	IN	_	16	mark	_	_
 16	ўжыла	ужыць	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl	_	_
-17	ня	ня	PART	UH	Polarity=Neg	18	advmod	_	_
+17	ня	ня	PART	NEG	Polarity=Neg	18	advmod	_	_
 18	вельмі	вельмі	ADV	RB	Degree=Pos	19	advmod	_	_
 19	прыгожыя	прыгожы	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
 20	словы	слова	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	16	obj	_	SpaceAfter=No
@@ -14555,7 +14555,7 @@
 # text = Неяк ня вельмі аптымістычна
 # genre = news
 1	Неяк	неяк	ADV	RB	Degree=Pos	2	advmod	_	_
-2	ня	ня	PART	UH	Polarity=Neg	3	advmod	_	_
+2	ня	ня	PART	NEG	Polarity=Neg	3	advmod	_	_
 3	вельмі	вельмі	ADV	RB	Degree=Pos	4	advmod	_	_
 4	аптымістычна	аптымістычна	ADV	RB	Degree=Pos	0	root	_	_
 
@@ -14605,7 +14605,7 @@
 1	«	«	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 2	Журналістам	журналіст	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	_
 3	нічога	нішто	PRON	PRP	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	5	obj	_	_
-4	не	не	PART	UH	Polarity=Neg	5	advmod	_	_
+4	не	не	PART	NEG	Polarity=Neg	5	advmod	_	_
 5	казаць	казаць	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No
 6	»	»	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -14740,7 +14740,7 @@
 8	толькі	толькі	PART	UH	_	12	advmod	_	_
 9	пра	пра	ADP	IN	_	10	case	_	_
 10	гэта	гэта	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obl	_	_
-11	не	не	PART	UH	Polarity=Neg	12	advmod	_	_
+11	не	не	PART	NEG	Polarity=Neg	12	advmod	_	_
 12	здагадваюцца	здагадвацца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	conj	_	_
 
 # doc_id = 3126
@@ -14761,7 +14761,7 @@
 # text = Карантыну ня будзе
 # genre = news
 1	Карантыну	карантын	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	ня	ня	PART	UH	Polarity=Neg	3	advmod	_	_
+2	ня	ня	PART	NEG	Polarity=Neg	3	advmod	_	_
 3	будзе	быць	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 
 # doc_id = 3128
@@ -14869,11 +14869,11 @@
 6	«	«	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 7	нікому	ніхто	PRON	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	10	iobj	_	_
 8	нічога	нішто	PRON	PRP	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	10	obj	_	_
-9	не	не	PART	UH	Polarity=Neg	10	advmod	_	_
+9	не	не	PART	NEG	Polarity=Neg	10	advmod	_	_
 10	казаць	казаць	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	SpaceAfter=No
 11	»	»	PUNCT	PUNCT	_	10	punct	_	_
 12	і	і	CCONJ	CC	_	14	cc	_	_
-13	не	не	PART	UH	Polarity=Neg	14	advmod	_	_
+13	не	не	PART	NEG	Polarity=Neg	14	advmod	_	_
 14	выходзіць	выходзіць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
 15	з	з	ADP	IN	_	16	case	_	_
 16	дому	дом	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
@@ -14888,7 +14888,7 @@
 1	«	«	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
 2	Усё	усё	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	6	nsubj	_	_
 3	далёка	далёка	ADV	RB	Degree=Pos	5	advmod	_	_
-4	ня	ня	PART	UH	Polarity=Neg	5	advmod	_	_
+4	ня	ня	PART	NEG	Polarity=Neg	5	advmod	_	_
 5	так	так	ADV	RB	Degree=Pos	6	advmod	_	_
 6	маляўніча	маляўнічы	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	11	punct	_	_
@@ -14944,7 +14944,7 @@
 6	і	і	CCONJ	CC	_	10	cc	_	_
 7	толкам	толкам	ADV	RB	Degree=Pos	10	advmod	_	_
 8	ніхто	ніхто	PRON	DT	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	10	nsubj	_	_
-9	ня	ня	PART	UH	Polarity=Neg	10	advmod	_	_
+9	ня	ня	PART	NEG	Polarity=Neg	10	advmod	_	_
 10	можа	магчы	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 11	сказаць	сказаць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	15	punct	_	_
@@ -14976,7 +14976,7 @@
 5	далей	далей	ADV	RBR	Degree=Cmp	1	advmod	_	_
 6	—	—	PUNCT	PUNCT	_	1	punct	_	_
 7	ніхто	ніхто	PRON	DT	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	9	nsubj	_	_
-8	ня	ня	PART	UH	Polarity=Neg	9	advmod	_	_
+8	ня	ня	PART	NEG	Polarity=Neg	9	advmod	_	_
 9	ведае	ведаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 10	»	»	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	9	punct	_	_
@@ -15079,7 +15079,7 @@
 4	у	у	ADP	IN	_	5	case	_	_
 5	рэанімацыі	рэанімацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
 6	з	з	ADP	IN	_	7	case	_	_
-7	COVID	COViD	PROPN	NNP	Foreign=Yes	5	obl	_	SpaceAfter=No
+7	COVID	COVID	PROPN	NNP	Foreign=Yes	5	obl	_	SpaceAfter=No
 8	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 9	19	19	NUM	CD	NumType=Card	7	appos	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -15387,9 +15387,9 @@
 12	пішыце	пісаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 13	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
 14	на	на	ADP	IN	_	16	case	_	_
-15	<a_href="https://t.me/SvabodaBelarus">	<a_href="https://t.me/SvabodaBelarus">	SYM	SYM	_	16	dep	_	SpaceAfter=No
+15	<a_href="https://t.me/SvabodaBelarus">	<a_href="https://t.me/SvabodaBelarus">	X	X	_	16	dep	_	SpaceAfter=No
 16	@SvabodaBelarus	@SvabodaBelarus	X	X	_	12	obl	_	SpaceAfter=No
-17	</a>	</a>	SYM	SYM	_	16	dep	_	SpaceAfter=No
+17	</a>	</a>	X	X	_	16	dep	_	SpaceAfter=No
 
 # doc_id = 3148
 # timestamp = 30.03.2020 12:43:18
@@ -15452,7 +15452,7 @@
 13	і	і	CCONJ	CC	_	14	cc	_	_
 14	выпісвалі	выпісваць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	17	punct	_	_
-16	ня	ня	PART	UH	Polarity=Neg	17	advmod	_	_
+16	ня	ня	PART	NEG	Polarity=Neg	17	advmod	_	_
 17	робячы	робіць	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	14	advcl	_	_
 18	ніякіх	ніякі	DET	DT	Case=Gen|Number=Plur|PronType=Neg	19	det	_	_
 19	тэстаў	тэст	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obj	_	_
@@ -15527,10 +15527,10 @@
 6	збалянсаваную	збалянсаваць	VERB	VBNL	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
 7	інфармацыю	інфармацыя	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
-9	ня	ня	PART	UH	Polarity=Neg	10	advmod	_	_
+9	ня	ня	PART	NEG	Polarity=Neg	10	advmod	_	_
 10	чуткі	чутка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	conj	_	_
 11	і	і	CCONJ	CC	_	13	cc	_	_
-12	ня	ня	PART	UH	Polarity=Neg	13	advmod	_	_
+12	ня	ня	PART	NEG	Polarity=Neg	13	advmod	_	_
 13	фэйкі	фэйк	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -15624,9 +15624,9 @@
 # genre = news
 1	Пішыце	пісаць	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 2	на	на	ADP	IN	_	4	case	_	_
-3	<a_href="https://t.me/svabodabelarus">	<a_href="https://t.me/svabodabelarus">	SYM	SYM	_	4	dep	_	SpaceAfter=No
+3	<a_href="https://t.me/svabodabelarus">	<a_href="https://t.me/svabodabelarus">	X	X	_	4	dep	_	SpaceAfter=No
 4	@svabodabelarus	@svabodabelarus	X	X	_	1	obl	_	SpaceAfter=No
-5	</a>	</a>	SYM	SYM	_	4	dep	_	SpaceAfter=No
+5	</a>	</a>	X	X	_	4	dep	_	SpaceAfter=No
 
 # doc_id = 3151
 # timestamp = 30.03.2020 15:07:04
@@ -15651,7 +15651,7 @@
 7	58	58	NUM	CD	NumType=Card	9	nummod	_	_
 8	новых	новы	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
 9	выпадкаў	выпадак	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obj	_	_
-10	COVID	COViD	PROPN	NNP	Foreign=Yes	9	nmod	_	SpaceAfter=No
+10	COVID	COVID	PROPN	NNP	Foreign=Yes	9	nmod	_	SpaceAfter=No
 11	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 12	19	19	NUM	CD	NumType=Card	10	appos	_	_
 
@@ -15741,7 +15741,7 @@
 # genre = news
 1	Нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
 2	нічога	нішто	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	4	obj	_	_
-3	не	не	PART	UH	Polarity=Neg	4	advmod	_	_
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	_
 4	тлумачаць	тлумачыць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -15769,7 +15769,7 @@
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
 7	дарослых	дарослы	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	conj	_	_
 8	чаму	чаму	ADV	RB	Degree=Pos	7	orphan	_	_
-9	не	не	PART	UH	Polarity=Neg	7	orphan	_	SpaceAfter=No
+9	не	не	PART	NEG	Polarity=Neg	7	orphan	_	SpaceAfter=No
 10	?	?	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = RadyjoSvaboda-8713
@@ -15794,7 +15794,7 @@
 # genre = news
 1	Чаму	чаму	ADV	RB	Degree=Pos	4	advmod	_	_
 2	яго	ён	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
-3	не	не	PART	UH	Polarity=Neg	4	advmod	_	_
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	_
 4	забралі	забраць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	праверыць	праверыць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	SpaceAfter=No
 6	?	?	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
@@ -15890,7 +15890,7 @@
 15	,	,	PUNCT	PUNCT	_	20	punct	_	_
 16	і	і	CCONJ	CC	_	20	cc	_	_
 17	гэта	гэта	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	20	nsubj	_	_
-18	не	не	PART	UH	Polarity=Neg	19	advmod	_	_
+18	не	не	PART	NEG	Polarity=Neg	19	advmod	_	_
 19	заўжды	заўжды	ADV	RB	Degree=Pos	20	advmod	_	_
 20	старыя	стары	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	14	conj	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	2	punct	_	_
@@ -15907,7 +15907,7 @@
 7	,	,	PUNCT	PUNCT	_	13	punct	_	_
 8	але	але	CCONJ	CC	_	13	cc	_	_
 9	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1|PronType=Prs	13	iobj	_	_
-10	ня	ня	PART	UH	Polarity=Neg	11	advmod	_	_
+10	ня	ня	PART	NEG	Polarity=Neg	11	advmod	_	_
 11	кожны	кожны	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
 12	раз	раз	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
 13	даюць	даваць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
@@ -15929,7 +15929,7 @@
 4	кажуць	казаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	PUNCT	_	7	punct	_	_
 6	«	«	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
-7	не	не	PART	UH	Polarity=Neg	4	parataxis	_	SpaceAfter=No
+7	не	не	PART	NEG	Polarity=Neg	4	parataxis	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
 9	і	і	CCONJ	CC	_	10	cc	_	_
 10	ўсё	усё	PART	UH	_	7	conj	_	SpaceAfter=No
@@ -15939,7 +15939,7 @@
 14	па-іншаму	па-іншаму	ADV	RB	Degree=Pos	12	advmod	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	18	punct	_	_
 16	абы	абы	SCONJ	IN	_	18	mark	_	_
-17	не	не	PART	UH	Polarity=Neg	18	advmod	_	_
+17	не	не	PART	NEG	Polarity=Neg	18	advmod	_	_
 18	псаваць	псаваць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	12	advcl	_	_
 19	статыстыку	статыстыка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
 20	»	»	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
@@ -16146,7 +16146,7 @@
 3	прычынах	прычына	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	obl	_	_
 4	сьмерці	сьмерць	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 5	каранавірус	каранавірус	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
-6	не	не	PART	UH	Polarity=Neg	7	advmod	_	_
+6	не	не	PART	NEG	Polarity=Neg	7	advmod	_	_
 7	напішуць	напісаць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 8	»	»	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	7	punct	_	_
@@ -16237,7 +16237,7 @@
 5	на	на	ADP	IN	_	6	case	_	_
 6	каранавірус	каранавірус	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	2	punct	_	_
-8	не	не	PART	UH	Polarity=Neg	10	advmod	_	_
+8	не	не	PART	NEG	Polarity=Neg	10	advmod	_	_
 9	было	быць	AUX	VBC	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
 10	напісана	напісаць	VERB	VBNH	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 11	"	"	PUNCT	PUNCT	_	10	punct	_	_
@@ -16340,7 +16340,7 @@
 14	адпачынак	адпачынак	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	17	punct	_	_
 16	пяцёра	пяцёра	NUM	CD	Case=Nom|NumType=Sets	17	nsubj:pass	_	_
-17	шпіталізаваныя	шпіталізаваць	VERB	VBNL	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	conj	_	_
+17	шпіталізаваныя	шпіталізаваць	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	conj	_	_
 
 # doc_id = 3172
 # timestamp = 31.03.2020 18:20:40
@@ -16503,7 +16503,7 @@
 # text = Улады не камэнтуюць
 # genre = news
 1	Улады	улада	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
-2	не	не	PART	UH	Polarity=Neg	3	advmod	_	_
+2	не	не	PART	NEG	Polarity=Neg	3	advmod	_	_
 3	камэнтуюць	камэнтаваць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 
 # doc_id = 3179
@@ -16520,7 +16520,7 @@
 5	сьмерці	сьмерць	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obj	_	_
 6	пацыентаў	пацыент	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
 7	з	з	ADP	IN	_	8	case	_	_
-8	COVID	COViD	PROPN	NNP	Foreign=Yes	6	nmod	_	SpaceAfter=No
+8	COVID	COVID	PROPN	NNP	Foreign=Yes	6	nmod	_	SpaceAfter=No
 9	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 10	19	19	NUM	CD	NumType=Card	8	appos	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -16532,7 +16532,7 @@
 2	колькасьць	колькасьць	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 3	выпадкаў	выпадак	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 4	Мінздароўя	Мінздароўя	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
-5	не	не	PART	UH	Polarity=Neg	6	advmod	_	_
+5	не	не	PART	NEG	Polarity=Neg	6	advmod	_	_
 6	паведаміла	паведаміць	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 
 # doc_id = 3180
@@ -16581,7 +16581,7 @@
 6	Шэйн	Шэйн	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
 7	Робінсан	Робінсан	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_
 8	нават	нават	PART	UH	_	10	advmod	_	_
-9	ня	ня	PART	UH	Polarity=Neg	10	advmod	_	_
+9	ня	ня	PART	NEG	Polarity=Neg	10	advmod	_	_
 10	чуў	чуць	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 11	пра	пра	ADP	IN	_	12	case	_	_
 12	існаваньне	існаваньне	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
@@ -16601,7 +16601,7 @@
 6	ніхто	ніхто	PRON	DT	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	10	nsubj	_	_
 7	ў	у	ADP	IN	_	8	case	_	_
 8	сьвеце	сьвет	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
-9	ня	ня	PART	UH	Polarity=Neg	10	advmod	_	_
+9	ня	ня	PART	NEG	Polarity=Neg	10	advmod	_	_
 10	можа	магчы	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 11	пахваліцца	пахваліцца	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Mid	10	xcomp	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_
@@ -16640,7 +16640,7 @@
 14	вядомыя	вядомы	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	6	acl:relcl	_	_
 15	выпадкі	выпадак	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
 16	заражэньня	заражэньне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
-17	COVID	COViD	PROPN	NNP	Foreign=Yes	16	nmod	_	SpaceAfter=No
+17	COVID	COVID	PROPN	NNP	Foreign=Yes	16	nmod	_	SpaceAfter=No
 18	-	-	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
 19	19	19	NUM	CD	NumType=Card	17	appos	_	_
 
@@ -16730,10 +16730,10 @@
 # text = «Не беларускі і не расейскі рубель», — Лукашэнка пра адзіную валюту і «саюзную дзяржаву» з Расеяй
 # genre = news
 1	«	«	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
-2	Не	не	PART	UH	Polarity=Neg	3	advmod	_	_
+2	Не	не	PART	NEG	Polarity=Neg	3	advmod	_	_
 3	беларускі	беларускі	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 4	і	і	CCONJ	CC	_	6	cc	_	_
-5	не	не	PART	UH	Polarity=Neg	6	advmod	_	_
+5	не	не	PART	NEG	Polarity=Neg	6	advmod	_	_
 6	расейскі	расейскі	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	_
 7	рубель	рубель	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 8	»	»	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
@@ -17095,9 +17095,9 @@
 # sent_id = BelarusHistory-22688
 # text = <a_href="https://telegra.ph/file/43890594f7645c67896a0.jpg">​​</a>Наша Ніва, 1909 год: Каб паменшыць піццё алкаголя (спірту), іншыя раяць саўсім забараніць прадаваць гарэлку, але з гэтага напэўна нічога не выйдзе, бо толькі ў такіх краях можна забараніць прадаваць гарэлку, дзе ўвесь народ пазнаў, што гарэлка - гэта атрута і сам не хоча піць
 # genre = social-media
-1	<a_href="https://telegra.ph/file/43890594f7645c67896a0.jpg">	<a_href="https://telegra.ph/file/43890594f7645c67896a0.jpg">	SYM	SYM	_	2	dep	_	SpaceAfter=No
+1	<a_href="https://telegra.ph/file/43890594f7645c67896a0.jpg">	<a_href="https://telegra.ph/file/43890594f7645c67896a0.jpg">	X	X	_	2	dep	_	SpaceAfter=No
 2	​​	​​	X	X	_	5	parataxis	_	SpaceAfter=No
-3	</a>	</a>	SYM	SYM	_	2	dep	_	SpaceAfter=No
+3	</a>	</a>	X	X	_	2	dep	_	SpaceAfter=No
 4	Наша	наш	DET	DT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
 5	Ніва	Ніва	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	8	punct	_	_
@@ -17124,7 +17124,7 @@
 27	гэтага	гэта	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	31	obl	_	_
 28	напэўна	напэўна	ADV	RB	Degree=Pos	31	advmod	_	_
 29	нічога	нішто	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	31	nsubj	_	_
-30	не	не	PART	UH	Polarity=Neg	31	advmod	_	_
+30	не	не	PART	NEG	Polarity=Neg	31	advmod	_	_
 31	выйдзе	выйсці	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	19	conj	_	SpaceAfter=No
 32	,	,	PUNCT	PUNCT	_	38	punct	_	_
 33	бо	бо	SCONJ	IN	_	38	mark	_	_
@@ -17145,11 +17145,11 @@
 48	што	што	SCONJ	IN	_	52	mark	_	_
 49	гарэлка	гарэлка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	52	nsubj	_	_
 50	-	-	PUNCT	PUNCT	_	49	punct	_	_
-51	гэта	гэта	PART	DT	_	52	expl	_	_
+51	гэта	гэта	PART	UH	_	52	expl	_	_
 52	атрута	атрута	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	46	ccomp	_	_
 53	і	і	CCONJ	CC	_	56	cc	_	_
 54	сам	сам	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	56	acl	_	_
-55	не	не	PART	UH	Polarity=Neg	56	advmod	_	_
+55	не	не	PART	NEG	Polarity=Neg	56	advmod	_	_
 56	хоча	хацець	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	46	conj	_	_
 57	піць	піць	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	56	xcomp	_	_
 
@@ -17522,7 +17522,7 @@
 4	1994	1994	ADJ	ORD	_	5	amod	_	_
 5	года	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 6	Карпенку	Карпенка	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
-7	не	не	PART	UH	Polarity=Neg	8	advmod	_	_
+7	не	не	PART	NEG	Polarity=Neg	8	advmod	_	_
 8	зарэгістравалі	зарэгістраваць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	12	punct	_	_
 10	і	і	CCONJ	CC	_	12	cc	_	_
@@ -17653,7 +17653,7 @@
 1	Людзі	чалавек	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 2	крычалі	крычаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	і	і	CCONJ	CC	_	5	cc	_	_
-4	не	не	PART	UH	Polarity=Neg	5	advmod	_	_
+4	не	не	PART	NEG	Polarity=Neg	5	advmod	_	_
 5	разумелі	разумець	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	10	punct	_	_
 7	за	за	ADP	IN	_	8	case	_	_
@@ -17826,7 +17826,7 @@
 8	бунце	бунт	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	6	punct	_	_
 10	былі	быць	AUX	VBC	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
-11	арыштаваныя	арыштаваць	VERB	VBNL	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+11	арыштаваныя	арыштаваць	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = BelarusHistory-22740
@@ -17835,7 +17835,7 @@
 1	200	200	NUM	CD	NumType=Card	2	nummod:gov	_	_
 2	чалавек	чалавек	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 3	былі	быць	AUX	VBC	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
-4	расстраляныя	расстраляць	VERB	VBNL	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	расстраляныя	расстраляць	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # doc_id = 165
@@ -17939,7 +17939,7 @@
 15	,	,	PUNCT	PUNCT	_	17	punct	_	_
 16	над	над	ADP	IN	_	17	case	_	_
 17	натоўпам	натоўп	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	conj	_	_
-18	ня	ня	PART	UH	Polarity=Neg	21	cc	_	_
+18	ня	ня	PART	NEG	Polarity=Neg	21	cc	_	_
 19	толькі	толькі	PART	UH	_	18	fixed	_	_
 20	«	«	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
 21	чарнобыльскія	чарнобыльскі	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	27	amod	_	SpaceAfter=No
@@ -18041,7 +18041,7 @@
 11	,	,	PUNCT	PUNCT	_	15	punct	_	_
 12	і	і	CCONJ	CC	_	15	cc	_	_
 13	то	то	PART	UH	_	15	advmod	_	_
-14	ня	ня	PART	UH	Polarity=Neg	15	advmod	_	_
+14	ня	ня	PART	NEG	Polarity=Neg	15	advmod	_	_
 15	раз	раз	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -18050,9 +18050,9 @@
 # sent_id = BelarusHistory-22755
 # text = <a_href="https://t.me/radiosvaboda">@radiosvaboda</a> разьбіралася, ад каго Менск пацярпеў больш.
 # genre = social-media
-1	<a_href="https://t.me/radiosvaboda">	<a_href="https://t.me/radiosvaboda">	SYM	SYM	_	2	dep	_	SpaceAfter=No
+1	<a_href="https://t.me/radiosvaboda">	<a_href="https://t.me/radiosvaboda">	X	X	_	2	dep	_	SpaceAfter=No
 2	@radiosvaboda	@radiosvaboda	X	X	_	4	nsubj	_	SpaceAfter=No
-3	</a>	</a>	SYM	SYM	_	2	dep	_	_
+3	</a>	</a>	X	X	_	2	dep	_	_
 4	разьбіралася	разьбірацца	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	9	punct	_	_
 6	ад	ад	ADP	IN	_	7	case	_	_
@@ -18459,7 +18459,7 @@
 2	сьпеў	сьпеў	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 3	лічаць	лічыць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	сваім	свой	DET	PRP$	Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	xcomp	_	_
-5	ня	ня	PART	UH	Polarity=Neg	7	cc	_	_
+5	ня	ня	PART	NEG	Polarity=Neg	7	cc	_	_
 6	толькі	толькі	PART	UH	_	5	fixed	_	_
 7	расейцы	расеец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	11	punct	_	_
@@ -18656,9 +18656,9 @@
 8	слаямі	слой	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obl:agent	_	_
 9	насельніцтва	насельніцтва	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
 10	:	:	PUNCT	PUNCT	_	12	punct	_	_
-11	<a_href="https://www.svaboda.org/a/29978422.html">	<a_href="https://www.svaboda.org/a/29978422.html">	SYM	SYM	_	12	dep	_	SpaceAfter=No
+11	<a_href="https://www.svaboda.org/a/29978422.html">	<a_href="https://www.svaboda.org/a/29978422.html">	X	X	_	12	dep	_	SpaceAfter=No
 12	https://www.svaboda.org/a/29978422.html	https://www.svaboda.org/a/29978422.html	X	X	_	6	parataxis	_	SpaceAfter=No
-13	</a>	</a>	SYM	SYM	_	12	dep	_	SpaceAfter=No
+13	</a>	</a>	X	X	_	12	dep	_	SpaceAfter=No
 
 # doc_id = 226
 # timestamp = 17.06.2019 18:15:22
@@ -18717,7 +18717,7 @@
 10	7	7	NUM	CD	NumType=Card	13	nummod:gov	_	SpaceAfter=No
 11	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 12	8	8	NUM	CD	NumType=Card	10	nmod	_	_
-13	мм	мм	NOUN	NN	Abbr=Yes	8	parataxis	_	SpaceAfter=No
+13	мм	мілімэтр	NOUN	NN	Abbr=Yes	8	parataxis	_	SpaceAfter=No
 14	)	)	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
 15	;	;	PUNCT	PUNCT	_	16	punct	_	_
 16	жоўта-шэрая	жоўта-шэры	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
@@ -18856,7 +18856,7 @@
 1	Самка	самка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	буйней	буйны	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	7	punct	_	_
-4	больш	больш	ADV	RB	Degree=Cmp	5	advmod	_	_
+4	больш	больш	ADV	RBR	Degree=Cmp	5	advmod	_	_
 5	светлага	светлы	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 6	попельна-шэрага	попельна-шэры	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	колеру	колер	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
@@ -19028,7 +19028,7 @@
 4	1996	1996	ADJ	ORD	_	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	8	punct	_	_
 6	каб	каб	SCONJ	IN	Mood=Cnd	8	mark	_	_
-7	не	не	PART	UH	Polarity=Neg	8	advmod	_	_
+7	не	не	PART	NEG	Polarity=Neg	8	advmod	_	_
 8	абвастраць	абвастрыць	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	20	advcl	_	_
 9	і	і	CCONJ	CC	_	12	cc	_	_
 10	без	без	ADP	IN	_	11	case	_	_
@@ -19048,12 +19048,12 @@
 24	рашэнне	рашэнне	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	SpaceAfter=No
 25	»	»	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
 26	,	,	PUNCT	PUNCT	_	27	punct	_	_
-27	аб'яднаўшы	аб'яднаць	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	20	advcl	_	_
+27	аб'яднаўшы	аб’яднаць	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	20	advcl	_	_
 28	заяўкі	заяўка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	27	obj	_	SpaceAfter=No
 29	,	,	PUNCT	PUNCT	_	31	punct	_	_
 30	хоць	хоць	SCONJ	IN	_	31	mark	_	_
 31	былі	быць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	advcl	_	_
-32	і	і	PART	IN	_	33	advmod	_	_
+32	і	і	PART	UH	_	33	advmod	_	_
 33	праціўнікі	праціўнік	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	_
 34	такога	такі	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	35	det	_	_
 35	выбару	выбар	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
@@ -19083,7 +19083,7 @@
 11	ФІФА	ФІФА	PROPN	NNP	Abbr=Yes	12	nsubj	_	_
 12	мае	мець	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 13	намер	намер	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
-14	не	не	PART	UH	Polarity=Neg	15	advmod	_	_
+14	не	не	PART	NEG	Polarity=Neg	15	advmod	_	_
 15	практыкаваць	практыкаыць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
 16	сумеснага	сумесны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
 17	правядзення	правядзенне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obj	_	_
@@ -19274,13 +19274,13 @@
 2	на	на	ADP	IN	_	3	case	_	_
 3	адлегласці	адлегласць	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
 4	41	41	NUM	CD	NumType=Card	5	nummod	_	_
-5	км	км	NOUN	NN	Abbr=Yes	3	nmod	_	_
+5	км	кіламетр	NOUN	NN	Abbr=Yes	3	nmod	_	_
 6	ад	ад	ADP	IN	_	7	case	_	_
 7	Магілёва	Магілёў	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	11	punct	_	_
 9	у	у	ADP	IN	_	11	case	_	_
 10	5	5	NUM	CD	NumType=Card	11	nummod	_	_
-11	км	км	NOUN	NN	Abbr=Yes	1	obl	_	_
+11	км	кіламетр	NOUN	NN	Abbr=Yes	1	obl	_	_
 12	ад	ад	ADP	IN	_	14	case	_	_
 13	чыгуначнай	чыгуначны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
 14	станцыі	станцыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
@@ -19625,7 +19625,7 @@
 8	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 9	курс	курс	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	parataxis	_	_
 10	В.	В.	PROPN	INIT	Abbr=Yes	9	nmod	_	SpaceAfter=No
-11	Мяркур'ева	Мяркур'еў	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+11	Мяркур'ева	Мяркур’еў	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
 12	)	)	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -19714,7 +19714,7 @@
 # sent_id = wiki-311633
 # text = Узнагароджаны Дзяржаўнай прэміяй БССР (1968), прэміяй «За духоўнае адраджэнне», прызам Беларускага саюза тэатральных дзеячаў «Крыштальная Паўлінка», ордэнамі «Знак Пашаны», Працоўнага Чырвонага Сцяга, Дружбы народаў, медалем Францыска Скарыны.
 # genre = wiki
-1	Узнагароджаны	узнагародзіць	VERB	VBNL	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+1	Узнагароджаны	узнагародзіць	VERB	VBNH	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 2	Дзяржаўнай	дзяржаўны	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	прэміяй	прэмія	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	iobj	_	_
 4	БССР	БССР	PROPN	INIT	Abbr=Yes	3	nmod	_	_
@@ -19890,7 +19890,7 @@
 18	разам	разам	ADV	RB	Degree=Pos	20	advmod	_	_
 19	з	з	ADP	IN	_	20	case	_	_
 20	ім	ён	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
-21	з'ехаў	з'ехаць	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+21	з'ехаў	з’ехаць	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
 22	у	у	ADP	IN	_	24	case	_	_
 23	Вялікае	вялікі	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
 24	Княства	княства	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obl	_	_
@@ -19912,7 +19912,7 @@
 6	у	у	ADP	IN	_	8	case	_	_
 7	палітычных	палітычны	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
 8	падзеях	падзея	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	_
-9	не	не	PART	UH	Polarity=Neg	10	advmod	_	_
+9	не	не	PART	NEG	Polarity=Neg	10	advmod	_	_
 10	адыгрываў	адыгрываць	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	10	punct	_	SpacesAfter=\n\n
 
@@ -19998,7 +19998,7 @@
 30	ў	у	ADP	IN	_	31	case	_	_
 31	1549	1549	ADJ	ORD	_	33	obl	_	_
 32	быў	быць	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	33	aux:pass	_	_
-33	прызнаны	прызнаць	VERB	VBNL	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
+33	прызнаны	прызнаць	VERB	VBNH	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
 34	таксама	таксама	ADV	RB	Degree=Pos	33	advmod	_	_
 35	вялікім	вялікі	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
 36	князем	князем	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	33	obl:agent	_	_
@@ -20156,7 +20156,7 @@
 19	,	,	PUNCT	PUNCT	_	20	punct	_	_
 20	Салтанаўскі	салтанаўскі	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	22	punct	_	_
-22	Затур'янскі	затур'янскі	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	conj	_	_
+22	Затур'янскі	затур’янскі	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	conj	_	_
 23	і	і	CCONJ	CC	_	24	cc	_	_
 24	налічвала	налічваць	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
 25	каля	каля	ADP	IN	_	27	case	_	_
@@ -20185,7 +20185,7 @@
 16	,	,	PUNCT	PUNCT	_	17	punct	_	_
 17	Гарадзея	Гарадзея	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	19	punct	_	_
-19	Maгiльна	Maгiльна	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+19	Maгiльна	Maгільна	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	21	punct	_	_
 21	Лунін	Лунін	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	_	23	punct	_	_
@@ -20447,7 +20447,7 @@
 2	аксід	аксід	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	жалеза	жалеза	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 4	Fe(OН)	Fe(OН)	X	X	_	2	appos	_	_
-5	з'яўляецца	з'яўляцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	з'яўляецца	з’яўляцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 6	іржой	іржа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	xcomp	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	5	punct	_	SpacesAfter=\n
 
@@ -20463,7 +20463,7 @@
 7	(	(	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 8	сталей	сталь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	parataxis	_	SpaceAfter=No
 9	)	)	PUNCT	PUNCT	_	8	punct	_	_
-10	часцей	часта	ADV	RB	Degree=Cmp	11	advmod	_	_
+10	часцей	часта	ADV	RBR	Degree=Cmp	11	advmod	_	_
 11	выкарыстоўваюць	выкарыстоўваць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 12	тэрмін	тэрмін	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
 13	«	«	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
@@ -20474,7 +20474,7 @@
 # sent_id = wiki-813277
 # text = Менш вядомыя выпадкі карозіі палімераў.
 # genre = wiki
-1	Менш	менш	ADV	RB	Degree=Cmp	2	advmod	_	_
+1	Менш	менш	ADV	RBR	Degree=Cmp	2	advmod	_	_
 2	вядомыя	вядомы	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	0	root	_	_
 3	выпадкі	выпадак	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 4	карозіі	карозія	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
@@ -20633,7 +20633,7 @@
 5	Арыёна	Арыён	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	conj	_	_
 6	ў	у	ADP	IN	_	8	case	_	_
 7	аднайменныя	аднайменны	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
-8	сузор'і	сузор'а	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+8	сузор'і	сузор’е	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = wiki-813286
@@ -20674,7 +20674,7 @@
 9	вывучае	вывучаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
 10	метадамі	метад	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	iobj	_	_
 11	тэорыі	тэорыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
-12	імавернасцей	імавернаста	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+12	імавернасцей	імавернасць	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
 13	паводзіны	паводзіны	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
 14	сістэм	сістэма	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	17	punct	_	_
@@ -20815,7 +20815,7 @@
 2	ўраўненнямі	ураўненне	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	5	xcomp	_	_
 3	статыстычнай	статыстычны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	механікі	механіка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
-5	з'яўляюцца	з'яўляцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	з'яўляюцца	з’яўляцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 6	ўраўненні	ураўненне	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
 7	Ліўвіля	Ліўвіль	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 8	і	і	CCONJ	CC	_	9	cc	_	_
@@ -20874,7 +20874,7 @@
 # genre = wiki
 1	Гэты	гэты	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	перыяд	перыяд	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-3	з'яўляецца	з'яўляцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	з'яўляецца	з’яўляцца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 4	пераломным	пераломны	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	момантам	момант	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	xcomp	_	_
 6	у	у	ADP	IN	_	7	case	_	_
@@ -21028,7 +21028,7 @@
 10	ананімнасці	ананімнасць	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
 11	рамеснікаў	рамеснік	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
 12	і	і	CCONJ	CC	_	13	cc	_	_
-13	з'яўленнем	з'яўленне	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	conj	_	_
+13	з'яўленнем	з’яўленне	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	conj	_	_
 14	персанальнага	персанальны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
 15	стылю	стыль	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
 16	ў	у	ADP	IN	_	17	case	_	_
@@ -21084,7 +21084,7 @@
 18	з	з	ADP	IN	_	21	case	_	_
 19	самага	самы	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
 20	свайго	свой	DET	PRP$	Case=Gen|Gender=Neut|Number=Sing	21	det	_	_
-21	з'яўлення	з'яўленне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+21	з'яўлення	з’яўленне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
 
 # newdoc
@@ -21131,7 +21131,7 @@
 # genre = wiki
 1	Нарадзіўся	нарадзіцца	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 2	ў	у	ADP	IN	_	3	case	_	_
-3	сям'і	сям'я	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
+3	сям'і	сям’я	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
 4	рабочага	рабочы	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	1	punct	_	SpacesAfter=\n\n
 
@@ -21291,7 +21291,7 @@
 # sent_id = wiki-973659
 # text = Узнагароджаны медалямі СССР, Ганаровай граматай Прэзідыума ВС БССР.
 # genre = wiki
-1	Узнагароджаны	узнагародзіць	VERB	VBNL	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+1	Узнагароджаны	узнагародзіць	VERB	VBNH	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 2	медалямі	медаль	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	1	iobj	_	_
 3	СССР	СССР	PROPN	NNP	Abbr=Yes	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_
@@ -21418,7 +21418,7 @@
 13	Еўропу	Еўропа	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 14	;	;	PUNCT	PUNCT	_	23	punct	_	_
 15	тым	той	PRON	DT	Degree=Pos	23	parataxis	_	_
-16	не	не	PART	UH	Polarity=Neg	15	fixed	_	_
+16	не	не	PART	NEG	Polarity=Neg	15	fixed	_	_
 17	менш	менш	ADV	RBR	Degree=Cmp	15	fixed	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	15	punct	_	_
 19	яшчэ	яшчэ	ADV	RB	Degree=Pos	22	advmod	_	_
@@ -21482,9 +21482,9 @@
 10	голым	голы	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
 11	сцяблом	сцябло	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	nmod	_	_
 12	вышынёй	вышыня	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	_
-13	30	30	NUM	_	NumType=Card	16	nummod:gov	_	SpaceAfter=No
+13	30	30	NUM	CD	NumType=Card	16	nummod:gov	_	SpaceAfter=No
 14	—	—	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
-15	150	150	NUM	_	NumType=Card	13	nmod	_	_
+15	150	150	NUM	CD	NumType=Card	13	nmod	_	_
 16	см	см	NOUN	NN	Abbr=Yes	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
@@ -21547,7 +21547,7 @@
 9	раёнах	раён	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	obl	_	_
 10	тропікаў	тропік	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
 11	абодвух	абодва	NUM	CD	Case=Gen|Gender=Masc|NumType=Sets	12	nummod	_	_
-12	паўшар'яў	паўшар'е	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
+12	паўшар'яў	паўшар’е	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = wiki-973673
@@ -21714,7 +21714,7 @@
 3	напрыклад	напрыклад	ADV	RB	Degree=Pos	7	parataxis	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	3	punct	_	_
 5	свята	свята	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
-6	не	не	PART	UH	Polarity=Neg	7	advmod	_	_
+6	не	не	PART	NEG	Polarity=Neg	7	advmod	_	_
 7	адзначалася	адзначацца	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 8	падчас	падчас	ADP	IN	_	9	case	_	_
 9	прыгнечання	прыгнечанне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
@@ -22061,7 +22061,7 @@
 12	каштоўных	каштоўны	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
 13	металаў	метал	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
 14	ці	ці	CCONJ	_	_	16	cc	_	_
-15	дарагіх	дарагі	NUM	_	Case=Gen	16	amod	_	_
+15	дарагіх	дарагі	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
 16	камянёў	камянь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
 17	,	,	PUNCT	PUNCT	_	19	punct	_	_
 18	якія	які	PRON	WPA	Case=Nom|Number=Plur|PronType=Rel	19	nsubj	_	_
@@ -22069,7 +22069,7 @@
 20	ператварацца	ператварыцца	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	19	xcomp	_	_
 21	ў	у	ADP	IN	_	25	case	_	_
 22	нічым	нішто	PRON	WP	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Int	24	obl	_	_
-23	не	не	PART	UH	Polarity=Neg	24	advmod	_	_
+23	не	не	PART	NEG	Polarity=Neg	24	advmod	_	_
 24	прыметныя	прыметны	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
 25	рэчы	рэч	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
 26	ці	ці	CCONJ	_	_	29	cc	_	_
@@ -22169,7 +22169,7 @@
 1	Скарб	скарб	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	мог	магчы	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	таксама	таксама	ADV	RB	Degree=Pos	4	advmod	_	_
-4	з'явіцца	з'явіцца	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	xcomp	_	_
+4	з'явіцца	з’явіцца	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	xcomp	_	_
 5	на	на	ADP	IN	_	6	case	_	_
 6	зямлі	зямля	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
 7	ў	у	ADP	IN	_	8	case	_	_
@@ -22226,16 +22226,16 @@
 1	Даўжыня	даўжыня	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	ракі	рака	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 3	12	12	NUM	CD	NumType=Card	4	nummod:gov	_	_
-4	км	км	NOUN	NN	Abbr=Yes	0	root	_	SpaceAfter=No
+4	км	кіламетр	NOUN	NN	Abbr=Yes	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	11	punct	_	_
 6	Сярэдні	сярэдні	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	нахіл	нахіл	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 8	воднай	водны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	паверхні	паверхня	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 10	1,9	1,9	NUM	CD	_	11	nummod:gov	_	_
-11	м	м	NOUN	NN	Abbr=Yes	4	conj	_	SpaceAfter=No
+11	м	метр	NOUN	NN	Abbr=Yes	4	conj	_	SpaceAfter=No
 12	/	/	SYM	SYM	_	13	case	_	SpaceAfter=No
-13	км	км	NOUN	NN	Abbr=Yes	11	nmod	_	SpaceAfter=No
+13	км	кіламетр	NOUN	NN	Abbr=Yes	11	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = wiki-1074209
@@ -22554,7 +22554,7 @@
 42	у	у	ADP	IN	_	45	case	_	_
 43	т.	той	DET	DT	Abbr=Yes	42	fixed	_	SpaceAfter=No
 44	л.	лік	NOUN	NN	Abbr=Yes	42	fixed	_	_
-45	лекі	лек	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	40	nmod	_	SpaceAfter=No
+45	лекі	лекі	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	40	nmod	_	SpaceAfter=No
 46	,	,	PUNCT	PUNCT	_	47	punct	_	_
 47	пестыцыды	пестыцыд	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	45	conj	_	SpaceAfter=No
 48	,	,	PUNCT	PUNCT	_	49	punct	_	_
@@ -22684,7 +22684,7 @@
 8	арганічнай	арганічны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	хіміі	хімія	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	11	punct	_	_
-11	з'явілася	з'явіцца	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+11	з'явілася	з’явіцца	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
 12	лагічным	лагічны	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
 13	працягам	працяг	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	xcomp	_	_
 14	хіміі	хімія	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
@@ -22947,7 +22947,7 @@
 # sent_id = wiki-1125938
 # text = Даследаваны: біяхімічныя ўласцівасці стэроідаў і прастагландзінаў (Ахрэм, Ф. А. Лахвіч, У. А. Хрыпач), стэроідных і бялковых гармонаў (А. А. Стральчонак), нуклеатыдаў і нуклеазідаў (І. А. Міхайлопула), механізмы дзеяння акісляльна-аднаўляльных ферментных сістэм і іх мадэлявання (Дз. І. Мяцеліца, С. А. Усанаў), структура і арганізацыя мембранна-звязаных ферментаў (В. Л. Чашчын), таксама сінтэз новых лекавых прэпаратаў на аснове гетэрацыклічных злучэнняў (Л. І. Ухава) і інш.
 # genre = wiki
-1	Даследаваны	даследаваць	VERB	VBNL	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+1	Даследаваны	даследаваць	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	PUNCT	_	4	punct	_	_
 3	біяхімічныя	біяхімічны	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
 4	ўласцівасці	уласцівасць	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	nsubj:pass	_	_
