@@ -7740,7 +7740,7 @@
 17	да	да	ADP	IN	_	19	case	_	_
 18	рабочага	рабочы	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
 19	пазыўнога	пазыўны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	obl	_	_
-20	—	-	PUNCT	PUNCT	_	16	punct	_	_
+20	—	—	PUNCT	PUNCT	_	16	punct	_	_
 21	пакажа	паказаць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	_	26	punct	_	_
 23	што	што	PRON	IN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	27	obj	_	_
@@ -9627,7 +9627,7 @@
 9	памяці	памяць	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	15	punct	_	_
 11	фатографу	фатограф	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	15	iobj	_	_
-12	AP	Ap	X	X	Foreign=Yes	11	nmod	_	_
+12	AP	AP	X	X	Foreign=Yes	11	nmod	_	_
 13	Сяргею	Сяргей	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	appos	_	_
 14	Грыцу	Грыц	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	13	flat:name	_	_
 15	разьбілі	разьбіць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
@@ -14736,7 +14736,7 @@
 11	ў	у	ADP	IN	_	12	case	_	_
 12	кафэ	кафэ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
 13	«	«	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
-14	Грай	Грай	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+14	Грай	граць	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	12	appos	_	SpaceAfter=No
 15	»	»	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -15236,7 +15236,7 @@
 # sent_id = ArtSjadziba-15743
 # text = HandmadE;
 # genre = social-media
-1	HandmadE	Handmade	X	X	Foreign=Yes	0	root	_	SpaceAfter=No
+1	HandmadE	HandmadE	X	X	Foreign=Yes	0	root	_	SpaceAfter=No
 2	;	;	PUNCT	PUNCT	_	1	punct	_	_
 
 # newpar
@@ -15722,7 +15722,7 @@
 30	Швэдзкі	швэдзкі	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
 31	(	(	PUNCT	PUNCT	_	32	punct	_	SpaceAfter=No
 32	1592	1592	ADJ	ORD	_	30	parataxis	_	_
-33	—	-	PUNCT	PUNCT	_	34	punct	_	_
+33	—	—	PUNCT	PUNCT	_	34	punct	_	_
 34	1599	1599	ADJ	ORD	_	32	nmod	_	SpaceAfter=No
 35	)	)	PUNCT	PUNCT	_	32	punct	_	SpaceAfter=No
 36	.	.	PUNCT	PUNCT	_	2	punct	_	_
@@ -16678,7 +16678,7 @@
 4	,	,	PUNCT	PUNCT	_	9	punct	_	_
 5	як	як	SCONJ	IN	_	9	mark	_	_
 6	помнікам	помнік	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	iobj	_	_
-7	XVII	XVIІ	ADJ	ORD	_	8	amod	_	_
+7	XVII	XVII	ADJ	ORD	_	8	amod	_	_
 8	стагоддзя	стагоддзе	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
 9	ахвяруюць	ахвяраваць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	_
 10	з	з	ADP	IN	_	12	case	_	_
@@ -17288,7 +17288,7 @@
 # text = Даўжыня цела 46—197, хваста 15—91 см, маса 1,5—105 кг.
 # genre = wiki
 1	Даўжыня	даўжыня	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
-2	цела	цэла	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+2	цела	цела	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
 3	46	46	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
 4	—	—	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 5	197	197	NUM	CD	NumType=Card	3	nmod	_	SpaceAfter=No
@@ -17380,7 +17380,7 @@
 1	Нараджаюць	нараджаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	звычайна	звычайна	ADV	RB	Degree=Pos	1	advmod	_	_
 3	3	3	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
-4	—	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+4	—	—	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 5	4	4	NUM	CD	NumType=Card	3	nmod	_	_
 6	кацянят	кацёнак	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	1	obj	_	_
 7	(	(	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
@@ -17391,7 +17391,7 @@
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_
 13	некаторыя	некаторы	DET	DT	Case=Nom|Number=Plur|PronType=Ind	14	det	_	_
 14	віды	від	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
-15	—	-	PUNCT	PUNCT	_	16	punct	_	_
+15	—	—	PUNCT	PUNCT	_	16	punct	_	_
 16	двойчы	двойчы	ADV	NNP	_	14	orphan	_	_
 17	за	за	ADP	IN	_	18	case	_	_
 18	год	год	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
@@ -17488,7 +17488,7 @@
 15	скарачэння	скарачэнне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
 16	"	"	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
 17	ac.	ac.	X	X	Foreign=Yes	15	appos	_	SpaceAfter=No
-18	"	."	PUNCT	PUNCT	_	17	punct	_	_
+18	"	"	PUNCT	PUNCT	_	17	punct	_	_
 19	ад	ад	ADP	IN	_	22	case	_	_
 20	англ.	ангельская	NOUN	NN	Abbr=Yes	22	nmod	_	_
 21	"	"	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
@@ -18058,11 +18058,11 @@
 6	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 7	англ.	ангельская	NOUN	NN	Abbr=Yes	9	nmod	_	SpaceAfter=No
 8	:	:	PUNCT	PUNCT	_	7	punct	_	_
-9	John	john	X	X	Foreign=Yes	1	parataxis	_	_
-10	'	’	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
-11	Jack	jack	X	X	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
-12	'	’	PUNCT	PUNCT	_	11	punct	_	_
-13	Charlton	charlton	X	X	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+9	John	John	X	X	Foreign=Yes	1	parataxis	_	_
+10	'	'	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+11	Jack	Jack	X	X	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+12	'	'	PUNCT	PUNCT	_	11	punct	_	_
+13	Charlton	Charlton	X	X	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
 14	;	;	PUNCT	PUNCT	_	9	punct	_	_
 15	нар.	нарадзіцца	VERB	VBC	Abbr=Yes	9	list	_	_
 16	8	8	ADJ	ORD	_	15	obl	_	_
@@ -20125,7 +20125,7 @@
 68	і	і	CCONJ	CC	_	70	cc	_	_
 69	дзяржаўных	дзяржаўны	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	70	amod	_	_
 70	крэдытаў	крэдыт	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	67	conj	_	_
-71	—	-	PUNCT	PUNCT	_	73	punct	_	_
+71	—	—	PUNCT	PUNCT	_	73	punct	_	_
 72	2/3	2/3	NUM	CD	_	73	nummod	_	_
 73	галасоў	голас	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	54	orphan	_	SpaceAfter=No
 74	.	.	PUNCT	PUNCT	_	2	punct	_	_
@@ -20182,7 +20182,7 @@
 12	паміж	паміж	ADP	IN	_	13	case	_	_
 13	каралём	караль	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
 14	і	і	CCONJ	CC	_	15	cc	_	_
-15	Стражай	стражы	SYM	SYM	_	13	conj	_	_
+15	Стражай	стража	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	conj	_	_
 16	правоў	права	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
 17	альбо	альбо	CCONJ	CC	_	20	cc	_	_
 18	паміж	паміж	ADP	IN	_	20	case	_	_
@@ -20900,7 +20900,7 @@
 # text = Даўжыня цела 93—116 см, вышыня ў карку 60—75 см, маса 18—33 кг.
 # genre = wiki
 1	Даўжыня	даўжыня	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
-2	цела	цэла	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+2	цела	цела	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
 3	93	93	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
 4	—	—	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 5	116	116	NUM	CD	NumType=Card	3	nmod	_	_
@@ -20949,7 +20949,7 @@
 6	пясчаная	пясчаны	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	16	punct	_	_
 8	ніз	ніз	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
-9	цела	цэла	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+9	цела	цела	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	11	punct	_	_
 11	шыя	шыя	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
 12	і	і	CCONJ	CC	_	14	cc	_	_
@@ -21191,7 +21191,7 @@
 2	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 3	трансліт.	транслітарация	NOUN	NN	Abbr=Yes	5	nmod	_	SpaceAfter=No
 4	:	:	PUNCT	PUNCT	_	3	punct	_	_
-5	Savičy	savičy	X	X	Foreign=Yes	1	parataxis	_	SpaceAfter=No
+5	Savičy	Savičy	X	X	Foreign=Yes	1	parataxis	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	9	punct	_	_
 7	руск.	руская	NOUN	NN	Abbr=Yes	9	nmod	_	SpaceAfter=No
 8	:	:	PUNCT	PUNCT	_	7	punct	_	_
