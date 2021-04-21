@@ -604,19 +604,19 @@
 16	прамысловасці	прамысловасць	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	orphan	_	_
 17	--	--	PUNCT	PUNCT	_	16	punct	_	_
 18	3,35	3,35	NUM	CD	_	19	nummod:gov	_	_
-19	млн	мільён	NOUN	NN	Abbr=Yes	13	conj	_	SpaceAfter=No
+19	млн	мільён	NOUN	NN	Abbr=Yes	10	conj	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	25	punct	_	_
 21	у	у	ADP	IN	_	22	case	_	_
 22	будаўніцтве	будаўніцтва	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	orphan	_	_
 23	--	--	PUNCT	PUNCT	_	25	punct	_	_
 24	2,95	2,95	NUM	CD	_	25	nummod:gov	_	_
-25	млн	мільён	NOUN	NN	Abbr=Yes	13	conj	_	SpaceAfter=No
+25	млн	мільён	NOUN	NN	Abbr=Yes	10	conj	_	SpaceAfter=No
 26	,	,	PUNCT	PUNCT	_	31	punct	_	_
 27	у	у	ADP	IN	_	28	case	_	_
 28	адукацыі	адукацыя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	31	orphan	_	_
 29	--	--	PUNCT	PUNCT	_	31	punct	_	_
 30	2,57	2,57	NUM	CD	_	31	nummod:gov	_	_
-31	млн	мільён	NOUN	NN	Abbr=Yes	13	conj	_	SpaceAfter=No
+31	млн	мільён	NOUN	NN	Abbr=Yes	10	conj	_	SpaceAfter=No
 32	,	,	PUNCT	PUNCT	_	45	punct	_	_
 33	у	у	ADP	IN	_	35	case	_	_
 34	сельскай	сельскі	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
@@ -630,7 +630,7 @@
 42	амаль	амаль	ADV	RB	Degree=Pos	45	advmod	_	_
 43	2	2	NUM	CD	NumType=Card	44	nummod	_	_
 44	млн	мільён	NOUN	NN	Abbr=Yes	45	nummod:gov	_	_
-45	рублёў	рубель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+45	рублёў	рубель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
 46	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = telegraf-2011032301-19-224-be
@@ -2046,7 +2046,7 @@
 # genre = social-media
 1	<a_href="https://vk.com/belarusdocs">	<a_href="https://vk.com/belarusdocs">	X	X	_	2	dep	_	SpaceAfter=No
 2	https://vk.com/belarusdocs	https://vk.com/belarusdocs	X	X	_	0	root	_	SpaceAfter=No
-3	</a>	</a>	X	X	_	2	dep	_	SpaceAfter=No
+3	</a>	</a>	X	X	_	2	dep	_	_
 
 # newpar
 # sent_id = BelarusDocs-10
@@ -2055,7 +2055,7 @@
 # genre = social-media
 1	<a_href="https://t.me/belarusdocs">	<a_href="https://t.me/belarusdocs">	X	X	_	2	dep	_	SpaceAfter=No
 2	https://t.me/belarusdocs	https://t.me/belarusdocs	X	X	_	0	root	_	SpaceAfter=No
-3	</a>	</a>	X	X	_	2	dep	_	SpaceAfter=No
+3	</a>	</a>	X	X	_	2	dep	_	_
 
 # newpar
 # sent_id = BelarusDocs-11
@@ -2164,7 +2164,7 @@
 1	8	8	ADJ	ORD	_	0	root	_	_
 2	сакавіка	сакавік	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	flat	_	_
 3	–	–	PUNCT	PUNCT	_	1	punct	_	_
-4	21.20	21.20	NUM	CD	_	1	list	_	SpaceAfter=No
+4	21.20	21.20	NUM	CD	_	1	list	_	_
 
 # newpar
 # sent_id = BelarusDocs-18
@@ -2174,7 +2174,7 @@
 1	9	9	ADJ	ORD	_	0	root	_	_
 2	сакавіка	сакавік	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	flat	_	_
 3	–	–	PUNCT	PUNCT	_	1	punct	_	_
-4	19.00	19.00	NUM	CD	_	1	list	_	SpaceAfter=No
+4	19.00	19.00	NUM	CD	_	1	list	_	_
 
 # newpar
 # sent_id = BelarusDocs-19
@@ -2184,7 +2184,7 @@
 1	10	10	ADJ	ORD	_	0	root	_	_
 2	сакавік	сакавік	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 3	–	–	PUNCT	PUNCT	_	1	punct	_	_
-4	19.00	19.00	NUM	CD	_	1	list	_	SpaceAfter=No
+4	19.00	19.00	NUM	CD	_	1	list	_	_
 
 # newpar
 # sent_id = BelarusDocs-20
@@ -2194,7 +2194,7 @@
 1	11	11	ADJ	ORD	_	0	root	_	_
 2	сакавіка	сакавік	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	flat	_	_
 3	–	–	PUNCT	PUNCT	_	1	punct	_	_
-4	19.00	19.00	NUM	CD	_	1	list	_	SpaceAfter=No
+4	19.00	19.00	NUM	CD	_	1	list	_	_
 
 # newpar
 # media = <a_href="https://silverscreen.by/afisha/?fbclid=IwAR0xP6T_1Eqr28c8tlnjn9C-wGTUlbsbk00fgawzsTGaiCwlREqTJxZI5E8#times=proshchanie-so-stalinym-1175">https://silverscreen.by/afisha/?fbclid=IwAR0xP6T_1Eqr28c8tlnjn9C-wGTUlbsbk00fgawzsTGaiCwlREqTJxZI5E8#times=proshchanie-so-stalinym-1175</a>
@@ -2675,7 +2675,7 @@
 18	ўжытак	ужытак	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
 19	у	у	ADP	IN	_	20	case	_	_
 20	сталіцы	сталіца	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
-21	:)	:)	SYM	SYM	_	15	discourse	_	SpaceAfter=No
+21	:)	:)	SYM	SYM	_	15	discourse	_	_
 
 # newpar
 # media = <a_href="https://www.youtube.com/playlist?list=PLIQku9U_opv1pyAicEWsWEgltrT6GpPd5">https://www.youtube.com/playlist?list=PLIQku9U_opv1pyAicEWsWEgltrT6GpPd5</a>
@@ -2908,7 +2908,7 @@
 # genre = social-media
 1	<a_href="https://vk.com/belarusdocs">	<a_href="https://vk.com/belarusdocs">	X	X	_	2	dep	_	SpaceAfter=No
 2	https://vk.com/belarusdocs	https://vk.com/belarusdocs	X	X	_	0	root	_	SpaceAfter=No
-3	</a>	</a>	X	X	_	2	dep	_	SpaceAfter=No
+3	</a>	</a>	X	X	_	2	dep	_	_
 
 # doc_id = 24
 # timestamp = 05.04.2020 15:01:07
@@ -3358,7 +3358,7 @@
 17	–	–	PUNCT	PUNCT	_	19	punct	_	_
 18	<a_href="https://docs.google.com/forms/d/e/1FAIpQLSfDHz6dhoEBRiLLJiD13c6KbUd0x2FakR5V7pC0RI9viV-cHQ/viewform">	<a_href="https://docs.google.com/forms/d/e/1FAIpQLSfDHz6dhoEBRiLLJiD13c6KbUd0x2FakR5V7pC0RI9viV-cHQ/viewform">	X	X	_	19	dep	_	SpaceAfter=No
 19	https://docs.google.com/forms/d/e/1FAIpQLSfDHz6dhoEBRiLLJiD13c6KbUd0x2FakR5V7pC0RI9viV-cHQ/viewform	https://docs.google.com/forms/d/e/1FAIpQLSfDHz6dhoEBRiLLJiD13c6KbUd0x2FakR5V7pC0RI9viV-cHQ/viewform	X	X	_	16	appos	_	SpaceAfter=No
-20	</a>	</a>	X	X	_	19	dep	_	SpaceAfter=No
+20	</a>	</a>	X	X	_	19	dep	_	_
 
 # newpar
 # sent_id = BelarusDocs-164
@@ -3382,7 +3382,7 @@
 15	-	-	PUNCT	PUNCT	_	17	punct	_	_
 16	<a_href="https://t.me/belarusdocs_jury">	<a_href="https://t.me/belarusdocs_jury">	X	X	_	17	dep	_	SpaceAfter=No
 17	https://t.me/belarusdocs_jury	https://t.me/belarusdocs_jury	X	X	_	14	appos	_	SpaceAfter=No
-18	</a>	</a>	X	X	_	17	dep	_	SpaceAfter=No
+18	</a>	</a>	X	X	_	17	dep	_	_
 
 # doc_id = 27
 # timestamp = 07.04.2020 20:25:57
@@ -3474,7 +3474,7 @@
 27	на	на	ADP	IN	_	29	case	_	_
 28	<a_href="belarusdocs.com">	<a_href="belarusdocs.com">	X	X	_	29	dep	_	SpaceAfter=No
 29	belarusdocs.com	belarusdocs.com	X	X	_	0	root	_	SpaceAfter=No
-30	</a>	</a>	X	X	_	29	dep	_	SpaceAfter=No
+30	</a>	</a>	X	X	_	29	dep	_	_
 
 # newpar
 # sent_id = BelarusDocs-168
@@ -3728,7 +3728,7 @@
 18	–	–	PUNCT	PUNCT	_	20	punct	_	_
 19	<a_href="https://docs.google.com/forms/d/e/1FAIpQLSfPHDc3rDAl6NBaQg9AqjWBHgaDvHdtEeI2QsLr5ckMLzbYOQ/viewform?usp=sf_link">	<a_href="https://docs.google.com/forms/d/e/1FAIpQLSfPHDc3rDAl6NBaQg9AqjWBHgaDvHdtEeI2QsLr5ckMLzbYOQ/viewform?usp=sf_link">	X	X	_	20	dep	_	SpaceAfter=No
 20	https://docs.google.com/forms/d/e/1FAIpQLSfPHDc3rDAl6NBaQg9AqjWBHgaDvHdtEeI2QsLr5ckMLzbYOQ/viewform?usp=sf_link	https://docs.google.com/forms/d/e/1FAIpQLSfPHDc3rDAl6NBaQg9AqjWBHgaDvHdtEeI2QsLr5ckMLzbYOQ/viewform?usp=sf_link	X	X	_	17	appos	_	SpaceAfter=No
-21	</a>	</a>	X	X	_	20	dep	_	SpaceAfter=No
+21	</a>	</a>	X	X	_	20	dep	_	_
 
 # newpar
 # sent_id = BelarusDocs-179
@@ -5506,7 +5506,7 @@
 2	:	:	PUNCT	PUNCT	_	4	punct	_	_
 3	<a_href="https://vk.com/radiosvaboda?z=video-36069860_456243574%2Fd65eeede6488b5444d%2Fpl_wall_-36069860">	<a_href="https://vk.com/radiosvaboda?z=video-36069860_456243574%2Fd65eeede6488b5444d%2Fpl_wall_-36069860">	X	X	_	4	dep	_	SpaceAfter=No
 4	https://vk.com/radiosvaboda?z=video-36069860_456243574%2Fd65eeede6488b5444d%2Fpl_wall_-36069860	https://vk.com/radiosvaboda?z=video-36069860_456243574%2Fd65eeede6488b5444d%2Fpl_wall_-36069860	X	X	_	1	parataxis	_	SpaceAfter=No
-5	</a>	</a>	X	X	_	4	dep	_	SpaceAfter=No
+5	</a>	</a>	X	X	_	4	dep	_	_
 
 # doc_id = 948
 # timestamp = 08.10.2018 14:42:14
@@ -5846,7 +5846,7 @@
 5	затрымалі	затрымаць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	<a_href="https://www.svaboda.org/a/29542581.html">	<a_href="https://www.svaboda.org/a/29542581.html">	X	X	_	7	dep	_	SpaceAfter=No
 7	https://www.svaboda.org/a/29542581.html	https://www.svaboda.org/a/29542581.html	X	X	_	5	parataxis	_	SpaceAfter=No
-8	</a>	</a>	X	X	_	7	dep	_	SpaceAfter=No
+8	</a>	</a>	X	X	_	7	dep	_	_
 
 # doc_id = 957
 # timestamp = 14.10.2018 20:25:00
@@ -6987,7 +6987,7 @@
 4	:	:	PUNCT	PUNCT	_	6	punct	_	_
 5	<a_href="https://www.svaboda.org/a/29563170.html">	<a_href="https://www.svaboda.org/a/29563170.html">	X	X	_	6	dep	_	SpaceAfter=No
 6	https://www.svaboda.org/a/29563170.html	https://www.svaboda.org/a/29563170.html	X	X	_	3	appos	_	SpaceAfter=No
-7	</a>	</a>	X	X	_	6	dep	_	SpaceAfter=No
+7	</a>	</a>	X	X	_	6	dep	_	_
 
 # doc_id = 996
 # timestamp = 25.10.2018 13:00:38
@@ -7669,7 +7669,7 @@
 4	:	:	PUNCT	PUNCT	_	6	punct	_	_
 5	<a_href="https://www.racyja.com/hramadstva/da-memaryyalu-u-khajsakh-zaarali-darogu/">	<a_href="https://www.racyja.com/hramadstva/da-memaryyalu-u-khajsakh-zaarali-darogu/">	X	X	_	6	dep	_	SpaceAfter=No
 6	https://www.racyja.com/hramadstva/da-memaryyalu-u-khajsakh-zaarali-darogu/	https://www.racyja.com/hramadstva/da-memaryyalu-u-khajsakh-zaarali-darogu/	X	X	_	1	obl	_	SpaceAfter=No
-7	</a>	</a>	X	X	_	6	dep	_	SpaceAfter=No
+7	</a>	</a>	X	X	_	6	dep	_	_
 
 # doc_id = 1042
 # timestamp = 29.04.2020 17:26:32
@@ -8327,7 +8327,7 @@
 # genre = news
 1	Жыве	жыць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	Беларусь	Беларусь	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
-3	!!!	!!!	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+3	!!!	!!!	PUNCT	PUNCT	_	1	punct	_	_
 
 # doc_id = 1048
 # timestamp = 08.05.2020 18:27:16
@@ -8451,7 +8451,7 @@
 1	<em>	<em>	X	X	_	2	dep	_	SpaceAfter=No
 2	Дзіяна	Дзіяна	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 3	Серадзюк	Серадзюк	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	SpaceAfter=No
-4	</em>	</em>	X	X	_	2	dep	_	SpaceAfter=No
+4	</em>	</em>	X	X	_	2	dep	_	_
 
 # newpar
 # sent_id = AbaronaKurapatau-15232
@@ -8523,7 +8523,7 @@
 1	<a_href="https://novychas.by/poviaz/dasledczyki-znajszli-zvestki-pra-rasstraljanaha-u">	<a_href="https://novychas.by/poviaz/dasledczyki-znajszli-zvestki-pra-rasstraljanaha-u">	X	X	_	2	dep	_	SpaceAfter=No
 2	ЧЫТАЦЬ	чытаць	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
 3	ДАЛЕЙ	далей	ADV	RBR	Degree=Cmp	2	advmod	_	SpaceAfter=No
-4	</a>	</a>	X	X	_	2	dep	_	SpaceAfter=No
+4	</a>	</a>	X	X	_	2	dep	_	_
 
 # doc_id = 1059
 # timestamp = 19.05.2020 15:21:27
@@ -8923,7 +8923,7 @@
 1	<em>	<em>	X	X	_	2	dep	_	SpaceAfter=No
 2	Ігар	Ігар	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	Мельнікаў	Мельнікаў	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	SpaceAfter=No
-4	</em>	</em>	X	X	_	2	dep	_	SpaceAfter=No
+4	</em>	</em>	X	X	_	2	dep	_	_
 
 # newpar
 # sent_id = AbaronaKurapatau-15267
@@ -9552,7 +9552,7 @@
 11	гэтага	гэта	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	12	obj	_	_
 12	зрабіць	зрабіць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
-14	</strong>	</strong>	X	X	_	2	dep	_	SpaceAfter=No
+14	</strong>	</strong>	X	X	_	2	dep	_	_
 
 # doc_id = 1084
 # timestamp = 15.06.2020 11:25:19
@@ -9942,7 +9942,7 @@
 6	штрафу	штраф	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 7	складае	складаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	2965	2965	NUM	CD	NumType=Card	9	nummod:gov	_	_
-9	руб.	рубель	NOUN	NN	Abbr=Yes	7	obj	_	SpaceAfter=No
+9	руб.	рубель	NOUN	NN	Abbr=Yes	7	obj	_	_
 
 # newpar
 # sent_id = AbaronaKurapatau-15321
@@ -10069,7 +10069,7 @@
 15	гэтай	гэты	DET	DT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
 16	праблемы	праблема	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 17	!	!	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
-18	</em>	</em>	X	X	_	3	dep	_	SpaceAfter=No
+18	</em>	</em>	X	X	_	3	dep	_	_
 
 # newpar
 # sent_id = AbaronaKurapatau-15326
@@ -11046,7 +11046,7 @@
 5	вк	Вк	PROPN	NNP	Abbr=Yes	0	root	_	_
 6	<a_href="https://vk.com/bulkleta">	<a_href="https://vk.com/bulkleta">	X	X	_	7	dep	_	SpaceAfter=No
 7	https://vk.com/bulkleta	https://vk.com/bulkleta	X	X	_	5	appos	_	SpaceAfter=No
-8	</a>	</a>	X	X	_	7	dep	_	SpaceAfter=No
+8	</a>	</a>	X	X	_	7	dep	_	_
 
 # doc_id = 13
 # timestamp = 26.08.2017 22:33:11
@@ -11508,7 +11508,7 @@
 1	Падрабязнасці	падрабязнасць	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
 2	<a_href="https://vk.com/dakooka_minsk">	<a_href="https://vk.com/dakooka_minsk">	X	X	_	3	dep	_	SpaceAfter=No
 3	https://vk.com/dakooka_minsk	https://vk.com/dakooka_minsk	X	X	_	1	parataxis	_	SpaceAfter=No
-4	</a>	</a>	X	X	_	3	dep	_	SpaceAfter=No
+4	</a>	</a>	X	X	_	3	dep	_	_
 
 # newpar
 # sent_id = ArtSjadziba-15436
@@ -11636,7 +11636,7 @@
 3	:	:	PUNCT	PUNCT	_	5	punct	_	_
 4	<a_href="https://vk.com/topic-150808964_35775978">	<a_href="https://vk.com/topic-150808964_35775978">	X	X	_	5	dep	_	SpaceAfter=No
 5	https://vk.com/topic-150808964_35775978	https://vk.com/topic-150808964_35775978	X	X	_	2	appos	_	SpaceAfter=No
-6	</a>	</a>	X	X	_	5	dep	_	SpaceAfter=No
+6	</a>	</a>	X	X	_	5	dep	_	_
 
 # newpar
 # sent_id = ArtSjadziba-15447
@@ -11663,7 +11663,7 @@
 3	:	:	PUNCT	PUNCT	_	5	punct	_	_
 4	<a_href="https://vk.cc/73yYBL">	<a_href="https://vk.cc/73yYBL">	X	X	_	5	dep	_	SpaceAfter=No
 5	https://vk.cc/73yYBL	https://vk.cc/73yYBL	X	X	_	2	appos	_	SpaceAfter=No
-6	</a>	</a>	X	X	_	5	dep	_	SpaceAfter=No
+6	</a>	</a>	X	X	_	5	dep	_	_
 
 # newpar
 # sent_id = ArtSjadziba-15449
@@ -11700,7 +11700,7 @@
 2	:	:	PUNCT	PUNCT	_	4	punct	_	_
 3	<a_href="https://vk.com/topic-150808964_35775983">	<a_href="https://vk.com/topic-150808964_35775983">	X	X	_	4	dep	_	SpaceAfter=No
 4	https://vk.com/topic-150808964_35775983	https://vk.com/topic-150808964_35775983	X	X	_	1	parataxis	_	SpaceAfter=No
-5	</a>	</a>	X	X	_	4	dep	_	SpaceAfter=No
+5	</a>	</a>	X	X	_	4	dep	_	_
 
 # newpar
 # sent_id = ArtSjadziba-15452
@@ -11721,7 +11721,7 @@
 12	-	-	PUNCT	PUNCT	_	14	punct	_	_
 13	<a_href="https://vk.com/topic-152690883_36265706">	<a_href="https://vk.com/topic-152690883_36265706">	X	X	_	14	dep	_	SpaceAfter=No
 14	https://vk.com/topic-152690883_36265706	https://vk.com/topic-152690883_36265706	X	X	_	11	parataxis	_	SpaceAfter=No
-15	</a>	</a>	X	X	_	14	dep	_	SpaceAfter=No
+15	</a>	</a>	X	X	_	14	dep	_	_
 
 # newpar
 # sent_id = ArtSjadziba-15455
@@ -11738,7 +11738,7 @@
 8	-	-	PUNCT	PUNCT	_	10	punct	_	_
 9	<a_href="https://vk.com/topic-152690883_36265714">	<a_href="https://vk.com/topic-152690883_36265714">	X	X	_	10	dep	_	SpaceAfter=No
 10	https://vk.com/topic-152690883_36265714	https://vk.com/topic-152690883_36265714	X	X	_	7	parataxis	_	SpaceAfter=No
-11	</a>	</a>	X	X	_	10	dep	_	SpaceAfter=No
+11	</a>	</a>	X	X	_	10	dep	_	_
 
 # newpar
 # sent_id = ArtSjadziba-15456
@@ -11776,7 +11776,7 @@
 3	:	:	PUNCT	PUNCT	_	5	punct	_	_
 4	<a_href="https://vk.com/topic-150808964_35788781">	<a_href="https://vk.com/topic-150808964_35788781">	X	X	_	5	dep	_	SpaceAfter=No
 5	https://vk.com/topic-150808964_35788781	https://vk.com/topic-150808964_35788781	X	X	_	2	appos	_	SpaceAfter=No
-6	</a>	</a>	X	X	_	5	dep	_	SpaceAfter=No
+6	</a>	</a>	X	X	_	5	dep	_	_
 
 # newpar
 # sent_id = ArtSjadziba-15459
@@ -11796,7 +11796,7 @@
 11	-	-	PUNCT	PUNCT	_	13	punct	_	_
 12	<a_href="https://vk.com/topic-152690883_36265706">	<a_href="https://vk.com/topic-152690883_36265706">	X	X	_	13	dep	_	SpaceAfter=No
 13	https://vk.com/topic-152690883_36265706	https://vk.com/topic-152690883_36265706	X	X	_	10	parataxis	_	SpaceAfter=No
-14	</a>	</a>	X	X	_	13	dep	_	SpaceAfter=No
+14	</a>	</a>	X	X	_	13	dep	_	_
 
 # newpar
 # sent_id = ArtSjadziba-15460
@@ -11922,7 +11922,7 @@
 2	:	:	PUNCT	PUNCT	_	4	punct	_	_
 3	<a_href="https://news.tut.by/culture/558478.html">	<a_href="https://news.tut.by/culture/558478.html">	X	X	_	4	dep	_	SpaceAfter=No
 4	https://news.tut.by/culture/558478.html	https://news.tut.by/culture/558478.html	X	X	_	1	parataxis	_	SpaceAfter=No
-5	</a>	</a>	X	X	_	4	dep	_	SpaceAfter=No
+5	</a>	</a>	X	X	_	4	dep	_	_
 
 # doc_id = 45
 # timestamp = 01.09.2017 21:14:20
@@ -12111,7 +12111,7 @@
 3	:	:	PUNCT	PUNCT	_	5	punct	_	_
 4	<a_href="https://vk.cc/74rVQ4">	<a_href="https://vk.cc/74rVQ4">	X	X	_	5	dep	_	SpaceAfter=No
 5	https://vk.cc/74rVQ4	https://vk.cc/74rVQ4	X	X	_	1	parataxis	_	SpaceAfter=No
-6	</a>	</a>	X	X	_	5	dep	_	SpaceAfter=No
+6	</a>	</a>	X	X	_	5	dep	_	_
 
 # newpar
 # sent_id = ArtSjadziba-15483
@@ -12300,7 +12300,7 @@
 7	:	:	PUNCT	PUNCT	_	9	punct	_	_
 8	<a_href="https://vk.com/topic-152975805_35910155">	<a_href="https://vk.com/topic-152975805_35910155">	X	X	_	9	dep	_	SpaceAfter=No
 9	https://vk.com/topic-152975805_35910155	https://vk.com/topic-152975805_35910155	X	X	_	6	parataxis	_	SpaceAfter=No
-10	</a>	</a>	X	X	_	9	dep	_	SpaceAfter=No
+10	</a>	</a>	X	X	_	9	dep	_	_
 
 # newpar
 # sent_id = ArtSjadziba-15499
@@ -13397,7 +13397,7 @@
 4	:	:	PUNCT	PUNCT	_	6	punct	_	_
 5	<a_href="https://vk.com/topic-88315105_35945057">	<a_href="https://vk.com/topic-88315105_35945057">	X	X	_	6	dep	_	SpaceAfter=No
 6	https://vk.com/topic-88315105_35945057	https://vk.com/topic-88315105_35945057	X	X	_	3	appos	_	SpaceAfter=No
-7	</a>	</a>	X	X	_	6	dep	_	SpaceAfter=No
+7	</a>	</a>	X	X	_	6	dep	_	_
 
 # newpar
 # sent_id = ArtSjadziba-15560
@@ -13550,7 +13550,7 @@
 2	на	на	ADP	IN	_	4	case	_	_
 3	<a_href="https://t.me/svabodabelarus">	<a_href="https://t.me/svabodabelarus">	X	X	_	4	dep	_	SpaceAfter=No
 4	@svabodabelarus	@svabodabelarus	X	X	_	1	obl	_	SpaceAfter=No
-5	</a>	</a>	X	X	_	4	dep	_	SpaceAfter=No
+5	</a>	</a>	X	X	_	4	dep	_	_
 
 # doc_id = 3054
 # timestamp = 17.03.2020 12:59:48
@@ -13638,7 +13638,7 @@
 8	эпідэміі	эпідэмія	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
 9	<a_href="https://www.svaboda.org/a/30492713.html">	<a_href="https://www.svaboda.org/a/30492713.html">	X	X	_	10	dep	_	SpaceAfter=No
 10	https://www.svaboda.org/a/30492713.html	https://www.svaboda.org/a/30492713.html	X	X	_	5	parataxis	_	SpaceAfter=No
-11	</a>	</a>	X	X	_	10	dep	_	SpaceAfter=No
+11	</a>	</a>	X	X	_	10	dep	_	_
 
 # doc_id = 3057
 # timestamp = 17.03.2020 16:18:46
@@ -13745,7 +13745,7 @@
 5	:	:	PUNCT	PUNCT	_	7	punct	_	_
 6	<a_href="https://www.svaboda.org/a/30492731.html">	<a_href="https://www.svaboda.org/a/30492731.html">	X	X	_	7	dep	_	SpaceAfter=No
 7	https://www.svaboda.org/a/30492731.html	https://www.svaboda.org/a/30492731.html	X	X	_	4	parataxis	_	SpaceAfter=No
-8	</a>	</a>	X	X	_	7	dep	_	SpaceAfter=No
+8	</a>	</a>	X	X	_	7	dep	_	_
 
 # doc_id = 3060
 # timestamp = 17.03.2020 18:33:56
@@ -14004,7 +14004,7 @@
 1	ФОТА	фота	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 2	<a_href="https://www.svaboda.org/a/30494384.html">	<a_href="https://www.svaboda.org/a/30494384.html">	X	X	_	3	dep	_	SpaceAfter=No
 3	https://www.svaboda.org/a/30494384.html	https://www.svaboda.org/a/30494384.html	X	X	_	1	appos	_	SpaceAfter=No
-4	</a>	</a>	X	X	_	3	dep	_	SpaceAfter=No
+4	</a>	</a>	X	X	_	3	dep	_	_
 
 # doc_id = 3070
 # timestamp = 18.03.2020 11:53:20
@@ -14379,7 +14379,7 @@
 5	:	:	PUNCT	PUNCT	_	7	punct	_	_
 6	<a_href="https://www.svaboda.org/a/30496779.html">	<a_href="https://www.svaboda.org/a/30496779.html">	X	X	_	7	dep	_	SpaceAfter=No
 7	https://www.svaboda.org/a/30496779.html	https://www.svaboda.org/a/30496779.html	X	X	_	3	parataxis	_	SpaceAfter=No
-8	</a>	</a>	X	X	_	7	dep	_	SpaceAfter=No
+8	</a>	</a>	X	X	_	7	dep	_	_
 
 # doc_id = 3082
 # timestamp = 19.03.2020 12:47:40
@@ -14413,7 +14413,7 @@
 8	ўнівэрсытэту	унівэрсытэт	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
 9	<a_href="https://www.svaboda.org/a/30496861.html">	<a_href="https://www.svaboda.org/a/30496861.html">	X	X	_	10	dep	_	SpaceAfter=No
 10	https://www.svaboda.org/a/30496861.html	https://www.svaboda.org/a/30496861.html	X	X	_	2	parataxis	_	SpaceAfter=No
-11	</a>	</a>	X	X	_	10	dep	_	SpaceAfter=No
+11	</a>	</a>	X	X	_	10	dep	_	_
 
 # doc_id = 3085
 # timestamp = 19.03.2020 12:56:58
@@ -14653,7 +14653,7 @@
 2	на	на	ADP	IN	_	4	case	_	_
 3	<a_href="https://t.me/svabodabelarus">	<a_href="https://t.me/svabodabelarus">	X	X	_	4	dep	_	SpaceAfter=No
 4	@svabodabelarus	@svabodabelarus	X	X	_	1	obl	_	SpaceAfter=No
-5	</a>	</a>	X	X	_	4	dep	_	SpaceAfter=No
+5	</a>	</a>	X	X	_	4	dep	_	_
 
 # doc_id = 3093
 # timestamp = 19.03.2020 21:36:21
@@ -16277,7 +16277,7 @@
 14	на	на	ADP	IN	_	16	case	_	_
 15	<a_href="https://t.me/SvabodaBelarus">	<a_href="https://t.me/SvabodaBelarus">	X	X	_	16	dep	_	SpaceAfter=No
 16	@SvabodaBelarus	@SvabodaBelarus	X	X	_	12	obl	_	SpaceAfter=No
-17	</a>	</a>	X	X	_	16	dep	_	SpaceAfter=No
+17	</a>	</a>	X	X	_	16	dep	_	_
 
 # doc_id = 3148
 # timestamp = 30.03.2020 12:43:18
@@ -16526,7 +16526,7 @@
 2	на	на	ADP	IN	_	4	case	_	_
 3	<a_href="https://t.me/svabodabelarus">	<a_href="https://t.me/svabodabelarus">	X	X	_	4	dep	_	SpaceAfter=No
 4	@svabodabelarus	@svabodabelarus	X	X	_	1	obl	_	SpaceAfter=No
-5	</a>	</a>	X	X	_	4	dep	_	SpaceAfter=No
+5	</a>	</a>	X	X	_	4	dep	_	_
 
 # doc_id = 3151
 # timestamp = 30.03.2020 15:07:04
@@ -18181,7 +18181,7 @@
 7	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
 9	1928	1928	ADJ	ORD	_	10	amod	_	_
-10	г.	год	NOUN	NN	Abbr=Yes	5	list	_	SpaceAfter=No
+10	г.	год	NOUN	NN	Abbr=Yes	5	list	_	_
 
 # doc_id = 111
 # timestamp = 22.01.2019 13:50:35
@@ -19114,7 +19114,7 @@
 1	Браслав	Браслаў	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	4	punct	_	_
 3	1920-е	1920-ы	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
-4	г.	год	NOUN	NN	Abbr=Yes	1	conj	_	SpaceAfter=No
+4	г.	год	NOUN	NN	Abbr=Yes	1	conj	_	_
 
 # doc_id = 202
 # timestamp = 14.05.2019 20:42:29
@@ -19440,7 +19440,7 @@
 # spelling = nar
 # genre = social-media
 1	1950-я	1950-ы	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
-2	гг.	год	NOUN	NN	Abbr=Yes	0	root	_	SpaceAfter=No
+2	гг.	год	NOUN	NN	Abbr=Yes	0	root	_	_
 
 # newpar
 # sent_id = BelarusHistory-22787
@@ -19747,7 +19747,7 @@
 10	:	:	PUNCT	PUNCT	_	12	punct	_	_
 11	<a_href="https://www.svaboda.org/a/29978422.html">	<a_href="https://www.svaboda.org/a/29978422.html">	X	X	_	12	dep	_	SpaceAfter=No
 12	https://www.svaboda.org/a/29978422.html	https://www.svaboda.org/a/29978422.html	X	X	_	6	parataxis	_	SpaceAfter=No
-13	</a>	</a>	X	X	_	12	dep	_	SpaceAfter=No
+13	</a>	</a>	X	X	_	12	dep	_	_
 
 # doc_id = 226
 # timestamp = 17.06.2019 18:15:22
@@ -22302,7 +22302,7 @@
 19	самага	самы	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
 20	свайго	свой	DET	PRP$	Case=Gen|Gender=Neut|Number=Sing	21	det	_	_
 21	з'яўлення	з’яўленне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
-22	.	.	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	17	punct	_	_
 
 # newdoc
 # newpar
@@ -22602,7 +22602,7 @@
 55	для	для	ADP	IN	_	57	case	_	_
 56	розных	розны	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	57	amod	_	_
 57	збудаванняў	збудаванне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	50	nmod	_	SpaceAfter=No
-58	.	.	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+58	.	.	PUNCT	PUNCT	_	20	punct	_	_
 
 # newpar
 # sent_id = wiki-973663
@@ -22673,7 +22673,7 @@
 35	адбылася	адбыцца	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	32	acl	_	_
 36	Венская	венскі	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
 37	бітва	бітва	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	SpaceAfter=No
-38	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # newpar
 # sent_id = wiki-973665
@@ -23208,7 +23208,7 @@
 24	Аддзяленні	аддзяленне	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	conj	_	_
 25	біялагічных	біялагічны	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
 26	навук	навука	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # newpar
 # sent_id = wiki-1024933
