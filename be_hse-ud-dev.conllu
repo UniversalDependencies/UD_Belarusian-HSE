@@ -453,7 +453,7 @@
 16	падаткаў	падатак	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	15:nmod:gen	SpaceAfter=No
 17	)	)	PUNCT	PUNCT	_	15	punct	15:punct	_
 18	была	быць	AUX	VBC	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	21:cop	_
-19	2,96	2,96	NUM	CD	NumType=Card	20	nummod:gov	20:nummod:gov	_
+19	2,96	2,96	NUM	CD	_	20	nummod:gov	20:nummod:gov	_
 20	млн	мільён	NOUN	NN	Abbr=Yes	21	nummod	21:nummod	_
 21	рублёў	рубель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	0:root|24:nsubj	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	_	24	punct	24:punct	_
@@ -13759,10 +13759,10 @@
 # text = Хто кашлянуў, зірніце: <a_href="https://www.svaboda.org/a/30492731.html">https://www.svaboda.org/a/30492731.html</a>
 # spelling = tar
 # genre = news
-1	Хто	хто	PRON	DT	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	2	nsubj	4:ref	_
+1	Хто	хто	PRON	DT	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	2	nsubj	2:nsubj	_
 2	кашлянуў	кашлянуць	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl	4:acl	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	2:punct	_
-4	зірніце	зірнуць	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root|2:nsubj	SpaceAfter=No
+4	зірніце	зірнуць	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 5	:	:	PUNCT	PUNCT	_	7	punct	7:punct	_
 6	<a_href="https://www.svaboda.org/a/30492731.html">	<a_href="https://www.svaboda.org/a/30492731.html">	X	X	_	7	dep	7:dep	SpaceAfter=No
 7	https://www.svaboda.org/a/30492731.html	https://www.svaboda.org/a/30492731.html	X	X	_	4	parataxis	4:parataxis	SpaceAfter=No
