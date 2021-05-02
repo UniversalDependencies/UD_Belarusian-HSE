@@ -67,6 +67,7 @@ Authors:
 * https://t.me/abarona  
 * https://t.me/belarusian_history  
 6) Belarusian wikipedia  
+7) nonfiction  
 
 
 # Acknowledgments
@@ -77,8 +78,8 @@ We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail
 
 # Changelog
 
-* 2021-01-05 v2.7  
-  * New texts added (genre: wiki)  
+* 2021-01-05 v2.8  
+  * New texts added (genre: wiki, nonfiction)  
   * lemma, upos, feat, head, deprel manually corrected  
 * 2020-11-01 v2.6  
   * New texts added (genre: news, social media, fiction, poetry).
@@ -108,7 +109,7 @@ UPOS: manual native
 XPOS: manual native
 Features: manual native
 Relations: manual native
-Contributors: Lyashevskaya, Olga; Peljak-Łapińska, Angelika; Petrova, Daria
+Contributors: Lyashevskaya, Olga; Peljak-Łapińska, Angelika; Petrova, Daria; Shishkina, Yana
 Contributing: elsewhere
 Contact: olesar@yandex.ru
 ===============================================================================
