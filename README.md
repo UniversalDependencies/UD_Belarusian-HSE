@@ -66,17 +66,22 @@ Authors:
 * https://t.me/radiosvaboda  
 * https://t.me/abarona  
 * https://t.me/belarusian_history  
+6) Belarusian wikipedia  
+7) nonfiction  
 
 
 # Acknowledgments
 
-We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail.com) for providing a part of source texts, Anna Sherbakova (aniezka.sherbakova@gmail.com) for checking the pos and feature labels in two texts, Boris Orekhov for helpfull scripts.
+We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail.com) for providing a part of source texts, Anna Sherbakova (aniezka.sherbakova@gmail.com) for checking the pos and feature labels in two texts, Alyaxey Yaskevich and Katya Niamkovich for comments ans suggestions, Boris Orekhov for helpfull scripts.
 
 
 
 # Changelog
 
-* 2020-11-01 v2.6
+* 2021-01-05 v2.8  
+  * New texts added (genre: wiki, nonfiction)  
+  * lemma, upos, feat, head, deprel manually corrected  
+* 2020-11-01 v2.6  
   * New texts added (genre: news, social media, fiction, poetry).
 * 2019-01-05 v2.4
   * Constructions with parataxis, appos, ccomp, xcomp, ccomp, advcl, acl, nmod, passive and depictive constructions manually fixed.
@@ -98,13 +103,13 @@ We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail
 Data available since: UD v2.0
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: fiction legal news nonfiction social poetry
-Lemmas: converted from manual
-UPOS: converted from manual
+Genre: fiction legal news nonfiction social poetry wiki
+Lemmas: manual native
+UPOS: manual native
 XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
-Contributors: Lyashevskaya, Olga; Peljak-Łapińska, Angelika; Petrova, Daria
+Features: manual native
+Relations: manual native
+Contributors: Lyashevskaya, Olga; Peljak-Łapińska, Angelika; Petrova, Daria; Shishkina, Yana
 Contributing: elsewhere
 Contact: olesar@yandex.ru
 ===============================================================================
