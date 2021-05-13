@@ -1,27 +1,29 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Belarusian-HSE:
-commit 724da0f732b904fc82123eaf11a9a2f8ba132f52
-Merge: 0f0f412 ff49d8d
+commit 518ed840c03c886179ec3a7fc0557682c2af1668
+Merge: 8df4b1c 1db07c4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 275153 of 275153 words (nodes).
-Size: min(0, log((N/1000)**2)) = 11.2346546131801.
+Size: counted 305099 of 305099 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.4412726282067.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
-Lemmas: source of annotation (from README) factor is 0.8.
+Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
-Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 171132 out of 275153 total words have one or more features.
-Features: source of annotation (from README) factor is 0.8.
-Universal relations: 35 out of 37 found in the corpus.
-Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 1958 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 275153 words.
-Genres: found 6 out of 17 known.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 188679 out of 305099 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 36 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi:
+               TOTAL       2416
+Udapi: found 2416 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 305099 words.
+Genres: found 7 out of 17 known.
 validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-dev.conllu
 *** PASSED ***
 validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-test.conllu
@@ -29,14 +31,14 @@ validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-test.conllu
 validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-train.conllu
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.352941176470588) = 0.0271493212669683
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.813191417432174) = 0.208510619854404
+(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
+(weight=0.0769230769230769) * (score{genres}=0.411764705882353) = 0.0316742081447964
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.828146928063482) = 0.212345366170123
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.928839591063881) = 0.285796797250425
-(weight=0.0769230769230769) * (score{udeprels}=0.756756756756757) = 0.0582120582120582
-(TOTAL score=0.815566232481291) * (availability=1) * (validity=1) = 0.815566232481291
-STARS = 4
-UD_Belarusian-HSE	0.815566232481291	4
+(weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
+(weight=0.307692307692308) * (score{udapi}=0.920812588700717) = 0.283326950369451
+(weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
+(TOTAL score=0.884241881579728) * (availability=1) * (validity=1) = 0.884241881579728
+STARS = 4.5
+UD_Belarusian-HSE	0.884241881579728	4.5
