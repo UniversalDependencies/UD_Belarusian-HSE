@@ -319,7 +319,7 @@
 7	"	"	PUNCT	PUNCT	_	10	punct	10:punct	SpaceAfter=No
 8	рэальную	рэальны	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	10:amod	_
 9	палітычную	палітычны	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	10:amod	_
-10	волю	воля	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	3:obl:як:acc	_
+10	волю	воля	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	3:obl:як	_
 11	ўрэгуляваць	урэгуляваць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	10	nmod	10:nmod	_
 12	гэты	гэты	DET	DT	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	13	det	13:det	_
 13	канфлікт	канфлікт	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	11:obj	SpaceAfter=No
@@ -11219,7 +11219,7 @@
 4	прапануецца	прапанаваць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	0:root	_
 5	як	як	SCONJ	IN	_	7	case	7:case	_
 6	"	"	PUNCT	PUNCT	_	7	punct	7:punct	SpaceAfter=No
-7	Дзень	дзень	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obl	4:obl:як:nom	_
+7	Дзень	дзень	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obl	4:obl:як	_
 8	Абаронцаў	абаронца	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	7:nmod:gen	_
 9	Курапатаў	Курапаты	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	8:nmod:gen	SpaceAfter=No
 10	"	"	PUNCT	PUNCT	_	7	punct	7:punct	SpaceAfter=No
@@ -12686,7 +12686,7 @@
 12	магчымасцяў	магчымасць	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	11:nmod:gen	_
 13	выступаю	выступаць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
 14	як	як	SCONJ	IN	_	15	case	15:case	_
-15	валанцёр	валанцёр	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	obl	13:obl:як:nom	_
+15	валанцёр	валанцёр	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	obl	13:obl:як	_
 16	для	для	ADP	IN	_	17	case	17:case	_
 17	дапамогі	дапамога	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	15:nmod:для:gen	_
 18	нашым	наш	DET	DT	Case=Dat|Number=Plur|Poss=Yes|PronType=Prs	19	det	19:det	_
@@ -14340,15 +14340,15 @@
 15	,	,	PUNCT	PUNCT	_	18	punct	18:punct	_
 16	як	як	SCONJ	IN	_	18	case	18:case	_
 17	«	«	PUNCT	PUNCT	_	18	punct	18:punct	SpaceAfter=No
-18	Крамбамбуля	Крамбамбуля	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	obl	13:obl:як:nom	SpaceAfter=No
+18	Крамбамбуля	Крамбамбуля	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	obl	13:obl:як	SpaceAfter=No
 19	»	»	PUNCT	PUNCT	_	18	punct	18:punct	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	22	punct	22:punct	_
 21	«	«	PUNCT	PUNCT	_	22	punct	22:punct	SpaceAfter=No
-22	J:Морс	J:Морс	X	X	Foreign=Yes	18	conj	13:obl:як:nom|18:conj	SpaceAfter=No
+22	J:Морс	J:Морс	X	X	Foreign=Yes	18	conj	13:obl:як|18:conj	SpaceAfter=No
 23	»	»	PUNCT	PUNCT	_	22	punct	22:punct	SpaceAfter=No
 24	,	,	PUNCT	PUNCT	_	26	punct	26:punct	_
 25	«	«	PUNCT	PUNCT	_	26	punct	26:punct	SpaceAfter=No
-26	Лепрыконсы	Лепрыконсы	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	conj	13:obl:як:nom|18:conj	SpaceAfter=No
+26	Лепрыконсы	Лепрыконсы	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	conj	13:obl:як|18:conj	SpaceAfter=No
 27	»	»	PUNCT	PUNCT	_	26	punct	26:punct	SpaceAfter=No
 28	.	.	PUNCT	PUNCT	_	4	punct	4:punct	_
 
@@ -16303,7 +16303,7 @@
 # text = Як адзін са старажытных гарадоў Вялікага Княства Літоўскага і цэнтра беларускага нацыянальнага руху Вільня адыграла важную ролю ў развіцці беларускай нацыі і дзяржаўнасці.
 # genre = social-media
 1	Як	як	SCONJ	IN	_	2	case	2:case	_
-2	адзін	адзін	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	15	obl	15:obl:як:nom	_
+2	адзін	адзін	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	15	obl	15:obl:як	_
 3	са	з	ADP	IN	_	5	case	5:case	_
 4	старажытных	старажытны	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	5	amod	5:amod	_
 5	гарадоў	горад	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	2:nmod:з:gen	_
@@ -16448,7 +16448,7 @@
 11	-	-	PUNCT	PUNCT	_	12	punct	12:punct	SpaceAfter=No
 12	Міхалоўскага	Міхалоўскі	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	10:flat:name	_
 13	як	як	SCONJ	IN	_	14	case	14:case	_
-14	главы	глава	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	8:nmod:як:gen	_
+14	главы	глава	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	8:nmod:як	_
 15	Цэнтральнай	цэнтральны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	18:amod	_
 16	Беларускай	беларускі	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	18:amod	_
 17	Вайсковай	вайсковы	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	18:amod	_
@@ -16729,7 +16729,7 @@
 27	безапеляцыйна	безапеляцыйна	ADV	RB	Degree=Pos	28	advmod	28:advmod	_
 28	трактуецца	трактавацца	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	conj	0:root|1:conj	_
 29	як	як	SCONJ	IN	_	30	case	30:case	_
-30	апраўданне	апраўданне	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	28	obl	28:obl:як:nom	_
+30	апраўданне	апраўданне	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	28	obl	28:obl:як	_
 31	нацызму	нацызм	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	30:nmod:gen	SpaceAfter=No
 32	.	.	PUNCT	PUNCT	_	1	punct	1:punct	_
 
@@ -17007,9 +17007,9 @@
 10	каштавала	каштаваць	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	3:advcl:бо	_
 11	як	як	SCONJ	IN	_	13	case	13:case	_
 12	цэлая	цэлы	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	13:amod	_
-13	гаспадарка	гаспадарка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	obl	10:obl:як:nom	_
+13	гаспадарка	гаспадарка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	obl	10:obl:як	_
 14	ці	ці	CCONJ	CC	_	15	cc	15:cc	_
-15	статак	статак	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	conj	10:obl:як:nom|13:conj	_
+15	статак	статак	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	conj	10:obl:як|13:conj	_
 16	кароваў	карова	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	15	nmod	15:nmod:gen	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	3	punct	3:punct	_
 
@@ -19408,7 +19408,7 @@
 11	—	—	PUNCT	PUNCT	_	4	punct	4:punct	_
 12	радаваўся	радавацца	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	0:root	_
 13	як	як	SCONJ	IN	_	14	case	14:case	_
-14	дзіця	дзіця	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	12	obl	12:obl:як:nom	_
+14	дзіця	дзіця	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	12	obl	12:obl:як	_
 15	і	і	CCONJ	CC	_	16	cc	16:cc	_
 16	ацэньваў	ацэньваць	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	0:root|12:conj	_
 17	прынятую	прыняць	VERB	VBNL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	acl	19:acl	_
@@ -19566,7 +19566,7 @@
 9	як	як	SCONJ	IN	_	12	case	12:case	_
 10	«	«	PUNCT	PUNCT	_	12	punct	12:punct	SpaceAfter=No
 11	узорны	узорны	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	12:amod	_
-12	буквар	буквар	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	7:obl:як:acc	_
+12	буквар	буквар	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	7:obl:як	_
 13	кіравання	кіраванне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	12:nmod:gen	_
 14	і	і	CCONJ	CC	_	15	cc	15:cc	_
 15	арганізацыі	арганізацыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	conj	12:nmod:gen|13:conj	_
@@ -19797,7 +19797,7 @@
 3	Канстытуцыя	канстытуцыя	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	4:nsubj:pass	_
 4	характарызуецца	характарызаваць	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
 5	як	як	SCONJ	IN	_	6	case	6:case	_
-6	прагрэсіўная	прагрэсіўны	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	obl	4:obl:як:nom	SpaceAfter=No
+6	прагрэсіўная	прагрэсіўны	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	obl	4:obl:як	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	9	punct	9:punct	_
 8	бо	бо	SCONJ	_	_	9	mark	9:mark	_
 9	ўводзіла	уводзіць	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	4:advcl:бо	_

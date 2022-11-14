@@ -2317,7 +2317,7 @@
 8	,	,	PUNCT	PUNCT	_	16	punct	16:punct	_
 9	і	і	CCONJ	CC	_	16	cc	16:cc	_
 10	як	як	SCONJ	IN	_	11	case	11:case	_
-11	доказ	доказ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	obl	16:obl:як:nom	SpaceAfter=No
+11	доказ	доказ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	obl	16:obl:як	SpaceAfter=No
 12	:	:	PUNCT	PUNCT	_	11	punct	11:punct	_
 13	яго	ён	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	16:obj	_
 14	ніколі	ніколі	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
@@ -4131,7 +4131,7 @@
 19	61	61	NUM	CD	NumType=Card	7	conj	5:obj|7:conj	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	24	punct	24:punct	_
 21	з	з	ADP	IN	_	22	case	22:case	_
-22	Германія	Германія	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nmod	24:nmod:з:nom	_
+22	Германія	Германія	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|InflClass=Ind|Number=Sing	24	nmod	24:nmod:з:gen	_
 23	–	–	PUNCT	PUNCT	_	24	punct	24:punct	_
 24	58	58	NUM	CD	NumType=Card	7	conj	5:obj|7:conj	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	5	punct	5:punct	_
@@ -6203,7 +6203,7 @@
 6	як	як	SCONJ	IN	_	9	case	9:case	_
 7	у	у	ADP	IN	_	9	case	9:case	_
 8	звычайнай	звычайны	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	9:amod	_
-9	школе	школа	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	4:obl:як_у:loc	SpaceAfter=No
+9	школе	школа	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	4:obl:як	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	4	punct	4:punct	_
 
 # sent_id = RadyjoSvaboda-4837
@@ -7940,7 +7940,7 @@
 5	удзельнікі	удзельнік	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	11:nsubj	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	8	punct	8:punct	_
 7	як	як	SCONJ	IN	_	8	case	8:case	_
-8	правіла	правіла	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	obl	11:obl:як:nom	SpaceAfter=No
+8	правіла	правіла	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	obl	11:obl:як	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	8	punct	8:punct	_
 10	больш	больш	ADV	RBR	Degree=Cmp	11	advmod	11:advmod	_
 11	стрэсаўстойлівыя	стрэсаўстойлівы	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	0	root	0:root	SpaceAfter=No
@@ -9483,9 +9483,9 @@
 15	пачуваў	пачуваць	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	9:parataxis	_
 16	сябе	сябе	PRON	PRP	Case=Acc|PronType=Prs|Reflex=Yes	15	obj	15:obj	_
 17	як	як	SCONJ	IN	_	18	case	18:case	_
-18	цар	цар	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	obl	15:obl:як:nom	_
+18	цар	цар	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	obl	15:obl:як	_
 19	і	і	CCONJ	CC	_	20	cc	20:cc	_
-20	бог	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	conj	15:obl:як:nom|18:conj	SpaceAfter=No
+20	бог	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	conj	15:obl:як|18:conj	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	25	punct	25:punct	_
 22	а	а	CCONJ	CC	_	25	cc	25:cc	_
 23	праз	праз	ADP	IN	_	24	case	24:case	_
@@ -17591,7 +17591,7 @@
 19	больш	больш	ADV	RBR	Degree=Cmp	14	advmod	14:advmod	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	22	punct	22:punct	_
 21	чым	чым	SCONJ	IN	_	22	case	22:case	_
-22	ён	ён	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	19:obl:чым:nom	SpaceAfter=No
+22	ён	ён	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	19:obl:чым	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	10	punct	10:punct	_
 
 # doc_id = 3183
@@ -17794,13 +17794,13 @@
 4	праславіць	праславіць	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	3:xcomp	_
 5	Віцебск	Віцебск	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	4:obj	_
 6	як	як	SCONJ	IN	_	7	case	7:case	_
-7	актор	актор	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	obl	4:obl:як:nom	SpaceAfter=No
+7	актор	актор	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	obl	4:obl:як	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	10:punct	_
 9	а	а	CCONJ	CC	_	10	cc	10:cc	_
 10	праславіў	праславіць	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
 11	як	як	SCONJ	IN	_	13	case	13:case	_
 12	першая	першы	ADJ	ORD	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	13:amod	_
-13	ахвяра	ахвяра	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	10	obl	10:obl:як:nom	_
+13	ахвяра	ахвяра	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	10	obl	10:obl:як	_
 14	каранавірусу	каранавірус	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	13:nmod:gen	SpaceAfter=No
 15	»	»	PUNCT	PUNCT	_	3	punct	3:punct	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	3	punct	3:punct	_
@@ -18619,12 +18619,12 @@
 8	функцый	функцыя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	6:nmod:gen	_
 9	КГБ	КГБ	PROPN	INIT	Abbr=Yes	8	nmod	8:nmod	_
 10	як	як	SCONJ	IN	_	11	case	11:case	_
-11	інструменту	інструмент	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	8:nmod:як:gen	_
+11	інструменту	інструмент	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	8:nmod:як	_
 12	палітычнага	палітычны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	13:amod	_
 13	зыску	зыск	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	11:nmod:gen	_
 14	і	і	CCONJ	CC	_	16	cc	16:cc	_
 15	рэпрэсіўнай	рэпрэсіўны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	16:amod	_
-16	машыны	машына	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	8:nmod:як:gen|11:conj	SpaceAfter=No
+16	машыны	машына	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	8:nmod:як|11:conj	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	1	punct	1:punct	_
 
 # sent_id = BelarusHistory-22726
@@ -20452,7 +20452,7 @@
 5	XVI	XVI	ADJ	ORD	_	6	amod	6:amod	_
 6	стагоддзя	стагоддзе	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	4:nmod:gen	_
 7	як	як	SCONJ	IN	_	8	case	8:case	_
-8	вёска	вёска	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	obl	2:obl:як:nom	_
+8	вёска	вёска	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	obl	2:obl:як	_
 9	Чаўсавічы	Чаўсавічы	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	appos	8:appos	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	2	punct	2:punct	_
 
@@ -23198,7 +23198,7 @@
 3	быў	быць	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	4:aux:pass	_
 4	адноўлены	адновіць	VERB	VBNH	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 5	як	як	SCONJ	IN	_	6	case	6:case	_
-6	Інстытут	інстытут	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obl	4:obl:як:nom	_
+6	Інстытут	інстытут	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obl	4:obl:як	_
 7	біялогіі	біялогія	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	6:nmod:gen	_
 8	АН	АН	PROPN	NNP	Abbr=Yes	6	nmod	6:nmod	_
 9	БССР	БССР	PROPN	NNP	Abbr=Yes	8	nmod	8:nmod	SpaceAfter=No
@@ -23593,7 +23593,7 @@
 25	ФЗВ	ФЗВ	PROPN	INIT	Abbr=Yes	24	nmod	24:nmod	_
 26	як	як	SCONJ	IN	_	28	case	28:case	_
 27	пчалаводны	пчалаводны	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	28:amod	_
-28	тэхнікум	тэхнікум	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	obl	11:obl:як:nom	SpaceAfter=No
+28	тэхнікум	тэхнікум	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	obl	11:obl:як	SpaceAfter=No
 29	.	.	PUNCT	PUNCT	_	6	punct	6:punct	SpacesAfter=\n\n
 
 # newpar
