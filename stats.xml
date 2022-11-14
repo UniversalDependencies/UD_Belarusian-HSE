@@ -5,8 +5,8 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>25231</sentences><tokens>305100</tokens><words>305100</words><fused>0</fused></total>
-    <train><sentences>22853</sentences><tokens>273172</tokens><words>273172</words><fused>0</fused></train>
+    <total><sentences>25231</sentences><tokens>305101</tokens><words>305101</words><fused>0</fused></total>
+    <train><sentences>22853</sentences><tokens>273173</tokens><words>273173</words><fused>0</fused></train>
     <dev><sentences>1301</sentences><tokens>15931</tokens><words>15931</words><fused>0</fused></dev>
     <test><sentences>1077</sentences><tokens>15997</tokens><words>15997</words><fused>0</fused></test>
   </size>
@@ -27,7 +27,7 @@
     <tag name="PART">4883</tag><!-- не, ня, і, толькі, гэта, вось, ж, нават, проста, жа -->
     <tag name="PRON">10327</tag><!-- які, мы, ён, гэта, што, я, яны, вы, яна, хто -->
     <tag name="PROPN">20512</tag><!-- Беларусь, Менск, Курапаты, Лукашэнка, Расея, Ціханоўская, Сяргей, Мінск, Свабода, Севярынец -->
-    <tag name="PUNCT">57011</tag><!-- ,, ., «, », :, ", !, ), -, ( -->
+    <tag name="PUNCT">57012</tag><!-- ,, ., «, », :, ", !, ), -, ( -->
     <tag name="SCONJ">3404</tag><!-- што, як, калі, каб, бо, ці, то, чым, хоць, пакуль -->
     <tag name="SYM">2605</tag><!-- %, 📌, >, </a>, ⚡, +, 🔥, ⚡️, №, 👉 -->
     <tag name="VERB">31092</tag><!-- магчы, стаць, быць, мець, адбыцца, казаць, жыць, можна, хацець, затрымаць -->
@@ -37,15 +37,15 @@
   <feats unique="54">
     <feat name="Abbr" value="Yes" upos="ADJ,ADV,DET,NOUN,PRON,PROPN,VERB">2659</feat><!-- г., ЗША, БНР, БССР, БНФ, вул., км, смі, КДБ, ЦВК -->
     <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">24021</feat><!-- хто, Лукашэнка, людзей, чалавек, людзі, Лукашэнкі, беларусаў, сябры, беларусы, чалавека -->
-    <feat name="Animacy" value="Inan" upos="ADJ,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">74469</feat><!-- Беларусі, гэта, што, Менску, Беларусь, дзень, годзе, гадоў, курапатах, час -->
+    <feat name="Animacy" value="Inan" upos="ADJ,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">74473</feat><!-- Беларусі, гэта, што, Менску, Беларусь, дзень, годзе, гадоў, курапатах, час -->
     <feat name="Aspect" value="Imp" upos="AUX,NOUN,VERB">14661</feat><!-- можа, жыве, мае, кажа, быў, кажуць, могуць, адбываецца, далучайцеся, маюць -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">15558</feat><!-- стала, адбудзецца, затрымалі, сказаў, пачалі, стаў, падтрымаць, пройдзе, зрабіць, памёр -->
-    <feat name="Case" value="Acc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">25364</feat><!-- што, дзень, яго, час, гэта, іх, тое, Беларусь, яе, беларускую -->
+    <feat name="Case" value="Acc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">25378</feat><!-- што, дзень, яго, час, гэта, іх, тое, Беларусь, яе, беларускую -->
     <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">3221</feat><!-- нам, вам, мне, яму, ім, сабе, усім, Беларусі, ёй, табе -->
-    <feat name="Case" value="Gen" upos="ADJ,ADV,CCONJ,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">38104</feat><!-- Беларусі, гадоў, беларускай, года, Курапатаў, людзей, чалавек, году, нас, Лукашэнкі -->
-    <feat name="Case" value="Ins" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">8543</feat><!-- тым, гэтым, часам, чынам, такім, намі, чым, ім, заканадаўствам, Расеяй -->
+    <feat name="Case" value="Gen" upos="ADJ,ADV,CCONJ,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">38107</feat><!-- Беларусі, гадоў, беларускай, года, Курапатаў, людзей, чалавек, году, нас, Лукашэнкі -->
+    <feat name="Case" value="Ins" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">8547</feat><!-- тым, гэтым, часам, чынам, такім, намі, чым, ім, заканадаўствам, Расеяй -->
     <feat name="Case" value="Loc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">13660</feat><!-- Менску, Беларусі, годзе, курапатах, тым, надзвычайных, гэтым, сiтуацыях, цэнтры, Горадні -->
-    <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">43045</feat><!-- мы, гэта, я, ён, якія, які, што, Беларусь, хто, яны -->
+    <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">43024</feat><!-- мы, гэта, я, ён, якія, які, што, Беларусь, хто, яны -->
     <feat name="Case" value="Voc" upos="NOUN,PROPN">14</feat><!-- дружа, божа, браце, Іване, Госпадзі, Лявоне, Ойча, краю, саколе, чалавеча -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">907</feat><!-- больш, раней, менш, далей, болей, хутчэй, пазней, лепш, падрабязней, пазьней -->
     <feat name="Degree" value="Pos" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PART,PRON,SCONJ,VERB">33449</feat><!-- як, яшчэ, беларускай, тут, таксама, так, дзе, таму, ўжо, цяпер -->
@@ -54,7 +54,7 @@
     <feat name="Gender" value="Fem" upos="ADJ,ADV,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">44806</feat><!-- Беларусі, Беларусь, беларускай, Курапатах, Курапатаў, якая, яна, Курапаты, была, яе -->
     <feat name="Gender" value="Masc" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">65850</feat><!-- Менску, ён, які, дзень, быў, хто, Лукашэнка, людзей, чалавек, годзе -->
     <feat name="Gender" value="Neut" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">16028</feat><!-- гэта, што, было, тое, відэа, ўсё, месца, усё, фота, таго -->
-    <feat name="InflClass" value="Ind" upos="NOUN,PROPN">322</feat><!-- Алексіевіч, Дашук, Адамовіч, БелТА, Соўсь, Белавія, Рыё, Еўрарадыё, Чыкага, Яскевіч -->
+    <feat name="InflClass" value="Ind" upos="NOUN,PROPN">329</feat><!-- Алексіевіч, Дашук, Адамовіч, БелТА, Соўсь, Белавія, Рыё, Дынама, Еўрарадыё, Чыкага -->
     <feat name="Mood" value="Cnd" upos="AUX,PART,SCONJ">547</feat><!-- каб, б, бы, абы, нібы, Клуб, НЕ, як-бы -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">1567</feat><!-- далучайцеся, паглядзіце, глядзі, Грай, глядзіце, далучайся, прыходзьце, дай, давайце, прыходзь -->
     <feat name="Mood" value="Ind" upos="AUX,NOUN,VERB">23119</feat><!-- было, будзе, быў, былі, была, можа, жыве, будуць, стала, мае -->
@@ -91,13 +91,13 @@
     <feat name="Voice" value="Pass" upos="VERB">2219</feat><!-- затрыманы, затрыманых, звязаныя, расстраляных, прысвечаны, вызвалены, затрыманага, затрыманыя, пабудаваны, створаны -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="44">
+  <deps unique="46">
     <dep name="acl">1314</dep>
     <dep name="acl:relcl">2298</dep>
     <dep name="advcl">1428</dep>
     <dep name="advmod">13697</dep>
     <dep name="amod">21383</dep>
-    <dep name="appos">6044</dep>
+    <dep name="appos">6045</dep>
     <dep name="aux">586</dep>
     <dep name="aux:pass">516</dep>
     <dep name="case">29809</dep>
@@ -106,12 +106,13 @@
     <dep name="compound">578</dep>
     <dep name="conj">13618</dep>
     <dep name="cop">901</dep>
-    <dep name="csubj">906</dep>
+    <dep name="csubj">903</dep>
+    <dep name="csubj:outer">1</dep>
     <dep name="csubj:pass">3</dep>
     <dep name="dep">5962</dep>
     <dep name="det">5746</dep>
     <dep name="discourse">320</dep>
-    <dep name="dislocated">13</dep>
+    <dep name="dislocated">14</dep>
     <dep name="expl">207</dep>
     <dep name="fixed">1009</dep>
     <dep name="flat">1340</dep>
@@ -122,19 +123,20 @@
     <dep name="list">1806</dep>
     <dep name="mark">2998</dep>
     <dep name="nmod">28014</dep>
-    <dep name="nsubj">18949</dep>
+    <dep name="nsubj">18929</dep>
+    <dep name="nsubj:outer">8</dep>
     <dep name="nsubj:pass">998</dep>
     <dep name="nummod">1592</dep>
     <dep name="nummod:gov">1955</dep>
-    <dep name="obj">11192</dep>
-    <dep name="obl">19042</dep>
+    <dep name="obj">11201</dep>
+    <dep name="obl">19041</dep>
     <dep name="obl:agent">288</dep>
-    <dep name="orphan">254</dep>
-    <dep name="parataxis">6817</dep>
-    <dep name="punct">56993</dep>
+    <dep name="orphan">255</dep>
+    <dep name="parataxis">6818</dep>
+    <dep name="punct">56994</dep>
     <dep name="reparandum">5</dep>
     <dep name="root">25231</dep>
     <dep name="vocative">168</dep>
-    <dep name="xcomp">3315</dep>
+    <dep name="xcomp">3317</dep>
   </deps>
 </treebank>
