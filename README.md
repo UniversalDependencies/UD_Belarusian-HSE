@@ -75,6 +75,10 @@ Authors:
 We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail.com) for providing a part of source texts, Anna Sherbakova (aniezka.sherbakova@gmail.com) for checking the pos and feature labels in two texts, Alyaxey Yaskevich and Katya Niamkovich for comments ans suggestions, Boris Orekhov for helpfull scripts.
 
 
+# References
+
+* Shishkina, Yana & Olga Lyashevskaya. Sculpting enhanced dependencies for Belarusian. In: Analysis of Images, Social Networks and Texts: 10th International Conference, AIST 2021, Tbilisi, Georgia, December 16–18, 2021, Revised Selected Papers. [PDF](https://publications.hse.ru/pubs/share/direct/549286674.pdf)  
+
 
 # Changelog
 
