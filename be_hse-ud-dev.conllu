@@ -150,7 +150,7 @@
 16	гэта	гэта	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	17	obj	17:obj	_
 17	рабіць	рабіць	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	15:xcomp	_
 18	і	і	PART	UH	_	19	advmod	19:advmod	_
-19	надалей	надалей	ADV	RB	Degree=Pos	15	advmod	15:advmod	SpaceAfter=No
+19	надалей	надалей	ADV	RBR	Degree=Cmp	15	advmod	15:advmod	SpaceAfter=No
 20	"	"	PUNCT	PUNCT	_	7	punct	7:punct	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	23	punct	23:punct	_
 22	--	--	PUNCT	PUNCT	_	23	punct	23:punct	_
@@ -1608,7 +1608,7 @@
 3	паведаміў	паведаміць	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	23	23	ADJ	ORD	_	3	obl	3:obl	_
 5	сакавіка	сакавік	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	flat	4:flat	_
-6	першы	першы	ADJ	ORD	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	7:amod	_
+6	першы	першы	ADJ	JJS	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	7	amod	7:amod	_
 7	намеснік	намеснік	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	3:nsubj	_
 8	міністра	міністр	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	7:nmod:gen	_
 9	прыродных	прыродны	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	10	amod	10:amod	_
@@ -4520,7 +4520,7 @@
 # genre = social-media
 1	“	“	PUNCT	PUNCT	_	5	punct	5:punct	SpaceAfter=No
 2	Гэта	гэта	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	5:nsubj	_
-3	найперш	найперш	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
+3	найперш	найперш	ADV	RBS	Degree=Sup	5	advmod	5:advmod	_
 4	паэтычнае	паэтычны	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	5:amod	_
 5	выказванне	выказванне	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	0:root	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	7	punct	7:punct	_
@@ -5461,7 +5461,7 @@
 4	стаў	стаць	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	адным	адзін	DET	DT	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind	4	xcomp	4:xcomp	_
 6	з	з	ADP	IN	_	9	case	9:case	_
-7	найлепшых	найлепшы	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	9	amod	9:amod	_
+7	найлепшых	найлепшы	ADJ	JJS	Case=Gen|Degree=Sup|Number=Plur	9	amod	9:amod	_
 8	польскіх	польскі	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	9	amod	9:amod	_
 9	мэраў	мэр	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	5:nmod:з:gen	_
 10	і	і	CCONJ	CC	_	11	cc	11:cc	_
@@ -10997,7 +10997,7 @@
 6	»	»	PUNCT	PUNCT	_	4	punct	4:punct	_
 7	і	і	CCONJ	CC	_	10	cc	10:cc	_
 8	«	«	PUNCT	PUNCT	_	10	punct	10:punct	SpaceAfter=No
-9	Лепшы	лепшы	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	10:amod	_
+9	Лепшы	лепшы	ADJ	JJS	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	10	amod	10:amod	_
 10	квас	квас	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	2:appos|4:conj	SpaceAfter=No
 11	»	»	PUNCT	PUNCT	_	10	punct	10:punct	_
 12	адбудзецца	адбыцца	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	0:root	_
