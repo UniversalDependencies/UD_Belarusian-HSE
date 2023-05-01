@@ -82,6 +82,8 @@ We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail
 
 # Changelog
 
+* 2023-01-15 v2.12  
+  * XPOSes corrected, minor updates
 * 2021-01-05 v2.8  
   * New texts added (genre: wiki, nonfiction)  
   * lemma, upos, feat, head, deprel manually corrected  
