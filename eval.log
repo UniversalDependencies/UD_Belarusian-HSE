@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Belarusian-HSE:
-commit fa0de160373b9227668db2861d6d48eb852fe4ae
-Merge: 167c53e 6cca5e2
+commit 56f3c24501e8122880df463c9e253964fcca5678
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 09:31:27 2023 +0200
 Size: counted 305109 of 305109 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.4413381796252.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       2397
-Udapi: found 2397 bugs.
+               TOTAL       2388
+Udapi: found 2388 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 305109 words.
 Genres: found 7 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-dev.conllu
@@ -29,6 +29,8 @@ Genres: found 7 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-train.conllu
+[Line 141161 Sent radyjosvaboda-7045 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'Гэтую * * гэтую'
+Warnings: 1
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
@@ -37,8 +39,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.828151672833374) = 0.212346582777788
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.921437912352635) = 0.283519357646965
+(weight=0.307692307692308) * (score{udapi}=0.921732888901999) = 0.283610119662154
 (weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
-(TOTAL score=0.884435505464906) * (availability=1) * (validity=1) = 0.884435505464906
+(TOTAL score=0.884526267480095) * (availability=1) * (validity=1) = 0.884526267480095
 STARS = 4.5
-UD_Belarusian-HSE	0.884435505464906	4.5
+UD_Belarusian-HSE	0.884526267480095	4.5
