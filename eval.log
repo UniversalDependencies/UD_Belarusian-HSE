@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Belarusian-HSE:
-commit 56f3c24501e8122880df463c9e253964fcca5678
+commit 1af64baf5975d5fc6d7f62dca2f28987610641b5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 09:31:27 2023 +0200
+Date:   Mon Nov 6 11:32:26 2023 +0100
 Size: counted 305109 of 305109 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.4413381796252.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,17 +20,49 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       2388
-Udapi: found 2388 bugs.
+               TOTAL       2382
+Udapi: found 2382 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 305109 words.
 Genres: found 7 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-dev.conllu
+[Line 5418 Sent RadyjoSvaboda-4788 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 6753 Sent RadyjoSvaboda-4873 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11114 Sent ArtSjadziba-15404 Node 13]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11114 Sent ArtSjadziba-15404 Node 13]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11134 Sent ArtSjadziba-15405 Node 9]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11486 Sent ArtSjadziba-15432 Node 22]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11631 Sent ArtSjadziba-15444 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11631 Sent ArtSjadziba-15444 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11695 Sent ArtSjadziba-15449 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11695 Sent ArtSjadziba-15449 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further errors regarding Warning
+Warnings: 16
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-test.conllu
+[Line 13150 Sent ArtSjadziba-15580 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 13288 Sent ArtSjadziba-15593 Node 13]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 13288 Sent ArtSjadziba-15593 Node 13]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 13497 Sent ArtSjadziba-15614 Node 12]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 14183 Sent ArtSjadziba-15659 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 14392 Sent ArtSjadziba-15673 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 14392 Sent ArtSjadziba-15673 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 18146 Sent wiki-50896 Node 12]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 18161 Sent wiki-50897 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 9
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-train.conllu
+[Line 24 Sent telegraf-2011032001-7-2-be Node 7]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 81 Sent telegraf-2011032001-11-4-be Node 15]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 133 Sent telegraf-2011032001-15-6-be Node 8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 173 Sent telegraf-2011032001-19-7-be Node 13]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 27545 Sent BelarusDocs-585 Node 7]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 32884 Sent radyjosvaboda-953 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 141161 Sent radyjosvaboda-7045 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'Гэтую * * гэтую'
-Warnings: 1
+[Line 158662 Sent radyjosvaboda-8048 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 213289 Sent radyjosvaboda-11511 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 213289 Sent radyjosvaboda-11511 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further errors regarding Warning
+Warnings: 117
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
@@ -39,8 +71,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.828151672833374) = 0.212346582777788
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.921732888901999) = 0.283610119662154
+(weight=0.307692307692308) * (score{udapi}=0.921929539934909) = 0.28367062767228
 (weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
-(TOTAL score=0.884526267480095) * (availability=1) * (validity=1) = 0.884526267480095
+(TOTAL score=0.884586775490221) * (availability=1) * (validity=1) = 0.884586775490221
 STARS = 4.5
-UD_Belarusian-HSE	0.884526267480095	4.5
+UD_Belarusian-HSE	0.884586775490221	4.5
