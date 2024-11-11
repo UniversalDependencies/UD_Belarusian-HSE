@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Belarusian-HSE:
-commit 1af64baf5975d5fc6d7f62dca2f28987610641b5
+commit 0b140a08611f3043b9c12c412834f7372b1b22b6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 11:32:26 2023 +0100
+Date:   Sun May 5 11:55:26 2024 +0200
 Size: counted 305109 of 305109 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.4413381796252.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -55,14 +55,14 @@ Warnings: 9
 [Line 81 Sent telegraf-2011032001-11-4-be Node 15]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 133 Sent telegraf-2011032001-15-6-be Node 8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 173 Sent telegraf-2011032001-19-7-be Node 13]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 1719 Sent telegraf-2011032004-59-73-be Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:такія:det --> 12:можа:advcl)
+[Line 8431 Sent bahushevich-pradmova_da_smyka_bielaruskaha-12 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:сякіх:det --> 11:такіх:appos)
+[Line 12413 Sent bykau-apendycyt-26 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:Які:det --> 3:гэта:expl)
+[Line 18529 Sent ivan-melezh-na-skryzavanni-121 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:яго:det --> 7:што:nsubj)
 [Line 27545 Sent BelarusDocs-585 Node 7]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 32884 Sent radyjosvaboda-953 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 141161 Sent radyjosvaboda-7045 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'Гэтую * * гэтую'
-[Line 158662 Sent radyjosvaboda-8048 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 213289 Sent radyjosvaboda-11511 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 213289 Sent radyjosvaboda-11511 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 ...suppressing further errors regarding Warning
-Warnings: 117
+Warnings: 152
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
