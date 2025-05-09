@@ -2781,9 +2781,9 @@
 # text = Карацей, ёсць што паглядзець.
 # spelling = nar
 # genre = social-media
-1	Карацей	карацей	ADV	RBR	Degree=Cmp	3	parataxis	3:parataxis	SpaceAfter=No
+1	Карацей	карацей	ADV	RBR	Degree=Cmp	3	parataxis:discourse	3:parataxis:discourse	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	1:punct	_
-3	ёсць	быць	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	ёсць	быць	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	што	што	PRON	WP	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	5	obj	5:obj	_
 5	паглядзець	паглядзець	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	3	csubj	3:csubj	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	3	punct	3:punct	_
@@ -5386,7 +5386,7 @@
 1	А	а	CCONJ	CC	_	3	cc	3:cc	_
 2	цяпер	цяпер	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
 3	праверце	праверыць	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	самі	сам	DET	DT	Case=Ins|Degree=Pos|Number=Plur|PronType=Emp	3	acl	3:acl	SpaceAfter=No
+4	самі	сам	DET	DT	Case=Ins|Degree=Pos|Number=Plur|PronType=Emp	3	obl:float	3:obl:float	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	8	punct	8:punct	_
 6	дзе	дзе	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
 7	нараджальнасьць	нараджальнасьць	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	8:nsubj	_
@@ -5712,7 +5712,7 @@
 # spelling = tar
 # genre = news
 1	Праверце	праверыць	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	_
-2	самі	сам	DET	DT	Case=Ins|Degree=Pos|Number=Plur|PronType=Emp	1	acl	1:acl	SpaceAfter=No
+2	самі	сам	DET	DT	Case=Ins|Degree=Pos|Number=Plur|PronType=Emp	1	obl:float	1:obl:float	SpaceAfter=No
 3	!	!	PUNCT	PUNCT	_	1	punct	1:punct	_
 
 # doc_id = 953
@@ -7994,7 +7994,7 @@
 # genre = news
 1	Але	але	CCONJ	CC	_	5	cc	5:cc	_
 2	спагнанняў	спагнанне	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nsubj	5:nsubj	_
-3	усё	усё	PRON	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	5	advmod	5:advmod	_
+3	усё	усё	PRON	DT	Case=Nom|ExtPos=ADV|Gender=Neut|Number=Sing|PronType=Tot	5	advmod	5:advmod	_
 4	адно	адзін	NUM	CD	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	3	fixed	3:fixed	_
 5	больш	больш	ADV	RBR	Degree=Cmp	0	root	0:root	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	5:punct	_
@@ -15390,7 +15390,7 @@
 18	уладаў	улада	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obl	15:obl:да:gen	_
 19	з	з	ADP	IN	_	20	case	20:case	_
 20	заклікам	заклік	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	15:obl:з:ins	_
-21	увесьці	увесьці	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	20	nmod	20:nmod	_
+21	увесьці	увесьці	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	20	acl	20:acl	_
 22	ў	у	ADP	IN	_	23	case	23:case	_
 23	краіне	краіна	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	21:obl:у:loc	_
 24	карантын	карантын	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	21:obj	_
@@ -18001,7 +18001,7 @@
 11	1	1	NUM	CD	NumType=Card	9	appos	9:appos	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	16	punct	16:punct	_
 13	які	які	PRON	WPA	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	16	obj	7:ref	_
-14	як	як	SCONJ	IN	_	16	advmod	16:advmod	_
+14	як	як	SCONJ	IN	ExtPos=ADV	16	advmod	16:advmod	_
 15	раз	раз	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	fixed	14:fixed	_
 16	прынялі	прыняць	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl:relcl	_
 17	на	на	ADP	IN	_	18	case	18:case	_
