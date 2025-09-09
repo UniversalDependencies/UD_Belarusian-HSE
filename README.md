@@ -109,6 +109,7 @@ We thank Uladzimir Koshchanka (Уладзімір Кошчанка, koshul@gmail
 Data available since: UD v2.0
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: fiction legal news nonfiction social poetry wiki
 Lemmas: manual native
 UPOS: manual native
