@@ -16742,9 +16742,9 @@
 3	з	з	ADP	IN	_	4	case	4:case	_
 4	інсультам	інсульт	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obj	2:obj	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	6	punct	6:punct	_
-6	дзядоў	дзед	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	2:obj	SpaceAfter=No
+6	дзядоў	дзед	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	conj	2:obj|4:conj	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	8	punct	8:punct	_
-8	бабак	бабка	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	6	conj	2:obj|6:conj	SpaceAfter=No
+8	бабак	бабка	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	6	conj	2:obj|4:conj|6:conj	SpaceAfter=No
 9	»	»	PUNCT	PUNCT	_	2	punct	2:punct	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	2	punct	2:punct	_
 
@@ -19189,7 +19189,7 @@
 19	пазбавіў	пазбавіць	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	6:acl:relcl|9:conj	_
 20	беларускую	беларускі	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	21:amod	_
 21	мову	мова	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	19:obj	_
-22	статусу	статус	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obj	19:obj	_
+22	статусу	статус	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	iobj	19:iobj	_
 23	адзінай	адзіны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	24:amod	_
 24	дзяржаўнай	дзяржаўны	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	nmod	22:nmod:gen	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	2	punct	2:punct	_
