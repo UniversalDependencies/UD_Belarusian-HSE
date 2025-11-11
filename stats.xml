@@ -40,12 +40,12 @@
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">74486</feat><!-- Беларусі, гэта, што, Менску, Беларусь, дзень, годзе, гадоў, курапатах, час -->
     <feat name="Aspect" value="Imp" upos="AUX,NOUN,VERB">14657</feat><!-- можа, жыве, мае, кажа, быў, кажуць, могуць, адбываецца, далучайцеся, маюць -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">15553</feat><!-- стала, адбудзецца, затрымалі, сказаў, пачалі, стаў, падтрымаць, пройдзе, зрабіць, памёр -->
-    <feat name="Case" value="Acc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">25383</feat><!-- што, дзень, яго, час, гэта, іх, тое, Беларусь, яе, беларускую -->
+    <feat name="Case" value="Acc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">25382</feat><!-- што, дзень, яго, час, гэта, іх, тое, Беларусь, яе, беларускую -->
     <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">3221</feat><!-- нам, вам, мне, яму, ім, сабе, усім, Беларусі, ёй, табе -->
     <feat name="Case" value="Gen" upos="ADJ,ADV,CCONJ,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">38120</feat><!-- Беларусі, гадоў, беларускай, года, Курапатаў, людзей, чалавек, году, нас, Лукашэнкі -->
     <feat name="Case" value="Ins" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">8550</feat><!-- тым, гэтым, часам, чынам, такім, намі, чым, ім, заканадаўствам, Расеяй -->
     <feat name="Case" value="Loc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">13658</feat><!-- Менску, Беларусі, годзе, курапатах, тым, надзвычайных, гэтым, сiтуацыях, цэнтры, Горадні -->
-    <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">43018</feat><!-- мы, гэта, я, ён, якія, які, што, Беларусь, хто, яны -->
+    <feat name="Case" value="Nom" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">43019</feat><!-- мы, гэта, я, ён, якія, які, што, Беларусь, хто, яны -->
     <feat name="Case" value="Voc" upos="NOUN,PROPN">15</feat><!-- дружа, Іване, божа, браце, Госпадзі, Лявоне, Ойча, краю, саколе, чалавеча -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">916</feat><!-- больш, раней, менш, далей, болей, хутчэй, лепш, пазней, падрабязней, пазьней -->
     <feat name="Degree" value="Pos" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PART,PRON,SCONJ,VERB">33354</feat><!-- як, яшчэ, беларускай, тут, таксама, так, дзе, таму, ўжо, цяпер -->
@@ -115,7 +115,7 @@
     <dep name="cc">9040</dep>
     <dep name="ccomp">1383</dep>
     <dep name="compound">578</dep>
-    <dep name="conj">13618</dep>
+    <dep name="conj">13619</dep>
     <dep name="cop">901</dep>
     <dep name="csubj">903</dep>
     <dep name="csubj:outer">1</dep>
@@ -130,16 +130,16 @@
     <dep name="flat:foreign">1051</dep>
     <dep name="flat:name">3871</dep>
     <dep name="goeswith">2</dep>
-    <dep name="iobj">2463</dep>
+    <dep name="iobj">2470</dep>
     <dep name="list">1810</dep>
     <dep name="mark">2998</dep>
     <dep name="nmod">27957</dep>
-    <dep name="nsubj">18938</dep>
+    <dep name="nsubj">18939</dep>
     <dep name="nsubj:outer">8</dep>
     <dep name="nsubj:pass">998</dep>
     <dep name="nummod">1592</dep>
     <dep name="nummod:gov">1955</dep>
-    <dep name="obj">11215</dep>
+    <dep name="obj">11206</dep>
     <dep name="obl">19058</dep>
     <dep name="obl:agent">288</dep>
     <dep name="obl:depict">9</dep>
