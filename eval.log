@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Belarusian-HSE:
-commit f0830957320efdd572ec119dd9c27a0a0ee1c251
-Merge: 32a9f86 f1d93cc
+commit b006c1737d448991b9cfc534e22b29c3e20e895b
+Merge: cdbdeeb 2a52086
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'be_hse'
+Language code (from CoNLL-U file name) = 'be'
+Found the following data files: be_hse-ud-dev.conllu, be_hse-ud-test.conllu, be_hse-ud-train.conllu
 Size: counted 305109 of 305109 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.4413381796252.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,62 +23,57 @@ Features: 188760 out of 305109 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL       2174
-Udapi: found 2174 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 305109 words.
 Genres: found 7 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-dev.conllu
-[Line 69 Sent telegraf-2011032104-7-203-be Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'ў дачыненні да' does not have the 'ExtPos' feature
-[Line 136 Sent telegraf-2011032104-11-207-be Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'ў дачыненні да' does not have the 'ExtPos' feature
-[Line 289 Sent telegraf-2011032104-19-211-be Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'так і' does not have the 'ExtPos' feature
-[Line 382 Sent telegraf-2011032104-23-215-be Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'у дачыненні да' does not have the 'ExtPos' feature
-[Line 512 Sent telegraf-2011032301-11-220-be Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'ў параўнанні са' does not have the 'ExtPos' feature
-[Line 551 Sent telegraf-2011032301-15-221-be Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'ў параўнанні са' does not have the 'ExtPos' feature
-[Line 578 Sent telegraf-2011032301-15-222-be Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'у параўнанні з' does not have the 'ExtPos' feature
-[Line 760 Sent telegraf-2011032301-27-227-be Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'больш за' does not have the 'ExtPos' feature
-[Line 801 Sent telegraf-2011032302-7-229-be Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'у дачыненні да' does not have the 'ExtPos' feature
-[Line 926 Sent telegraf-2011032302-19-234-be Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'ў сувязі з' does not have the 'ExtPos' feature
+[Line 69 Sent telegraf-2011032104-7-203-be]: [L3 Warning fixed-without-extpos] Fixed expression 'ў дачыненні да' does not have the 'ExtPos' feature
+[Line 136 Sent telegraf-2011032104-11-207-be]: [L3 Warning fixed-without-extpos] Fixed expression 'ў дачыненні да' does not have the 'ExtPos' feature
+[Line 289 Sent telegraf-2011032104-19-211-be]: [L3 Warning fixed-without-extpos] Fixed expression 'так і' does not have the 'ExtPos' feature
+[Line 382 Sent telegraf-2011032104-23-215-be]: [L3 Warning fixed-without-extpos] Fixed expression 'у дачыненні да' does not have the 'ExtPos' feature
+[Line 512 Sent telegraf-2011032301-11-220-be]: [L3 Warning fixed-without-extpos] Fixed expression 'ў параўнанні са' does not have the 'ExtPos' feature
+[Line 551 Sent telegraf-2011032301-15-221-be]: [L3 Warning fixed-without-extpos] Fixed expression 'ў параўнанні са' does not have the 'ExtPos' feature
+[Line 578 Sent telegraf-2011032301-15-222-be]: [L3 Warning fixed-without-extpos] Fixed expression 'у параўнанні з' does not have the 'ExtPos' feature
+[Line 760 Sent telegraf-2011032301-27-227-be]: [L3 Warning fixed-without-extpos] Fixed expression 'больш за' does not have the 'ExtPos' feature
+[Line 801 Sent telegraf-2011032302-7-229-be]: [L3 Warning fixed-without-extpos] Fixed expression 'у дачыненні да' does not have the 'ExtPos' feature
+[Line 926 Sent telegraf-2011032302-19-234-be]: [L3 Warning fixed-without-extpos] Fixed expression 'ў сувязі з' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 73
+Warnings: 83
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-test.conllu
-[Line 167 Sent telegraf-2011032306-7-273-be Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'у дачыненні да' does not have the 'ExtPos' feature
-[Line 504 Sent telegraf-2011032306-31-286-be Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Але ж' does not have the 'ExtPos' feature
-[Line 645 Sent telegraf-2011032306-35-293-be Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'а таксама' does not have the 'ExtPos' feature
-[Line 759 Sent telegraf-2011032307-11-296-be Node 35]: [L3 Warning fixed-without-extpos] Fixed expression 'за кошт' does not have the 'ExtPos' feature
-[Line 893 Sent telegraf-2011032307-23-300-be Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'у дачыненні да' does not have the 'ExtPos' feature
-[Line 1356 Sent telegraf-2011032309-19-323-be Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'ў галіне' does not have the 'ExtPos' feature
-[Line 1437 Sent telegraf-2011032310-7-327-be Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'а таксама' does not have the 'ExtPos' feature
-[Line 1454 Sent telegraf-2011032310-11-328-be Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'У прыватнасці' does not have the 'ExtPos' feature
-[Line 1580 Sent telegraf-2011032310-19-331-be Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'у адпаведнасці з' does not have the 'ExtPos' feature
-[Line 1708 Sent rnc-para-zakony-50-be-4 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'а таксама' does not have the 'ExtPos' feature
+[Line 167 Sent telegraf-2011032306-7-273-be]: [L3 Warning fixed-without-extpos] Fixed expression 'у дачыненні да' does not have the 'ExtPos' feature
+[Line 504 Sent telegraf-2011032306-31-286-be]: [L3 Warning fixed-without-extpos] Fixed expression 'Але ж' does not have the 'ExtPos' feature
+[Line 645 Sent telegraf-2011032306-35-293-be]: [L3 Warning fixed-without-extpos] Fixed expression 'а таксама' does not have the 'ExtPos' feature
+[Line 759 Sent telegraf-2011032307-11-296-be]: [L3 Warning fixed-without-extpos] Fixed expression 'за кошт' does not have the 'ExtPos' feature
+[Line 893 Sent telegraf-2011032307-23-300-be]: [L3 Warning fixed-without-extpos] Fixed expression 'у дачыненні да' does not have the 'ExtPos' feature
+[Line 1356 Sent telegraf-2011032309-19-323-be]: [L3 Warning fixed-without-extpos] Fixed expression 'ў галіне' does not have the 'ExtPos' feature
+[Line 1437 Sent telegraf-2011032310-7-327-be]: [L3 Warning fixed-without-extpos] Fixed expression 'а таксама' does not have the 'ExtPos' feature
+[Line 1454 Sent telegraf-2011032310-11-328-be]: [L3 Warning fixed-without-extpos] Fixed expression 'У прыватнасці' does not have the 'ExtPos' feature
+[Line 1580 Sent telegraf-2011032310-19-331-be]: [L3 Warning fixed-without-extpos] Fixed expression 'у адпаведнасці з' does not have the 'ExtPos' feature
+[Line 1708 Sent rnc-para-zakony-50-be-4]: [L3 Warning fixed-without-extpos] Fixed expression 'а таксама' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 132
+Warnings: 141
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-train.conllu
-[Line 24 Sent telegraf-2011032001-7-2-be Node 7]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 40 Sent telegraf-2011032001-7-3-be Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'У ходзе' does not have the 'ExtPos' feature
-[Line 81 Sent telegraf-2011032001-11-4-be Node 15]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 133 Sent telegraf-2011032001-15-6-be Node 8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 173 Sent telegraf-2011032001-19-7-be Node 13]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 452 Sent telegraf-2011032002-15-17-be Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'У сувязі з' does not have the 'ExtPos' feature
-[Line 474 Sent telegraf-2011032002-15-17-be Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'у тым ліку' does not have the 'ExtPos' feature
-[Line 767 Sent telegraf-2011032004-23-30-be Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'але таксама і' does not have the 'ExtPos' feature
-[Line 930 Sent telegraf-2011032004-31-37-be Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'таму што' does not have the 'ExtPos' feature
-[Line 1274 Sent telegraf-2011032004-47-52-be Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'менш чым' does not have the 'ExtPos' feature
+[Line 24 Sent telegraf-2011032001-7-2-be]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 40 Sent telegraf-2011032001-7-3-be]: [L3 Warning fixed-without-extpos] Fixed expression 'У ходзе' does not have the 'ExtPos' feature
+[Line 81 Sent telegraf-2011032001-11-4-be]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 133 Sent telegraf-2011032001-15-6-be]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 173 Sent telegraf-2011032001-19-7-be]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 452 Sent telegraf-2011032002-15-17-be]: [L3 Warning fixed-without-extpos] Fixed expression 'У сувязі з' does not have the 'ExtPos' feature
+[Line 474 Sent telegraf-2011032002-15-17-be]: [L3 Warning fixed-without-extpos] Fixed expression 'у тым ліку' does not have the 'ExtPos' feature
+[Line 767 Sent telegraf-2011032004-23-30-be]: [L3 Warning fixed-without-extpos] Fixed expression 'але таксама і' does not have the 'ExtPos' feature
+[Line 930 Sent telegraf-2011032004-31-37-be]: [L3 Warning fixed-without-extpos] Fixed expression 'таму што' does not have the 'ExtPos' feature
+[Line 1274 Sent telegraf-2011032004-47-52-be]: [L3 Warning fixed-without-extpos] Fixed expression 'менш чым' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 744
+Warnings: 804
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.388888888888889) = 0.0299145299145299
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.828151672833374) = 0.212346582777788
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.92874677574244) = 0.285768238689981
-(weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
-(TOTAL score=0.884924708277656) * (availability=1) * (validity=1) = 0.884924708277656
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.388888888888889) = 0.0432098765432099
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.828151672833374) = 0.306722841790138
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{udeprels}=0.972972972972973) = 0.108108108108108
+(TOTAL score=0.865448233848864) * (availability=1) * (validity=1) = 0.865448233848864
 STARS = 4.5
-UD_Belarusian-HSE	0.884924708277656	4.5
+UD_Belarusian-HSE	0.865448233848864	4.5
