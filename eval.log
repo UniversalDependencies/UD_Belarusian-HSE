@@ -1,7 +1,112 @@
-Usage:   perl -I ./tools ./tools/evaluate_treebank.pl <ud-treebank-name>
-Example: perl -I ./tools ./tools/evaluate_treebank.pl UD_Czech-PDTC
-Before running, make sure the current folder is one level above the clones of UD GitHub repositories.
-Specifically, the subfolders should include the evaluated treebank(s), as well as the tools folder,
-from which this script is invoked and which also holds the validator.
-$0 == tools/evaluate_treebank.pl
-The script must be invoked using relative path (starting with a dot) from the superordinate folder at tools/evaluate_treebank.pl line 40.
+Running the following version of UD tools:
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 5 17:01:41 2026 +0200
+Evaluating the following revision of UD_Belarusian-HSE:
+commit 14ed2acb90a72c3c0f635bba90faa361f3492df1
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed May 6 12:05:44 2026 +0200
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'be_hse'
+Language code (from CoNLL-U file name) = 'be'
+Found the following data files: be_hse-ud-dev.conllu, be_hse-ud-test.conllu, be_hse-ud-train.conllu
+Size: counted 305109 of 305109 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.4413381796252.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Found at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 17 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 188760 out of 305109 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 36 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 7 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-dev.conllu
+[Line 69 Sent telegraf-2011032104-7-203-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'ў дачыненні да' does not have the 'ExtPos' feature
+[Line 136 Sent telegraf-2011032104-11-207-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'ў дачыненні да' does not have the 'ExtPos' feature
+[Line 289 Sent telegraf-2011032104-19-211-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'так і' does not have the 'ExtPos' feature
+[Line 382 Sent telegraf-2011032104-23-215-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'у дачыненні да' does not have the 'ExtPos' feature
+[Line 512 Sent telegraf-2011032301-11-220-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'ў параўнанні са' does not have the 'ExtPos' feature
+[Line 551 Sent telegraf-2011032301-15-221-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'ў параўнанні са' does not have the 'ExtPos' feature
+[Line 578 Sent telegraf-2011032301-15-222-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'у параўнанні з' does not have the 'ExtPos' feature
+[Line 760 Sent telegraf-2011032301-27-227-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'больш за' does not have the 'ExtPos' feature
+[Line 801 Sent telegraf-2011032302-7-229-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'у дачыненні да' does not have the 'ExtPos' feature
+[Line 926 Sent telegraf-2011032302-19-234-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'ў сувязі з' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 5418 Sent RadyjoSvaboda-4788]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 6753 Sent RadyjoSvaboda-4873]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11114 Sent ArtSjadziba-15404]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11114 Sent ArtSjadziba-15404]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11134 Sent ArtSjadziba-15405]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11486 Sent ArtSjadziba-15432]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11631 Sent ArtSjadziba-15444]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11631 Sent ArtSjadziba-15444]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11695 Sent ArtSjadziba-15449]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11695 Sent ArtSjadziba-15449]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 83
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-test.conllu
+[Line 167 Sent telegraf-2011032306-7-273-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'у дачыненні да' does not have the 'ExtPos' feature
+[Line 504 Sent telegraf-2011032306-31-286-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'Але ж' does not have the 'ExtPos' feature
+[Line 645 Sent telegraf-2011032306-35-293-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'а таксама' does not have the 'ExtPos' feature
+[Line 759 Sent telegraf-2011032307-11-296-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'за кошт' does not have the 'ExtPos' feature
+[Line 893 Sent telegraf-2011032307-23-300-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'у дачыненні да' does not have the 'ExtPos' feature
+[Line 1356 Sent telegraf-2011032309-19-323-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'ў галіне' does not have the 'ExtPos' feature
+[Line 1437 Sent telegraf-2011032310-7-327-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'а таксама' does not have the 'ExtPos' feature
+[Line 1454 Sent telegraf-2011032310-11-328-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'У прыватнасці' does not have the 'ExtPos' feature
+[Line 1580 Sent telegraf-2011032310-19-331-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'у адпаведнасці з' does not have the 'ExtPos' feature
+[Line 1708 Sent rnc-para-zakony-50-be-4]: [L3 WARNING fixed-without-extpos] Fixed expression 'а таксама' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 13150 Sent ArtSjadziba-15580]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 13288 Sent ArtSjadziba-15593]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 13288 Sent ArtSjadziba-15593]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 13497 Sent ArtSjadziba-15614]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 14183 Sent ArtSjadziba-15659]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 14392 Sent ArtSjadziba-15673]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 14392 Sent ArtSjadziba-15673]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 18146 Sent wiki-50896]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 18161 Sent wiki-50897]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 19138 Sent wiki-311674]: [L3 WARNING pron-det-without-prontype] The word 'інш.' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 141
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang be --max-err=10 UD_Belarusian-HSE/be_hse-ud-train.conllu
+[Line 24 Sent telegraf-2011032001-7-2-be]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 40 Sent telegraf-2011032001-7-3-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'У ходзе' does not have the 'ExtPos' feature
+[Line 81 Sent telegraf-2011032001-11-4-be]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 133 Sent telegraf-2011032001-15-6-be]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 173 Sent telegraf-2011032001-19-7-be]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 452 Sent telegraf-2011032002-15-17-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'У сувязі з' does not have the 'ExtPos' feature
+[Line 474 Sent telegraf-2011032002-15-17-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'у тым ліку' does not have the 'ExtPos' feature
+[Line 767 Sent telegraf-2011032004-23-30-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'але таксама і' does not have the 'ExtPos' feature
+[Line 930 Sent telegraf-2011032004-31-37-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'таму што' does not have the 'ExtPos' feature
+[Line 1274 Sent telegraf-2011032004-47-52-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'менш чым' does not have the 'ExtPos' feature
+[Line 1367 Sent telegraf-2011032004-47-56-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'Таму што' does not have the 'ExtPos' feature
+[Line 1624 Sent telegraf-2011032004-59-69-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'На працягу' does not have the 'ExtPos' feature
+[Line 1879 Sent telegraf-2011032005-7-83-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'ў адпаведнасць з' does not have the 'ExtPos' feature
+[Line 1936 Sent telegraf-2011032005-11-86-be]: [L3 WARNING fixed-without-extpos] Fixed expression 'Згодна з' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 27545 Sent BelarusDocs-585]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 32884 Sent radyjosvaboda-953]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 36441 Sent radyjosvaboda-1202]: [L3 WARNING pron-det-without-prontype] The word 'то' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 36447 Sent radyjosvaboda-1202]: [L3 WARNING pron-det-without-prontype] The word 'то' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 37789 Sent radyjosvaboda-1270]: [L3 WARNING pron-det-without-prontype] The word 'што' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 49822 Sent radyjosvaboda-1881]: [L3 WARNING pron-det-without-prontype] The word 'што' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 794
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.388888888888889) = 0.0432098765432099
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.828151672833374) = 0.306722841790138
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{udeprels}=0.972972972972973) = 0.108108108108108
+(TOTAL score=0.865448233848864) * (availability=1) * (validity=1) = 0.865448233848864
+STARS = 4.5
+UD_Belarusian-HSE	0.865448233848864	4.5
